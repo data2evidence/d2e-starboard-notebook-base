@@ -7,7 +7,6 @@ import { customElement, property } from "lit/decorators.js";
 
 import { ConsoleCatcher, Message } from "../../console/console";
 
-@customElement("starboard-console-output")
 export class ConsoleOutputElement extends LitElement {
   private logHook: (m: Message) => any;
   private updatePending = false;
@@ -64,3 +63,5 @@ export class ConsoleOutputElement extends LitElement {
     return html`${rootEl}`;
   }
 }
+
+customElements.get("starboard-console-output") || customElements.define("starboard-console-output", ConsoleOutputElement)

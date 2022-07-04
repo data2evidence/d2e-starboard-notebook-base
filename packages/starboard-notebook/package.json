@@ -138,7 +138,7 @@
     "prosemirror-transform": "^1.2.12",
     "prosemirror-view": "^1.18.1",
     "starboard-python": "^0.15.7",
-    "starboard-rich-editor": "^0.15.7"
+    "starboard-rich-editor": "file:../starboard-rich-editor"
   },
   "gitHead": "beab3bbce7174c9ca32cabd80e00333683b3c97b"
 }

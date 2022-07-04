@@ -25,7 +25,6 @@ function createDefaultCellCreationInterface(
   });
 }
 
-@customElement("starboard-cell-type-picker")
 export class CellTypePicker extends LitElement {
   @property({ type: Object })
   public onInsert: (data: Partial<Cell>) => any = () => {
@@ -116,3 +115,4 @@ export class CellTypePicker extends LitElement {
     `;
   }
 }
+customElements.get("starboard-cell-type-picker") || customElements.define("starboard-cell-type-picker", CellTypePicker)

@@ -13,7 +13,6 @@ import { Cell, Runtime } from "../types";
 // Lazily initialized.. but cached for re-use.
 let globalCellTypePicker: CellTypePicker;
 
-@customElement("starboard-insertion-line")
 export class InsertionLine extends LitElement {
   @query(".insert-button.plus")
   buttonElement?: HTMLButtonElement;
@@ -131,3 +130,4 @@ export class InsertionLine extends LitElement {
     `;
   }
 }
+customElements.get("starboard-insertion-line") || customElements.define("starboard-insertion-line", InsertionLine)

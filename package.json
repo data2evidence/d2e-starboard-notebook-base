@@ -11,5 +11,8 @@
   },
   "devDependencies": {
     "lerna": "^4.0.0"
+  },
+  "dependencies": {
+    "@d4l/web-components-library": "^3.7.3"
   }
 }

@@ -54,7 +54,6 @@ const md = mdloader.md;
  *
  * TODO: this file needs a big cleanup..
  */
-@customElement("starboard-text-editor")
 export class StarboardTextEditor extends LitElement {
   @query(".starboard-text-editor")
   private editorMountpoint!: HTMLElement;
@@ -307,3 +306,4 @@ export class StarboardTextEditor extends LitElement {
     this.remove();
   }
 }
+customElements.get("starboard-text-editor") || customElements.define("starboard-text-editor", StarboardTextEditor)

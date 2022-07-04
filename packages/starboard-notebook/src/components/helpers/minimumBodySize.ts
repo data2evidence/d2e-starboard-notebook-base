@@ -84,7 +84,6 @@ function removeEnsureFitsInBody(element: HTMLElement) {
   }
 }
 
-@customElement("starboard-ensure-parent-fits")
 export class EnsureParentFitsElement extends LitElement {
   connectedCallback() {
     if (this.parentElement) ensureFitsInBody(this.parentElement);
@@ -94,3 +93,4 @@ export class EnsureParentFitsElement extends LitElement {
     if (this.parentElement) removeEnsureFitsInBody(this.parentElement);
   }
 }
+customElements.get("starboard-ensure-parent-fits") || customElements.define("starboard-ensure-parent-fits", EnsureParentFitsElement)
