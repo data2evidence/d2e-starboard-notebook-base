@@ -26,7 +26,6 @@ declare global {
   }
 }
 
-@customElement("starboard-notebook")
 export class StarboardNotebookElement extends LitElement {
   private runtime!: Runtime;
 
@@ -246,3 +245,5 @@ export class StarboardNotebookElement extends LitElement {
     `;
   }
 }
+
+customElements.get("starboard-notebook") || customElements.define("starboard-notebook", StarboardNotebookElement)

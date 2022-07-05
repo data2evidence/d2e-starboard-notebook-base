@@ -22,18 +22,21 @@ $border-radius: var(--border-radius);
 
 @import "./bootstrap-icons";
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
-@import "./base.scss";
 
-@import "./animations.scss";
-@import "./cell.scss";
-@import "./insertion-line.scss";
-@import "./cell-type-picker.scss";
-@import "./controls.scss";
-@import "./gutter.scss";
-@import "./text-editor.scss";
-@import "./console-output.scss";
-@import "./prosemirror.scss";
-@import "./math.scss";
+.starboard-main {
+  @import "./base.scss";
+
+  @import "./animations.scss";
+  @import "./cell.scss";
+  @import "./insertion-line.scss";
+  @import "./cell-type-picker.scss";
+  @import "./controls.scss";
+  @import "./gutter.scss";
+  @import "./text-editor.scss";
+  @import "./console-output.scss";
+  @import "./prosemirror.scss";
+  @import "./math.scss";
+}
 
 :root {
   --font-sans: "Inter var", BlinkMacSystemFont, -apple-system, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell",
@@ -120,15 +123,18 @@ $border-radius: var(--border-radius);
 }
 
 html {
-  font-family: var(--font-sans), -system-ui, system-ui, sans-serif;
-  font-size: var(--font-size);
-  line-height: var(--line-height);
-  background: var(--background-color);
-  color: var(--foreground-color);
-  text-size-adjust: 100%;
-  font-variant-ligatures: contextual common-ligatures;
-  font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "cv10" 1;
-  display: flex;
+  .starboard-main {
+    font-family: var(--font-sans), -system-ui, system-ui, sans-serif;
+    font-size: var(--font-size);
+    line-height: var(--line-height);
+    background: var(--background-color);
+    color: var(--foreground-color);
+    text-size-adjust: 100%;
+    font-variant-ligatures: contextual common-ligatures;
+    font-feature-settings: "kern" 1, "liga" 1, "calt" 1, "cv10" 1;
+    // display: flex;
+    display: block;
+  }
 }
 
 html,

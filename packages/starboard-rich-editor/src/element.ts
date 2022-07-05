@@ -13,7 +13,6 @@ import { EditorState } from "prosemirror-state";
 import Math from "./rich-editor/nodes/Math";
 import MathDisplay from "./rich-editor/nodes/MathDisplay";
 
-@customElement("starboard-rich-editor")
 export class StarboardRichEditorElement extends LitElement {
   content: ContentContainer;
   runtime: any;
@@ -101,3 +100,5 @@ export class StarboardRichEditorElement extends LitElement {
     // No cleanup yet..
   }
 }
+
+customElements.get("starboard-rich-editor") || customElements.define("starboard-rich-editor", StarboardRichEditorElement)
