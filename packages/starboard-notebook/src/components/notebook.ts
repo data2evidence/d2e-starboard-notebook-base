@@ -27,7 +27,8 @@ declare global {
 }
 
 export class StarboardNotebookElement extends LitElement {
-  private runtime!: Runtime;
+  @property({ type: Object })
+  public runtime!: Runtime;
 
   @property({ type: Object })
   public config?: RuntimeConfig;
@@ -118,7 +119,7 @@ export class StarboardNotebookElement extends LitElement {
     arrayMoveElement(this.runtime.dom.cells, fromIndex, toIndex);
   }
 
-  performUpdate() {
+  public performUpdate() {
     super.performUpdate();
     // We manually manage the cell elements, lit doesn't do a good job here
     // (or put differently: a too good job, it reuses components which is problematic)
