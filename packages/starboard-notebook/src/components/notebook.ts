@@ -27,8 +27,7 @@ declare global {
 }
 
 export class StarboardNotebookElement extends LitElement {
-  @property({ type: Object })
-  public runtime!: Runtime;
+  private runtime!: Runtime;
 
   @property({ type: Object })
   public config?: RuntimeConfig;
@@ -170,6 +169,10 @@ export class StarboardNotebookElement extends LitElement {
       this.querySelector("#download-source-button") as HTMLAnchorElement
     ).href = `data:nb;charset=utf-8,${encodeURIComponent(source)}`;
     this.sourceModal.show();
+  }
+
+  public getRuntime() {
+    return this.runtime;
   }
 
   render() {
