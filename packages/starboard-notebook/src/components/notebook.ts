@@ -175,6 +175,15 @@ export class StarboardNotebookElement extends LitElement {
     return this.runtime;
   }
 
+  // Run the all cells code of the notebook
+  async notebookInitialRun() {
+    await this.updateComplete;
+    await this.loadPlugins();
+    this.initialRunStarted = true;
+    this.runtime.controls.runAllCells({ onlyRunOnLoad: false, isInitialRun: true });
+    
+  }
+
   render() {
     return html`
       <main class="cells-container"></main>
