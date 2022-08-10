@@ -144,6 +144,10 @@ export class CellElement extends LitElement {
     }
   }
 
+  public getId() {
+    return this.id
+  }
+
   render() {
     const id = this.cell.id;
 
