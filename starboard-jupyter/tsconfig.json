@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "target": "ES2018",
+      "module": "ES2020",
+      "moduleResolution": "node",
+      "lib": ["es2020", "es2019", "es2018", "dom"],
+      "declaration": true,
+      "sourceMap": true,
+      "forceConsistentCasingInFileNames": true,
+      "strict": true,
+      "outDir": "./dist",
+      "skipLibCheck": true,
+      "esModuleInterop": false,
+      "experimentalDecorators": true
+    },
+  "include": [
+      "src"
+  ],
+  "exclude": [
+      "node_modules"
+  ],
+}

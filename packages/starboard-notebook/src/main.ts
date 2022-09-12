@@ -9,5 +9,9 @@ const baseEl = document.createElement("base");
 baseEl.target = "_parent";
 document.head.append(baseEl);
 
-const notebookEl = new StarboardNotebookElement();
-document.body.append(notebookEl);
+const notebookEl = document.createElement('starboard-notebook')
+
+const mainEl = document.querySelector(".starboard-main");
+if (mainEl && !mainEl.firstChild) {
+  mainEl.append(notebookEl);
+}

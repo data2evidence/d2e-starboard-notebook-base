@@ -26,7 +26,6 @@ declare global {
   }
 }
 
-@customElement("starboard-notebook")
 export class StarboardNotebookElement extends LitElement {
   private runtime!: Runtime;
 
@@ -119,7 +118,7 @@ export class StarboardNotebookElement extends LitElement {
     arrayMoveElement(this.runtime.dom.cells, fromIndex, toIndex);
   }
 
-  performUpdate() {
+  public performUpdate() {
     super.performUpdate();
     // We manually manage the cell elements, lit doesn't do a good job here
     // (or put differently: a too good job, it reuses components which is problematic)
@@ -170,6 +169,19 @@ export class StarboardNotebookElement extends LitElement {
       this.querySelector("#download-source-button") as HTMLAnchorElement
     ).href = `data:nb;charset=utf-8,${encodeURIComponent(source)}`;
     this.sourceModal.show();
+  }
+
+  public getRuntime() {
+    return this.runtime;
+  }
+
+  // Run the all cells code of the notebook
+  async notebookInitialRun() {
+    await this.updateComplete;
+    await this.loadPlugins();
+    this.initialRunStarted = true;
+    this.runtime.controls.runAllCells({ onlyRunOnLoad: false, isInitialRun: true });
+    
   }
 
   render() {
@@ -246,3 +258,5 @@ export class StarboardNotebookElement extends LitElement {
     `;
   }
 }
+
+customElements.get("starboard-notebook") || customElements.define("starboard-notebook", StarboardNotebookElement)

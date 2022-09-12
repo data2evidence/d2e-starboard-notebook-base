@@ -16,7 +16,6 @@ import Dropdown from "bootstrap/js/dist/dropdown";
 import { syncPropertyElementClassNames } from "../cellProperties/dom";
 import { cellHasProperty } from "../cellProperties/util";
 
-@customElement("starboard-cell")
 export class CellElement extends LitElement {
   @query(".cell-top")
   private topElement!: HTMLElement;
@@ -143,6 +142,10 @@ export class CellElement extends LitElement {
     } else {
       this.toggleProperty("collapsed");
     }
+  }
+
+  public getId() {
+    return this.id
   }
 
   render() {
@@ -288,3 +291,5 @@ export class CellElement extends LitElement {
     this.cellHandler.dispose();
   }
 }
+
+customElements.get("starboard-cell") || customElements.define("starboard-cell", CellElement)
