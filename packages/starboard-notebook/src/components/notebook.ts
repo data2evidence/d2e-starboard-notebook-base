@@ -172,6 +172,10 @@ export class StarboardNotebookElement extends LitElement {
     this.sourceModal.show();
   }
 
+  getRuntime() {
+    return this.runtime;
+  }
+
   render() {
     return html`
       <main class="cells-container"></main>
