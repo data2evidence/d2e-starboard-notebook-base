@@ -14,4 +14,4 @@ The code added in `NOTEBOOK_SET_INIT_DATA` method located in `core.ts` runs the 
 
 2. **Get Runtime Method** 
 
-StarboardNotebookElement's `runtime` property is private. A public getter method: `getRuntime()` has been created. 
+StarboardNotebookElement's `runtime` property is private. A public getter method: `getRuntime()` has been created. `getRuntime()` is used to register `starboard-jupyter` into the notebook. 
