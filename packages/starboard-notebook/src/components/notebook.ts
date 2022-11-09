@@ -172,6 +172,11 @@ export class StarboardNotebookElement extends LitElement {
     this.sourceModal.show();
   }
 
+  // Used by plugin.register in the starboard-jupyter to start Jupyter Kernel gateway 
+  getRuntime() {
+    return this.runtime;
+  }
+
   render() {
     return html`
       <main class="cells-container"></main>
