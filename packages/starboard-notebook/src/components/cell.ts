@@ -220,10 +220,8 @@ export class CellElement extends LitElement {
 
         <div class="dropdown">
           <button
-            data-bs-toggle="dropdown"
             title="Change Cell Type"
-            class="btn cell-controls-button cell-controls-button-language auto-hide"
-            @click=${/*(evt: Event) => this.togglePopover(evt.target as HTMLElement, this.typePickerElement)*/ () => 0}
+            class="btn cell-controls-button cell-controls-button-language auto-hide disabled"
           >
             ${this.cellTypeDefinition.name}
           </button>

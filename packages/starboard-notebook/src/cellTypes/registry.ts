@@ -43,8 +43,25 @@ export function getAvailableCellTypes() {
   return [...new Set(registry.values())];
 }
 
+// If Jupyter is disabled, Python will be default language
+export function getDefaultCellType(): string {
+  const cells = [...new Set(registry.values())]
+  const jupyterCell = cells.find(cell => cell.name === "Jupyter")
+  const pythonCell = cells.find(cell => cell.name === "Python")
+
+  if (jupyterCell !== undefined) {
+    return jupyterCell?.cellType[0]
+  } else if (pythonCell !== undefined) {
+    return pythonCell?.cellType[0]
+  } else {
+    return "markdown"
+  }
+}
+
 // Singleton global value
 export const registry = new MapRegistry<string, CellTypeDefinition>();
+
+// Uncomment if require other languages
 builtinCellTypes.forEach((e) => {
   registry.set(e.cellType, e);
 });
