@@ -222,6 +222,7 @@ export class CellElement extends LitElement {
           <button
             title="Change Cell Type"
             class="btn cell-controls-button cell-controls-button-language auto-hide disabled"
+            style="color: #000080; opacity: 1"
           >
             ${this.cellTypeDefinition.name}
           </button>

@@ -180,6 +180,17 @@ export class StarboardNotebookElement extends LitElement {
   render() {
     return html`
       <main class="cells-container"></main>
+      <div class="line-grid">
+        <div class="button-block-content">
+          <button
+          @click="${() => this.runtime.controls.insertCell({ position: "notebookEnd" })}"
+          class="cell-controls-button-block"
+          title="Add Cell Here"
+          >
+            Add Cell <span class="bi bi-plus-square ms-2 me-1""></span>
+          </button> 
+        </div>
+      </div>
       <footer class="starboard-notebook-footer line-grid">
         <div class="starboard-notebook-footer-content d-flex align-items-center">
           <span
@@ -191,14 +202,7 @@ export class StarboardNotebookElement extends LitElement {
             Source
           </button>
 
-          <button
-            @click="${() => this.runtime.controls.insertCell({ position: "notebookEnd" })}"
-            class="cell-controls-button"
-            title="Add Cell Here"
-            style="opacity: 0.7; margin-left: auto; padding: 0px 1px 0px 18px"
-          >
-            Add Cell <span class="bi bi-plus-square ms-2 me-1"></span>
-          </button>
+        
         </div>
       </footer>
 
