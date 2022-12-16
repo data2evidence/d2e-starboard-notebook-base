@@ -60,8 +60,6 @@ export function getDefaultCellType(): string {
 
 // Singleton global value
 export const registry = new MapRegistry<string, CellTypeDefinition>();
-
-// Uncomment if require other languages
 builtinCellTypes.forEach((e) => {
   registry.set(e.cellType, e);
 });
