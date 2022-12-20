@@ -6,6 +6,7 @@ import { Cell, NotebookContent, Runtime } from "../types";
 import { cellToText } from "./serialization";
 import { textToNotebookContent } from "./parsing";
 import { generateUniqueCellId } from "../components/helpers/random";
+import { getDefaultCellType } from "../cellTypes/registry"
 
 /**
  * Finds the given cell index, if not present throws an error
@@ -37,6 +38,7 @@ export function addCellToNotebookContent(
   const nb = runtime.content;
   let idx: number;
   let cellType: string | undefined = data.cellType;
+  const defaultCellType = getDefaultCellType()
 
   // Changed in 0.12.0, this is here for backwards compatibility.
   // Feel free to remove after 2021-10-07
@@ -46,10 +48,10 @@ export function addCellToNotebookContent(
 
   if (position === "notebookEnd") {
     idx = nb.cells.length;
-    cellType = cellType || (nb.cells.length === 0 ? "markdown" : nb.cells[nb.cells.length - 1].cellType);
+    cellType = cellType || (nb.cells.length === 0 ? defaultCellType : nb.cells[nb.cells.length - 1].cellType);
   } else {
     idx = requireIndexOfCellId(nb.cells, adjacentCellId);
-    cellType = cellType || (idx === 0 && adjacentCellId === undefined ? "markdown" : nb.cells[idx].cellType);
+    cellType = cellType || (idx === 0 && adjacentCellId === undefined ? defaultCellType : nb.cells[idx].cellType);
   }
 
   if (position === "after") {

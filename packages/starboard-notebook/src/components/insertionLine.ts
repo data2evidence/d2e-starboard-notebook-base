@@ -9,6 +9,7 @@ import { createPopper } from "@popperjs/core";
 import { CellTypePicker } from "./cellTypePicker";
 import { CellElement } from "./cell";
 import { Cell, Runtime } from "../types";
+import { getDefaultCellType } from "../cellTypes/registry"
 
 // Lazily initialized.. but cached for re-use.
 let globalCellTypePicker: CellTypePicker;
@@ -110,7 +111,7 @@ export class InsertionLine extends LitElement {
 
   render() {
     const parent = this.parentElement;
-    let cellType = "markdown";
+    let cellType = getDefaultCellType();
 
     if (parent && parent instanceof CellElement) {
       cellType = parent.cell.cellType;

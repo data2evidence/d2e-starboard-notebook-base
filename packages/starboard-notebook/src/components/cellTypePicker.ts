@@ -3,7 +3,7 @@ import { customElement, property } from "lit/decorators.js";
 
 import { CellCreationInterface, CellTypeDefinition, Runtime } from "../types";
 import { Cell } from "../types";
-import { getAvailableCellTypes, getCellTypeDefinitionForCellType } from "../cellTypes/registry";
+import { getAvailableCellTypes, getCellTypeDefinitionForCellType, getDefaultCellType } from "../cellTypes/registry";
 
 function createDefaultCellCreationInterface(
   cellDefinition: CellTypeDefinition
@@ -49,7 +49,7 @@ export class CellTypePicker extends LitElement {
 
   connectedCallback() {
     super.connectedCallback();
-    this.setHighlightedCellType("markdown");
+    this.setHighlightedCellType(getDefaultCellType());
     this.requestUpdate();
   }
 

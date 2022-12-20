@@ -181,6 +181,13 @@ i {
   text-decoration: underline;
 }
 
+.button-block-content {
+  margin: 4px 0 4px 0;
+  grid-column: content-start / content-end;
+  display: flex;
+  align-items: center;
+}
+
 .force-display {
   display: initial !important;
 }
