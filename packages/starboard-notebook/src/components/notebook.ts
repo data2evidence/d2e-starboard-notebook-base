@@ -193,10 +193,6 @@ export class StarboardNotebookElement extends LitElement {
       </div>
       <footer class="starboard-notebook-footer line-grid">
         <div class="starboard-notebook-footer-content d-flex align-items-center">
-          <span
-            >${StarboardLogo({ width: 10, height: 10 })} Starboard Notebook v${this.runtime.version}
-            ${window.starboardEditUrl ? html`- <a href=${window.starboardEditUrl}>Edit on Starboard.gg</a>` : ""}
-          </span>
           <button @click=${() => this.showSourceModal()} class="btn btn-sm py-0 px-1 ms-2">
             <span>${renderIcon("bi bi-code-slash")}</span>
             Source
