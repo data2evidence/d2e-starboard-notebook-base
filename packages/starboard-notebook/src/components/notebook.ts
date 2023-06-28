@@ -30,6 +30,9 @@ declare global {
 export class StarboardNotebookElement extends LitElement {
   private runtime!: Runtime;
 
+  @property({ type: String })
+  private cdnZipUrl = "";
+
   @property({ type: Object })
   public config?: RuntimeConfig;
 
@@ -172,6 +175,10 @@ export class StarboardNotebookElement extends LitElement {
     this.sourceModal.show();
   }
 
+  downloadSourceCode() {
+    window.open(this.cdnZipUrl,'_blank')
+  }
+
   // Used by plugin.register in the starboard-jupyter to start Jupyter Kernel gateway 
   getRuntime() {
     return this.runtime;
@@ -193,6 +200,9 @@ export class StarboardNotebookElement extends LitElement {
       </div>
       <footer class="starboard-notebook-footer line-grid">
         <div class="starboard-notebook-footer-content d-flex align-items-center">
+          <button @click=${() => this.downloadSourceCode()} class="btn btn-sm py-0 px-1 ms-2">
+            Download source code
+          </button>
           <button @click=${() => this.showSourceModal()} class="btn btn-sm py-0 px-1 ms-2">
             <span>${renderIcon("bi bi-code-slash")}</span>
             Source
