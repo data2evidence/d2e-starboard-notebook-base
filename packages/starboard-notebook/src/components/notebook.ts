@@ -8,7 +8,6 @@ import { customElement, property, query } from "lit/decorators.js";
 import { CellElement } from "./cell";
 import "./helpers/minimumBodySize"; // registers starboard-ensure-fits
 import { createCellProxy } from "./helpers/proxy/cellProxy";
-import { StarboardLogo } from "./icons";
 import { insertHTMLChildAtIndex } from "./helpers/dom";
 import { Runtime, RuntimeConfig } from "../types";
 import { setupRuntime } from "../runtime/create";
@@ -32,6 +31,12 @@ export class StarboardNotebookElement extends LitElement {
 
   @property({ type: String })
   private cdnZipUrl = "";
+
+  @property({ type: String })
+  private suggestionUrl = "";
+
+  @property({ type: String })
+  private bearerToken = "";
 
   @property({ type: Object })
   public config?: RuntimeConfig;
@@ -201,6 +206,7 @@ export class StarboardNotebookElement extends LitElement {
       <footer class="starboard-notebook-footer line-grid">
         <div class="starboard-notebook-footer-content d-flex align-items-center">
           <button @click=${() => this.downloadSourceCode()} class="btn btn-sm py-0 px-1 ms-2">
+          <span>${renderIcon("bi bi-file-earmark-zip")}</span>
             Download source code
           </button>
           <button @click=${() => this.showSourceModal()} class="btn btn-sm py-0 px-1 ms-2">
