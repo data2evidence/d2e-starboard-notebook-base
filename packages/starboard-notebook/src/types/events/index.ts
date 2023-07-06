@@ -45,7 +45,7 @@ export type InsertCellOptions = {
 };
 export type InsertCellEvent = CustomEvent<InsertCellOptions>;
 
-export type RunCellOptions = { id: string };
+export type RunCellOptions = { id: string, type?: string };
 export type RunCellEvent = CustomEvent<RunCellOptions>;
 
 export type RunAllCellsOptions = { onlyRunOnLoad?: boolean; isInitialRun?: boolean };

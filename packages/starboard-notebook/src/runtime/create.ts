@@ -209,7 +209,11 @@ export function setupRuntime(notebook: StarboardNotebookElement): Runtime {
     runCell(opts: RunCellOptions) {
       const cell = mustGetCellById(rt, opts.id);
       if (dispatchStarboardEvent(cell, "sb:run_cell", opts)) {
-        cell.run();
+        if (opts.type) {
+          cell.run(opts.type)
+        } else {          
+          cell.run();
+        }
         return true;
       }
       return false;
