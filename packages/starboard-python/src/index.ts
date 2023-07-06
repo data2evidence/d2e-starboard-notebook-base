@@ -9,10 +9,12 @@ import type { Runtime, ControlButton } from "../../starboard-notebook/src/types"
 
 import { getPyodideLoadingStatus, loadPyodide, setupPythonSupport, setGlobalPythonOutputElement } from "./global.js";
 import { runStarboardPython } from "./run.js";
+import { runSuggestionAI } from "./run-suggestion-ai.js";
 import { setPluginOpts, StarboardPythonPluginOpts, updatePluginOptions } from "./opts";
 
 export { getPyodideLoadingStatus, setupPythonSupport, loadPyodide, setGlobalPythonOutputElement };
 export { runStarboardPython } from "./run.js";
+export { runSuggestionAI} from "./run-suggestion-ai.js"
 
 export function registerPython(runtime: Runtime) {
   setupPythonSupport();
@@ -35,6 +37,7 @@ export function registerPython(runtime: Runtime) {
 
     private lastRunId = 0;
     private isCurrentlyRunning: boolean = false;
+    private isCurrentlyRunningSuggestion: boolean = false;
     private isCurrentlyLoadingPyodide: boolean = false;
 
     cell: Cell;
@@ -47,13 +50,20 @@ export function registerPython(runtime: Runtime) {
 
     private getControls(): any /* lit.TemplateResult */ | string {
       const icon = this.isCurrentlyRunning ? "bi bi-hourglass" : "bi bi-play-circle";
+      const suggestIcon = this.isCurrentlyRunningSuggestion ? "bi bi-hourglass" :"bi bi-lightbulb";
       const tooltip = this.isCurrentlyRunning ? "Cell is running" : "Run Cell";
       const runButton: ControlButton = {
         icon,
         tooltip,
         callback: () => this.runtime.controls.runCell({ id: this.cell.id }),
       };
-      let buttons = [runButton];
+
+      const suggestButton: ControlButton = {
+        icon: suggestIcon,
+        tooltip: "Get suggestion",
+        callback: () => this.runtime.controls.runCell({ id: this.cell.id, type: "suggest" }),
+      };
+      let buttons = [runButton, suggestButton];
 
       if (this.isCurrentlyLoadingPyodide) {
         buttons = [
@@ -69,7 +79,7 @@ export function registerPython(runtime: Runtime) {
           ...buttons,
         ];
       }
-
+      
       return cellControlsTemplate({ buttons });
     }
 
@@ -83,13 +93,29 @@ export function registerPython(runtime: Runtime) {
       topElement.appendChild(this.editor);
     }
 
-    async run() {
-      const codeToRun = this.cell.textContent;
-
+    async run(type?: string) {
+      const codeToRun = this.cell.textContent;            
       this.lastRunId++;
       const currentRunId = this.lastRunId;
-      this.isCurrentlyRunning = true;
 
+      if (type === "suggest") {
+        this.isCurrentlyRunningSuggestion = true
+        lit.render(this.getControls(), this.elements.topControlsElement);
+
+        // Get suggestion API URL & bearer token
+        const notebookElList = document.getElementsByTagName("starboard-notebook")
+        const notebookEl = notebookElList[0]
+        const suggestionUrl = notebookEl.getAttribute("suggestionUrl")
+        const bearerToken = notebookEl.getAttribute("bearerToken")
+
+        const val = await runSuggestionAI(this.runtime, codeToRun, this.elements.bottomElement, this.elements.bottomControlsElement, this.editor, suggestionUrl, bearerToken);
+
+        this.isCurrentlyRunningSuggestion = false
+        lit.render(this.getControls(), this.elements.topControlsElement);
+        return
+      }
+
+      this.isCurrentlyRunning = true;
       if (getPyodideLoadingStatus() !== "ready") {
         this.isCurrentlyLoadingPyodide = true;
       }
@@ -101,7 +127,7 @@ export function registerPython(runtime: Runtime) {
         if (this.lastRunId === currentRunId) {
           this.isCurrentlyRunning = false;
           lit.render(this.getControls(), this.elements.topControlsElement);
-        }
+        }        
         return val;
       } catch (e) {
         this.isCurrentlyLoadingPyodide = false;
