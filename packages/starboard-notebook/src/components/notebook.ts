@@ -30,7 +30,7 @@ export class StarboardNotebookElement extends LitElement {
   private runtime!: Runtime;
 
   @property({ type: String })
-  private cdnZipUrl = "";
+  private zipUrl = "";
 
   @property({ type: String })
   private suggestionUrl = "";
@@ -181,7 +181,7 @@ export class StarboardNotebookElement extends LitElement {
   }
 
   downloadSourceCode() {
-    window.open(this.cdnZipUrl,'_blank')
+    window.open(this.zipUrl,'_blank')
   }
 
   // Used by plugin.register in the starboard-jupyter to start Jupyter Kernel gateway 
