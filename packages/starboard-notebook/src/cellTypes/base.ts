@@ -15,7 +15,7 @@ export abstract class BaseCellHandler implements CellHandler {
 
   abstract attach(param: CellHandlerAttachParameters): void;
 
-  run(): Promise<any> {
+  run(type?: string): Promise<any> {
     return Promise.resolve();
   }
 

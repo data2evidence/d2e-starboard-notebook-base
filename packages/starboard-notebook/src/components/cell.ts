@@ -95,10 +95,14 @@ export class CellElement extends LitElement {
     });
   }
 
-  public async run() {
+  public async run(type?: string) {    
     this.isCurrentlyRunning = true;
     this.requestUpdate();
-    await this.cellHandler.run();
+    if (type) {
+      await this.cellHandler.run(type)
+    } else {
+      await this.cellHandler.run()
+    }
     this.isCurrentlyRunning = false;
     this.requestUpdate();
   }

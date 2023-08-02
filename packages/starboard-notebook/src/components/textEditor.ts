@@ -85,6 +85,11 @@ export class StarboardTextEditor extends LitElement {
     }
   }
 
+  replaceText(text: string) {
+    this.cell.textContent = text
+    this.initEditor()
+  }
+
   firstUpdated(changedProperties: any) {
     super.firstUpdated(changedProperties);
     [].slice.call(document.querySelectorAll(".dropdown-toggle")).map((e) => new Dropdown(e));
