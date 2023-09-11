@@ -180,8 +180,16 @@ export class StarboardNotebookElement extends LitElement {
     this.sourceModal.show();
   }
 
-  downloadSourceCode() {
-    window.open(this.zipUrl,'_blank')
+  async downloadSourceCode() {
+    return fetch(this.zipUrl)
+    .then((res) => res.blob())
+    .then((blob) => URL.createObjectURL(blob))
+    .then((href) => {
+      Object.assign(document.createElement('a'), {
+        href,
+        download: 'alp-starboard-notebook-base.zip',
+      }).click();
+    });  
   }
 
   // Used by plugin.register in the starboard-jupyter to start Jupyter Kernel gateway 
