@@ -106,18 +106,15 @@ export function setupCommunicationWithParentFrame(runtime: Runtime) {
 
              // Finding the Starboard Cells to be removed
              const sbCells = document.querySelectorAll("starboard-cell");
-             const tokenCell = sbCells[sbCells.length-2] as unknown as CellElement;
-             const jupyterCell = sbCells[sbCells.length-1] as unknown as CellElement;
+             const tokenCell = sbCells[0] as unknown as CellElement;
              
              // Run the Cells
             await tokenCell?.runtime.controls.runCell({ id: tokenCell.id });
-            await jupyterCell?.runtime.controls.runCell({ id: jupyterCell.id });
+
             // Delete the cells after running
             // Delete the running cell initiating the token
             await tokenCell?.runtime.controls.removeCell({ id: tokenCell.id });
-            // Delete the running cell initiating jupyter kernel
-            await jupyterCell?.runtime.controls.removeCell({ id: jupyterCell.id });
- 
+
             await nb.performUpdate();
 
             contentHasBeenSetFromParentIframe = true;
