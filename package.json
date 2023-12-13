@@ -1,7 +1,6 @@
 {
   "name": "@gesundheitscloud/alp-starboard-notebook-base",
   "version": "1.0.0",
-  "files": [],
   "license": "MPL-2.0",
   "scripts": {
     "bootstrap": "lerna bootstrap",
@@ -11,6 +10,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/gesundheitscloud/alp-starboard-notebook-base.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@gesundheitscloud"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
