@@ -106,21 +106,16 @@ export function setupCommunicationWithParentFrame(runtime: Runtime) {
 
              // Finding the Starboard Cells to be removed
              const sbCells = document.querySelectorAll("starboard-cell");
-             const tokenCell = sbCells[0] as unknown as CellElement;
+             const tokenCell = sbCells[sbCells.length-1] as unknown as CellElement;
              
              // Run the Cells
-            await tokenCell?.runtime.controls.runCell({ id: tokenCell.id });
-
+            await tokenCell?.runtime.controls.runCell({ id: tokenCell.id, type: "install" });
+            
             // Delete the cells after running
             // Delete the running cell initiating the token
             await tokenCell?.runtime.controls.removeCell({ id: tokenCell.id });
 
             await nb.performUpdate();
-
-            contentHasBeenSetFromParentIframe = true;
-            nb.initialRunStarted = false;
-            await nb.notebookInitialize();
-            nb.requestUpdate();
 
             const notebookEl = document.querySelector("starboard-notebook")
             if (notebookEl) {
@@ -132,6 +127,11 @@ export function setupCommunicationWithParentFrame(runtime: Runtime) {
               notebookEl.setAttribute("suggestionUrl", suggestionUrl)
               notebookEl.setAttribute("bearerToken", bearerToken)
             }
+
+            contentHasBeenSetFromParentIframe = true;
+            nb.initialRunStarted = false;
+            await nb.notebookInitialize();
+            nb.requestUpdate();
 
             if (msg.payload.baseUrl !== undefined) {
               const baseEl = document.querySelector("base");
