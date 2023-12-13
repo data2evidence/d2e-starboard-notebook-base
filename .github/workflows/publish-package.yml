@@ -15,7 +15,7 @@ jobs:
           node-version: "16.16.x"
           registry-url: "https://npm.pkg.github.com"
           scope: "@gesundheitscloud"
-      - run: npm ci
+      - run: npm install
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
