@@ -1,13 +1,17 @@
 {
-  "name": "starboard-monorepo",
-  "version": "0.0.1",
+  "name": "@gesundheitscloud/alp-starboard-notebook-base",
+  "version": "1.0.0",
   "private": true,
   "files": [],
   "license": "MPL-2.0",
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "build": "lerna run build --sort",
+    "build": "yarn; yarn bootstrap; lerna run build --sort",
     "lerna": "lerna"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gesundheitscloud/alp-starboard-notebook-base"
   },
   "devDependencies": {
     "lerna": "^4.0.0"
