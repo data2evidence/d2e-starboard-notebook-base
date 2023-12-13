@@ -1,7 +1,6 @@
 {
   "name": "@gesundheitscloud/alp-starboard-notebook-base",
   "version": "1.0.0",
-  "private": true,
   "files": [],
   "license": "MPL-2.0",
   "scripts": {
