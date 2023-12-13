@@ -124,10 +124,18 @@ export function registerPython(runtime: Runtime) {
       try {
         const val = await runStarboardPython(this.runtime, codeToRun, this.elements.bottomElement);
         this.isCurrentlyLoadingPyodide = false;
+        if (type == "install") {
+          if (val) {
+            console.error(`Error occured while installing PYQE!: ${val}`)
+            alert('Error occured while installing PYQE!')
+          } else {
+            console.log('PYQE installed successfully!')
+          }
+        }
         if (this.lastRunId === currentRunId) {
           this.isCurrentlyRunning = false;
           lit.render(this.getControls(), this.elements.topControlsElement);
-        }        
+        }
         return val;
       } catch (e) {
         this.isCurrentlyLoadingPyodide = false;
