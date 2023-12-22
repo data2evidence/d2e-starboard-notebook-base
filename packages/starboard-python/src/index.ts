@@ -63,7 +63,8 @@ export function registerPython(runtime: Runtime) {
         tooltip: "Get suggestion",
         callback: () => this.runtime.controls.runCell({ id: this.cell.id, type: "suggest" }),
       };
-      let buttons = [runButton, suggestButton];
+      
+      let buttons = [runButton];
 
       if (this.isCurrentlyLoadingPyodide) {
         buttons = [
@@ -79,8 +80,23 @@ export function registerPython(runtime: Runtime) {
           ...buttons,
         ];
       }
+
+      const { suggestionUrl, bearerToken} = this.getProperties()
+      if (suggestionUrl && bearerToken) {
+        buttons = [suggestButton, ...buttons]
+      }
       
       return cellControlsTemplate({ buttons });
+    }
+
+    private getProperties () {
+      // Get suggestion API URL & bearer token
+      const notebookElList = document.getElementsByTagName("starboard-notebook")
+      const notebookEl = notebookElList[0]
+      const suggestionUrl = notebookEl.getAttribute("suggestionUrl")
+      const bearerToken = notebookEl.getAttribute("bearerToken")
+
+      return { suggestionUrl, bearerToken}
     }
 
     attach(params: CellHandlerAttachParameters): void {
@@ -102,11 +118,7 @@ export function registerPython(runtime: Runtime) {
         this.isCurrentlyRunningSuggestion = true
         lit.render(this.getControls(), this.elements.topControlsElement);
 
-        // Get suggestion API URL & bearer token
-        const notebookElList = document.getElementsByTagName("starboard-notebook")
-        const notebookEl = notebookElList[0]
-        const suggestionUrl = notebookEl.getAttribute("suggestionUrl")
-        const bearerToken = notebookEl.getAttribute("bearerToken")
+        const { suggestionUrl, bearerToken} = this.getProperties()
 
         const val = await runSuggestionAI(this.runtime, codeToRun, this.elements.bottomElement, this.elements.bottomControlsElement, this.editor, suggestionUrl, bearerToken);
 
