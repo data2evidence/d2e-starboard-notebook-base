@@ -119,11 +119,9 @@ export function setupCommunicationWithParentFrame(runtime: Runtime) {
 
             const notebookEl = document.querySelector("starboard-notebook")
             if (notebookEl) {
-              const zipUrl = msg.payload.zipUrl || ""
               const suggestionUrl = msg.payload.suggestionUrl || ""
               const bearerToken = msg.payload.bearerToken || ""
 
-              notebookEl.setAttribute("zipUrl", zipUrl)
               notebookEl.setAttribute("suggestionUrl", suggestionUrl)
               notebookEl.setAttribute("bearerToken", bearerToken)
             }
