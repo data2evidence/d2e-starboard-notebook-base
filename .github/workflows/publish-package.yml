@@ -1,7 +1,8 @@
-name: Publish alp-starboard-notebook-base to GitHub Packages
+name: Publish alp-starboard-notebook to GitHub Packages
 on:
-  release:
-    types: [published]
+  pull_request:
+  workflow_dispatch:
+
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -15,7 +16,8 @@ jobs:
           node-version: "16.16.x"
           registry-url: "https://npm.pkg.github.com"
           scope: "@gesundheitscloud"
-      - run: npm install
+      - run: npm build
+      - run: cd packages/starboard-notebook
       - run: npm publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
