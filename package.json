@@ -6,7 +6,7 @@
     "bootstrap": "lerna bootstrap",
     "build": "yarn; yarn bootstrap; lerna run build --sort; yarn zip",
     "lerna": "lerna",
-    "zip": "git archive -o packages/starboard-notebook/dist/alp-starboard-notebook-base.zip d4l-0.15.7-develop"
+    "zip": "git archive -o packages/starboard-notebook/dist/alp-starboard-notebook-base.zip HEAD"
   },
   "repository": {
     "type": "git",
