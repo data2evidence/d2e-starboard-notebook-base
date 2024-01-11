@@ -1,6 +1,7 @@
 name: Publish alp-starboard-notebook to GitHub Packages
 on:
   workflow_dispatch:
+  push:
 
 jobs:
   build:
@@ -15,7 +16,7 @@ jobs:
         with:
           node-version: "16.16.x"
           registry-url: "https://npm.pkg.github.com"
-          scope: "@gesundheitscloud"
+          scope: "@alp-os"
       - name: Build Starboard files
         run: npm run build
       - name: Publish alp-starboard-notebook

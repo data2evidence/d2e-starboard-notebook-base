@@ -1,5 +1,5 @@
 {
-  "name": "@gesundheitscloud/alp-starboard-notebook",
+  "name": "@alp-os/alp-starboard-notebook",
   "version": "1.0.0",
   "description": "ALP Starboard Notebook",
   "author": "Guido Zuidhof <me@guido.io>",
@@ -10,10 +10,10 @@
   "license": "MPL-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/gesundheitscloud/alp-starboard-notebook-base.git"
+    "url": "https://github.com/alp-os/alp-starboard-notebook-base.git"
   },
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@gesundheitscloud"
+    "registry": "https://npm.pkg.github.com/@alp-os"
   },
   "keywords": [
     "starboard",
