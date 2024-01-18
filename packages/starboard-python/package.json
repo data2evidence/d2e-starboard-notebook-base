@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/gzuidhof/starboard-notebook.git"
+    "url": "git+ssh://git@github.com/gzuidhof/starboard-notebook.git"
   },
   "keywords": [
     "pyodide",
