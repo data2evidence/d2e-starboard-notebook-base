@@ -18,6 +18,7 @@ npm-debug.log
 # build
 /_site/
 dist/
+!/packages/starboard-notebook/dist
 
 # Webpack build stats
 *stats.json
