@@ -29,6 +29,9 @@ export async function runSuggestionAI(
   if (!bearerToken) {
     return alert("No bearer token!")
   }
+  if (!suggestionUrl) {
+    return alert("No suggestion URL!");
+  }
 
   // console controls
     const acceptButton: ControlButton = {
@@ -55,18 +58,15 @@ export async function runSuggestionAI(
   let error: any = undefined;
   
   try {
-    if (!suggestionUrl) {
-        suggestionUrl = 'https://localhost:41100/code-suggestion'
-    }
     const options = {
-        headers: {
-            Authorization: bearerToken
-        },
-      }
-    const result = await axios.post(suggestionUrl, {"code": codeToRun}, options )    
-    val = result.data
-    outputElement.addEntry({method: "result", data: [val]})
-    lit.render(cellControlsTemplate({buttons}), renderControlsIntoEmelent)
+      headers: {
+        Authorization: bearerToken,
+      },
+    };
+    const result = await axios.post(suggestionUrl, { code: codeToRun }, options);
+    val = result.data;
+    outputElement.addEntry({ method: "result", data: [val] });
+    lit.render(cellControlsTemplate({ buttons }), renderControlsIntoEmelent);
   } catch (error: any) {
     outputElement.addEntry({
       method: "error",
