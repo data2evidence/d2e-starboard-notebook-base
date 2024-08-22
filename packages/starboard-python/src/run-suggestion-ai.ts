@@ -56,7 +56,7 @@ export async function runSuggestionAI(
   
   try {
     if (!suggestionUrl) {
-        suggestionUrl = 'https://localhost:41000/code-suggestion'
+        suggestionUrl = 'https://localhost:41100/code-suggestion'
     }
     const options = {
         headers: {
