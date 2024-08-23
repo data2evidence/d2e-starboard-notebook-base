@@ -29,6 +29,9 @@ export async function runSuggestionAI(
   if (!bearerToken) {
     return alert("No bearer token!")
   }
+  if (!suggestionUrl) {
+    return alert("No suggestion URL!");
+  }
 
   // console controls
     const acceptButton: ControlButton = {
@@ -54,23 +57,16 @@ export async function runSuggestionAI(
   let val = '';
   let error: any = undefined;
   
-  const prompt = `
-  # In Python 3, fix or improve this code.
-  ${codeToRun}
-  `
   try {
-    if (!suggestionUrl) {
-        suggestionUrl = 'https://localhost:41000/alp-ai/suggestion'
-    }
     const options = {
-        headers: {
-            Authorization: bearerToken
-        },
-      }
-    const result = await axios.post(suggestionUrl, {"code": prompt}, options )    
-    val = result.data
-    outputElement.addEntry({method: "result", data: [val]})
-    lit.render(cellControlsTemplate({buttons}), renderControlsIntoEmelent)
+      headers: {
+        Authorization: bearerToken,
+      },
+    };
+    const result = await axios.post(suggestionUrl, { code: codeToRun }, options);
+    val = result.data;
+    outputElement.addEntry({ method: "result", data: [val] });
+    lit.render(cellControlsTemplate({ buttons }), renderControlsIntoEmelent);
   } catch (error: any) {
     outputElement.addEntry({
       method: "error",
