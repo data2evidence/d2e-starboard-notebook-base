@@ -1117,10 +1117,10 @@ proxy-from-env@^1.1.0:
   resolved "https://registry.yarnpkg.com/proxy-from-env/-/proxy-from-env-1.1.0.tgz#e102f16ca355424865755d2c9e8ea4f24d58c3e2"
   integrity sha512-D+zkORCbA9f1tdWRK0RaCR3GPv50cMxcrz4X8k5LTSUD1Dkw47mKJEZQNunItRTkWwgtaUSo1RVFRIG9ZXiFYg==
 
-pyodide@^0.25.0:
-  version "0.25.1"
-  resolved "https://registry.yarnpkg.com/pyodide/-/pyodide-0.25.1.tgz#80114f84b8eaf7e7dc53477b96d71fb7b1bbf6ae"
-  integrity sha512-y0nJ/fLA3bxD2iZRzvVTbP2O+wp4Ewm2wThfV4HF0BytQ6hsoqTJFLNY4usLOcCVBrK8TTWqFqrmsVPzHe4rsw==
+pyodide@0.25.0:
+  version "0.25.0"
+  resolved "https://registry.yarnpkg.com/pyodide/-/pyodide-0.25.0.tgz#0c75d31ffbb65f7f2e2686dfeeb809c73e4d571a"
+  integrity sha512-RagtX3TfV2M0QAfThG2SMvwE31ikqAFDUXc5/4xhppEoVf4VbL7L0kbKOIdSNg7MbVsHELVxftk66WvT926GpA==
   dependencies:
     base-64 "^1.0.0"
     ws "^8.5.0"
