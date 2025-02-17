@@ -78,7 +78,7 @@
     "sass-loader": "^12.1.0",
     "starlit": "^0.1.16",
     "style-loader": "^2.0.0",
-    "terser-webpack-plugin": "4.2.3",
+    "terser-webpack-plugin": "5.3.11",
     "thread-loader": "^3.0.4",
     "ts-jest": "^27.0.5",
     "ts-loader": "^9.2.2",
