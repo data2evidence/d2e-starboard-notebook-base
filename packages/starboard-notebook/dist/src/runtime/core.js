@@ -82,7 +82,6 @@ export function setupCommunicationWithParentFrame(runtime) {
             const msg = event.data;
             switch (msg.type) {
                 case "NOTEBOOK_SET_INIT_DATA": {
-                    console.log("notebook set init data");
                     if (contentHasBeenSetFromParentIframe)
                         return; // be idempotent
                     runtime.content = textToNotebookContent(msg.payload.content);
@@ -90,16 +89,16 @@ export function setupCommunicationWithParentFrame(runtime) {
                     await nb.notebookInitialize();
                     // Finding the Starboard Cells to be removed
                     const sbCells = document.querySelectorAll("starboard-cell");
-                    const tokenCell = sbCells[sbCells.length - 2];
-                    const jupyterCell = sbCells[sbCells.length - 1];
+                    const tokenCell = sbCells[sbCells.length - 1];
+                    const jupyterCell = sbCells[sbCells.length - 2];
                     // Run the Cells
-                    // await tokenCell?.runtime.controls.runCell({ id: tokenCell.id, type: "install" });
-                    // await jupyterCell?.runtime.controls.runCell({ id: jupyterCell.id });
+                    await (tokenCell === null || tokenCell === void 0 ? void 0 : tokenCell.runtime.controls.runCell({ id: tokenCell.id, type: "install" }));
+                    await (jupyterCell === null || jupyterCell === void 0 ? void 0 : jupyterCell.runtime.controls.runCell({ id: jupyterCell.id }));
                     // Delete the cells after running
                     // Delete the running cell initiating the token
-                    // await tokenCell?.runtime.controls.removeCell({ id: tokenCell.id });
+                    await (tokenCell === null || tokenCell === void 0 ? void 0 : tokenCell.runtime.controls.removeCell({ id: tokenCell.id }));
                     // Delete the running cell initiating jupyter kernel
-                    // await jupyterCell?.runtime.controls.removeCell({ id: jupyterCell.id });
+                    await (jupyterCell === null || jupyterCell === void 0 ? void 0 : jupyterCell.runtime.controls.removeCell({ id: jupyterCell.id }));
                     await nb.performUpdate();
                     const notebookEl = document.querySelector("starboard-notebook");
                     if (notebookEl) {

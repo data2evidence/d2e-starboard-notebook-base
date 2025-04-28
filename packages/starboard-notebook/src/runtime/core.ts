@@ -106,8 +106,8 @@ export function setupCommunicationWithParentFrame(runtime: Runtime) {
 
             // Finding the Starboard Cells to be removed
              const sbCells = document.querySelectorAll("starboard-cell");
-             const tokenCell = sbCells[sbCells.length-2] as unknown as CellElement;
-             const jupyterCell = sbCells[sbCells.length-1] as unknown as CellElement;
+             const tokenCell = sbCells[sbCells.length-1] as unknown as CellElement;
+             const jupyterCell = sbCells[sbCells.length-2] as unknown as CellElement;
              
             // Run the Cells
             await tokenCell?.runtime.controls.runCell({ id: tokenCell.id, type: "install" });
