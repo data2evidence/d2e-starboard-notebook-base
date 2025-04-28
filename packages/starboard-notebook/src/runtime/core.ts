@@ -104,17 +104,21 @@ export function setupCommunicationWithParentFrame(runtime: Runtime) {
             await nb.performUpdate();
             await nb.notebookInitialize();
 
-             // Finding the Starboard Cells to be removed
+            // Finding the Starboard Cells to be removed
              const sbCells = document.querySelectorAll("starboard-cell");
-             const tokenCell = sbCells[sbCells.length-1] as unknown as CellElement;
+             const tokenCell = sbCells[sbCells.length-2] as unknown as CellElement;
+             const jupyterCell = sbCells[sbCells.length-1] as unknown as CellElement;
              
-             // Run the Cells
+            // Run the Cells
             await tokenCell?.runtime.controls.runCell({ id: tokenCell.id, type: "install" });
+            await jupyterCell?.runtime.controls.runCell({ id: jupyterCell.id });
             
             // Delete the cells after running
             // Delete the running cell initiating the token
             await tokenCell?.runtime.controls.removeCell({ id: tokenCell.id });
-
+            // Delete the running cell initiating jupyter kernel
+            await jupyterCell?.runtime.controls.removeCell({ id: jupyterCell.id });
+            
             await nb.performUpdate();
 
             const notebookEl = document.querySelector("starboard-notebook")

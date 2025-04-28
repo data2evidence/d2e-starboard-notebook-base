@@ -34,6 +34,7 @@
     "format": "prettier -w src test"
   },
   "main": "dist/starboard-notebook.js",
+  "types": "dist/src/index.d.ts",
   "files": [
     "dist"
   ],
