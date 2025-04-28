@@ -32,7 +32,7 @@ export function getCellTypeDefinitionForCellType(cellType) {
 export function getAvailableCellTypes() {
     const cellTypes = [...new Set(registry.values())];
     // Hide "ES Module" cell type from user
-    return [...new Set(registry.values())];
+    return cellTypes.filter(cell => cell.name !== "ES Module");
 }
 // Set Python as default language
 export function getDefaultCellType() {
