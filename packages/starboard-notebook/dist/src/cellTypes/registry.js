@@ -34,12 +34,12 @@ export function getAvailableCellTypes() {
     // Hide "ES Module" cell type from user
     return cellTypes.filter(cell => cell.name !== "ES Module");
 }
-// Set Python as default language
+// Set R as default language
 export function getDefaultCellType() {
     const cells = [...new Set(registry.values())];
-    const pythonCell = cells.find(cell => cell.name === "Python");
-    if (pythonCell !== undefined) {
-        return pythonCell === null || pythonCell === void 0 ? void 0 : pythonCell.cellType[0];
+    const defaultCell = cells.find(cell => cell.name === "R");
+    if (defaultCell !== undefined) {
+        return defaultCell === null || defaultCell === void 0 ? void 0 : defaultCell.cellType[0];
     }
     else {
         return "markdown";
