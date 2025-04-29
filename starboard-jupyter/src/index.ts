@@ -43,7 +43,7 @@ function registerJupyter(runtime: Runtime, jupyterOpts: JupyterPluginSettings = 
   globalKernelManager = new StarboardJupyterManager(jupyterOpts);
 
   const JUPYTER_CELL_TYPE_DEFINITION: CellTypeDefinition = {
-    name: "Jupyter",
+    name: "R",
     cellType: ["jupyter"],
     createHandler: (cell: Cell, runtime: Runtime) => new JupyterCellHandler(cell, runtime),
   };
