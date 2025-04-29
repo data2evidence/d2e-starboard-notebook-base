@@ -4,7 +4,7 @@
   "license": "MPL-2.0",
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "build": "yarn; yarn bootstrap; lerna run build --sort; yarn zip",
+    "build": "yarn; yarn bootstrap; lerna run build --sort",
     "lerna": "lerna",
     "zip": "git archive -o packages/starboard-notebook/dist/alp-starboard-notebook-base.zip HEAD"
   },
