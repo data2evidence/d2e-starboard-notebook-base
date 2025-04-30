@@ -33,9 +33,12 @@ export class StarboardJupyterManager extends LitElement {
     }, this);
 
     this.manager.ready.then(
-      () => {
-        console.log("Jupyter manager is now ready");
+      async () => {
         this.isReady = true;
+        const sbCells = document.querySelectorAll("starboard-cell")
+        const jupyterEnvCell = sbCells[0] as any
+        await jupyterEnvCell?.runtime.controls.runCell({ id: jupyterEnvCell.id });
+        await jupyterEnvCell?.runtime.controls.removeCell({ id: jupyterEnvCell.id });
         this.performUpdate();
       },
       (err) => {
