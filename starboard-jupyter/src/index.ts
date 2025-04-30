@@ -5,8 +5,8 @@ import {
   CellElements,
   Cell,
   StarboardPlugin,
-} from "starboard-notebook/dist/src/types";
-import { Runtime, ControlButton } from "starboard-notebook/dist/src/types";
+} from "../../packages/starboard-notebook/dist/src/types";
+import { Runtime, ControlButton } from "../../packages/starboard-notebook/dist/src/types";
 
 import "./styles";
 import { JupyterPluginSettings } from "./types";
@@ -14,7 +14,7 @@ import { StarboardJupyterManager } from "./components/kernelManager";
 import { OutputArea } from "@jupyterlab/outputarea";
 import { createJupyterOutputArea } from "./output";
 import { TemplateResult } from "lit-element/lit-element";
-import { StarboardNotebookElement } from "starboard-notebook/dist/src/components/notebook";
+import { StarboardNotebookElement } from "../../packages/starboard-notebook/dist/src/components/notebook";
 export { createJupyterOutputArea } from "./output";
 
 
@@ -43,7 +43,7 @@ function registerJupyter(runtime: Runtime, jupyterOpts: JupyterPluginSettings = 
   globalKernelManager = new StarboardJupyterManager(jupyterOpts);
 
   const JUPYTER_CELL_TYPE_DEFINITION: CellTypeDefinition = {
-    name: "Jupyter",
+    name: "R",
     cellType: ["jupyter"],
     createHandler: (cell: Cell, runtime: Runtime) => new JupyterCellHandler(cell, runtime),
   };
@@ -156,22 +156,23 @@ export const plugin: StarboardPlugin<JupyterPluginSettings, typeof pluginExports
   },
   exports: pluginExports,
 
-  async register(h,opts?: JupyterPluginSettings) {
+  async register(h: any = null, opts?: JupyterPluginSettings) {
     if (opts === undefined) {
       opts = { headerText: "Jupyter Plugin" };
     }
     let sbEl: StarboardNotebookElement | null = null;
-      let retry = 0;
-      while (!sbEl && retry < 10) {
-        await sleep(300);
-        sbEl = document.querySelector("starboard-notebook") as unknown as StarboardNotebookElement;
+    let retry = 0;
+    while (!sbEl && retry < 10) {
+      await sleep(300);
+      sbEl = document.querySelector("starboard-notebook") as unknown as StarboardNotebookElement;
 
-        // Loading and Running the Token
-        if (sbEl) {
-              let runtime: Runtime = sbEl.getRuntime();
-              registerJupyter(runtime, opts);
-        }
+      // Loading and Running the Token
+      if (sbEl) {
+        let runtime: Runtime = sbEl.getRuntime();
+        registerJupyter(runtime, opts);
       }
-}};
+    }
+  }
+};
 
 export default plugin;

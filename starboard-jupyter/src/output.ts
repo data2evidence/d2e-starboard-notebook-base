@@ -1,7 +1,7 @@
 import { OutputArea, OutputAreaModel } from "@jupyterlab/outputarea";
 
 import { RenderMimeRegistry, standardRendererFactories } from "@jupyterlab/rendermime";
-import { Runtime } from "starboard-notebook/dist/src/types";
+import { Runtime } from "../../packages/starboard-notebook/dist/src/types";
 import { RuntimeConfig } from "./types";
 
 export function createJupyterOutputArea() {

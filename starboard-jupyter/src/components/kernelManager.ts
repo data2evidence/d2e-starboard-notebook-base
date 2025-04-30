@@ -21,7 +21,6 @@ export class StarboardJupyterManager extends LitElement {
   constructor(jupyterSettings: JupyterPluginSettings) {
     super();
     this.settings = jupyterSettings;
-
     this.manager = new KernelManager({
       standby: "when-hidden",
       serverSettings: P.ServerConnection.makeSettings(jupyterSettings.serverSettings),
@@ -34,9 +33,12 @@ export class StarboardJupyterManager extends LitElement {
     }, this);
 
     this.manager.ready.then(
-      () => {
-        console.log("Jupyter manager is now ready");
+      async () => {
         this.isReady = true;
+        const sbCells = document.querySelectorAll("starboard-cell")
+        const jupyterEnvCell = sbCells[0] as any
+        await jupyterEnvCell?.runtime.controls.runCell({ id: jupyterEnvCell.id });
+        await jupyterEnvCell?.runtime.controls.removeCell({ id: jupyterEnvCell.id });
         this.performUpdate();
       },
       (err) => {
@@ -136,104 +138,7 @@ export class StarboardJupyterManager extends LitElement {
   }
 
   render() {
-    return html`
-      <section class="starboard-jupyter-interface py-2 px-3 my-2">
-        <details>
-          <summary class="d-flex justify-content-between flex-wrap">
-            <div class="d-flex align-items-center flex-wrap">
-              ${this.settings.headerText ? html`<h2 class="h5 mb-0 me-2">${this.settings.headerText}</h2>` : undefined}
-              ${this.connectionError
-                ? html`<div class="badge bg-danger" style="width: max-content">Connection Error</div>`
-                : this.isReady
-                ? html`<div class="badge bg-success small" style="width: max-content">✅ OK</div>`
-                : html`<div class="badge bg-light text-dark" style="width: max-content">Connecting to Jupyter..</div>`}
-            </div>
-            <div>
-              ${this.currentKernel
-                ? html` <span
-                      class="badge ${this.currentKernel.connectionStatus === "connected"
-                        ? "bg-success"
-                        : "bg-warning text-dark"}"
-                    >
-                      ${this.currentKernel.connectionStatus}
-                    </span>
-                    <span title="Kernel Status" class="badge bg-dark"> ${this.currentKernel.status} </span>
-                    <button
-                      @click=${() => this.interruptKernel()}
-                      title="Interrupt Kernel"
-                      class="btn btn-outline-secondary btn-sm btn-rounded py-0"
-                    >
-                      Interrupt
-                    </button>`
-                : html`<span class="badge bg-light text-dark">Not connected to a kernel</span>`}
-            </div>
-          </summary>
-          ${this.isReady
-            ? html` ${
-                  // this.connectionError ?
-                  // html`<button @click=${() => this.attemptReconnect()} class="ms-3 mt-2 btn btn-sm btn-outline-primary">Force Retry Connection</button>` :
-                  html`<button @click=${() => this.startKernel()} class="mt-2 btn btn-sm btn-outline-primary">
-                    Start new Kernel
-                  </button>`
-                }
-                <ul class="list-group m-3">
-                  ${this.runningKernels.map((v) => {
-                    if (this.currentKernel && this.currentKernel.id === v.id) {
-                      return html`<li
-                        class="list-group-item bg-light text-dark list-group-item-action d-flex justify-content-between align-items-center"
-                      >
-                        <span>🔗 <b>${v.name}</b> <code>${v.id}</code></span>
-
-                        <div class="d-flex align-items-center">
-                          <button
-                            @click=${() => this.disconnectFromKernel()}
-                            class="btn btn-sm btn-outline-secondary me-2 text-dark bg-white"
-                          >
-                            Disconnect
-                          </button>
-                          <!-- <button @click=${() =>
-                            this.shutdownKernel(
-                              v.id
-                            )} class="btn btn-sm btn-outline-secondary me-2 text-dark">Shut Down</button> -->
-                          <span
-                            title="Last Activity: ${(v as any).last_activity}"
-                            class="badge bg-primary rounded-pill"
-                          >
-                            ${this.currentKernel.status}
-                          </span>
-                        </div>
-                      </li>`;
-                    } else {
-                      return html`<div class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
-                                            <span><b>${v.name}</b> <code>${v.id}</code></span>
-                        <div class="d-flex align-items-center">
-                            <button @click=${() =>
-                              this.connectToKernel(v.id)} class="btn btn-sm btn-outline-primary me-2">Connect</button>  
-                            <button @click=${() =>
-                              this.shutdownKernel(v.id)} class="btn btn-sm btn-outline-primary me-2">Shut Down</button>
-                            <span title="Last Activity: ${
-                              (v as any).last_activity
-                            }" class="badge bg-primary rounded-pill">
-                                ${(v as any).execution_state}
-                            </span>
-                        </div>
-                    </div>
-                </div>`;
-                    }
-                  })}
-                </ul>`
-            : undefined}
-          ${this.connectionError
-            ? html` <div class="alert alert-danger mt-2">
-                <b>Connection Error</b>
-                <p>${this.connectionError}</p>
-                <br />
-                <p class="small">Check the Network tab in your browser's developer console for more details.</p>
-              </div>`
-            : undefined}
-        </details>
-      </section>
-    `;
+    return
   }
   
 }

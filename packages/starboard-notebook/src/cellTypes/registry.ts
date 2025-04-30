@@ -39,12 +39,13 @@ export function getAvailableCellTypes() {
   return cellTypes.filter(cell => cell.name !== "ES Module");
 }
 
-// Set Python as default language
+// Set R as default language
 export function getDefaultCellType(): string {
   const cells = [...new Set(registry.values())]
-  const pythonCell = cells.find(cell => cell.name === "Python")
-  if (pythonCell !== undefined) {
-    return pythonCell?.cellType[0]
+  const defaultCell = cells.find(cell => cell.name === "R")
+  
+  if (defaultCell !== undefined) {
+    return defaultCell?.cellType[0]
   }
   else {
     return "markdown"
