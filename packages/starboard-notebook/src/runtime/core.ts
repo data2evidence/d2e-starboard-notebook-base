@@ -106,13 +106,13 @@ export function setupCommunicationWithParentFrame(runtime: Runtime) {
 
             // Finding the Starboard Cells
             const sbCells = document.querySelectorAll("starboard-cell");
-            const pyqeInitCell = sbCells[0] as unknown as CellElement;
-            const jupyterInitCell = sbCells[1] as unknown as CellElement;
+            const pyqeInitCell = sbCells[sbCells.length - 3] as unknown as CellElement;
+            const jupyterInitCell = sbCells[sbCells.length - 2] as unknown as CellElement;
 
             // Run and remove cells
             await pyqeInitCell?.runtime.controls.runCell({ id: pyqeInitCell.id, type: "install" });
-            await pyqeInitCell?.runtime.controls.removeCell({ id: pyqeInitCell.id });
             await jupyterInitCell?.runtime.controls.runCell({ id: jupyterInitCell.id });
+            await pyqeInitCell?.runtime.controls.removeCell({ id: pyqeInitCell.id });
             await jupyterInitCell?.runtime.controls.removeCell({ id: jupyterInitCell.id });
             await nb.performUpdate();
 
