@@ -77041,7 +77041,7 @@ class StarboardJupyterManager extends lit_element_s {
         this.manager.ready.then(async () => {
             this.isReady = true;
             const sbCells = document.querySelectorAll("starboard-cell");
-            const jupyterEnvCell = sbCells[0];
+            const jupyterEnvCell = sbCells[sbCells.length - 1];
             await (jupyterEnvCell === null || jupyterEnvCell === void 0 ? void 0 : jupyterEnvCell.runtime.controls.runCell({ id: jupyterEnvCell.id }));
             await (jupyterEnvCell === null || jupyterEnvCell === void 0 ? void 0 : jupyterEnvCell.runtime.controls.removeCell({ id: jupyterEnvCell.id }));
             this.performUpdate();
