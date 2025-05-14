@@ -184,6 +184,18 @@ export class StarboardNotebookElement extends LitElement {
 
   render() {
     return html`
+      <div class="line-grid">
+        <div class="button-block-content">
+          <button
+          @click="${() => this.runtime.controls.runAllCells({})}"
+          class="cell-controls-button-block"
+          title="Rull All Cells"
+          style="line-height:2;"
+          >
+            Run all Cells <span class="bi bi-play-circle"></span>
+          </button> 
+        </div>
+      </div>
       <main class="cells-container"></main>
       <div class="line-grid">
         <div class="button-block-content">
