@@ -7,7 +7,14 @@ import { OutputArea } from "@jupyterlab/outputarea";
 import { html, LitElement } from "lit";
 import { property } from "lit/decorators.js";
 
+interface IKernelStartOptions {
+  name: string;
+  env?: Record<string, string>;
+}
 
+interface IKernelModel extends Kernel.IModel {
+  username: string;
+}
 
 export class StarboardJupyterManager extends LitElement {
   private settings: JupyterPluginSettings;
@@ -17,7 +24,7 @@ export class StarboardJupyterManager extends LitElement {
   private isReady = false;
 
   @property()
-  private runningKernels: Kernel.IModel[] = [];
+  private runningKernels: IKernelModel[] = [];
 
   @property({ type: Object })
   private kernelInfo?: {
@@ -48,9 +55,7 @@ export class StarboardJupyterManager extends LitElement {
 
     this.manager.ready.then(
       async () => {
-        console.log("Jupyter manager ready, setting isReady to true");
         this.isReady = true;
-        console.log("Current isReady state:", this.isReady);
         this.performUpdate();
       },
       (err) => {
@@ -62,20 +67,20 @@ export class StarboardJupyterManager extends LitElement {
     );
 
     this.manager.runningChanged.connect((km, running) => {
-      this.runningKernels = running;
-      this.connectionError = undefined;
+      this.runningKernels = running
+        .filter((kernel) => (kernel as unknown as IKernelModel).username === this.settings.username)
+        .map((kernel) => kernel as unknown as IKernelModel);
       this.performUpdate();
     }, this);
   }
 
   private setupKernelConnection() {
     if (!this.currentKernel) return;
-    
     this.kernelInfo = {
       id: this.currentKernel.id,
       name: this.currentKernel.name,
       status: this.currentKernel.status,
-      connectionStatus: this.currentKernel.connectionStatus
+      connectionStatus: this.currentKernel.connectionStatus,
     };
 
     this.currentKernel.statusChanged.connect((kc, status) => {
@@ -86,7 +91,7 @@ export class StarboardJupyterManager extends LitElement {
       } else if (this.kernelInfo) {
         this.kernelInfo.status = status;
       }
-      this.requestUpdate('kernelInfo');
+      this.requestUpdate("kernelInfo");
       this.performUpdate();
     });
 
@@ -94,7 +99,7 @@ export class StarboardJupyterManager extends LitElement {
       if (this.kernelInfo) {
         this.kernelInfo.connectionStatus = status;
       }
-      this.requestUpdate('kernelInfo');
+      this.requestUpdate("kernelInfo");
       this.performUpdate();
     });
 
@@ -112,8 +117,17 @@ export class StarboardJupyterManager extends LitElement {
       this.currentKernel.dispose();
       this.kernelInfo = undefined;
     }
-    this.currentKernel = await this.manager.startNew({ name: name });
-    console.log("Kernel started:", this.currentKernel.id);
+
+    this.currentKernel = await this.manager.startNew(
+      {
+        name: name,
+        env: {
+          KERNEL_USERNAME: this.settings.username,
+          TREX__AUTHORIZATION_TOKEN: this.settings.token,
+          TREX__DATASET_ID: this.settings.datasetId,
+        },
+      } as IKernelStartOptions
+    );
     this.setupKernelConnection();
     this.performUpdate();
   }
@@ -156,7 +170,7 @@ export class StarboardJupyterManager extends LitElement {
    */
   async runCode(content: KernelMessage.IExecuteRequestMsg["content"], output: OutputArea) {
     if (!this.currentKernel) {
-      await this.startKernel();
+      alert("Not connected to a kernel. Please connect to a kernel first")
     }
 
     output.future = this.currentKernel!.requestExecute(content);
@@ -172,9 +186,8 @@ export class StarboardJupyterManager extends LitElement {
       this.manager.dispose();
     })();
   }
-  
+
   render() {
-    console.log("Rendering with isReady:", this.isReady, "kernelInfo:", this.kernelInfo);
     return html`
       <section class="starboard-jupyter-interface py-2 px-3 my-2">
         <details>
@@ -184,7 +197,7 @@ export class StarboardJupyterManager extends LitElement {
               ${this.connectionError
                 ? html`<div class="badge bg-danger" style="width: max-content">Connection Error</div>`
                 : this.isReady
-                ? html`<div class="badge bg-success small" style="width: max-content">✅ OK</div>`
+                ? html`<div class="badge bg-success small" style="width: max-content">✅ Connected to Jupyter</div>`
                 : html`<div class="badge bg-light text-dark" style="width: max-content">Connecting to Jupyter..</div>`}
             </div>
             <div>
@@ -208,13 +221,9 @@ export class StarboardJupyterManager extends LitElement {
             </div>
           </summary>
           ${this.isReady
-            ? html` ${
-                  // this.connectionError ?
-                  // html`<button @click=${() => this.attemptReconnect()} class="ms-3 mt-2 btn btn-sm btn-outline-primary">Force Retry Connection</button>` :
-                  html`<button @click=${() => this.startKernel('r_ohdsi_docker')} class="mt-2 btn btn-sm btn-outline-primary">
-                    Start new Kernel
-                  </button>`
-                }
+            ? html` ${html`<button @click=${() => this.startKernel()} class="mt-2 btn btn-sm btn-outline-primary">
+                  Start new Kernel
+                </button>`}
                 <ul class="list-group m-3">
                   ${this.runningKernels.map((v) => {
                     if (this.currentKernel && this.currentKernel.id === v.id) {
@@ -274,7 +283,6 @@ export class StarboardJupyterManager extends LitElement {
       </section>
     `;
   }
-  
 }
-customElements.get("starboard-jupyter-manager") || customElements.define("starboard-jupyter-manager", StarboardJupyterManager)
-
+customElements.get("starboard-jupyter-manager") ||
+  customElements.define("starboard-jupyter-manager", StarboardJupyterManager);
