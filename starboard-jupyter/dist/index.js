@@ -1,6 +1,6 @@
 /******/ var __webpack_modules__ = ({
 
-/***/ 8060:
+/***/ 98060:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -138,7 +138,7 @@ exports.Colors = Object.assign(Object.assign(Object.assign(Object.assign({}, gra
 
 /***/ }),
 
-/***/ 5746:
+/***/ 65746:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -159,15 +159,15 @@ exports.Colors = Object.assign(Object.assign(Object.assign(Object.assign({}, gra
  */
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.LegacyColors = exports.Colors = void 0;
-var colors_1 = __webpack_require__(8060);
+var colors_1 = __webpack_require__(98060);
 Object.defineProperty(exports, "Colors", ({ enumerable: true, get: function () { return colors_1.Colors; } }));
-var legacyColors_1 = __webpack_require__(1920);
+var legacyColors_1 = __webpack_require__(31920);
 Object.defineProperty(exports, "LegacyColors", ({ enumerable: true, get: function () { return legacyColors_1.LegacyColors; } }));
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 1920:
+/***/ 31920:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -284,7 +284,7 @@ exports.LegacyColors = {
 
 /***/ }),
 
-/***/ 7060:
+/***/ 77060:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -305,9 +305,9 @@ exports.LegacyColors = {
  */
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.AbstractComponent = void 0;
-var tslib_1 = __webpack_require__(655);
-var React = tslib_1.__importStar(__webpack_require__(7294));
-var utils_1 = __webpack_require__(1352);
+var tslib_1 = __webpack_require__(70655);
+var React = tslib_1.__importStar(__webpack_require__(67294));
+var utils_1 = __webpack_require__(60769);
 /**
  * An abstract component that Blueprint components can extend
  * in order to add some common functionality like runtime props validation.
@@ -375,7 +375,7 @@ exports.AbstractComponent = AbstractComponent;
 
 /***/ }),
 
-/***/ 2794:
+/***/ 22794:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -396,9 +396,9 @@ exports.AbstractComponent = AbstractComponent;
  */
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.AbstractComponent2 = void 0;
-var tslib_1 = __webpack_require__(655);
-var React = tslib_1.__importStar(__webpack_require__(7294));
-var utils_1 = __webpack_require__(1352);
+var tslib_1 = __webpack_require__(70655);
+var React = tslib_1.__importStar(__webpack_require__(67294));
+var utils_1 = __webpack_require__(60769);
 /**
  * An abstract component that Blueprint components can extend
  * in order to add some common functionality like runtime props validation.
@@ -511,9 +511,9 @@ exports.AbstractComponent2 = AbstractComponent2;
  */
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.AbstractPureComponent = void 0;
-var tslib_1 = __webpack_require__(655);
-var React = tslib_1.__importStar(__webpack_require__(7294));
-var utils_1 = __webpack_require__(1352);
+var tslib_1 = __webpack_require__(70655);
+var React = tslib_1.__importStar(__webpack_require__(67294));
+var utils_1 = __webpack_require__(60769);
 /**
  * An abstract component that Blueprint components can extend
  * in order to add some common functionality like runtime props validation.
@@ -582,7 +582,7 @@ exports.AbstractPureComponent = AbstractPureComponent;
 
 /***/ }),
 
-/***/ 225:
+/***/ 50225:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -603,9 +603,9 @@ exports.AbstractPureComponent = AbstractPureComponent;
  */
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.AbstractPureComponent2 = void 0;
-var tslib_1 = __webpack_require__(655);
-var React = tslib_1.__importStar(__webpack_require__(7294));
-var utils_1 = __webpack_require__(1352);
+var tslib_1 = __webpack_require__(70655);
+var React = tslib_1.__importStar(__webpack_require__(67294));
+var utils_1 = __webpack_require__(60769);
 /**
  * An abstract component that Blueprint components can extend
  * in order to add some common functionality like runtime props validation.
@@ -697,7 +697,7 @@ exports.AbstractPureComponent2 = AbstractPureComponent2;
 
 /***/ }),
 
-/***/ 5:
+/***/ 20005:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -728,7 +728,7 @@ exports.Alignment = {
 
 /***/ }),
 
-/***/ 5261:
+/***/ 85261:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -759,9 +759,10 @@ exports.Boundary = {
 
 /***/ }),
 
-/***/ 1902:
+/***/ 41902:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
+/* provided dependency */ var process = __webpack_require__(34155);
 
 /*
  * Copyright 2015 Palantir Technologies, Inc. All rights reserved.
@@ -785,10 +786,10 @@ exports.INPUT_GHOST = exports.INPUT = exports.HTML_TABLE_STRIPED = exports.HTML_
 exports.OVERLAY_CONTENT = exports.OVERLAY_CONTAINER = exports.OVERLAY_BACKDROP = exports.OVERLAY = exports.OVERFLOW_LIST_SPACER = exports.OVERFLOW_LIST = exports.NUMERIC_INPUT = exports.NON_IDEAL_STATE_VISUAL = exports.NON_IDEAL_STATE = exports.NAVBAR_DIVIDER = exports.NAVBAR_HEADING = exports.NAVBAR_GROUP = exports.NAVBAR = exports.MULTISTEP_DIALOG_FOOTER = exports.MULTISTEP_DIALOG_RIGHT_PANEL = exports.MULTISTEP_DIALOG_LEFT_PANEL = exports.MULTISTEP_DIALOG_PANELS = exports.MULTISTEP_DIALOG = exports.MENU_HEADER = exports.MENU_DIVIDER = exports.MENU_SUBMENU = exports.MENU_ITEM_LABEL = exports.MENU_ITEM = exports.MENU = exports.FORM_GROUP_SUB_LABEL = exports.FORM_HELPER_TEXT = exports.FORM_CONTENT = exports.FORM_GROUP = exports.LABEL = exports.HOTKEY_DIALOG = exports.HOTKEY_COLUMN = exports.HOTKEY_LABEL = exports.HOTKEY = exports.MODIFIER_KEY = exports.KEY_COMBO = exports.KEY = exports.FILE_UPLOAD_INPUT_CUSTOM_TEXT = exports.FILE_UPLOAD_INPUT = exports.FILE_INPUT_HAS_SELECTION = exports.FILE_INPUT = exports.SWITCH_INNER_TEXT = exports.SWITCH = exports.RADIO = exports.CHECKBOX = exports.CONTROL_INDICATOR_CHILD = exports.CONTROL_INDICATOR = exports.CONTROL = exports.INPUT_ACTION = exports.INPUT_LEFT_CONTAINER = exports.INPUT_GROUP = void 0;
 exports.TAB_PANEL = exports.TAB_LIST = exports.TAB_INDICATOR_WRAPPER = exports.TAB_INDICATOR = exports.TAB = exports.SPINNER_TRACK = exports.SPINNER_NO_SPIN = exports.SPINNER_HEAD = exports.SPINNER_ANIMATION = exports.SPINNER = exports.END = exports.START = exports.SLIDER_PROGRESS = exports.SLIDER_TRACK = exports.SLIDER_LABEL = exports.SLIDER_HANDLE = exports.SLIDER_AXIS = exports.SLIDER = exports.SKELETON = exports.PORTAL = exports.PROGRESS_NO_ANIMATION = exports.PROGRESS_NO_STRIPES = exports.PROGRESS_METER = exports.PROGRESS_BAR = exports.TRANSITION_CONTAINER = exports.POPOVER_WRAPPER = exports.POPOVER_TARGET = exports.POPOVER_OUT_OF_BOUNDARIES = exports.POPOVER_OPEN = exports.POPOVER_DISMISS_OVERRIDE = exports.POPOVER_DISMISS = exports.POPOVER_CONTENT_SIZING = exports.POPOVER_CONTENT = exports.POPOVER_CAPTURING_DISMISS = exports.POPOVER_BACKDROP = exports.POPOVER_ARROW = exports.POPOVER = exports.PANEL_STACK2_VIEW = exports.PANEL_STACK2_HEADER_BACK = exports.PANEL_STACK2_HEADER = exports.PANEL_STACK2 = exports.PANEL_STACK_VIEW = exports.PANEL_STACK_HEADER_BACK = exports.PANEL_STACK_HEADER = exports.PANEL_STACK = exports.OVERLAY_END_FOCUS_TRAP = exports.OVERLAY_START_FOCUS_TRAP = exports.OVERLAY_SCROLL_CONTAINER = exports.OVERLAY_OPEN = exports.OVERLAY_INLINE = void 0;
 exports.positionClass = exports.intentClass = exports.iconClass = exports.elevationClass = exports.alignmentClass = exports.getClassNamespace = exports.ICON_LARGE = exports.ICON_STANDARD = exports.ICON = exports.TREE_ROOT = exports.TREE_NODE_SELECTED = exports.TREE_NODE_SECONDARY_LABEL = exports.TREE_NODE_LIST = exports.TREE_NODE_LABEL = exports.TREE_NODE_ICON = exports.TREE_NODE_EXPANDED = exports.TREE_NODE_CONTENT = exports.TREE_NODE_CARET_OPEN = exports.TREE_NODE_CARET_NONE = exports.TREE_NODE_CARET_CLOSED = exports.TREE_NODE_CARET = exports.TREE_NODE = exports.TREE = exports.TOOLTIP_INDICATOR = exports.TOOLTIP = exports.TOAST_MESSAGE = exports.TOAST_CONTAINER = exports.TOAST = exports.TAG_INPUT_VALUES = exports.TAG_INPUT_ICON = exports.TAG_INPUT = exports.TAG_REMOVE = exports.TAG = exports.TABS = void 0;
-var alignment_1 = __webpack_require__(5);
-var elevation_1 = __webpack_require__(1367);
+var alignment_1 = __webpack_require__(20005);
+var elevation_1 = __webpack_require__(31367);
 var intent_1 = __webpack_require__(4922);
-var position_1 = __webpack_require__(4766);
+var position_1 = __webpack_require__(24766);
 var NS = "bp3";
 if (typeof process !== "undefined") {
     NS = (_d = (_b = (_a = {}) === null || _a === void 0 ? void 0 : _a.BLUEPRINT_NAMESPACE) !== null && _b !== void 0 ? _b : (_c = {}) === null || _c === void 0 ? void 0 : _c.REACT_APP_BLUEPRINT_NAMESPACE) !== null && _d !== void 0 ? _d : NS;
@@ -1085,7 +1086,7 @@ exports.positionClass = positionClass;
 
 /***/ }),
 
-/***/ 2212:
+/***/ 22212:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -1106,8 +1107,8 @@ exports.positionClass = positionClass;
  */
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Colors = void 0;
-var tslib_1 = __webpack_require__(655);
-var colors_1 = __webpack_require__(5746);
+var tslib_1 = __webpack_require__(70655);
+var colors_1 = __webpack_require__(65746);
 exports.Colors = tslib_1.__assign(tslib_1.__assign({}, colors_1.LegacyColors), { 
     // "cobalt" is becoming "cerulean" in Blueprint 4.0
     // for a smoother migration, we provide these aliases so that consumers
@@ -1117,7 +1118,7 @@ exports.Colors = tslib_1.__assign(tslib_1.__assign({}, colors_1.LegacyColors), {
 
 /***/ }),
 
-/***/ 5257:
+/***/ 45257:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -1139,14 +1140,14 @@ exports.Colors = tslib_1.__assign(tslib_1.__assign({}, colors_1.LegacyColors), {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 if ( true && typeof window !== "undefined" && typeof document !== "undefined") {
     // we're in browser
-    __webpack_require__(7143); // only import actual dom4 if we're in the browser (not server-compatible)
+    __webpack_require__(23839); // only import actual dom4 if we're in the browser (not server-compatible)
     // we'll still need dom4 types for the TypeScript to compile, these are included in package.json
 }
 //# sourceMappingURL=configureDom4.js.map
 
 /***/ }),
 
-/***/ 5888:
+/***/ 95888:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -1170,7 +1171,7 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 
 /***/ }),
 
-/***/ 1367:
+/***/ 31367:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -1203,7 +1204,7 @@ exports.Elevation = {
 
 /***/ }),
 
-/***/ 3983:
+/***/ 43983:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -1281,7 +1282,7 @@ exports.TOASTER_MAX_TOASTS_INVALID = ns + " <Toaster> maxToasts is set to an inv
 
 /***/ }),
 
-/***/ 6516:
+/***/ 86516:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -1302,26 +1303,26 @@ exports.TOASTER_MAX_TOASTS_INVALID = ns + " <Toaster> maxToasts is set to an inv
  */
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Utils = exports.Keys = exports.Classes = exports.Colors = void 0;
-var tslib_1 = __webpack_require__(655);
-tslib_1.__exportStar(__webpack_require__(7060), exports);
-tslib_1.__exportStar(__webpack_require__(2794), exports);
+var tslib_1 = __webpack_require__(70655);
+tslib_1.__exportStar(__webpack_require__(77060), exports);
+tslib_1.__exportStar(__webpack_require__(22794), exports);
 tslib_1.__exportStar(__webpack_require__(3630), exports);
-tslib_1.__exportStar(__webpack_require__(225), exports);
-tslib_1.__exportStar(__webpack_require__(5), exports);
-tslib_1.__exportStar(__webpack_require__(5261), exports);
-var colors_1 = __webpack_require__(2212);
+tslib_1.__exportStar(__webpack_require__(50225), exports);
+tslib_1.__exportStar(__webpack_require__(20005), exports);
+tslib_1.__exportStar(__webpack_require__(85261), exports);
+var colors_1 = __webpack_require__(22212);
 Object.defineProperty(exports, "Colors", ({ enumerable: true, get: function () { return colors_1.Colors; } }));
-tslib_1.__exportStar(__webpack_require__(5888), exports);
-tslib_1.__exportStar(__webpack_require__(1367), exports);
+tslib_1.__exportStar(__webpack_require__(95888), exports);
+tslib_1.__exportStar(__webpack_require__(31367), exports);
 tslib_1.__exportStar(__webpack_require__(4922), exports);
-tslib_1.__exportStar(__webpack_require__(4766), exports);
-tslib_1.__exportStar(__webpack_require__(2640), exports);
-tslib_1.__exportStar(__webpack_require__(5841), exports);
-var Classes = tslib_1.__importStar(__webpack_require__(1902));
+tslib_1.__exportStar(__webpack_require__(24766), exports);
+tslib_1.__exportStar(__webpack_require__(12640), exports);
+tslib_1.__exportStar(__webpack_require__(75841), exports);
+var Classes = tslib_1.__importStar(__webpack_require__(41902));
 exports.Classes = Classes;
-var Keys = tslib_1.__importStar(__webpack_require__(8436));
+var Keys = tslib_1.__importStar(__webpack_require__(78436));
 exports.Keys = Keys;
-var Utils = tslib_1.__importStar(__webpack_require__(1352));
+var Utils = tslib_1.__importStar(__webpack_require__(60769));
 exports.Utils = Utils;
 // NOTE: Errors is not exported in public API
 //# sourceMappingURL=index.js.map
@@ -1364,7 +1365,7 @@ exports.Intent = {
 
 /***/ }),
 
-/***/ 8436:
+/***/ 78436:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -1405,7 +1406,7 @@ exports.isKeyboardClick = isKeyboardClick;
 
 /***/ }),
 
-/***/ 4766:
+/***/ 24766:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -1481,7 +1482,7 @@ exports.getPositionIgnoreAngles = getPositionIgnoreAngles;
 
 /***/ }),
 
-/***/ 2640:
+/***/ 12640:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -1502,7 +1503,7 @@ exports.getPositionIgnoreAngles = getPositionIgnoreAngles;
  */
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.removeNonHTMLProps = exports.DISPLAYNAME_PREFIX = void 0;
-var tslib_1 = __webpack_require__(655);
+var tslib_1 = __webpack_require__(70655);
 exports.DISPLAYNAME_PREFIX = "Blueprint3";
 /** A collection of curated prop keys used across our Components which are not valid HTMLElement props. */
 var INVALID_PROPS = [
@@ -1564,7 +1565,7 @@ exports.removeNonHTMLProps = removeNonHTMLProps;
 
 /***/ }),
 
-/***/ 5841:
+/***/ 75841:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -1651,7 +1652,7 @@ exports.refHandler = refHandler;
 
 /***/ }),
 
-/***/ 9875:
+/***/ 79875:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -1845,7 +1846,7 @@ function unionKeys(objA, objB) {
 
 /***/ }),
 
-/***/ 6088:
+/***/ 86088:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -1866,7 +1867,7 @@ function unionKeys(objA, objB) {
  */
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.throttle = exports.throttleReactEventCallback = exports.throttleEvent = exports.elementIsOrContains = void 0;
-var functionUtils_1 = __webpack_require__(866);
+var functionUtils_1 = __webpack_require__(40866);
 function elementIsOrContains(element, testElement) {
     return element === testElement || element.contains(testElement);
 }
@@ -1944,7 +1945,7 @@ function throttleImpl(onAnimationFrameRequested, onBeforeIsRunningCheck, onAfter
 
 /***/ }),
 
-/***/ 866:
+/***/ 40866:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -1996,7 +1997,7 @@ exports.safeInvokeOrValue = safeInvokeOrValue;
 
 /***/ }),
 
-/***/ 1352:
+/***/ 60769:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -2017,25 +2018,25 @@ exports.safeInvokeOrValue = safeInvokeOrValue;
  */
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.getRef = exports.setRef = exports.isDarkTheme = void 0;
-var tslib_1 = __webpack_require__(655);
-tslib_1.__exportStar(__webpack_require__(9875), exports);
-tslib_1.__exportStar(__webpack_require__(6088), exports);
-tslib_1.__exportStar(__webpack_require__(866), exports);
-tslib_1.__exportStar(__webpack_require__(6745), exports);
-tslib_1.__exportStar(__webpack_require__(1666), exports);
-tslib_1.__exportStar(__webpack_require__(5471), exports);
-var isDarkTheme_1 = __webpack_require__(2394);
+var tslib_1 = __webpack_require__(70655);
+tslib_1.__exportStar(__webpack_require__(79875), exports);
+tslib_1.__exportStar(__webpack_require__(86088), exports);
+tslib_1.__exportStar(__webpack_require__(40866), exports);
+tslib_1.__exportStar(__webpack_require__(86745), exports);
+tslib_1.__exportStar(__webpack_require__(31666), exports);
+tslib_1.__exportStar(__webpack_require__(15471), exports);
+var isDarkTheme_1 = __webpack_require__(22394);
 Object.defineProperty(exports, "isDarkTheme", ({ enumerable: true, get: function () { return isDarkTheme_1.isDarkTheme; } }));
 // ref utils used to live in this folder, but got refactored and moved elsewhere.
 // we keep this export here for backwards compatibility
-var refs_1 = __webpack_require__(5841);
+var refs_1 = __webpack_require__(75841);
 Object.defineProperty(exports, "setRef", ({ enumerable: true, get: function () { return refs_1.setRef; } }));
 Object.defineProperty(exports, "getRef", ({ enumerable: true, get: function () { return refs_1.getRef; } }));
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 2394:
+/***/ 22394:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -2056,9 +2057,9 @@ Object.defineProperty(exports, "getRef", ({ enumerable: true, get: function () {
  */
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.isDarkTheme = void 0;
-var tslib_1 = __webpack_require__(655);
-__webpack_require__(5257);
-var Classes = tslib_1.__importStar(__webpack_require__(1902));
+var tslib_1 = __webpack_require__(70655);
+__webpack_require__(45257);
+var Classes = tslib_1.__importStar(__webpack_require__(41902));
 function isDarkTheme(element) {
     return element != null && element instanceof Element && element.closest(".".concat(Classes.DARK)) != null;
 }
@@ -2067,9 +2068,10 @@ exports.isDarkTheme = isDarkTheme;
 
 /***/ }),
 
-/***/ 6745:
+/***/ 86745:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
+/* provided dependency */ var process = __webpack_require__(34155);
 
 /*
  * Copyright 2020 Palantir Technologies, Inc. All rights reserved.
@@ -2088,7 +2090,7 @@ exports.isDarkTheme = isDarkTheme;
  */
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.uniqueId = exports.countDecimalPlaces = exports.clamp = exports.approxEqual = exports.arrayLengthCompare = exports.isNodeEnv = void 0;
-var errors_1 = __webpack_require__(3983);
+var errors_1 = __webpack_require__(43983);
 /** Returns whether `process.env.NODE_ENV` exists and equals `env`. */
 function isNodeEnv(env) {
     return typeof process !== "undefined" && {} && "production" === env;
@@ -2157,7 +2159,7 @@ exports.uniqueId = uniqueId;
 
 /***/ }),
 
-/***/ 1666:
+/***/ 31666:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -2178,8 +2180,8 @@ exports.uniqueId = uniqueId;
  */
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.createReactRef = exports.isElementOfType = exports.getDisplayName = exports.ensureElement = exports.isReactChildrenElementOrElements = exports.isReactNodeEmpty = void 0;
-var tslib_1 = __webpack_require__(655);
-var React = tslib_1.__importStar(__webpack_require__(7294));
+var tslib_1 = __webpack_require__(70655);
+var React = tslib_1.__importStar(__webpack_require__(67294));
 /**
  * Returns true if `node` is null/undefined, false, empty string, or an array
  * composed of those. If `node` is an array, only one level of the array is
@@ -2275,7 +2277,7 @@ exports.createReactRef = createReactRef;
 
 /***/ }),
 
-/***/ 5471:
+/***/ 15471:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -2296,7 +2298,7 @@ exports.createReactRef = createReactRef;
  */
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.safeInvokeMember = void 0;
-var functionUtils_1 = __webpack_require__(866);
+var functionUtils_1 = __webpack_require__(40866);
 // eslint-disable-next-line @typescript-eslint/ban-types
 function safeInvokeMember(obj, key) {
     var args = [];
@@ -2316,7 +2318,7 @@ exports.safeInvokeMember = safeInvokeMember;
 
 /***/ }),
 
-/***/ 9174:
+/***/ 79174:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -2337,12 +2339,12 @@ exports.safeInvokeMember = safeInvokeMember;
  */
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.AbstractButton = void 0;
-var tslib_1 = __webpack_require__(655);
-var classnames_1 = tslib_1.__importDefault(__webpack_require__(4184));
-var React = tslib_1.__importStar(__webpack_require__(7294));
-var common_1 = __webpack_require__(6516);
-var icon_1 = __webpack_require__(5704);
-var spinner_1 = __webpack_require__(3206);
+var tslib_1 = __webpack_require__(70655);
+var classnames_1 = tslib_1.__importDefault(__webpack_require__(94184));
+var React = tslib_1.__importStar(__webpack_require__(67294));
+var common_1 = __webpack_require__(86516);
+var icon_1 = __webpack_require__(75704);
+var spinner_1 = __webpack_require__(23206);
 var AbstractButton = /** @class */ (function (_super) {
     tslib_1.__extends(AbstractButton, _super);
     function AbstractButton() {
@@ -2431,7 +2433,7 @@ exports.AbstractButton = AbstractButton;
 
 /***/ }),
 
-/***/ 6753:
+/***/ 16753:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 var __webpack_unused_export__;
@@ -2453,13 +2455,13 @@ var __webpack_unused_export__;
  */
 __webpack_unused_export__ = ({ value: true });
 __webpack_unused_export__ = exports.zx = void 0;
-var tslib_1 = __webpack_require__(655);
+var tslib_1 = __webpack_require__(70655);
 // HACKHACK: these components should go in separate files
 /* eslint-disable max-classes-per-file */
-var React = tslib_1.__importStar(__webpack_require__(7294));
-var props_1 = __webpack_require__(2640);
-var refs_1 = __webpack_require__(5841);
-var abstractButton_1 = __webpack_require__(9174);
+var React = tslib_1.__importStar(__webpack_require__(67294));
+var props_1 = __webpack_require__(12640);
+var refs_1 = __webpack_require__(75841);
+var abstractButton_1 = __webpack_require__(79174);
 var Button = /** @class */ (function (_super) {
     tslib_1.__extends(Button, _super);
     function Button() {
@@ -2512,7 +2514,7 @@ __webpack_unused_export__ = AnchorButton;
 
 /***/ }),
 
-/***/ 5704:
+/***/ 75704:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -2533,12 +2535,12 @@ __webpack_unused_export__ = AnchorButton;
  */
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Icon = exports.IconSize = void 0;
-var tslib_1 = __webpack_require__(655);
-var classnames_1 = tslib_1.__importDefault(__webpack_require__(4184));
-var React = tslib_1.__importStar(__webpack_require__(7294));
-var react_lifecycles_compat_1 = __webpack_require__(6871);
-var icons_1 = __webpack_require__(822);
-var common_1 = __webpack_require__(6516);
+var tslib_1 = __webpack_require__(70655);
+var classnames_1 = tslib_1.__importDefault(__webpack_require__(94184));
+var React = tslib_1.__importStar(__webpack_require__(67294));
+var react_lifecycles_compat_1 = __webpack_require__(46871);
+var icons_1 = __webpack_require__(90822);
+var common_1 = __webpack_require__(86516);
 var IconSize;
 (function (IconSize) {
     IconSize[IconSize["STANDARD"] = 16] = "STANDARD";
@@ -2595,7 +2597,7 @@ exports.Icon = Icon;
 
 /***/ }),
 
-/***/ 3206:
+/***/ 23206:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -2616,14 +2618,14 @@ exports.Icon = Icon;
  */
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Spinner = exports.SpinnerSize = void 0;
-var tslib_1 = __webpack_require__(655);
-var classnames_1 = tslib_1.__importDefault(__webpack_require__(4184));
-var React = tslib_1.__importStar(__webpack_require__(7294));
-var react_lifecycles_compat_1 = __webpack_require__(6871);
-var common_1 = __webpack_require__(6516);
-var errors_1 = __webpack_require__(3983);
-var props_1 = __webpack_require__(2640);
-var utils_1 = __webpack_require__(1352);
+var tslib_1 = __webpack_require__(70655);
+var classnames_1 = tslib_1.__importDefault(__webpack_require__(94184));
+var React = tslib_1.__importStar(__webpack_require__(67294));
+var react_lifecycles_compat_1 = __webpack_require__(46871);
+var common_1 = __webpack_require__(86516);
+var errors_1 = __webpack_require__(43983);
+var props_1 = __webpack_require__(12640);
+var utils_1 = __webpack_require__(60769);
 var SpinnerSize;
 (function (SpinnerSize) {
     SpinnerSize[SpinnerSize["SMALL"] = 20] = "SMALL";
@@ -2717,7 +2719,7 @@ exports.Spinner = Spinner;
 
 /***/ }),
 
-/***/ 822:
+/***/ 90822:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 // ESM COMPAT FLAG
@@ -5977,7 +5979,7 @@ var IconSvgPaths20 = {
 
 /***/ }),
 
-/***/ 7542:
+/***/ 47542:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -6055,7 +6057,7 @@ exports.ActivityMonitor = ActivityMonitor;
 
 /***/ }),
 
-/***/ 9622:
+/***/ 79622:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -6076,19 +6078,19 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-__exportStar(__webpack_require__(7542), exports);
-__exportStar(__webpack_require__(2086), exports);
-__exportStar(__webpack_require__(7390), exports);
-__exportStar(__webpack_require__(9458), exports);
-__exportStar(__webpack_require__(176), exports);
-__exportStar(__webpack_require__(7846), exports);
-__exportStar(__webpack_require__(2533), exports);
-__exportStar(__webpack_require__(7319), exports);
+__exportStar(__webpack_require__(47542), exports);
+__exportStar(__webpack_require__(92086), exports);
+__exportStar(__webpack_require__(47390), exports);
+__exportStar(__webpack_require__(99458), exports);
+__exportStar(__webpack_require__(20176), exports);
+__exportStar(__webpack_require__(47846), exports);
+__exportStar(__webpack_require__(32533), exports);
+__exportStar(__webpack_require__(57319), exports);
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 2086:
+/***/ 92086:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -6099,7 +6101,7 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 
 /***/ }),
 
-/***/ 7390:
+/***/ 47390:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -6203,9 +6205,10 @@ var MarkdownCodeBlocks;
 
 /***/ }),
 
-/***/ 9458:
+/***/ 99458:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
+/* provided dependency */ var process = __webpack_require__(34155);
 
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
@@ -6214,9 +6217,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.PageConfig = void 0;
-const coreutils_1 = __webpack_require__(5082);
-const minimist_1 = __importDefault(__webpack_require__(6562));
-const url_1 = __webpack_require__(7319);
+const coreutils_1 = __webpack_require__(95082);
+const minimist_1 = __importDefault(__webpack_require__(96562));
+const url_1 = __webpack_require__(57319);
 /**
  * The namespace for `PageConfig` functions.
  */
@@ -6258,7 +6261,7 @@ var PageConfig;
         if (!found && typeof process !== 'undefined' && process.argv) {
             try {
                 const cli = minimist_1.default(process.argv.slice(2));
-                const path = __webpack_require__(6470);
+                const path = __webpack_require__(26470);
                 let fullPath = '';
                 if ('jupyter-config-data' in cli) {
                     fullPath = path.resolve(cli['jupyter-config-data']);
@@ -6497,7 +6500,7 @@ var PageConfig;
 
 /***/ }),
 
-/***/ 176:
+/***/ 20176:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -6505,7 +6508,7 @@ var PageConfig;
 // Distributed under the terms of the Modified BSD License.
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.PathExt = void 0;
-const path_1 = __webpack_require__(6470);
+const path_1 = __webpack_require__(26470);
 /**
  * The namespace for path-related functions.
  *
@@ -6645,7 +6648,7 @@ var PathExt;
 
 /***/ }),
 
-/***/ 7846:
+/***/ 47846:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -6764,7 +6767,7 @@ var Text;
 
 /***/ }),
 
-/***/ 2533:
+/***/ 32533:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -6775,7 +6778,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Time = void 0;
-const moment_1 = __importDefault(__webpack_require__(381));
+const moment_1 = __importDefault(__webpack_require__(30381));
 /**
  * The namespace for date functions.
  */
@@ -6814,7 +6817,7 @@ var Time;
 
 /***/ }),
 
-/***/ 7319:
+/***/ 57319:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -6825,8 +6828,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.URLExt = void 0;
-const path_1 = __webpack_require__(6470);
-const url_parse_1 = __importDefault(__webpack_require__(4564));
+const path_1 = __webpack_require__(26470);
+const url_parse_1 = __importDefault(__webpack_require__(84564));
 /**
  * The namespace for URL-related functions.
  */
@@ -6951,7 +6954,7 @@ var URLExt;
 
 /***/ }),
 
-/***/ 591:
+/***/ 66277:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -6960,7 +6963,7 @@ var URLExt;
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.BaseManager = void 0;
 const signaling_1 = __webpack_require__(4016);
-const serverconnection_1 = __webpack_require__(8477);
+const serverconnection_1 = __webpack_require__(19813);
 class BaseManager {
     constructor(options) {
         var _a;
@@ -6996,7 +6999,7 @@ exports.BaseManager = BaseManager;
 
 /***/ }),
 
-/***/ 3227:
+/***/ 84009:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -7004,8 +7007,8 @@ exports.BaseManager = BaseManager;
 // Distributed under the terms of the Modified BSD License.
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.BuildManager = void 0;
-const coreutils_1 = __webpack_require__(9622);
-const serverconnection_1 = __webpack_require__(8477);
+const coreutils_1 = __webpack_require__(79622);
+const serverconnection_1 = __webpack_require__(19813);
 /**
  * The url for the lab build service.
  */
@@ -7099,7 +7102,7 @@ exports.BuildManager = BuildManager;
 
 /***/ }),
 
-/***/ 5077:
+/***/ 32415:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -7107,8 +7110,8 @@ exports.BuildManager = BuildManager;
 // Distributed under the terms of the Modified BSD License.
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.ConfigWithDefaults = exports.ConfigSection = void 0;
-const coreutils_1 = __webpack_require__(9622);
-const __1 = __webpack_require__(6240);
+const coreutils_1 = __webpack_require__(79622);
+const __1 = __webpack_require__(49623);
 /**
  * The url for the config service.
  */
@@ -7256,7 +7259,7 @@ exports.ConfigWithDefaults = ConfigWithDefaults;
 
 /***/ }),
 
-/***/ 3644:
+/***/ 35916:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -7283,11 +7286,11 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Drive = exports.ContentsManager = exports.Contents = void 0;
-const coreutils_1 = __webpack_require__(9622);
-const algorithm_1 = __webpack_require__(5259);
+const coreutils_1 = __webpack_require__(79622);
+const algorithm_1 = __webpack_require__(35259);
 const signaling_1 = __webpack_require__(4016);
-const __1 = __webpack_require__(6240);
-const validate = __importStar(__webpack_require__(5460));
+const __1 = __webpack_require__(49623);
+const validate = __importStar(__webpack_require__(77372));
 /**
  * The url for the default drive service.
  */
@@ -8093,7 +8096,7 @@ var Private;
 
 /***/ }),
 
-/***/ 5460:
+/***/ 77372:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -8101,7 +8104,7 @@ var Private;
 // Distributed under the terms of the Modified BSD License.
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.validateCheckpointModel = exports.validateContentsModel = void 0;
-const validate_1 = __webpack_require__(6901);
+const validate_1 = __webpack_require__(99677);
 /**
  * Validate an `Contents.IModel` object.
  */
@@ -8128,7 +8131,7 @@ exports.validateCheckpointModel = validateCheckpointModel;
 
 /***/ }),
 
-/***/ 6240:
+/***/ 49623:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -8149,22 +8152,22 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-__exportStar(__webpack_require__(5077), exports);
-__exportStar(__webpack_require__(3644), exports);
-__exportStar(__webpack_require__(2604), exports);
-__exportStar(__webpack_require__(2902), exports);
-__exportStar(__webpack_require__(3079), exports);
-__exportStar(__webpack_require__(8477), exports);
-__exportStar(__webpack_require__(1874), exports);
-__exportStar(__webpack_require__(2726), exports);
-__exportStar(__webpack_require__(3247), exports);
-__exportStar(__webpack_require__(5399), exports);
-__exportStar(__webpack_require__(4574), exports);
+__exportStar(__webpack_require__(32415), exports);
+__exportStar(__webpack_require__(35916), exports);
+__exportStar(__webpack_require__(81707), exports);
+__exportStar(__webpack_require__(28769), exports);
+__exportStar(__webpack_require__(9473), exports);
+__exportStar(__webpack_require__(19813), exports);
+__exportStar(__webpack_require__(46922), exports);
+__exportStar(__webpack_require__(57167), exports);
+__exportStar(__webpack_require__(55789), exports);
+__exportStar(__webpack_require__(11828), exports);
+__exportStar(__webpack_require__(43653), exports);
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 4500:
+/***/ 80600:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -8191,8 +8194,8 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.CommHandler = void 0;
-const disposable_1 = __webpack_require__(725);
-const KernelMessage = __importStar(__webpack_require__(5253));
+const disposable_1 = __webpack_require__(70725);
+const KernelMessage = __importStar(__webpack_require__(66571));
 /**
  * Comm channel handler.
  */
@@ -8369,7 +8372,7 @@ exports.CommHandler = CommHandler;
 
 /***/ }),
 
-/***/ 9883:
+/***/ 77335:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -8396,17 +8399,17 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.KernelConnection = void 0;
-const coreutils_1 = __webpack_require__(9622);
-const coreutils_2 = __webpack_require__(5082);
+const coreutils_1 = __webpack_require__(79622);
+const coreutils_2 = __webpack_require__(95082);
 const signaling_1 = __webpack_require__(4016);
-const __1 = __webpack_require__(6240);
-const comm_1 = __webpack_require__(4500);
-const KernelMessage = __importStar(__webpack_require__(5253));
-const future_1 = __webpack_require__(8707);
-const serialize = __importStar(__webpack_require__(6002));
-const validate = __importStar(__webpack_require__(6512));
-const kernelspec_1 = __webpack_require__(2902);
-const restapi = __importStar(__webpack_require__(2183));
+const __1 = __webpack_require__(49623);
+const comm_1 = __webpack_require__(80600);
+const KernelMessage = __importStar(__webpack_require__(66571));
+const future_1 = __webpack_require__(48644);
+const serialize = __importStar(__webpack_require__(86631));
+const validate = __importStar(__webpack_require__(47053));
+const kernelspec_1 = __webpack_require__(28769);
+const restapi = __importStar(__webpack_require__(92521));
 const KERNEL_INFO_TIMEOUT = 3000;
 const RESTARTING_KERNEL_SESSION = '_RESTARTING_';
 const STARTING_KERNEL_SESSION = '';
@@ -8444,8 +8447,6 @@ class KernelConnection {
             if (settings.appendToken && token !== '') {
                 url = url + `&token=${encodeURIComponent(token)}`;
             }
-            
-            
             this._ws = new settings.WebSocket(url);
             // Ensure incoming binary messages are not Blobs
             this._ws.binaryType = 'arraybuffer';
@@ -9790,7 +9791,7 @@ var Private;
 
 /***/ }),
 
-/***/ 8707:
+/***/ 48644:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -9817,9 +9818,9 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.KernelShellFutureHandler = exports.KernelControlFutureHandler = exports.KernelFutureHandler = void 0;
-const coreutils_1 = __webpack_require__(5082);
-const disposable_1 = __webpack_require__(725);
-const KernelMessage = __importStar(__webpack_require__(5253));
+const coreutils_1 = __webpack_require__(95082);
+const disposable_1 = __webpack_require__(70725);
+const KernelMessage = __importStar(__webpack_require__(66571));
 /**
  * Implementation of a kernel future.
  *
@@ -10211,7 +10212,7 @@ var Private;
 
 /***/ }),
 
-/***/ 2604:
+/***/ 81707:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -10242,20 +10243,20 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.KernelConnection = exports.KernelAPI = exports.KernelMessage = exports.Kernel = void 0;
 // Namespace some of our modules for convenience and backwards compatibility.
-const Kernel = __importStar(__webpack_require__(8868));
+const Kernel = __importStar(__webpack_require__(12729));
 exports.Kernel = Kernel;
-const KernelMessage = __importStar(__webpack_require__(5253));
+const KernelMessage = __importStar(__webpack_require__(66571));
 exports.KernelMessage = KernelMessage;
-const KernelAPI = __importStar(__webpack_require__(2183));
+const KernelAPI = __importStar(__webpack_require__(92521));
 exports.KernelAPI = KernelAPI;
-const default_1 = __webpack_require__(9883);
+const default_1 = __webpack_require__(77335);
 Object.defineProperty(exports, "KernelConnection", ({ enumerable: true, get: function () { return default_1.KernelConnection; } }));
-__exportStar(__webpack_require__(1825), exports);
+__exportStar(__webpack_require__(47319), exports);
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 8868:
+/***/ 12729:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -10266,7 +10267,7 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 
 /***/ }),
 
-/***/ 1825:
+/***/ 47319:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -10274,13 +10275,13 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 // Distributed under the terms of the Modified BSD License.
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.KernelManager = void 0;
-const algorithm_1 = __webpack_require__(5259);
-const polling_1 = __webpack_require__(3114);
+const algorithm_1 = __webpack_require__(35259);
+const polling_1 = __webpack_require__(23114);
 const signaling_1 = __webpack_require__(4016);
-const __1 = __webpack_require__(6240);
-const basemanager_1 = __webpack_require__(591);
-const restapi_1 = __webpack_require__(2183);
-const default_1 = __webpack_require__(9883);
+const __1 = __webpack_require__(49623);
+const basemanager_1 = __webpack_require__(66277);
+const restapi_1 = __webpack_require__(92521);
+const default_1 = __webpack_require__(77335);
 /**
  * An implementation of a kernel manager.
  */
@@ -10540,7 +10541,7 @@ exports.KernelManager = KernelManager;
 
 /***/ }),
 
-/***/ 5253:
+/***/ 66571:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -10548,7 +10549,7 @@ exports.KernelManager = KernelManager;
 // Distributed under the terms of the Modified BSD License.
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.isInputReplyMsg = exports.isInputRequestMsg = exports.isDebugReplyMsg = exports.isDebugRequestMsg = exports.isExecuteReplyMsg = exports.isInfoRequestMsg = exports.isCommMsgMsg = exports.isCommCloseMsg = exports.isCommOpenMsg = exports.isDebugEventMsg = exports.isClearOutputMsg = exports.isStatusMsg = exports.isErrorMsg = exports.isExecuteResultMsg = exports.isExecuteInputMsg = exports.isUpdateDisplayDataMsg = exports.isDisplayDataMsg = exports.isStreamMsg = exports.createMessage = void 0;
-const coreutils_1 = __webpack_require__(5082);
+const coreutils_1 = __webpack_require__(95082);
 function createMessage(options) {
     var _a, _b, _c, _d, _e;
     return {
@@ -10719,7 +10720,7 @@ exports.isInputReplyMsg = isInputReplyMsg;
 
 /***/ }),
 
-/***/ 2183:
+/***/ 92521:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -10727,9 +10728,9 @@ exports.isInputReplyMsg = isInputReplyMsg;
 // Distributed under the terms of the Modified BSD License.
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.getKernelModel = exports.shutdownKernel = exports.interruptKernel = exports.restartKernel = exports.startNew = exports.listRunning = exports.KERNEL_SERVICE_URL = void 0;
-const serverconnection_1 = __webpack_require__(8477);
-const coreutils_1 = __webpack_require__(9622);
-const validate_1 = __webpack_require__(6512);
+const serverconnection_1 = __webpack_require__(19813);
+const coreutils_1 = __webpack_require__(79622);
+const validate_1 = __webpack_require__(47053);
 /**
  * The url for the kernel service.
  */
@@ -10880,7 +10881,7 @@ exports.getKernelModel = getKernelModel;
 
 /***/ }),
 
-/***/ 6002:
+/***/ 86631:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -10995,7 +10996,7 @@ function serializeBinary(msg) {
 
 /***/ }),
 
-/***/ 6512:
+/***/ 47053:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -11003,7 +11004,7 @@ function serializeBinary(msg) {
 // Distributed under the terms of the Modified BSD License.
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.validateModels = exports.validateModel = exports.validateMessage = void 0;
-const validate_1 = __webpack_require__(6901);
+const validate_1 = __webpack_require__(99677);
 /**
  * Required fields for `IKernelHeader`.
  */
@@ -11098,7 +11099,7 @@ exports.validateModels = validateModels;
 
 /***/ }),
 
-/***/ 2902:
+/***/ 28769:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -11128,16 +11129,16 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.KernelSpecAPI = exports.KernelSpec = void 0;
-const KernelSpec = __importStar(__webpack_require__(9453));
+const KernelSpec = __importStar(__webpack_require__(78342));
 exports.KernelSpec = KernelSpec;
-const KernelSpecAPI = __importStar(__webpack_require__(3415));
+const KernelSpecAPI = __importStar(__webpack_require__(50114));
 exports.KernelSpecAPI = KernelSpecAPI;
-__exportStar(__webpack_require__(4936), exports);
+__exportStar(__webpack_require__(84726), exports);
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 9453:
+/***/ 78342:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -11148,7 +11149,7 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 
 /***/ }),
 
-/***/ 4936:
+/***/ 84726:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -11175,11 +11176,11 @@ var __importStar = (this && this.__importStar) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.KernelSpecManager = void 0;
-const coreutils_1 = __webpack_require__(5082);
-const polling_1 = __webpack_require__(3114);
+const coreutils_1 = __webpack_require__(95082);
+const polling_1 = __webpack_require__(23114);
 const signaling_1 = __webpack_require__(4016);
-const restapi = __importStar(__webpack_require__(3415));
-const basemanager_1 = __webpack_require__(591);
+const restapi = __importStar(__webpack_require__(50114));
+const basemanager_1 = __webpack_require__(66277);
 /**
  * An implementation of a kernel spec manager.
  */
@@ -11290,7 +11291,7 @@ exports.KernelSpecManager = KernelSpecManager;
 
 /***/ }),
 
-/***/ 3415:
+/***/ 50114:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -11298,9 +11299,9 @@ exports.KernelSpecManager = KernelSpecManager;
 // Distributed under the terms of the Modified BSD License.
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.getSpecs = void 0;
-const serverconnection_1 = __webpack_require__(8477);
-const validate_1 = __webpack_require__(3103);
-const coreutils_1 = __webpack_require__(9622);
+const serverconnection_1 = __webpack_require__(19813);
+const validate_1 = __webpack_require__(31175);
+const coreutils_1 = __webpack_require__(79622);
 /**
  * The url for the kernelspec service.
  */
@@ -11331,7 +11332,7 @@ exports.getSpecs = getSpecs;
 
 /***/ }),
 
-/***/ 3103:
+/***/ 31175:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -11339,7 +11340,7 @@ exports.getSpecs = getSpecs;
 // Distributed under the terms of the Modified BSD License.
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.validateSpecModels = exports.validateSpecModel = void 0;
-const validate_1 = __webpack_require__(6901);
+const validate_1 = __webpack_require__(99677);
 /**
  * Validate a server kernelspec model to a client side model.
  */
@@ -11414,7 +11415,7 @@ exports.validateSpecModels = validateSpecModels;
 
 /***/ }),
 
-/***/ 3079:
+/***/ 9473:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -11423,16 +11424,16 @@ exports.validateSpecModels = validateSpecModels;
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.ServiceManager = void 0;
 const signaling_1 = __webpack_require__(4016);
-const builder_1 = __webpack_require__(3227);
-const nbconvert_1 = __webpack_require__(4574);
-const contents_1 = __webpack_require__(3644);
-const kernelspec_1 = __webpack_require__(2902);
-const session_1 = __webpack_require__(1874);
-const setting_1 = __webpack_require__(2726);
-const terminal_1 = __webpack_require__(3247);
-const serverconnection_1 = __webpack_require__(8477);
-const workspace_1 = __webpack_require__(5399);
-const kernel_1 = __webpack_require__(2604);
+const builder_1 = __webpack_require__(84009);
+const nbconvert_1 = __webpack_require__(43653);
+const contents_1 = __webpack_require__(35916);
+const kernelspec_1 = __webpack_require__(28769);
+const session_1 = __webpack_require__(46922);
+const setting_1 = __webpack_require__(57167);
+const terminal_1 = __webpack_require__(55789);
+const serverconnection_1 = __webpack_require__(19813);
+const workspace_1 = __webpack_require__(11828);
+const kernel_1 = __webpack_require__(81707);
 /**
  * A Jupyter services manager.
  */
@@ -11518,7 +11519,7 @@ exports.ServiceManager = ServiceManager;
 
 /***/ }),
 
-/***/ 4574:
+/***/ 43653:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -11526,8 +11527,8 @@ exports.ServiceManager = ServiceManager;
 // Distributed under the terms of the Modified BSD License.
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.NbConvertManager = void 0;
-const coreutils_1 = __webpack_require__(9622);
-const serverconnection_1 = __webpack_require__(8477);
+const coreutils_1 = __webpack_require__(79622);
+const serverconnection_1 = __webpack_require__(19813);
 /**
  * The url for the lab nbconvert service.
  */
@@ -11570,16 +11571,17 @@ exports.NbConvertManager = NbConvertManager;
 
 /***/ }),
 
-/***/ 8477:
+/***/ 19813:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
+/* provided dependency */ var process = __webpack_require__(34155);
 
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
 var _a, _b, _c;
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.ServerConnection = void 0;
-const coreutils_1 = __webpack_require__(9622);
+const coreutils_1 = __webpack_require__(79622);
 let FETCH;
 let HEADERS;
 let REQUEST;
@@ -11588,11 +11590,11 @@ if (typeof window === 'undefined') {
     // Mangle the require statements so it does not get picked up in the
     // browser assets.
     /* tslint:disable */
-    const fetchMod = __webpack_require__(1763);
+    const fetchMod = __webpack_require__(39536);
     FETCH = (_a = __webpack_require__.g.fetch) !== null && _a !== void 0 ? _a : fetchMod;
     REQUEST = (_b = __webpack_require__.g.Request) !== null && _b !== void 0 ? _b : fetchMod.Request;
     HEADERS = (_c = __webpack_require__.g.Headers) !== null && _c !== void 0 ? _c : fetchMod.Headers;
-    WEBSOCKET = __webpack_require__(2447);
+    WEBSOCKET = __webpack_require__(94664);
     /* tslint:enable */
 }
 else {
@@ -11803,7 +11805,7 @@ var Private;
 
 /***/ }),
 
-/***/ 5410:
+/***/ 44184:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -11812,9 +11814,9 @@ var Private;
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.SessionConnection = void 0;
 const signaling_1 = __webpack_require__(4016);
-const __1 = __webpack_require__(6240);
-const restapi_1 = __webpack_require__(6807);
-const coreutils_1 = __webpack_require__(5082);
+const __1 = __webpack_require__(49623);
+const restapi_1 = __webpack_require__(62545);
+const coreutils_1 = __webpack_require__(95082);
 /**
  * Session object for accessing the session REST api. The session
  * should be used to start kernels and then shut them down -- for
@@ -12158,7 +12160,7 @@ exports.SessionConnection = SessionConnection;
 
 /***/ }),
 
-/***/ 1874:
+/***/ 46922:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -12188,16 +12190,16 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.SessionAPI = exports.Session = void 0;
-const Session = __importStar(__webpack_require__(1372));
+const Session = __importStar(__webpack_require__(48788));
 exports.Session = Session;
-const SessionAPI = __importStar(__webpack_require__(6807));
+const SessionAPI = __importStar(__webpack_require__(62545));
 exports.SessionAPI = SessionAPI;
-__exportStar(__webpack_require__(7847), exports);
+__exportStar(__webpack_require__(66222), exports);
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 7847:
+/***/ 66222:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -12205,13 +12207,13 @@ __exportStar(__webpack_require__(7847), exports);
 // Distributed under the terms of the Modified BSD License.
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.SessionManager = void 0;
-const algorithm_1 = __webpack_require__(5259);
-const polling_1 = __webpack_require__(3114);
+const algorithm_1 = __webpack_require__(35259);
+const polling_1 = __webpack_require__(23114);
 const signaling_1 = __webpack_require__(4016);
-const serverconnection_1 = __webpack_require__(8477);
-const basemanager_1 = __webpack_require__(591);
-const default_1 = __webpack_require__(5410);
-const restapi_1 = __webpack_require__(6807);
+const serverconnection_1 = __webpack_require__(19813);
+const basemanager_1 = __webpack_require__(66277);
+const default_1 = __webpack_require__(44184);
+const restapi_1 = __webpack_require__(62545);
 /**
  * An implementation of a session manager.
  */
@@ -12487,7 +12489,7 @@ exports.SessionManager = SessionManager;
 
 /***/ }),
 
-/***/ 6807:
+/***/ 62545:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -12495,9 +12497,9 @@ exports.SessionManager = SessionManager;
 // Distributed under the terms of the Modified BSD License.
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.updateSession = exports.startSession = exports.getSessionModel = exports.shutdownSession = exports.getSessionUrl = exports.listRunning = exports.SESSION_SERVICE_URL = void 0;
-const serverconnection_1 = __webpack_require__(8477);
-const coreutils_1 = __webpack_require__(9622);
-const validate_1 = __webpack_require__(9145);
+const serverconnection_1 = __webpack_require__(19813);
+const coreutils_1 = __webpack_require__(79622);
+const validate_1 = __webpack_require__(64729);
 /**
  * The url for the session service.
  */
@@ -12613,7 +12615,7 @@ exports.updateSession = updateSession;
 
 /***/ }),
 
-/***/ 1372:
+/***/ 48788:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -12624,7 +12626,7 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 
 /***/ }),
 
-/***/ 9145:
+/***/ 64729:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -12632,8 +12634,8 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 // Distributed under the terms of the Modified BSD License.
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.validateModels = exports.updateLegacySessionModel = exports.validateModel = void 0;
-const validate_1 = __webpack_require__(6512);
-const validate_2 = __webpack_require__(6901);
+const validate_1 = __webpack_require__(47053);
+const validate_2 = __webpack_require__(99677);
 /**
  * Validate an `Session.IModel` object.
  */
@@ -12671,7 +12673,7 @@ exports.validateModels = validateModels;
 
 /***/ }),
 
-/***/ 2726:
+/***/ 57167:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -12679,9 +12681,9 @@ exports.validateModels = validateModels;
 // Distributed under the terms of the Modified BSD License.
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.SettingManager = void 0;
-const coreutils_1 = __webpack_require__(9622);
-const statedb_1 = __webpack_require__(7266);
-const serverconnection_1 = __webpack_require__(8477);
+const coreutils_1 = __webpack_require__(79622);
+const statedb_1 = __webpack_require__(17266);
+const serverconnection_1 = __webpack_require__(19813);
 /**
  * The url for the lab settings service.
  */
@@ -12787,7 +12789,7 @@ var Private;
 
 /***/ }),
 
-/***/ 2447:
+/***/ 94664:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -12797,7 +12799,7 @@ exports["default"] = WebSocket;
 
 /***/ }),
 
-/***/ 5982:
+/***/ 27681:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -12805,11 +12807,11 @@ exports["default"] = WebSocket;
 // Distributed under the terms of the Modified BSD License.
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.TerminalConnection = void 0;
-const coreutils_1 = __webpack_require__(9622);
-const coreutils_2 = __webpack_require__(5082);
+const coreutils_1 = __webpack_require__(79622);
+const coreutils_2 = __webpack_require__(95082);
 const signaling_1 = __webpack_require__(4016);
-const __1 = __webpack_require__(6240);
-const restapi_1 = __webpack_require__(3286);
+const __1 = __webpack_require__(49623);
+const restapi_1 = __webpack_require__(84615);
 /**
  * An implementation of a terminal interface.
  */
@@ -13143,7 +13145,7 @@ var Private;
 
 /***/ }),
 
-/***/ 3247:
+/***/ 55789:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -13173,16 +13175,16 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.TerminalAPI = exports.Terminal = void 0;
-const Terminal = __importStar(__webpack_require__(8353));
+const Terminal = __importStar(__webpack_require__(1775));
 exports.Terminal = Terminal;
-const TerminalAPI = __importStar(__webpack_require__(3286));
+const TerminalAPI = __importStar(__webpack_require__(84615));
 exports.TerminalAPI = TerminalAPI;
-__exportStar(__webpack_require__(1546), exports);
+__exportStar(__webpack_require__(70811), exports);
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 1546:
+/***/ 70811:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -13190,12 +13192,6994 @@ __exportStar(__webpack_require__(1546), exports);
 // Distributed under the terms of the Modified BSD License.
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.TerminalManager = void 0;
-const algorithm_1 = __webpack_require__(5259);
-const polling_1 = __webpack_require__(3114);
+const algorithm_1 = __webpack_require__(35259);
+const polling_1 = __webpack_require__(23114);
 const signaling_1 = __webpack_require__(4016);
-const __1 = __webpack_require__(6240);
-const basemanager_1 = __webpack_require__(591);
-const restapi_1 = __webpack_require__(3286);
+const __1 = __webpack_require__(49623);
+const basemanager_1 = __webpack_require__(66277);
+const restapi_1 = __webpack_require__(84615);
+const default_1 = __webpack_require__(27681);
+/**
+ * A terminal session manager.
+ */
+class TerminalManager extends basemanager_1.BaseManager {
+    /**
+     * Construct a new terminal manager.
+     */
+    constructor(options = {}) {
+        var _a;
+        super(options);
+        this._isReady = false;
+        // As an optimization, we unwrap the models to just store the names.
+        this._names = [];
+        this._terminalConnections = new Set();
+        this._runningChanged = new signaling_1.Signal(this);
+        this._connectionFailure = new signaling_1.Signal(this);
+        // Check if terminals are available
+        if (!this.isAvailable()) {
+            this._ready = Promise.reject('Terminals unavailable');
+            this._ready.catch(_ => undefined);
+            return;
+        }
+        // Start polling with exponential backoff.
+        this._pollModels = new polling_1.Poll({
+            auto: false,
+            factory: () => this.requestRunning(),
+            frequency: {
+                interval: 10 * 1000,
+                backoff: true,
+                max: 300 * 1000
+            },
+            name: `@jupyterlab/services:TerminalManager#models`,
+            standby: (_a = options.standby) !== null && _a !== void 0 ? _a : 'when-hidden'
+        });
+        // Initialize internal data.
+        this._ready = (async () => {
+            await this._pollModels.start();
+            await this._pollModels.tick;
+            this._isReady = true;
+        })();
+    }
+    /**
+     * Test whether the manager is ready.
+     */
+    get isReady() {
+        return this._isReady;
+    }
+    /**
+     * A promise that fulfills when the manager is ready.
+     */
+    get ready() {
+        return this._ready;
+    }
+    /**
+     * A signal emitted when the running terminals change.
+     */
+    get runningChanged() {
+        return this._runningChanged;
+    }
+    /**
+     * A signal emitted when there is a connection failure.
+     */
+    get connectionFailure() {
+        return this._connectionFailure;
+    }
+    /**
+     * Dispose of the resources used by the manager.
+     */
+    dispose() {
+        if (this.isDisposed) {
+            return;
+        }
+        this._names.length = 0;
+        this._terminalConnections.forEach(x => x.dispose());
+        this._pollModels.dispose();
+        super.dispose();
+    }
+    /**
+     * Whether the terminal service is available.
+     */
+    isAvailable() {
+        return restapi_1.isAvailable();
+    }
+    /*
+     * Connect to a running terminal.
+     *
+     * @param options - The options used to connect to the terminal.
+     *
+     * @returns The new terminal connection instance.
+     *
+     * #### Notes
+     * The manager `serverSettings` will be used.
+     */
+    connectTo(options) {
+        const terminalConnection = new default_1.TerminalConnection(Object.assign(Object.assign({}, options), { serverSettings: this.serverSettings }));
+        this._onStarted(terminalConnection);
+        if (!this._names.includes(options.model.name)) {
+            // We trust the user to connect to an existing session, but we verify
+            // asynchronously.
+            void this.refreshRunning().catch(() => {
+                /* no-op */
+            });
+        }
+        return terminalConnection;
+    }
+    /**
+     * Create an iterator over the most recent running terminals.
+     *
+     * @returns A new iterator over the running terminals.
+     */
+    running() {
+        return algorithm_1.iter(this._models);
+    }
+    /**
+     * Force a refresh of the running terminals.
+     *
+     * @returns A promise that with the list of running terminals.
+     *
+     * #### Notes
+     * This is intended to be called only in response to a user action,
+     * since the manager maintains its internal state.
+     */
+    async refreshRunning() {
+        await this._pollModels.refresh();
+        await this._pollModels.tick;
+    }
+    /**
+     * Create a new terminal session.
+     *
+     * @param options - The options used to create the terminal.
+     *
+     * @returns A promise that resolves with the terminal connection instance.
+     *
+     * #### Notes
+     * The manager `serverSettings` will be used unless overridden in the
+     * options.
+     */
+    async startNew(options) {
+        const model = await restapi_1.startNew(this.serverSettings, options === null || options === void 0 ? void 0 : options.name, options === null || options === void 0 ? void 0 : options.cwd);
+        await this.refreshRunning();
+        return this.connectTo({ model });
+    }
+    /**
+     * Shut down a terminal session by name.
+     */
+    async shutdown(name) {
+        await restapi_1.shutdownTerminal(name, this.serverSettings);
+        await this.refreshRunning();
+    }
+    /**
+     * Shut down all terminal sessions.
+     *
+     * @returns A promise that resolves when all of the sessions are shut down.
+     */
+    async shutdownAll() {
+        // Update the list of models to make sure our list is current.
+        await this.refreshRunning();
+        // Shut down all models.
+        await Promise.all(this._names.map(name => restapi_1.shutdownTerminal(name, this.serverSettings)));
+        // Update the list of models to clear out our state.
+        await this.refreshRunning();
+    }
+    /**
+     * Execute a request to the server to poll running terminals and update state.
+     */
+    async requestRunning() {
+        var _a, _b;
+        let models;
+        try {
+            models = await restapi_1.listRunning(this.serverSettings);
+        }
+        catch (err) {
+            // Handle network errors, as well as cases where we are on a
+            // JupyterHub and the server is not running. JupyterHub returns a
+            // 503 (<2.0) or 424 (>2.0) in that case.
+            if (err instanceof __1.ServerConnection.NetworkError ||
+                ((_a = err.response) === null || _a === void 0 ? void 0 : _a.status) === 503 ||
+                ((_b = err.response) === null || _b === void 0 ? void 0 : _b.status) === 424) {
+                this._connectionFailure.emit(err);
+            }
+            throw err;
+        }
+        if (this.isDisposed) {
+            return;
+        }
+        const names = models.map(({ name }) => name).sort();
+        if (names === this._names) {
+            // Identical models list, so just return
+            return;
+        }
+        this._names = names;
+        this._terminalConnections.forEach(tc => {
+            if (!names.includes(tc.name)) {
+                tc.dispose();
+            }
+        });
+        this._runningChanged.emit(this._models);
+    }
+    /**
+     * Handle a session starting.
+     */
+    _onStarted(terminalConnection) {
+        this._terminalConnections.add(terminalConnection);
+        terminalConnection.disposed.connect(this._onDisposed, this);
+    }
+    /**
+     * Handle a session terminating.
+     */
+    _onDisposed(terminalConnection) {
+        this._terminalConnections.delete(terminalConnection);
+        // Update the running models to make sure we reflect the server state
+        void this.refreshRunning().catch(() => {
+            /* no-op */
+        });
+    }
+    get _models() {
+        return this._names.map(name => {
+            return { name };
+        });
+    }
+}
+exports.TerminalManager = TerminalManager;
+//# sourceMappingURL=manager.js.map
+
+/***/ }),
+
+/***/ 84615:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.shutdownTerminal = exports.listRunning = exports.startNew = exports.isAvailable = exports.TERMINAL_SERVICE_URL = void 0;
+const coreutils_1 = __webpack_require__(79622);
+const serverconnection_1 = __webpack_require__(19813);
+/**
+ * The url for the terminal service.
+ */
+exports.TERMINAL_SERVICE_URL = 'api/terminals';
+/**
+ * Whether the terminal service is available.
+ */
+function isAvailable() {
+    const available = String(coreutils_1.PageConfig.getOption('terminalsAvailable'));
+    return available.toLowerCase() === 'true';
+}
+exports.isAvailable = isAvailable;
+/**
+ * Start a new terminal session.
+ *
+ * @param settings - The server settings to use.
+ *
+ * @param name - The name of the target terminal.
+ *
+ * @param cwd - The path in which the terminal will start.
+ *
+ * @returns A promise that resolves with the session model.
+ */
+async function startNew(settings = serverconnection_1.ServerConnection.makeSettings(), name, cwd) {
+    Private.errorIfNotAvailable();
+    const url = coreutils_1.URLExt.join(settings.baseUrl, exports.TERMINAL_SERVICE_URL);
+    const init = {
+        method: 'POST',
+        body: JSON.stringify({ name, cwd })
+    };
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, init, settings);
+    if (response.status !== 200) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+    const data = await response.json();
+    // TODO: Validate model
+    return data;
+}
+exports.startNew = startNew;
+/**
+ * List the running terminal sessions.
+ *
+ * @param settings - The server settings to use.
+ *
+ * @returns A promise that resolves with the list of running session models.
+ */
+async function listRunning(settings = serverconnection_1.ServerConnection.makeSettings()) {
+    Private.errorIfNotAvailable();
+    const url = coreutils_1.URLExt.join(settings.baseUrl, exports.TERMINAL_SERVICE_URL);
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, {}, settings);
+    if (response.status !== 200) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+    const data = await response.json();
+    if (!Array.isArray(data)) {
+        throw new Error('Invalid terminal list');
+    }
+    // TODO: validate each model
+    return data;
+}
+exports.listRunning = listRunning;
+/**
+ * Shut down a terminal session by name.
+ *
+ * @param name - The name of the target session.
+ *
+ * @param settings - The server settings to use.
+ *
+ * @returns A promise that resolves when the session is shut down.
+ */
+async function shutdownTerminal(name, settings = serverconnection_1.ServerConnection.makeSettings()) {
+    var _a;
+    Private.errorIfNotAvailable();
+    const url = coreutils_1.URLExt.join(settings.baseUrl, exports.TERMINAL_SERVICE_URL, name);
+    const init = { method: 'DELETE' };
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, init, settings);
+    if (response.status === 404) {
+        const data = await response.json();
+        const msg = (_a = data.message) !== null && _a !== void 0 ? _a : `The terminal session "${name}"" does not exist on the server`;
+        console.warn(msg);
+    }
+    else if (response.status !== 204) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+}
+exports.shutdownTerminal = shutdownTerminal;
+var Private;
+(function (Private) {
+    /**
+     * Throw an error if terminals are not available.
+     */
+    function errorIfNotAvailable() {
+        if (!isAvailable()) {
+            throw new Error('Terminals Unavailable');
+        }
+    }
+    Private.errorIfNotAvailable = errorIfNotAvailable;
+})(Private || (Private = {}));
+//# sourceMappingURL=restapi.js.map
+
+/***/ }),
+
+/***/ 1775:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.isAvailable = void 0;
+const restapi_1 = __webpack_require__(84615);
+Object.defineProperty(exports, "isAvailable", ({ enumerable: true, get: function () { return restapi_1.isAvailable; } }));
+//# sourceMappingURL=terminal.js.map
+
+/***/ }),
+
+/***/ 99677:
+/***/ ((__unused_webpack_module, exports) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.validateProperty = void 0;
+/**
+ * Validate a property as being on an object, and optionally
+ * of a given type and among a given set of values.
+ */
+function validateProperty(object, name, typeName, values = []) {
+    if (!object.hasOwnProperty(name)) {
+        throw Error(`Missing property '${name}'`);
+    }
+    const value = object[name];
+    if (typeName !== void 0) {
+        let valid = true;
+        switch (typeName) {
+            case 'array':
+                valid = Array.isArray(value);
+                break;
+            case 'object':
+                valid = typeof value !== 'undefined';
+                break;
+            default:
+                valid = typeof value === typeName;
+        }
+        if (!valid) {
+            throw new Error(`Property '${name}' is not of type '${typeName}'`);
+        }
+        if (values.length > 0) {
+            let valid = true;
+            switch (typeName) {
+                case 'string':
+                case 'number':
+                case 'boolean':
+                    valid = values.includes(value);
+                    break;
+                default:
+                    valid = values.findIndex(v => v === value) >= 0;
+                    break;
+            }
+            if (!valid) {
+                throw new Error(`Property '${name}' is not one of the valid values ${JSON.stringify(values)}`);
+            }
+        }
+    }
+}
+exports.validateProperty = validateProperty;
+//# sourceMappingURL=validate.js.map
+
+/***/ }),
+
+/***/ 11828:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.WorkspaceManager = void 0;
+const coreutils_1 = __webpack_require__(79622);
+const statedb_1 = __webpack_require__(17266);
+const serverconnection_1 = __webpack_require__(19813);
+/**
+ * The url for the lab workspaces service.
+ */
+const SERVICE_WORKSPACES_URL = 'api/workspaces';
+/**
+ * The workspaces API service manager.
+ */
+class WorkspaceManager extends statedb_1.DataConnector {
+    /**
+     * Create a new workspace manager.
+     */
+    constructor(options = {}) {
+        var _a;
+        super();
+        this.serverSettings = (_a = options.serverSettings) !== null && _a !== void 0 ? _a : serverconnection_1.ServerConnection.makeSettings();
+    }
+    /**
+     * Fetch a workspace.
+     *
+     * @param id - The workspace's ID.
+     *
+     * @returns A promise that resolves if successful.
+     */
+    async fetch(id) {
+        const { serverSettings } = this;
+        const { baseUrl, appUrl } = serverSettings;
+        const { makeRequest, ResponseError } = serverconnection_1.ServerConnection;
+        const base = baseUrl + appUrl;
+        const url = Private.url(base, id);
+        const response = await makeRequest(url, {}, serverSettings);
+        if (response.status !== 200) {
+            const err = await ResponseError.create(response);
+            throw err;
+        }
+        return response.json();
+    }
+    /**
+     * Fetch the list of workspace IDs that exist on the server.
+     *
+     * @returns A promise that resolves if successful.
+     */
+    async list() {
+        const { serverSettings } = this;
+        const { baseUrl, appUrl } = serverSettings;
+        const { makeRequest, ResponseError } = serverconnection_1.ServerConnection;
+        const base = baseUrl + appUrl;
+        const url = Private.url(base, '');
+        const response = await makeRequest(url, {}, serverSettings);
+        if (response.status !== 200) {
+            const err = await ResponseError.create(response);
+            throw err;
+        }
+        const result = await response.json();
+        return result.workspaces;
+    }
+    /**
+     * Remove a workspace from the server.
+     *
+     * @param id - The workspaces's ID.
+     *
+     * @returns A promise that resolves if successful.
+     */
+    async remove(id) {
+        const { serverSettings } = this;
+        const { baseUrl, appUrl } = serverSettings;
+        const { makeRequest, ResponseError } = serverconnection_1.ServerConnection;
+        const base = baseUrl + appUrl;
+        const url = Private.url(base, id);
+        const init = { method: 'DELETE' };
+        const response = await makeRequest(url, init, serverSettings);
+        if (response.status !== 204) {
+            const err = await ResponseError.create(response);
+            throw err;
+        }
+    }
+    /**
+     * Save a workspace.
+     *
+     * @param id - The workspace's ID.
+     *
+     * @param workspace - The workspace being saved.
+     *
+     * @returns A promise that resolves if successful.
+     */
+    async save(id, workspace) {
+        const { serverSettings } = this;
+        const { baseUrl, appUrl } = serverSettings;
+        const { makeRequest, ResponseError } = serverconnection_1.ServerConnection;
+        const base = baseUrl + appUrl;
+        const url = Private.url(base, id);
+        const init = { body: JSON.stringify(workspace), method: 'PUT' };
+        const response = await makeRequest(url, init, serverSettings);
+        if (response.status !== 204) {
+            const err = await ResponseError.create(response);
+            throw err;
+        }
+    }
+}
+exports.WorkspaceManager = WorkspaceManager;
+/**
+ * A namespace for private data.
+ */
+var Private;
+(function (Private) {
+    /**
+     * Get the url for a workspace.
+     */
+    function url(base, id) {
+        return coreutils_1.URLExt.join(base, SERVICE_WORKSPACES_URL, id);
+    }
+    Private.url = url;
+})(Private || (Private = {}));
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 50591:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.BaseManager = void 0;
+const signaling_1 = __webpack_require__(4016);
+const serverconnection_1 = __webpack_require__(28477);
+class BaseManager {
+    constructor(options) {
+        var _a;
+        this._isDisposed = false;
+        this._disposed = new signaling_1.Signal(this);
+        this.serverSettings = (_a = options.serverSettings) !== null && _a !== void 0 ? _a : serverconnection_1.ServerConnection.makeSettings();
+    }
+    /**
+     * A signal emitted when the delegate is disposed.
+     */
+    get disposed() {
+        return this._disposed;
+    }
+    /**
+     * Test whether the delegate has been disposed.
+     */
+    get isDisposed() {
+        return this._isDisposed;
+    }
+    /**
+     * Dispose of the delegate and invoke the callback function.
+     */
+    dispose() {
+        if (this.isDisposed) {
+            return;
+        }
+        this._disposed.emit(undefined);
+        signaling_1.Signal.clearData(this);
+    }
+}
+exports.BaseManager = BaseManager;
+//# sourceMappingURL=basemanager.js.map
+
+/***/ }),
+
+/***/ 33227:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.BuildManager = void 0;
+const coreutils_1 = __webpack_require__(1850);
+const serverconnection_1 = __webpack_require__(28477);
+/**
+ * The url for the lab build service.
+ */
+const BUILD_SETTINGS_URL = 'api/build';
+/**
+ * The build API service manager.
+ */
+class BuildManager {
+    /**
+     * Create a new setting manager.
+     */
+    constructor(options = {}) {
+        var _a;
+        this._url = '';
+        this.serverSettings = (_a = options.serverSettings) !== null && _a !== void 0 ? _a : serverconnection_1.ServerConnection.makeSettings();
+        const { baseUrl, appUrl } = this.serverSettings;
+        this._url = coreutils_1.URLExt.join(baseUrl, appUrl, BUILD_SETTINGS_URL);
+    }
+    /**
+     * Test whether the build service is available.
+     */
+    get isAvailable() {
+        return coreutils_1.PageConfig.getOption('buildAvailable').toLowerCase() === 'true';
+    }
+    /**
+     * Test whether to check build status automatically.
+     */
+    get shouldCheck() {
+        return coreutils_1.PageConfig.getOption('buildCheck').toLowerCase() === 'true';
+    }
+    /**
+     * Get whether the application should be built.
+     */
+    getStatus() {
+        const { _url, serverSettings } = this;
+        const promise = serverconnection_1.ServerConnection.makeRequest(_url, {}, serverSettings);
+        return promise
+            .then(response => {
+            if (response.status !== 200) {
+                throw new serverconnection_1.ServerConnection.ResponseError(response);
+            }
+            return response.json();
+        })
+            .then(data => {
+            if (typeof data.status !== 'string') {
+                throw new Error('Invalid data');
+            }
+            if (typeof data.message !== 'string') {
+                throw new Error('Invalid data');
+            }
+            return data;
+        });
+    }
+    /**
+     * Build the application.
+     */
+    build() {
+        const { _url, serverSettings } = this;
+        const init = { method: 'POST' };
+        const promise = serverconnection_1.ServerConnection.makeRequest(_url, init, serverSettings);
+        return promise.then(response => {
+            if (response.status === 400) {
+                throw new serverconnection_1.ServerConnection.ResponseError(response, 'Build aborted');
+            }
+            if (response.status !== 200) {
+                const message = `Build failed with ${response.status}.
+
+        If you are experiencing the build failure after installing an extension (or trying to include previously installed extension after updating JupyterLab) please check the extension repository for new installation instructions as many extensions migrated to the prebuilt extensions system which no longer requires rebuilding JupyterLab (but uses a different installation procedure, typically involving a package manager such as 'pip' or 'conda').
+
+        If you specifically intended to install a source extension, please run 'jupyter lab build' on the server for full output.`;
+                throw new serverconnection_1.ServerConnection.ResponseError(response, message);
+            }
+        });
+    }
+    /**
+     * Cancel an active build.
+     */
+    cancel() {
+        const { _url, serverSettings } = this;
+        const init = { method: 'DELETE' };
+        const promise = serverconnection_1.ServerConnection.makeRequest(_url, init, serverSettings);
+        return promise.then(response => {
+            if (response.status !== 204) {
+                throw new serverconnection_1.ServerConnection.ResponseError(response);
+            }
+        });
+    }
+}
+exports.BuildManager = BuildManager;
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 95077:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.ConfigWithDefaults = exports.ConfigSection = void 0;
+const coreutils_1 = __webpack_require__(1850);
+const __1 = __webpack_require__(76240);
+/**
+ * The url for the config service.
+ */
+const SERVICE_CONFIG_URL = 'api/config';
+/**
+ * The namespace for ConfigSection statics.
+ */
+var ConfigSection;
+(function (ConfigSection) {
+    /**
+     * Create a config section.
+     *
+     * @returns A Promise that is fulfilled with the config section is loaded.
+     */
+    function create(options) {
+        const section = new DefaultConfigSection(options);
+        return section.load().then(() => {
+            return section;
+        });
+    }
+    ConfigSection.create = create;
+})(ConfigSection = exports.ConfigSection || (exports.ConfigSection = {}));
+/**
+ * Implementation of the Configurable data section.
+ */
+class DefaultConfigSection {
+    /**
+     * Construct a new config section.
+     */
+    constructor(options) {
+        var _a;
+        this._url = 'unknown';
+        const settings = (this.serverSettings = (_a = options.serverSettings) !== null && _a !== void 0 ? _a : __1.ServerConnection.makeSettings());
+        this._url = coreutils_1.URLExt.join(settings.baseUrl, SERVICE_CONFIG_URL, encodeURIComponent(options.name));
+    }
+    /**
+     * Get the data for this section.
+     */
+    get data() {
+        return this._data;
+    }
+    /**
+     * Load the initial data for this section.
+     *
+     * #### Notes
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/config).
+     *
+     * The promise is fulfilled on a valid response and rejected otherwise.
+     */
+    async load() {
+        const response = await __1.ServerConnection.makeRequest(this._url, {}, this.serverSettings);
+        if (response.status !== 200) {
+            const err = await __1.ServerConnection.ResponseError.create(response);
+            throw err;
+        }
+        this._data = await response.json();
+    }
+    /**
+     * Modify the stored config values.
+     *
+     * #### Notes
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/config).
+     *
+     * The promise is fulfilled on a valid response and rejected otherwise.
+     *
+     * Updates the local data immediately, sends the change to the server,
+     * and updates the local data with the response, and fulfils the promise
+     * with that data.
+     */
+    async update(newdata) {
+        this._data = Object.assign(Object.assign({}, this._data), newdata);
+        const init = {
+            method: 'PATCH',
+            body: JSON.stringify(newdata)
+        };
+        const response = await __1.ServerConnection.makeRequest(this._url, init, this.serverSettings);
+        if (response.status !== 200) {
+            const err = await __1.ServerConnection.ResponseError.create(response);
+            throw err;
+        }
+        this._data = await response.json();
+        return this._data;
+    }
+}
+/**
+ * Configurable object with defaults.
+ */
+class ConfigWithDefaults {
+    /**
+     * Create a new config with defaults.
+     */
+    constructor(options) {
+        var _a, _b;
+        this._className = '';
+        this._section = options.section;
+        this._defaults = (_a = options.defaults) !== null && _a !== void 0 ? _a : {};
+        this._className = (_b = options.className) !== null && _b !== void 0 ? _b : '';
+    }
+    /**
+     * Get data from the config section or fall back to defaults.
+     */
+    get(key) {
+        const data = this._classData();
+        return key in data ? data[key] : this._defaults[key];
+    }
+    /**
+     * Set a config value.
+     *
+     * #### Notes
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/config).
+     *
+     * The promise is fulfilled on a valid response and rejected otherwise.
+     *
+     * Sends the update to the server, and changes our local copy of the data
+     * immediately.
+     */
+    set(key, value) {
+        const d = {};
+        d[key] = value;
+        if (this._className) {
+            const d2 = {};
+            d2[this._className] = d;
+            return this._section.update(d2);
+        }
+        else {
+            return this._section.update(d);
+        }
+    }
+    /**
+     * Get data from the Section with our classname, if available.
+     *
+     * #### Notes
+     * If we have no classname, get all of the data in the Section
+     */
+    _classData() {
+        const data = this._section.data;
+        if (this._className && this._className in data) {
+            return data[this._className];
+        }
+        return data;
+    }
+}
+exports.ConfigWithDefaults = ConfigWithDefaults;
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 63644:
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.Drive = exports.ContentsManager = exports.Contents = void 0;
+const coreutils_1 = __webpack_require__(1850);
+const algorithm_1 = __webpack_require__(35259);
+const signaling_1 = __webpack_require__(4016);
+const __1 = __webpack_require__(76240);
+const validate = __importStar(__webpack_require__(65460));
+/**
+ * The url for the default drive service.
+ */
+const SERVICE_DRIVE_URL = 'api/contents';
+/**
+ * The url for the file access.
+ */
+const FILES_URL = 'files';
+/**
+ * A namespace for contents interfaces.
+ */
+var Contents;
+(function (Contents) {
+    /**
+     * Validates an IModel, throwing an error if it does not pass.
+     */
+    function validateContentsModel(contents) {
+        validate.validateContentsModel(contents);
+    }
+    Contents.validateContentsModel = validateContentsModel;
+    /**
+     * Validates an ICheckpointModel, throwing an error if it does not pass.
+     */
+    function validateCheckpointModel(checkpoint) {
+        validate.validateCheckpointModel(checkpoint);
+    }
+    Contents.validateCheckpointModel = validateCheckpointModel;
+})(Contents = exports.Contents || (exports.Contents = {}));
+/**
+ * A contents manager that passes file operations to the server.
+ * Multiple servers implementing the `IDrive` interface can be
+ * attached to the contents manager, so that the same session can
+ * perform file operations on multiple backends.
+ *
+ * This includes checkpointing with the normal file operations.
+ */
+class ContentsManager {
+    /**
+     * Construct a new contents manager object.
+     *
+     * @param options - The options used to initialize the object.
+     */
+    constructor(options = {}) {
+        var _a, _b;
+        this._isDisposed = false;
+        this._additionalDrives = new Map();
+        this._fileChanged = new signaling_1.Signal(this);
+        const serverSettings = (this.serverSettings = (_a = options.serverSettings) !== null && _a !== void 0 ? _a : __1.ServerConnection.makeSettings());
+        this._defaultDrive = (_b = options.defaultDrive) !== null && _b !== void 0 ? _b : new Drive({ serverSettings });
+        this._defaultDrive.fileChanged.connect(this._onFileChanged, this);
+    }
+    /**
+     * A signal emitted when a file operation takes place.
+     */
+    get fileChanged() {
+        return this._fileChanged;
+    }
+    /**
+     * Test whether the manager has been disposed.
+     */
+    get isDisposed() {
+        return this._isDisposed;
+    }
+    /**
+     * Dispose of the resources held by the manager.
+     */
+    dispose() {
+        if (this.isDisposed) {
+            return;
+        }
+        this._isDisposed = true;
+        signaling_1.Signal.clearData(this);
+    }
+    /**
+     * Add an `IDrive` to the manager.
+     */
+    addDrive(drive) {
+        this._additionalDrives.set(drive.name, drive);
+        drive.fileChanged.connect(this._onFileChanged, this);
+    }
+    /**
+     * Given a path, get a ModelDB.IFactory from the
+     * relevant backend. Returns `undefined` if the backend
+     * does not provide one.
+     */
+    getModelDBFactory(path) {
+        var _a;
+        const [drive] = this._driveForPath(path);
+        return (_a = drive === null || drive === void 0 ? void 0 : drive.modelDBFactory) !== null && _a !== void 0 ? _a : null;
+    }
+    /**
+     * Given a path of the form `drive:local/portion/of/it.txt`
+     * get the local part of it.
+     *
+     * @param path: the path.
+     *
+     * @returns The local part of the path.
+     */
+    localPath(path) {
+        const parts = path.split('/');
+        const firstParts = parts[0].split(':');
+        if (firstParts.length === 1 || !this._additionalDrives.has(firstParts[0])) {
+            return coreutils_1.PathExt.removeSlash(path);
+        }
+        return coreutils_1.PathExt.join(firstParts.slice(1).join(':'), ...parts.slice(1));
+    }
+    /**
+     * Normalize a global path. Reduces '..' and '.' parts, and removes
+     * leading slashes from the local part of the path, while retaining
+     * the drive name if it exists.
+     *
+     * @param path: the path.
+     *
+     * @returns The normalized path.
+     */
+    normalize(path) {
+        const parts = path.split(':');
+        if (parts.length === 1) {
+            return coreutils_1.PathExt.normalize(path);
+        }
+        return `${parts[0]}:${coreutils_1.PathExt.normalize(parts.slice(1).join(':'))}`;
+    }
+    /**
+     * Resolve a global path, starting from the root path. Behaves like
+     * posix-path.resolve, with 3 differences:
+     *  - will never prepend cwd
+     *  - if root has a drive name, the result is prefixed with "<drive>:"
+     *  - before adding drive name, leading slashes are removed
+     *
+     * @param path: the path.
+     *
+     * @returns The normalized path.
+     */
+    resolvePath(root, path) {
+        const driveName = this.driveName(root);
+        const localPath = this.localPath(root);
+        const resolved = coreutils_1.PathExt.resolve('/', localPath, path);
+        return driveName ? `${driveName}:${resolved}` : resolved;
+    }
+    /**
+     * Given a path of the form `drive:local/portion/of/it.txt`
+     * get the name of the drive. If the path is missing
+     * a drive portion, returns an empty string.
+     *
+     * @param path: the path.
+     *
+     * @returns The drive name for the path, or the empty string.
+     */
+    driveName(path) {
+        const parts = path.split('/');
+        const firstParts = parts[0].split(':');
+        if (firstParts.length === 1) {
+            return '';
+        }
+        if (this._additionalDrives.has(firstParts[0])) {
+            return firstParts[0];
+        }
+        return '';
+    }
+    /**
+     * Get a file or directory.
+     *
+     * @param path: The path to the file.
+     *
+     * @param options: The options used to fetch the file.
+     *
+     * @returns A promise which resolves with the file content.
+     */
+    get(path, options) {
+        const [drive, localPath] = this._driveForPath(path);
+        return drive.get(localPath, options).then(contentsModel => {
+            const listing = [];
+            if (contentsModel.type === 'directory' && contentsModel.content) {
+                algorithm_1.each(contentsModel.content, (item) => {
+                    listing.push(Object.assign(Object.assign({}, item), { path: this._toGlobalPath(drive, item.path) }));
+                });
+                return Object.assign(Object.assign({}, contentsModel), { path: this._toGlobalPath(drive, localPath), content: listing, serverPath: contentsModel.path });
+            }
+            else {
+                return Object.assign(Object.assign({}, contentsModel), { path: this._toGlobalPath(drive, localPath), serverPath: contentsModel.path });
+            }
+        });
+    }
+    /**
+     * Get an encoded download url given a file path.
+     *
+     * @param path - An absolute POSIX file path on the server.
+     *
+     * #### Notes
+     * It is expected that the path contains no relative paths.
+     *
+     * The returned URL may include a query parameter.
+     */
+    getDownloadUrl(path) {
+        const [drive, localPath] = this._driveForPath(path);
+        return drive.getDownloadUrl(localPath);
+    }
+    /**
+     * Create a new untitled file or directory in the specified directory path.
+     *
+     * @param options: The options used to create the file.
+     *
+     * @returns A promise which resolves with the created file content when the
+     *    file is created.
+     */
+    newUntitled(options = {}) {
+        if (options.path) {
+            const globalPath = this.normalize(options.path);
+            const [drive, localPath] = this._driveForPath(globalPath);
+            return drive
+                .newUntitled(Object.assign(Object.assign({}, options), { path: localPath }))
+                .then(contentsModel => {
+                return Object.assign(Object.assign({}, contentsModel), { path: coreutils_1.PathExt.join(globalPath, contentsModel.name), serverPath: contentsModel.path });
+            });
+        }
+        else {
+            return this._defaultDrive.newUntitled(options);
+        }
+    }
+    /**
+     * Delete a file.
+     *
+     * @param path - The path to the file.
+     *
+     * @returns A promise which resolves when the file is deleted.
+     */
+    delete(path) {
+        const [drive, localPath] = this._driveForPath(path);
+        return drive.delete(localPath);
+    }
+    /**
+     * Rename a file or directory.
+     *
+     * @param path - The original file path.
+     *
+     * @param newPath - The new file path.
+     *
+     * @returns A promise which resolves with the new file contents model when
+     *   the file is renamed.
+     */
+    rename(path, newPath) {
+        const [drive1, path1] = this._driveForPath(path);
+        const [drive2, path2] = this._driveForPath(newPath);
+        if (drive1 !== drive2) {
+            throw Error('ContentsManager: renaming files must occur within a Drive');
+        }
+        return drive1.rename(path1, path2).then(contentsModel => {
+            return Object.assign(Object.assign({}, contentsModel), { path: this._toGlobalPath(drive1, path2), serverPath: contentsModel.path });
+        });
+    }
+    /**
+     * Save a file.
+     *
+     * @param path - The desired file path.
+     *
+     * @param options - Optional overrides to the model.
+     *
+     * @returns A promise which resolves with the file content model when the
+     *   file is saved.
+     *
+     * #### Notes
+     * Ensure that `model.content` is populated for the file.
+     */
+    save(path, options = {}) {
+        const globalPath = this.normalize(path);
+        const [drive, localPath] = this._driveForPath(path);
+        return drive
+            .save(localPath, Object.assign(Object.assign({}, options), { path: localPath }))
+            .then(contentsModel => {
+            return Object.assign(Object.assign({}, contentsModel), { path: globalPath, serverPath: contentsModel.path });
+        });
+    }
+    /**
+     * Copy a file into a given directory.
+     *
+     * @param path - The original file path.
+     *
+     * @param toDir - The destination directory path.
+     *
+     * @returns A promise which resolves with the new contents model when the
+     *  file is copied.
+     *
+     * #### Notes
+     * The server will select the name of the copied file.
+     */
+    copy(fromFile, toDir) {
+        const [drive1, path1] = this._driveForPath(fromFile);
+        const [drive2, path2] = this._driveForPath(toDir);
+        if (drive1 === drive2) {
+            return drive1.copy(path1, path2).then(contentsModel => {
+                return Object.assign(Object.assign({}, contentsModel), { path: this._toGlobalPath(drive1, contentsModel.path), serverPath: contentsModel.path });
+            });
+        }
+        else {
+            throw Error('Copying files between drives is not currently implemented');
+        }
+    }
+    /**
+     * Create a checkpoint for a file.
+     *
+     * @param path - The path of the file.
+     *
+     * @returns A promise which resolves with the new checkpoint model when the
+     *   checkpoint is created.
+     */
+    createCheckpoint(path) {
+        const [drive, localPath] = this._driveForPath(path);
+        return drive.createCheckpoint(localPath);
+    }
+    /**
+     * List available checkpoints for a file.
+     *
+     * @param path - The path of the file.
+     *
+     * @returns A promise which resolves with a list of checkpoint models for
+     *    the file.
+     */
+    listCheckpoints(path) {
+        const [drive, localPath] = this._driveForPath(path);
+        return drive.listCheckpoints(localPath);
+    }
+    /**
+     * Restore a file to a known checkpoint state.
+     *
+     * @param path - The path of the file.
+     *
+     * @param checkpointID - The id of the checkpoint to restore.
+     *
+     * @returns A promise which resolves when the checkpoint is restored.
+     */
+    restoreCheckpoint(path, checkpointID) {
+        const [drive, localPath] = this._driveForPath(path);
+        return drive.restoreCheckpoint(localPath, checkpointID);
+    }
+    /**
+     * Delete a checkpoint for a file.
+     *
+     * @param path - The path of the file.
+     *
+     * @param checkpointID - The id of the checkpoint to delete.
+     *
+     * @returns A promise which resolves when the checkpoint is deleted.
+     */
+    deleteCheckpoint(path, checkpointID) {
+        const [drive, localPath] = this._driveForPath(path);
+        return drive.deleteCheckpoint(localPath, checkpointID);
+    }
+    /**
+     * Given a drive and a local path, construct a fully qualified
+     * path. The inverse of `_driveForPath`.
+     *
+     * @param drive: an `IDrive`.
+     *
+     * @param localPath: the local path on the drive.
+     *
+     * @returns the fully qualified path.
+     */
+    _toGlobalPath(drive, localPath) {
+        if (drive === this._defaultDrive) {
+            return coreutils_1.PathExt.removeSlash(localPath);
+        }
+        else {
+            return `${drive.name}:${coreutils_1.PathExt.removeSlash(localPath)}`;
+        }
+    }
+    /**
+     * Given a path, get the `IDrive to which it refers,
+     * where the path satisfies the pattern
+     * `'driveName:path/to/file'`. If there is no `driveName`
+     * prepended to the path, it returns the default drive.
+     *
+     * @param path: a path to a file.
+     *
+     * @returns A tuple containing an `IDrive` object for the path,
+     * and a local path for that drive.
+     */
+    _driveForPath(path) {
+        const driveName = this.driveName(path);
+        const localPath = this.localPath(path);
+        if (driveName) {
+            return [this._additionalDrives.get(driveName), localPath];
+        }
+        else {
+            return [this._defaultDrive, localPath];
+        }
+    }
+    /**
+     * Respond to fileChanged signals from the drives attached to
+     * the manager. This prepends the drive name to the path if necessary,
+     * and then forwards the signal.
+     */
+    _onFileChanged(sender, args) {
+        var _a, _b;
+        if (sender === this._defaultDrive) {
+            this._fileChanged.emit(args);
+        }
+        else {
+            let newValue = null;
+            let oldValue = null;
+            if ((_a = args.newValue) === null || _a === void 0 ? void 0 : _a.path) {
+                newValue = Object.assign(Object.assign({}, args.newValue), { path: this._toGlobalPath(sender, args.newValue.path) });
+            }
+            if ((_b = args.oldValue) === null || _b === void 0 ? void 0 : _b.path) {
+                oldValue = Object.assign(Object.assign({}, args.oldValue), { path: this._toGlobalPath(sender, args.oldValue.path) });
+            }
+            this._fileChanged.emit({
+                type: args.type,
+                newValue,
+                oldValue
+            });
+        }
+    }
+}
+exports.ContentsManager = ContentsManager;
+/**
+ * A default implementation for an `IDrive`, talking to the
+ * server using the Jupyter REST API.
+ */
+class Drive {
+    /**
+     * Construct a new contents manager object.
+     *
+     * @param options - The options used to initialize the object.
+     */
+    constructor(options = {}) {
+        var _a, _b, _c;
+        this._isDisposed = false;
+        this._fileChanged = new signaling_1.Signal(this);
+        this.name = (_a = options.name) !== null && _a !== void 0 ? _a : 'Default';
+        this._apiEndpoint = (_b = options.apiEndpoint) !== null && _b !== void 0 ? _b : SERVICE_DRIVE_URL;
+        this.serverSettings = (_c = options.serverSettings) !== null && _c !== void 0 ? _c : __1.ServerConnection.makeSettings();
+    }
+    /**
+     * A signal emitted when a file operation takes place.
+     */
+    get fileChanged() {
+        return this._fileChanged;
+    }
+    /**
+     * Test whether the manager has been disposed.
+     */
+    get isDisposed() {
+        return this._isDisposed;
+    }
+    /**
+     * Dispose of the resources held by the manager.
+     */
+    dispose() {
+        if (this.isDisposed) {
+            return;
+        }
+        this._isDisposed = true;
+        signaling_1.Signal.clearData(this);
+    }
+    /**
+     * Get a file or directory.
+     *
+     * @param localPath: The path to the file.
+     *
+     * @param options: The options used to fetch the file.
+     *
+     * @returns A promise which resolves with the file content.
+     *
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/contents) and validates the response model.
+     */
+    async get(localPath, options) {
+        let url = this._getUrl(localPath);
+        if (options) {
+            // The notebook type cannot take an format option.
+            if (options.type === 'notebook') {
+                delete options['format'];
+            }
+            const content = options.content ? '1' : '0';
+            const params = Object.assign(Object.assign({}, options), { content });
+            url += coreutils_1.URLExt.objectToQueryString(params);
+        }
+        const settings = this.serverSettings;
+        const response = await __1.ServerConnection.makeRequest(url, {}, settings);
+        if (response.status !== 200) {
+            const err = await __1.ServerConnection.ResponseError.create(response);
+            throw err;
+        }
+        const data = await response.json();
+        validate.validateContentsModel(data);
+        return data;
+    }
+    /**
+     * Get an encoded download url given a file path.
+     *
+     * @param localPath - An absolute POSIX file path on the server.
+     *
+     * #### Notes
+     * It is expected that the path contains no relative paths.
+     *
+     * The returned URL may include a query parameter.
+     */
+    getDownloadUrl(localPath) {
+        const baseUrl = this.serverSettings.baseUrl;
+        let url = coreutils_1.URLExt.join(baseUrl, FILES_URL, coreutils_1.URLExt.encodeParts(localPath));
+        const xsrfTokenMatch = document.cookie.match('\\b_xsrf=([^;]*)\\b');
+        if (xsrfTokenMatch) {
+            const fullUrl = new URL(url);
+            fullUrl.searchParams.append('_xsrf', xsrfTokenMatch[1]);
+            url = fullUrl.toString();
+        }
+        return Promise.resolve(url);
+    }
+    /**
+     * Create a new untitled file or directory in the specified directory path.
+     *
+     * @param options: The options used to create the file.
+     *
+     * @returns A promise which resolves with the created file content when the
+     *    file is created.
+     *
+     * #### Notes
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/contents) and validates the response model.
+     */
+    async newUntitled(options = {}) {
+        var _a;
+        let body = '{}';
+        if (options) {
+            if (options.ext) {
+                options.ext = Private.normalizeExtension(options.ext);
+            }
+            body = JSON.stringify(options);
+        }
+        const settings = this.serverSettings;
+        const url = this._getUrl((_a = options.path) !== null && _a !== void 0 ? _a : '');
+        const init = {
+            method: 'POST',
+            body
+        };
+        const response = await __1.ServerConnection.makeRequest(url, init, settings);
+        if (response.status !== 201) {
+            const err = await __1.ServerConnection.ResponseError.create(response);
+            throw err;
+        }
+        const data = await response.json();
+        validate.validateContentsModel(data);
+        this._fileChanged.emit({
+            type: 'new',
+            oldValue: null,
+            newValue: data
+        });
+        return data;
+    }
+    /**
+     * Delete a file.
+     *
+     * @param localPath - The path to the file.
+     *
+     * @returns A promise which resolves when the file is deleted.
+     *
+     * #### Notes
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/contents).
+     */
+    async delete(localPath) {
+        const url = this._getUrl(localPath);
+        const settings = this.serverSettings;
+        const init = { method: 'DELETE' };
+        const response = await __1.ServerConnection.makeRequest(url, init, settings);
+        // TODO: update IPEP27 to specify errors more precisely, so
+        // that error types can be detected here with certainty.
+        if (response.status !== 204) {
+            const err = await __1.ServerConnection.ResponseError.create(response);
+            throw err;
+        }
+        this._fileChanged.emit({
+            type: 'delete',
+            oldValue: { path: localPath },
+            newValue: null
+        });
+    }
+    /**
+     * Rename a file or directory.
+     *
+     * @param oldLocalPath - The original file path.
+     *
+     * @param newLocalPath - The new file path.
+     *
+     * @returns A promise which resolves with the new file contents model when
+     *   the file is renamed.
+     *
+     * #### Notes
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/contents) and validates the response model.
+     */
+    async rename(oldLocalPath, newLocalPath) {
+        const settings = this.serverSettings;
+        const url = this._getUrl(oldLocalPath);
+        const init = {
+            method: 'PATCH',
+            body: JSON.stringify({ path: newLocalPath })
+        };
+        const response = await __1.ServerConnection.makeRequest(url, init, settings);
+        if (response.status !== 200) {
+            const err = await __1.ServerConnection.ResponseError.create(response);
+            throw err;
+        }
+        const data = await response.json();
+        validate.validateContentsModel(data);
+        this._fileChanged.emit({
+            type: 'rename',
+            oldValue: { path: oldLocalPath },
+            newValue: data
+        });
+        return data;
+    }
+    /**
+     * Save a file.
+     *
+     * @param localPath - The desired file path.
+     *
+     * @param options - Optional overrides to the model.
+     *
+     * @returns A promise which resolves with the file content model when the
+     *   file is saved.
+     *
+     * #### Notes
+     * Ensure that `model.content` is populated for the file.
+     *
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/contents) and validates the response model.
+     */
+    async save(localPath, options = {}) {
+        const settings = this.serverSettings;
+        const url = this._getUrl(localPath);
+        const init = {
+            method: 'PUT',
+            body: JSON.stringify(options)
+        };
+        const response = await __1.ServerConnection.makeRequest(url, init, settings);
+        // will return 200 for an existing file and 201 for a new file
+        if (response.status !== 200 && response.status !== 201) {
+            const err = await __1.ServerConnection.ResponseError.create(response);
+            throw err;
+        }
+        const data = await response.json();
+        validate.validateContentsModel(data);
+        this._fileChanged.emit({
+            type: 'save',
+            oldValue: null,
+            newValue: data
+        });
+        return data;
+    }
+    /**
+     * Copy a file into a given directory.
+     *
+     * @param localPath - The original file path.
+     *
+     * @param toDir - The destination directory path.
+     *
+     * @returns A promise which resolves with the new contents model when the
+     *  file is copied.
+     *
+     * #### Notes
+     * The server will select the name of the copied file.
+     *
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/contents) and validates the response model.
+     */
+    async copy(fromFile, toDir) {
+        const settings = this.serverSettings;
+        const url = this._getUrl(toDir);
+        const init = {
+            method: 'POST',
+            body: JSON.stringify({ copy_from: fromFile })
+        };
+        const response = await __1.ServerConnection.makeRequest(url, init, settings);
+        if (response.status !== 201) {
+            const err = await __1.ServerConnection.ResponseError.create(response);
+            throw err;
+        }
+        const data = await response.json();
+        validate.validateContentsModel(data);
+        this._fileChanged.emit({
+            type: 'new',
+            oldValue: null,
+            newValue: data
+        });
+        return data;
+    }
+    /**
+     * Create a checkpoint for a file.
+     *
+     * @param localPath - The path of the file.
+     *
+     * @returns A promise which resolves with the new checkpoint model when the
+     *   checkpoint is created.
+     *
+     * #### Notes
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/contents) and validates the response model.
+     */
+    async createCheckpoint(localPath) {
+        const url = this._getUrl(localPath, 'checkpoints');
+        const init = { method: 'POST' };
+        const response = await __1.ServerConnection.makeRequest(url, init, this.serverSettings);
+        if (response.status !== 201) {
+            const err = await __1.ServerConnection.ResponseError.create(response);
+            throw err;
+        }
+        const data = await response.json();
+        validate.validateCheckpointModel(data);
+        return data;
+    }
+    /**
+     * List available checkpoints for a file.
+     *
+     * @param localPath - The path of the file.
+     *
+     * @returns A promise which resolves with a list of checkpoint models for
+     *    the file.
+     *
+     * #### Notes
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/contents) and validates the response model.
+     */
+    async listCheckpoints(localPath) {
+        const url = this._getUrl(localPath, 'checkpoints');
+        const response = await __1.ServerConnection.makeRequest(url, {}, this.serverSettings);
+        if (response.status !== 200) {
+            const err = await __1.ServerConnection.ResponseError.create(response);
+            throw err;
+        }
+        const data = await response.json();
+        if (!Array.isArray(data)) {
+            throw new Error('Invalid Checkpoint list');
+        }
+        for (let i = 0; i < data.length; i++) {
+            validate.validateCheckpointModel(data[i]);
+        }
+        return data;
+    }
+    /**
+     * Restore a file to a known checkpoint state.
+     *
+     * @param localPath - The path of the file.
+     *
+     * @param checkpointID - The id of the checkpoint to restore.
+     *
+     * @returns A promise which resolves when the checkpoint is restored.
+     *
+     * #### Notes
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/contents).
+     */
+    async restoreCheckpoint(localPath, checkpointID) {
+        const url = this._getUrl(localPath, 'checkpoints', checkpointID);
+        const init = { method: 'POST' };
+        const response = await __1.ServerConnection.makeRequest(url, init, this.serverSettings);
+        if (response.status !== 204) {
+            const err = await __1.ServerConnection.ResponseError.create(response);
+            throw err;
+        }
+    }
+    /**
+     * Delete a checkpoint for a file.
+     *
+     * @param localPath - The path of the file.
+     *
+     * @param checkpointID - The id of the checkpoint to delete.
+     *
+     * @returns A promise which resolves when the checkpoint is deleted.
+     *
+     * #### Notes
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/contents).
+     */
+    async deleteCheckpoint(localPath, checkpointID) {
+        const url = this._getUrl(localPath, 'checkpoints', checkpointID);
+        const init = { method: 'DELETE' };
+        const response = await __1.ServerConnection.makeRequest(url, init, this.serverSettings);
+        if (response.status !== 204) {
+            const err = await __1.ServerConnection.ResponseError.create(response);
+            throw err;
+        }
+    }
+    /**
+     * Get a REST url for a file given a path.
+     */
+    _getUrl(...args) {
+        const parts = args.map(path => coreutils_1.URLExt.encodeParts(path));
+        const baseUrl = this.serverSettings.baseUrl;
+        return coreutils_1.URLExt.join(baseUrl, this._apiEndpoint, ...parts);
+    }
+}
+exports.Drive = Drive;
+/**
+ * A namespace for module private data.
+ */
+var Private;
+(function (Private) {
+    /**
+     * Normalize a file extension to be of the type `'.foo'`.
+     *
+     * Adds a leading dot if not present and converts to lower case.
+     */
+    function normalizeExtension(extension) {
+        if (extension.length > 0 && extension.indexOf('.') !== 0) {
+            extension = `.${extension}`;
+        }
+        return extension;
+    }
+    Private.normalizeExtension = normalizeExtension;
+})(Private || (Private = {}));
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 65460:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.validateCheckpointModel = exports.validateContentsModel = void 0;
+const validate_1 = __webpack_require__(46901);
+/**
+ * Validate an `Contents.IModel` object.
+ */
+function validateContentsModel(model) {
+    validate_1.validateProperty(model, 'name', 'string');
+    validate_1.validateProperty(model, 'path', 'string');
+    validate_1.validateProperty(model, 'type', 'string');
+    validate_1.validateProperty(model, 'created', 'string');
+    validate_1.validateProperty(model, 'last_modified', 'string');
+    validate_1.validateProperty(model, 'mimetype', 'object');
+    validate_1.validateProperty(model, 'content', 'object');
+    validate_1.validateProperty(model, 'format', 'object');
+}
+exports.validateContentsModel = validateContentsModel;
+/**
+ * Validate an `Contents.ICheckpointModel` object.
+ */
+function validateCheckpointModel(model) {
+    validate_1.validateProperty(model, 'id', 'string');
+    validate_1.validateProperty(model, 'last_modified', 'string');
+}
+exports.validateCheckpointModel = validateCheckpointModel;
+//# sourceMappingURL=validate.js.map
+
+/***/ }),
+
+/***/ 57316:
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+var __await = (this && this.__await) || function (v) { return this instanceof __await ? (this.v = v, this) : new __await(v); }
+var __asyncGenerator = (this && this.__asyncGenerator) || function (thisArg, _arguments, generator) {
+    if (!Symbol.asyncIterator) throw new TypeError("Symbol.asyncIterator is not defined.");
+    var g = generator.apply(thisArg, _arguments || []), i, q = [];
+    return i = {}, verb("next"), verb("throw"), verb("return"), i[Symbol.asyncIterator] = function () { return this; }, i;
+    function verb(n) { if (g[n]) i[n] = function (v) { return new Promise(function (a, b) { q.push([n, v, a, b]) > 1 || resume(n, v); }); }; }
+    function resume(n, v) { try { step(g[n](v)); } catch (e) { settle(q[0][3], e); } }
+    function step(r) { r.value instanceof __await ? Promise.resolve(r.value.v).then(fulfill, reject) : settle(q[0][2], r); }
+    function fulfill(value) { resume("next", value); }
+    function reject(value) { resume("throw", value); }
+    function settle(f, v) { if (f(v), q.shift(), q.length) resume(q[0][0], q[0][1]); }
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.EventManager = void 0;
+const coreutils_1 = __webpack_require__(1850);
+const coreutils_2 = __webpack_require__(95082);
+const polling_1 = __webpack_require__(23114);
+const signaling_1 = __webpack_require__(4016);
+const serverconnection_1 = __webpack_require__(28477);
+/**
+ * The url for the jupyter-server events service.
+ */
+const SERVICE_EVENTS_URL = 'api/events';
+/**
+ * The events API service manager.
+ */
+class EventManager {
+    /**
+     * Create a new event manager.
+     */
+    constructor(options = {}) {
+        var _a;
+        // TODO: Remove this check for the `jupyter_server` version.
+        // It is only necessary in JupyterLab < 4.
+        this._isDisabled = 2 > coreutils_1.PageConfig.getNotebookVersion()[0];
+        this._isDisposed = false;
+        this._socket = null;
+        this.serverSettings = (_a = options.serverSettings) !== null && _a !== void 0 ? _a : serverconnection_1.ServerConnection.makeSettings();
+        this._poll = new polling_1.Poll({ factory: () => this._subscribe() });
+        this._stream = new Private.Stream(this);
+        // TODO: Remove this logic in JupyterLab 4
+        if (this._isDisabled) {
+            this._stream.stop();
+        }
+        else {
+            void this._poll.start();
+        }
+    }
+    /**
+     * Whether the event manager is disposed.
+     */
+    get isDisposed() {
+        return this._isDisposed;
+    }
+    /**
+     * An event stream that emits and yields each new event.
+     */
+    get stream() {
+        return this._stream;
+    }
+    /**
+     * Dispose the event manager.
+     */
+    dispose() {
+        if (this.isDisposed) {
+            return;
+        }
+        this._isDisposed = true;
+        // Clean up poll.
+        this._poll.dispose();
+        // Clean up socket.
+        const socket = this._socket;
+        if (socket) {
+            this._socket = null;
+            socket.onopen = () => undefined;
+            socket.onerror = () => undefined;
+            socket.onmessage = () => undefined;
+            socket.onclose = () => undefined;
+            socket.close();
+        }
+        // Clean up stream.
+        signaling_1.Signal.clearData(this);
+        this._stream.stop();
+    }
+    /**
+     * Post an event request to be emitted by the event bus.
+     */
+    async emit(event) {
+        const { serverSettings } = this;
+        const { baseUrl, token } = serverSettings;
+        const { makeRequest, ResponseError } = serverconnection_1.ServerConnection;
+        const url = coreutils_1.URLExt.join(baseUrl, SERVICE_EVENTS_URL) +
+            (token ? `?token=${token}` : '');
+        const init = { body: JSON.stringify(event), method: 'POST' };
+        const response = await makeRequest(url, init, serverSettings);
+        if (response.status !== 204) {
+            throw new ResponseError(response);
+        }
+    }
+    /**
+     * Subscribe to event bus emissions.
+     */
+    _subscribe() {
+        return new Promise((_, reject) => {
+            if (this.isDisposed || this._isDisabled) {
+                return;
+            }
+            const { token, WebSocket, wsUrl } = this.serverSettings;
+            const url = coreutils_1.URLExt.join(wsUrl, SERVICE_EVENTS_URL, 'subscribe') +
+                (token ? `?token=${encodeURIComponent(token)}` : '');
+            const socket = (this._socket = new WebSocket(url));
+            const stream = this._stream;
+            // Cause the poll to tick a rejection and back off if the socket closes.
+            socket.onclose = () => reject(new Error('EventManager socket closed'));
+            socket.onmessage = msg => msg.data && stream.emit(JSON.parse(msg.data));
+        });
+    }
+}
+exports.EventManager = EventManager;
+/**
+ * A namespace for private module data.
+ */
+var Private;
+(function (Private) {
+    /**
+     * A stream with the characteristics of a signal and an async iterable.
+     */
+    class Stream extends signaling_1.Signal {
+        constructor() {
+            super(...arguments);
+            this._pending = new coreutils_2.PromiseDelegate();
+        }
+        /**
+         * Return an async iterator that yields every emission.
+         */
+        [Symbol.asyncIterator]() {
+            return __asyncGenerator(this, arguments, function* _a() {
+                let pending = this._pending;
+                while (true) {
+                    try {
+                        const { args, next } = yield __await(pending.promise);
+                        pending = next;
+                        yield yield __await(args);
+                    }
+                    catch (_) {
+                        return yield __await(void 0); // Any promise rejection stops the iterator.
+                    }
+                }
+            });
+        }
+        /**
+         * Emit the signal, invoke the connected slots, and yield the emission.
+         *
+         * @param args - The args to pass to the connected slots.
+         */
+        emit(args) {
+            const pending = this._pending;
+            this._pending = new coreutils_2.PromiseDelegate();
+            pending.resolve({ args, next: this._pending });
+            super.emit(args);
+        }
+        /**
+         * Stop the stream's async iteration.
+         */
+        stop() {
+            this._pending.promise.catch(() => undefined);
+            this._pending.reject('stop');
+        }
+    }
+    Private.Stream = Stream;
+})(Private || (Private = {}));
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 76240:
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+/**
+ * @packageDocumentation
+ * @module services
+ */
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __exportStar = (this && this.__exportStar) || function(m, exports) {
+    for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+__exportStar(__webpack_require__(50591), exports);
+__exportStar(__webpack_require__(95077), exports);
+__exportStar(__webpack_require__(63644), exports);
+__exportStar(__webpack_require__(57316), exports);
+__exportStar(__webpack_require__(62604), exports);
+__exportStar(__webpack_require__(12902), exports);
+__exportStar(__webpack_require__(93079), exports);
+__exportStar(__webpack_require__(28477), exports);
+__exportStar(__webpack_require__(41874), exports);
+__exportStar(__webpack_require__(92726), exports);
+__exportStar(__webpack_require__(93247), exports);
+__exportStar(__webpack_require__(95598), exports);
+__exportStar(__webpack_require__(45399), exports);
+__exportStar(__webpack_require__(4574), exports);
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 54500:
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.CommHandler = void 0;
+const disposable_1 = __webpack_require__(70725);
+const KernelMessage = __importStar(__webpack_require__(75253));
+/**
+ * Comm channel handler.
+ */
+class CommHandler extends disposable_1.DisposableDelegate {
+    /**
+     * Construct a new comm channel.
+     */
+    constructor(target, id, kernel, disposeCb) {
+        super(disposeCb);
+        this._target = '';
+        this._id = '';
+        this._id = id;
+        this._target = target;
+        this._kernel = kernel;
+    }
+    /**
+     * The unique id for the comm channel.
+     */
+    get commId() {
+        return this._id;
+    }
+    /**
+     * The target name for the comm channel.
+     */
+    get targetName() {
+        return this._target;
+    }
+    /**
+     * Get the callback for a comm close event.
+     *
+     * #### Notes
+     * This is called when the comm is closed from either the server or client.
+     *
+     * **See also:** [[ICommClose]], [[close]]
+     */
+    get onClose() {
+        return this._onClose;
+    }
+    /**
+     * Set the callback for a comm close event.
+     *
+     * #### Notes
+     * This is called when the comm is closed from either the server or client. If
+     * the function returns a promise, and the kernel was closed from the server,
+     * kernel message processing will pause until the returned promise is
+     * fulfilled.
+     *
+     * **See also:** [[close]]
+     */
+    set onClose(cb) {
+        this._onClose = cb;
+    }
+    /**
+     * Get the callback for a comm message received event.
+     */
+    get onMsg() {
+        return this._onMsg;
+    }
+    /**
+     * Set the callback for a comm message received event.
+     *
+     * #### Notes
+     * This is called when a comm message is received. If the function returns a
+     * promise, kernel message processing will pause until it is fulfilled.
+     */
+    set onMsg(cb) {
+        this._onMsg = cb;
+    }
+    /**
+     * Open a comm with optional data and metadata.
+     *
+     * #### Notes
+     * This sends a `comm_open` message to the server.
+     *
+     * **See also:** [[ICommOpen]]
+     */
+    open(data, metadata, buffers = []) {
+        if (this.isDisposed || this._kernel.isDisposed) {
+            throw new Error('Cannot open');
+        }
+        const msg = KernelMessage.createMessage({
+            msgType: 'comm_open',
+            channel: 'shell',
+            username: this._kernel.username,
+            session: this._kernel.clientId,
+            content: {
+                comm_id: this._id,
+                target_name: this._target,
+                data: data !== null && data !== void 0 ? data : {}
+            },
+            metadata,
+            buffers
+        });
+        return this._kernel.sendShellMessage(msg, false, true);
+    }
+    /**
+     * Send a `comm_msg` message to the kernel.
+     *
+     * #### Notes
+     * This is a no-op if the comm has been closed.
+     *
+     * **See also:** [[ICommMsg]]
+     */
+    send(data, metadata, buffers = [], disposeOnDone = true) {
+        if (this.isDisposed || this._kernel.isDisposed) {
+            throw new Error('Cannot send');
+        }
+        const msg = KernelMessage.createMessage({
+            msgType: 'comm_msg',
+            channel: 'shell',
+            username: this._kernel.username,
+            session: this._kernel.clientId,
+            content: {
+                comm_id: this._id,
+                data: data
+            },
+            metadata,
+            buffers
+        });
+        return this._kernel.sendShellMessage(msg, false, disposeOnDone);
+    }
+    /**
+     * Close the comm.
+     *
+     * #### Notes
+     * This will send a `comm_close` message to the kernel, and call the
+     * `onClose` callback if set.
+     *
+     * This is a no-op if the comm is already closed.
+     *
+     * **See also:** [[ICommClose]], [[onClose]]
+     */
+    close(data, metadata, buffers = []) {
+        if (this.isDisposed || this._kernel.isDisposed) {
+            throw new Error('Cannot close');
+        }
+        const msg = KernelMessage.createMessage({
+            msgType: 'comm_close',
+            channel: 'shell',
+            username: this._kernel.username,
+            session: this._kernel.clientId,
+            content: {
+                comm_id: this._id,
+                data: data !== null && data !== void 0 ? data : {}
+            },
+            metadata,
+            buffers
+        });
+        const future = this._kernel.sendShellMessage(msg, false, true);
+        const onClose = this._onClose;
+        if (onClose) {
+            const ioMsg = KernelMessage.createMessage({
+                msgType: 'comm_close',
+                channel: 'iopub',
+                username: this._kernel.username,
+                session: this._kernel.clientId,
+                content: {
+                    comm_id: this._id,
+                    data: data !== null && data !== void 0 ? data : {}
+                },
+                metadata,
+                buffers
+            });
+            // In the future, we may want to communicate back to the user the possible
+            // promise returned from onClose.
+            void onClose(ioMsg);
+        }
+        this.dispose();
+        return future;
+    }
+}
+exports.CommHandler = CommHandler;
+//# sourceMappingURL=comm.js.map
+
+/***/ }),
+
+/***/ 19883:
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.KernelConnection = void 0;
+const coreutils_1 = __webpack_require__(1850);
+const coreutils_2 = __webpack_require__(95082);
+const signaling_1 = __webpack_require__(4016);
+const __1 = __webpack_require__(76240);
+const comm_1 = __webpack_require__(54500);
+const KernelMessage = __importStar(__webpack_require__(75253));
+const future_1 = __webpack_require__(38707);
+const serialize = __importStar(__webpack_require__(86002));
+const validate = __importStar(__webpack_require__(96512));
+const kernelspec_1 = __webpack_require__(12902);
+const restapi = __importStar(__webpack_require__(2183));
+const KERNEL_INFO_TIMEOUT = 3000;
+const RESTARTING_KERNEL_SESSION = '_RESTARTING_';
+const STARTING_KERNEL_SESSION = '';
+/**
+ * Implementation of the Kernel object.
+ *
+ * #### Notes
+ * Messages from the server are handled in the order they were received and
+ * asynchronously. Any message handler can return a promise, and message
+ * handling will pause until the promise is fulfilled.
+ */
+class KernelConnection {
+    /**
+     * Construct a kernel object.
+     */
+    constructor(options) {
+        var _a, _b, _c, _d;
+        /**
+         * Create the kernel websocket connection and add socket status handlers.
+         */
+        this._createSocket = () => {
+            this._errorIfDisposed();
+            // Make sure the socket is clear
+            this._clearSocket();
+            // Update the connection status to reflect opening a new connection.
+            this._updateConnectionStatus('connecting');
+            const settings = this.serverSettings;
+            const partialUrl = coreutils_1.URLExt.join(settings.wsUrl, restapi.KERNEL_SERVICE_URL, encodeURIComponent(this._id));
+            // Strip any authentication from the display string.
+            const display = partialUrl.replace(/^((?:\w+:)?\/\/)(?:[^@\/]+@)/, '$1');
+            console.debug(`Starting WebSocket: ${display}`);
+            let url = coreutils_1.URLExt.join(partialUrl, 'channels?session_id=' + encodeURIComponent(this._clientId));
+            // If token authentication is in use.
+            const token = settings.token;
+            if (settings.appendToken && token !== '') {
+                url = url + `&token=${encodeURIComponent(token)}`;
+            }
+            this._ws = new settings.WebSocket(url);
+            // Ensure incoming binary messages are not Blobs
+            this._ws.binaryType = 'arraybuffer';
+            let alreadyCalledOnclose = false;
+            const getKernelModel = async (evt) => {
+                var _a, _b;
+                if (this._isDisposed) {
+                    return;
+                }
+                this._reason = '';
+                this._model = undefined;
+                try {
+                    const model = await restapi.getKernelModel(this._id, settings);
+                    this._model = model;
+                    if ((model === null || model === void 0 ? void 0 : model.execution_state) === 'dead') {
+                        this._updateStatus('dead');
+                    }
+                    else {
+                        this._onWSClose(evt);
+                    }
+                }
+                catch (err) {
+                    // Try again, if there is a network failure
+                    // Handle network errors, as well as cases where we are on a
+                    // JupyterHub and the server is not running. JupyterHub returns a
+                    // 503 (<2.0) or 424 (>2.0) in that case.
+                    if (err instanceof __1.ServerConnection.NetworkError ||
+                        ((_a = err.response) === null || _a === void 0 ? void 0 : _a.status) === 503 ||
+                        ((_b = err.response) === null || _b === void 0 ? void 0 : _b.status) === 424) {
+                        const timeout = Private.getRandomIntInclusive(10, 30) * 1e3;
+                        setTimeout(getKernelModel, timeout, evt);
+                    }
+                    else {
+                        this._reason = 'Kernel died unexpectedly';
+                        this._updateStatus('dead');
+                    }
+                }
+                return;
+            };
+            const earlyClose = async (evt) => {
+                // If the websocket was closed early, that could mean
+                // that the kernel is actually dead. Try getting
+                // information about the kernel from the API call,
+                // if that fails, then assume the kernel is dead,
+                // otherwise just follow the typical websocket closed
+                // protocol.
+                if (alreadyCalledOnclose) {
+                    return;
+                }
+                alreadyCalledOnclose = true;
+                await getKernelModel(evt);
+                return;
+            };
+            this._ws.onmessage = this._onWSMessage;
+            this._ws.onopen = this._onWSOpen;
+            this._ws.onclose = earlyClose;
+            this._ws.onerror = earlyClose;
+        };
+        // Make websocket callbacks arrow functions so they bind `this`.
+        /**
+         * Handle a websocket open event.
+         */
+        this._onWSOpen = (evt) => {
+            this._ws.onclose = this._onWSClose;
+            this._ws.onerror = this._onWSClose;
+            this._updateConnectionStatus('connected');
+        };
+        /**
+         * Handle a websocket message, validating and routing appropriately.
+         */
+        this._onWSMessage = (evt) => {
+            // Notify immediately if there is an error with the message.
+            let msg;
+            try {
+                msg = serialize.deserialize(evt.data);
+                validate.validateMessage(msg);
+            }
+            catch (error) {
+                error.message = `Kernel message validation error: ${error.message}`;
+                // We throw the error so that it bubbles up to the top, and displays the right stack.
+                throw error;
+            }
+            // Update the current kernel session id
+            this._kernelSession = msg.header.session;
+            // Handle the message asynchronously, in the order received.
+            this._msgChain = this._msgChain
+                .then(() => {
+                // Return so that any promises from handling a message are fulfilled
+                // before proceeding to the next message.
+                return this._handleMessage(msg);
+            })
+                .catch(error => {
+                // Log any errors in handling the message, thus resetting the _msgChain
+                // promise so we can process more messages.
+                // Ignore the "Canceled" errors that are thrown during kernel dispose.
+                if (error.message.startsWith('Canceled future for ')) {
+                    console.error(error);
+                }
+            });
+            // Emit the message receive signal
+            this._anyMessage.emit({ msg, direction: 'recv' });
+        };
+        /**
+         * Handle a websocket close event.
+         */
+        this._onWSClose = (evt) => {
+            if (!this.isDisposed) {
+                this._reconnect();
+            }
+        };
+        this._id = '';
+        this._name = '';
+        this._status = 'unknown';
+        this._connectionStatus = 'connecting';
+        this._kernelSession = '';
+        this._isDisposed = false;
+        /**
+         * Websocket to communicate with kernel.
+         */
+        this._ws = null;
+        this._username = '';
+        this._reconnectLimit = 7;
+        this._reconnectAttempt = 0;
+        this._reconnectTimeout = null;
+        this._futures = new Map();
+        this._comms = new Map();
+        this._targetRegistry = Object.create(null);
+        this._info = new coreutils_2.PromiseDelegate();
+        this._pendingMessages = [];
+        this._statusChanged = new signaling_1.Signal(this);
+        this._connectionStatusChanged = new signaling_1.Signal(this);
+        this._disposed = new signaling_1.Signal(this);
+        this._iopubMessage = new signaling_1.Signal(this);
+        this._anyMessage = new signaling_1.Signal(this);
+        this._pendingInput = new signaling_1.Signal(this);
+        this._unhandledMessage = new signaling_1.Signal(this);
+        this._displayIdToParentIds = new Map();
+        this._msgIdToDisplayIds = new Map();
+        this._msgChain = Promise.resolve();
+        this._hasPendingInput = false;
+        this._reason = '';
+        this._noOp = () => {
+            /* no-op */
+        };
+        this._name = options.model.name;
+        this._id = options.model.id;
+        this.serverSettings = (_a = options.serverSettings) !== null && _a !== void 0 ? _a : __1.ServerConnection.makeSettings();
+        this._clientId = (_b = options.clientId) !== null && _b !== void 0 ? _b : coreutils_2.UUID.uuid4();
+        this._username = (_c = options.username) !== null && _c !== void 0 ? _c : '';
+        this.handleComms = (_d = options.handleComms) !== null && _d !== void 0 ? _d : true;
+        this._createSocket();
+    }
+    get disposed() {
+        return this._disposed;
+    }
+    /**
+     * A signal emitted when the kernel status changes.
+     */
+    get statusChanged() {
+        return this._statusChanged;
+    }
+    /**
+     * A signal emitted when the kernel status changes.
+     */
+    get connectionStatusChanged() {
+        return this._connectionStatusChanged;
+    }
+    /**
+     * A signal emitted for iopub kernel messages.
+     *
+     * #### Notes
+     * This signal is emitted after the iopub message is handled asynchronously.
+     */
+    get iopubMessage() {
+        return this._iopubMessage;
+    }
+    /**
+     * A signal emitted for unhandled kernel message.
+     *
+     * #### Notes
+     * This signal is emitted for a message that was not handled. It is emitted
+     * during the asynchronous message handling code.
+     */
+    get unhandledMessage() {
+        return this._unhandledMessage;
+    }
+    /**
+     * The kernel model
+     */
+    get model() {
+        return (this._model || {
+            id: this.id,
+            name: this.name,
+            reason: this._reason
+        });
+    }
+    /**
+     * A signal emitted for any kernel message.
+     *
+     * #### Notes
+     * This signal is emitted when a message is received, before it is handled
+     * asynchronously.
+     *
+     * This message is emitted when a message is queued for sending (either in
+     * the websocket buffer, or our own pending message buffer). The message may
+     * actually be sent across the wire at a later time.
+     *
+     * The message emitted in this signal should not be modified in any way.
+     */
+    get anyMessage() {
+        return this._anyMessage;
+    }
+    /**
+     * A signal emitted when a kernel has pending inputs from the user.
+     */
+    get pendingInput() {
+        return this._pendingInput;
+    }
+    /**
+     * The id of the server-side kernel.
+     */
+    get id() {
+        return this._id;
+    }
+    /**
+     * The name of the server-side kernel.
+     */
+    get name() {
+        return this._name;
+    }
+    /**
+     * The client username.
+     */
+    get username() {
+        return this._username;
+    }
+    /**
+     * The client unique id.
+     */
+    get clientId() {
+        return this._clientId;
+    }
+    /**
+     * The current status of the kernel.
+     */
+    get status() {
+        return this._status;
+    }
+    /**
+     * The current connection status of the kernel connection.
+     */
+    get connectionStatus() {
+        return this._connectionStatus;
+    }
+    /**
+     * Test whether the kernel has been disposed.
+     */
+    get isDisposed() {
+        return this._isDisposed;
+    }
+    /**
+     * The cached kernel info.
+     *
+     * @returns A promise that resolves to the kernel info.
+     */
+    get info() {
+        return this._info.promise;
+    }
+    /**
+     * The kernel spec.
+     *
+     * @returns A promise that resolves to the kernel spec.
+     */
+    get spec() {
+        if (this._specPromise) {
+            return this._specPromise;
+        }
+        this._specPromise = kernelspec_1.KernelSpecAPI.getSpecs(this.serverSettings).then(specs => {
+            return specs.kernelspecs[this._name];
+        });
+        return this._specPromise;
+    }
+    /**
+     * Clone the current kernel with a new clientId.
+     */
+    clone(options = {}) {
+        return new KernelConnection(Object.assign({ model: this.model, username: this.username, serverSettings: this.serverSettings, 
+            // handleComms defaults to false since that is safer
+            handleComms: false }, options));
+    }
+    /**
+     * Dispose of the resources held by the kernel.
+     */
+    dispose() {
+        if (this.isDisposed) {
+            return;
+        }
+        this._isDisposed = true;
+        this._disposed.emit();
+        this._updateConnectionStatus('disconnected');
+        this._clearKernelState();
+        this._pendingMessages = [];
+        this._clearSocket();
+        // Clear Lumino signals
+        signaling_1.Signal.clearData(this);
+    }
+    /**
+     * Send a shell message to the kernel.
+     *
+     * #### Notes
+     * Send a message to the kernel's shell channel, yielding a future object
+     * for accepting replies.
+     *
+     * If `expectReply` is given and `true`, the future is disposed when both a
+     * shell reply and an idle status message are received. If `expectReply`
+     * is not given or is `false`, the future is resolved when an idle status
+     * message is received.
+     * If `disposeOnDone` is not given or is `true`, the Future is disposed at this point.
+     * If `disposeOnDone` is given and `false`, it is up to the caller to dispose of the Future.
+     *
+     * All replies are validated as valid kernel messages.
+     *
+     * If the kernel status is `dead`, this will throw an error.
+     */
+    sendShellMessage(msg, expectReply = false, disposeOnDone = true) {
+        return this._sendKernelShellControl(future_1.KernelShellFutureHandler, msg, expectReply, disposeOnDone);
+    }
+    /**
+     * Send a control message to the kernel.
+     *
+     * #### Notes
+     * Send a message to the kernel's control channel, yielding a future object
+     * for accepting replies.
+     *
+     * If `expectReply` is given and `true`, the future is disposed when both a
+     * control reply and an idle status message are received. If `expectReply`
+     * is not given or is `false`, the future is resolved when an idle status
+     * message is received.
+     * If `disposeOnDone` is not given or is `true`, the Future is disposed at this point.
+     * If `disposeOnDone` is given and `false`, it is up to the caller to dispose of the Future.
+     *
+     * All replies are validated as valid kernel messages.
+     *
+     * If the kernel status is `dead`, this will throw an error.
+     */
+    sendControlMessage(msg, expectReply = false, disposeOnDone = true) {
+        return this._sendKernelShellControl(future_1.KernelControlFutureHandler, msg, expectReply, disposeOnDone);
+    }
+    _sendKernelShellControl(ctor, msg, expectReply = false, disposeOnDone = true) {
+        this._sendMessage(msg);
+        this._anyMessage.emit({ msg, direction: 'send' });
+        const future = new ctor(() => {
+            const msgId = msg.header.msg_id;
+            this._futures.delete(msgId);
+            // Remove stored display id information.
+            const displayIds = this._msgIdToDisplayIds.get(msgId);
+            if (!displayIds) {
+                return;
+            }
+            displayIds.forEach(displayId => {
+                const msgIds = this._displayIdToParentIds.get(displayId);
+                if (msgIds) {
+                    const idx = msgIds.indexOf(msgId);
+                    if (idx === -1) {
+                        return;
+                    }
+                    if (msgIds.length === 1) {
+                        this._displayIdToParentIds.delete(displayId);
+                    }
+                    else {
+                        msgIds.splice(idx, 1);
+                        this._displayIdToParentIds.set(displayId, msgIds);
+                    }
+                }
+            });
+            this._msgIdToDisplayIds.delete(msgId);
+        }, msg, expectReply, disposeOnDone, this);
+        this._futures.set(msg.header.msg_id, future);
+        return future;
+    }
+    /**
+     * Send a message on the websocket.
+     *
+     * If queue is true, queue the message for later sending if we cannot send
+     * now. Otherwise throw an error.
+     *
+     * #### Notes
+     * As an exception to the queueing, if we are sending a kernel_info_request
+     * message while we think the kernel is restarting, we send the message
+     * immediately without queueing. This is so that we can trigger a message
+     * back, which will then clear the kernel restarting state.
+     */
+    _sendMessage(msg, queue = true) {
+        if (this.status === 'dead') {
+            throw new Error('Kernel is dead');
+        }
+        // If we have a kernel_info_request and we are starting or restarting, send the
+        // kernel_info_request immediately if we can, and if not throw an error so
+        // we can retry later. On restarting we do this because we must get at least one message
+        // from the kernel to reset the kernel session (thus clearing the restart
+        // status sentinel).
+        if ((this._kernelSession === STARTING_KERNEL_SESSION ||
+            this._kernelSession === RESTARTING_KERNEL_SESSION) &&
+            KernelMessage.isInfoRequestMsg(msg)) {
+            if (this.connectionStatus === 'connected') {
+                this._ws.send(serialize.serialize(msg));
+                return;
+            }
+            else {
+                throw new Error('Could not send message: status is not connected');
+            }
+        }
+        // If there are pending messages, add to the queue so we keep messages in order
+        if (queue && this._pendingMessages.length > 0) {
+            this._pendingMessages.push(msg);
+            return;
+        }
+        // Send if the ws allows it, otherwise queue the message.
+        if (this.connectionStatus === 'connected' &&
+            this._kernelSession !== RESTARTING_KERNEL_SESSION) {
+            this._ws.send(serialize.serialize(msg));
+        }
+        else if (queue) {
+            this._pendingMessages.push(msg);
+        }
+        else {
+            throw new Error('Could not send message');
+        }
+    }
+    /**
+     * Interrupt a kernel.
+     *
+     * #### Notes
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/kernels).
+     *
+     * The promise is fulfilled on a valid response and rejected otherwise.
+     *
+     * It is assumed that the API call does not mutate the kernel id or name.
+     *
+     * The promise will be rejected if the kernel status is `Dead` or if the
+     * request fails or the response is invalid.
+     */
+    async interrupt() {
+        this.hasPendingInput = false;
+        if (this.status === 'dead') {
+            throw new Error('Kernel is dead');
+        }
+        return restapi.interruptKernel(this.id, this.serverSettings);
+    }
+    /**
+     * Request a kernel restart.
+     *
+     * #### Notes
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/kernels)
+     * and validates the response model.
+     *
+     * Any existing Future or Comm objects are cleared once the kernel has
+     * actually be restarted.
+     *
+     * The promise is fulfilled on a valid server response (after the kernel restarts)
+     * and rejected otherwise.
+     *
+     * It is assumed that the API call does not mutate the kernel id or name.
+     *
+     * The promise will be rejected if the request fails or the response is
+     * invalid.
+     */
+    async restart() {
+        if (this.status === 'dead') {
+            throw new Error('Kernel is dead');
+        }
+        this._updateStatus('restarting');
+        this._clearKernelState();
+        this._kernelSession = RESTARTING_KERNEL_SESSION;
+        await restapi.restartKernel(this.id, this.serverSettings);
+        // Reconnect to the kernel to address cases where kernel ports
+        // have changed during the restart.
+        await this.reconnect();
+        this.hasPendingInput = false;
+    }
+    /**
+     * Reconnect to a kernel.
+     *
+     * #### Notes
+     * This may try multiple times to reconnect to a kernel, and will sever any
+     * existing connection.
+     */
+    reconnect() {
+        this._errorIfDisposed();
+        const result = new coreutils_2.PromiseDelegate();
+        // Set up a listener for the connection status changing, which accepts or
+        // rejects after the retries are done.
+        const fulfill = (sender, status) => {
+            if (status === 'connected') {
+                result.resolve();
+                this.connectionStatusChanged.disconnect(fulfill, this);
+            }
+            else if (status === 'disconnected') {
+                result.reject(new Error('Kernel connection disconnected'));
+                this.connectionStatusChanged.disconnect(fulfill, this);
+            }
+        };
+        this.connectionStatusChanged.connect(fulfill, this);
+        // Reset the reconnect limit so we start the connection attempts fresh
+        this._reconnectAttempt = 0;
+        // Start the reconnection process, which will also clear any existing
+        // connection.
+        this._reconnect();
+        // Return the promise that should resolve on connection or reject if the
+        // retries don't work.
+        return result.promise;
+    }
+    /**
+     * Shutdown a kernel.
+     *
+     * #### Notes
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/kernels).
+     *
+     * The promise is fulfilled on a valid response and rejected otherwise.
+     *
+     * On a valid response, disposes this kernel connection.
+     *
+     * If the kernel is already `dead`, disposes this kernel connection without
+     * a server request.
+     */
+    async shutdown() {
+        if (this.status !== 'dead') {
+            await restapi.shutdownKernel(this.id, this.serverSettings);
+        }
+        this.handleShutdown();
+    }
+    /**
+     * Handles a kernel shutdown.
+     *
+     * #### Notes
+     * This method should be called if we know from outside information that a
+     * kernel is dead (for example, we cannot find the kernel model on the
+     * server).
+     */
+    handleShutdown() {
+        this._updateStatus('dead');
+        this.dispose();
+    }
+    /**
+     * Send a `kernel_info_request` message.
+     *
+     * #### Notes
+     * See [Messaging in Jupyter](https://jupyter-client.readthedocs.io/en/latest/messaging.html#kernel-info).
+     *
+     * Fulfills with the `kernel_info_response` content when the shell reply is
+     * received and validated.
+     */
+    async requestKernelInfo() {
+        const msg = KernelMessage.createMessage({
+            msgType: 'kernel_info_request',
+            channel: 'shell',
+            username: this._username,
+            session: this._clientId,
+            content: {}
+        });
+        let reply;
+        try {
+            reply = (await Private.handleShellMessage(this, msg));
+        }
+        catch (e) {
+            // If we rejected because the future was disposed, ignore and return.
+            if (this.isDisposed) {
+                return;
+            }
+            else {
+                throw e;
+            }
+        }
+        this._errorIfDisposed();
+        if (!reply) {
+            return;
+        }
+        // Kernels sometimes do not include a status field on kernel_info_reply
+        // messages, so set a default for now.
+        // See https://github.com/jupyterlab/jupyterlab/issues/6760
+        if (reply.content.status === undefined) {
+            reply.content.status = 'ok';
+        }
+        if (reply.content.status !== 'ok') {
+            this._info.reject('Kernel info reply errored');
+            return reply;
+        }
+        this._info.resolve(reply.content);
+        this._kernelSession = reply.header.session;
+        return reply;
+    }
+    /**
+     * Send a `complete_request` message.
+     *
+     * #### Notes
+     * See [Messaging in Jupyter](https://jupyter-client.readthedocs.io/en/latest/messaging.html#completion).
+     *
+     * Fulfills with the `complete_reply` content when the shell reply is
+     * received and validated.
+     */
+    requestComplete(content) {
+        const msg = KernelMessage.createMessage({
+            msgType: 'complete_request',
+            channel: 'shell',
+            username: this._username,
+            session: this._clientId,
+            content
+        });
+        return Private.handleShellMessage(this, msg);
+    }
+    /**
+     * Send an `inspect_request` message.
+     *
+     * #### Notes
+     * See [Messaging in Jupyter](https://jupyter-client.readthedocs.io/en/latest/messaging.html#introspection).
+     *
+     * Fulfills with the `inspect_reply` content when the shell reply is
+     * received and validated.
+     */
+    requestInspect(content) {
+        const msg = KernelMessage.createMessage({
+            msgType: 'inspect_request',
+            channel: 'shell',
+            username: this._username,
+            session: this._clientId,
+            content: content
+        });
+        return Private.handleShellMessage(this, msg);
+    }
+    /**
+     * Send a `history_request` message.
+     *
+     * #### Notes
+     * See [Messaging in Jupyter](https://jupyter-client.readthedocs.io/en/latest/messaging.html#history).
+     *
+     * Fulfills with the `history_reply` content when the shell reply is
+     * received and validated.
+     */
+    requestHistory(content) {
+        const msg = KernelMessage.createMessage({
+            msgType: 'history_request',
+            channel: 'shell',
+            username: this._username,
+            session: this._clientId,
+            content
+        });
+        return Private.handleShellMessage(this, msg);
+    }
+    /**
+     * Send an `execute_request` message.
+     *
+     * #### Notes
+     * See [Messaging in Jupyter](https://jupyter-client.readthedocs.io/en/latest/messaging.html#execute).
+     *
+     * Future `onReply` is called with the `execute_reply` content when the
+     * shell reply is received and validated. The future will resolve when
+     * this message is received and the `idle` iopub status is received.
+     * The future will also be disposed at this point unless `disposeOnDone`
+     * is specified and `false`, in which case it is up to the caller to dispose
+     * of the future.
+     *
+     * **See also:** [[IExecuteReply]]
+     */
+    requestExecute(content, disposeOnDone = true, metadata) {
+        const defaults = {
+            silent: false,
+            store_history: true,
+            user_expressions: {},
+            allow_stdin: true,
+            stop_on_error: false
+        };
+        const msg = KernelMessage.createMessage({
+            msgType: 'execute_request',
+            channel: 'shell',
+            username: this._username,
+            session: this._clientId,
+            content: Object.assign(Object.assign({}, defaults), content),
+            metadata
+        });
+        return this.sendShellMessage(msg, true, disposeOnDone);
+    }
+    /**
+     * Send an experimental `debug_request` message.
+     *
+     * @hidden
+     *
+     * #### Notes
+     * Debug messages are experimental messages that are not in the official
+     * kernel message specification. As such, this function is *NOT* considered
+     * part of the public API, and may change without notice.
+     */
+    requestDebug(content, disposeOnDone = true) {
+        const msg = KernelMessage.createMessage({
+            msgType: 'debug_request',
+            channel: 'control',
+            username: this._username,
+            session: this._clientId,
+            content
+        });
+        return this.sendControlMessage(msg, true, disposeOnDone);
+    }
+    /**
+     * Send an `is_complete_request` message.
+     *
+     * #### Notes
+     * See [Messaging in Jupyter](https://jupyter-client.readthedocs.io/en/latest/messaging.html#code-completeness).
+     *
+     * Fulfills with the `is_complete_response` content when the shell reply is
+     * received and validated.
+     */
+    requestIsComplete(content) {
+        const msg = KernelMessage.createMessage({
+            msgType: 'is_complete_request',
+            channel: 'shell',
+            username: this._username,
+            session: this._clientId,
+            content
+        });
+        return Private.handleShellMessage(this, msg);
+    }
+    /**
+     * Send a `comm_info_request` message.
+     *
+     * #### Notes
+     * Fulfills with the `comm_info_reply` content when the shell reply is
+     * received and validated.
+     */
+    requestCommInfo(content) {
+        const msg = KernelMessage.createMessage({
+            msgType: 'comm_info_request',
+            channel: 'shell',
+            username: this._username,
+            session: this._clientId,
+            content
+        });
+        return Private.handleShellMessage(this, msg);
+    }
+    /**
+     * Send an `input_reply` message.
+     *
+     * #### Notes
+     * See [Messaging in Jupyter](https://jupyter-client.readthedocs.io/en/latest/messaging.html#messages-on-the-stdin-router-dealer-sockets).
+     */
+    sendInputReply(content, parent_header) {
+        const msg = KernelMessage.createMessage({
+            msgType: 'input_reply',
+            channel: 'stdin',
+            username: this._username,
+            session: this._clientId,
+            content
+        });
+        if (parent_header) {
+            msg.parent_header = parent_header;
+        }
+        this._sendMessage(msg);
+        this._anyMessage.emit({ msg, direction: 'send' });
+        this.hasPendingInput = false;
+    }
+    /**
+     * Create a new comm.
+     *
+     * #### Notes
+     * If a client-side comm already exists with the given commId, an error is thrown.
+     * If the kernel does not handle comms, an error is thrown.
+     */
+    createComm(targetName, commId = coreutils_2.UUID.uuid4()) {
+        if (!this.handleComms) {
+            throw new Error('Comms are disabled on this kernel connection');
+        }
+        if (this._comms.has(commId)) {
+            throw new Error('Comm is already created');
+        }
+        const comm = new comm_1.CommHandler(targetName, commId, this, () => {
+            this._unregisterComm(commId);
+        });
+        this._comms.set(commId, comm);
+        return comm;
+    }
+    /**
+     * Check if a comm exists.
+     */
+    hasComm(commId) {
+        return this._comms.has(commId);
+    }
+    /**
+     * Register a comm target handler.
+     *
+     * @param targetName - The name of the comm target.
+     *
+     * @param callback - The callback invoked for a comm open message.
+     *
+     * @returns A disposable used to unregister the comm target.
+     *
+     * #### Notes
+     * Only one comm target can be registered to a target name at a time, an
+     * existing callback for the same target name will be overridden.  A registered
+     * comm target handler will take precedence over a comm which specifies a
+     * `target_module`.
+     *
+     * If the callback returns a promise, kernel message processing will pause
+     * until the returned promise is fulfilled.
+     */
+    registerCommTarget(targetName, callback) {
+        if (!this.handleComms) {
+            return;
+        }
+        this._targetRegistry[targetName] = callback;
+    }
+    /**
+     * Remove a comm target handler.
+     *
+     * @param targetName - The name of the comm target to remove.
+     *
+     * @param callback - The callback to remove.
+     *
+     * #### Notes
+     * The comm target is only removed if the callback argument matches.
+     */
+    removeCommTarget(targetName, callback) {
+        if (!this.handleComms) {
+            return;
+        }
+        if (!this.isDisposed && this._targetRegistry[targetName] === callback) {
+            delete this._targetRegistry[targetName];
+        }
+    }
+    /**
+     * Register an IOPub message hook.
+     *
+     * @param msg_id - The parent_header message id the hook will intercept.
+     *
+     * @param hook - The callback invoked for the message.
+     *
+     * #### Notes
+     * The IOPub hook system allows you to preempt the handlers for IOPub
+     * messages that are responses to a given message id.
+     *
+     * The most recently registered hook is run first. A hook can return a
+     * boolean or a promise to a boolean, in which case all kernel message
+     * processing pauses until the promise is fulfilled. If a hook return value
+     * resolves to false, any later hooks will not run and the function will
+     * return a promise resolving to false. If a hook throws an error, the error
+     * is logged to the console and the next hook is run. If a hook is
+     * registered during the hook processing, it will not run until the next
+     * message. If a hook is removed during the hook processing, it will be
+     * deactivated immediately.
+     *
+     * See also [[IFuture.registerMessageHook]].
+     */
+    registerMessageHook(msgId, hook) {
+        var _a;
+        const future = (_a = this._futures) === null || _a === void 0 ? void 0 : _a.get(msgId);
+        if (future) {
+            future.registerMessageHook(hook);
+        }
+    }
+    /**
+     * Remove an IOPub message hook.
+     *
+     * @param msg_id - The parent_header message id the hook intercepted.
+     *
+     * @param hook - The callback invoked for the message.
+     *
+     */
+    removeMessageHook(msgId, hook) {
+        var _a;
+        const future = (_a = this._futures) === null || _a === void 0 ? void 0 : _a.get(msgId);
+        if (future) {
+            future.removeMessageHook(hook);
+        }
+    }
+    /**
+     * Remove the input guard, if any.
+     */
+    removeInputGuard() {
+        this.hasPendingInput = false;
+    }
+    /**
+     * Handle a message with a display id.
+     *
+     * @returns Whether the message was handled.
+     */
+    async _handleDisplayId(displayId, msg) {
+        var _a, _b;
+        const msgId = msg.parent_header.msg_id;
+        let parentIds = this._displayIdToParentIds.get(displayId);
+        if (parentIds) {
+            // We've seen it before, update existing outputs with same display_id
+            // by handling display_data as update_display_data.
+            const updateMsg = {
+                header: coreutils_2.JSONExt.deepCopy(msg.header),
+                parent_header: coreutils_2.JSONExt.deepCopy(msg.parent_header),
+                metadata: coreutils_2.JSONExt.deepCopy(msg.metadata),
+                content: coreutils_2.JSONExt.deepCopy(msg.content),
+                channel: msg.channel,
+                buffers: msg.buffers ? msg.buffers.slice() : []
+            };
+            updateMsg.header.msg_type = 'update_display_data';
+            await Promise.all(parentIds.map(async (parentId) => {
+                const future = this._futures && this._futures.get(parentId);
+                if (future) {
+                    await future.handleMsg(updateMsg);
+                }
+            }));
+        }
+        // We're done here if it's update_display.
+        if (msg.header.msg_type === 'update_display_data') {
+            // It's an update, don't proceed to the normal display.
+            return true;
+        }
+        // Regular display_data with id, record it for future updating
+        // in _displayIdToParentIds for future lookup.
+        parentIds = (_a = this._displayIdToParentIds.get(displayId)) !== null && _a !== void 0 ? _a : [];
+        if (parentIds.indexOf(msgId) === -1) {
+            parentIds.push(msgId);
+        }
+        this._displayIdToParentIds.set(displayId, parentIds);
+        // Add to our map of display ids for this message.
+        const displayIds = (_b = this._msgIdToDisplayIds.get(msgId)) !== null && _b !== void 0 ? _b : [];
+        if (displayIds.indexOf(msgId) === -1) {
+            displayIds.push(msgId);
+        }
+        this._msgIdToDisplayIds.set(msgId, displayIds);
+        // Let the message propagate to the intended recipient.
+        return false;
+    }
+    /**
+     * Forcefully clear the socket state.
+     *
+     * #### Notes
+     * This will clear all socket state without calling any handlers and will
+     * not update the connection status. If you call this method, you are
+     * responsible for updating the connection status as needed and recreating
+     * the socket if you plan to reconnect.
+     */
+    _clearSocket() {
+        if (this._ws !== null) {
+            // Clear the websocket event handlers and the socket itself.
+            this._ws.onopen = this._noOp;
+            this._ws.onclose = this._noOp;
+            this._ws.onerror = this._noOp;
+            this._ws.onmessage = this._noOp;
+            this._ws.close();
+            this._ws = null;
+        }
+    }
+    /**
+     * Handle status iopub messages from the kernel.
+     */
+    _updateStatus(status) {
+        if (this._status === status || this._status === 'dead') {
+            return;
+        }
+        this._status = status;
+        Private.logKernelStatus(this);
+        this._statusChanged.emit(status);
+        if (status === 'dead') {
+            this.dispose();
+        }
+    }
+    /**
+     * Send pending messages to the kernel.
+     */
+    _sendPending() {
+        // We check to make sure we are still connected each time. For
+        // example, if a websocket buffer overflows, it may close, so we should
+        // stop sending messages.
+        while (this.connectionStatus === 'connected' &&
+            this._kernelSession !== RESTARTING_KERNEL_SESSION &&
+            this._pendingMessages.length > 0) {
+            this._sendMessage(this._pendingMessages[0], false);
+            // We shift the message off the queue after the message is sent so that
+            // if there is an exception, the message is still pending.
+            this._pendingMessages.shift();
+        }
+    }
+    /**
+     * Clear the internal state.
+     */
+    _clearKernelState() {
+        this._kernelSession = '';
+        this._pendingMessages = [];
+        this._futures.forEach(future => {
+            future.dispose();
+        });
+        this._comms.forEach(comm => {
+            comm.dispose();
+        });
+        this._msgChain = Promise.resolve();
+        this._futures = new Map();
+        this._comms = new Map();
+        this._displayIdToParentIds.clear();
+        this._msgIdToDisplayIds.clear();
+    }
+    /**
+     * Check to make sure it is okay to proceed to handle a message.
+     *
+     * #### Notes
+     * Because we handle messages asynchronously, before a message is handled the
+     * kernel might be disposed or restarted (and have a different session id).
+     * This function throws an error in each of these cases. This is meant to be
+     * called at the start of an asynchronous message handler to cancel message
+     * processing if the message no longer is valid.
+     */
+    _assertCurrentMessage(msg) {
+        this._errorIfDisposed();
+        if (msg.header.session !== this._kernelSession) {
+            throw new Error(`Canceling handling of old message: ${msg.header.msg_type}`);
+        }
+    }
+    /**
+     * Handle a `comm_open` kernel message.
+     */
+    async _handleCommOpen(msg) {
+        this._assertCurrentMessage(msg);
+        const content = msg.content;
+        const comm = new comm_1.CommHandler(content.target_name, content.comm_id, this, () => {
+            this._unregisterComm(content.comm_id);
+        });
+        this._comms.set(content.comm_id, comm);
+        try {
+            const target = await Private.loadObject(content.target_name, content.target_module, this._targetRegistry);
+            await target(comm, msg);
+        }
+        catch (e) {
+            // Close the comm asynchronously. We cannot block message processing on
+            // kernel messages to wait for another kernel message.
+            comm.close();
+            console.error('Exception opening new comm');
+            throw e;
+        }
+    }
+    /**
+     * Handle 'comm_close' kernel message.
+     */
+    async _handleCommClose(msg) {
+        this._assertCurrentMessage(msg);
+        const content = msg.content;
+        const comm = this._comms.get(content.comm_id);
+        if (!comm) {
+            console.error('Comm not found for comm id ' + content.comm_id);
+            return;
+        }
+        this._unregisterComm(comm.commId);
+        const onClose = comm.onClose;
+        if (onClose) {
+            // tslint:disable-next-line:await-promise
+            await onClose(msg);
+        }
+        comm.dispose();
+    }
+    /**
+     * Handle a 'comm_msg' kernel message.
+     */
+    async _handleCommMsg(msg) {
+        this._assertCurrentMessage(msg);
+        const content = msg.content;
+        const comm = this._comms.get(content.comm_id);
+        if (!comm) {
+            return;
+        }
+        const onMsg = comm.onMsg;
+        if (onMsg) {
+            // tslint:disable-next-line:await-promise
+            await onMsg(msg);
+        }
+    }
+    /**
+     * Unregister a comm instance.
+     */
+    _unregisterComm(commId) {
+        this._comms.delete(commId);
+    }
+    /**
+     * Handle connection status changes.
+     */
+    _updateConnectionStatus(connectionStatus) {
+        if (this._connectionStatus === connectionStatus) {
+            return;
+        }
+        this._connectionStatus = connectionStatus;
+        // If we are not 'connecting', reset any reconnection attempts.
+        if (connectionStatus !== 'connecting') {
+            this._reconnectAttempt = 0;
+            clearTimeout(this._reconnectTimeout);
+        }
+        if (this.status !== 'dead') {
+            if (connectionStatus === 'connected') {
+                let restarting = this._kernelSession === RESTARTING_KERNEL_SESSION;
+                // Send a kernel info request to make sure we send at least one
+                // message to get kernel status back. Always request kernel info
+                // first, to get kernel status back and ensure iopub is fully
+                // established. If we are restarting, this message will skip the queue
+                // and be sent immediately.
+                let p = this.requestKernelInfo();
+                // Send any pending messages after the kernelInfo resolves, or after a
+                // timeout as a failsafe.
+                let sendPendingCalled = false;
+                let sendPendingOnce = () => {
+                    if (sendPendingCalled) {
+                        return;
+                    }
+                    sendPendingCalled = true;
+                    if (restarting && this._kernelSession === RESTARTING_KERNEL_SESSION) {
+                        // We were restarting and a message didn't arrive to set the
+                        // session, but we just assume the restart succeeded and send any
+                        // pending messages.
+                        // FIXME: it would be better to retry the kernel_info_request here
+                        this._kernelSession = '';
+                    }
+                    clearTimeout(timeoutHandle);
+                    if (this._pendingMessages.length > 0) {
+                        this._sendPending();
+                    }
+                };
+                void p.then(sendPendingOnce);
+                // FIXME: if sent while zmq subscriptions are not established,
+                // kernelInfo may not resolve, so use a timeout to ensure we don't hang forever.
+                // It may be preferable to retry kernelInfo rather than give up after one timeout.
+                let timeoutHandle = setTimeout(sendPendingOnce, KERNEL_INFO_TIMEOUT);
+            }
+            else {
+                // If the connection is down, then we do not know what is happening
+                // with the kernel, so set the status to unknown.
+                this._updateStatus('unknown');
+            }
+        }
+        // Notify others that the connection status changed.
+        this._connectionStatusChanged.emit(connectionStatus);
+    }
+    async _handleMessage(msg) {
+        var _a, _b;
+        let handled = false;
+        // Check to see if we have a display_id we need to reroute.
+        if (msg.parent_header &&
+            msg.channel === 'iopub' &&
+            (KernelMessage.isDisplayDataMsg(msg) ||
+                KernelMessage.isUpdateDisplayDataMsg(msg) ||
+                KernelMessage.isExecuteResultMsg(msg))) {
+            // display_data messages may re-route based on their display_id.
+            const transient = ((_a = msg.content.transient) !== null && _a !== void 0 ? _a : {});
+            const displayId = transient['display_id'];
+            if (displayId) {
+                handled = await this._handleDisplayId(displayId, msg);
+                // The await above may make this message out of date, so check again.
+                this._assertCurrentMessage(msg);
+            }
+        }
+        if (!handled && msg.parent_header) {
+            const parentHeader = msg.parent_header;
+            const future = (_b = this._futures) === null || _b === void 0 ? void 0 : _b.get(parentHeader.msg_id);
+            if (future) {
+                await future.handleMsg(msg);
+                this._assertCurrentMessage(msg);
+            }
+            else {
+                // If the message was sent by us and was not iopub, it is orphaned.
+                const owned = parentHeader.session === this.clientId;
+                if (msg.channel !== 'iopub' && owned) {
+                    this._unhandledMessage.emit(msg);
+                }
+            }
+        }
+        if (msg.channel === 'iopub') {
+            switch (msg.header.msg_type) {
+                case 'status': {
+                    // Updating the status is synchronous, and we call no async user code
+                    const executionState = msg.content
+                        .execution_state;
+                    if (executionState === 'restarting') {
+                        // The kernel has been auto-restarted by the server. After
+                        // processing for this message is completely done, we want to
+                        // handle this restart, so we don't await, but instead schedule
+                        // the work as a microtask (i.e., in a promise resolution). We
+                        // schedule this here so that it comes before any microtasks that
+                        // might be scheduled in the status signal emission below.
+                        void Promise.resolve().then(async () => {
+                            this._updateStatus('autorestarting');
+                            this._clearKernelState();
+                            // We must reconnect since the kernel connection information may have
+                            // changed, and the server only refreshes its zmq connection when a new
+                            // websocket is opened.
+                            await this.reconnect();
+                        });
+                    }
+                    this._updateStatus(executionState);
+                    break;
+                }
+                case 'comm_open':
+                    if (this.handleComms) {
+                        await this._handleCommOpen(msg);
+                    }
+                    break;
+                case 'comm_msg':
+                    if (this.handleComms) {
+                        await this._handleCommMsg(msg);
+                    }
+                    break;
+                case 'comm_close':
+                    if (this.handleComms) {
+                        await this._handleCommClose(msg);
+                    }
+                    break;
+                default:
+                    break;
+            }
+            // If the message was a status dead message, we might have disposed ourselves.
+            if (!this.isDisposed) {
+                this._assertCurrentMessage(msg);
+                // the message wouldn't be emitted if we were disposed anyway.
+                this._iopubMessage.emit(msg);
+            }
+        }
+    }
+    /**
+     * Attempt a connection if we have not exhausted connection attempts.
+     */
+    _reconnect() {
+        this._errorIfDisposed();
+        // Clear any existing reconnection attempt
+        clearTimeout(this._reconnectTimeout);
+        // Update the connection status and schedule a possible reconnection.
+        if (this._reconnectAttempt < this._reconnectLimit) {
+            this._updateConnectionStatus('connecting');
+            // The first reconnect attempt should happen immediately, and subsequent
+            // attempts should pick a random number in a growing range so that we
+            // don't overload the server with synchronized reconnection attempts
+            // across multiple kernels.
+            const timeout = Private.getRandomIntInclusive(0, 1e3 * (Math.pow(2, this._reconnectAttempt) - 1));
+            console.warn(`Connection lost, reconnecting in ${Math.floor(timeout / 1000)} seconds.`);
+            this._reconnectTimeout = setTimeout(this._createSocket, timeout);
+            this._reconnectAttempt += 1;
+        }
+        else {
+            this._updateConnectionStatus('disconnected');
+        }
+        // Clear the websocket event handlers and the socket itself.
+        this._clearSocket();
+    }
+    /**
+     * Utility function to throw an error if this instance is disposed.
+     */
+    _errorIfDisposed() {
+        if (this.isDisposed) {
+            throw new Error('Kernel connection is disposed');
+        }
+    }
+    get hasPendingInput() {
+        return this._hasPendingInput;
+    }
+    set hasPendingInput(value) {
+        this._hasPendingInput = value;
+        this._pendingInput.emit(value);
+    }
+}
+exports.KernelConnection = KernelConnection;
+/**
+ * A private namespace for the Kernel.
+ */
+var Private;
+(function (Private) {
+    /**
+     * Log the current kernel status.
+     */
+    function logKernelStatus(kernel) {
+        switch (kernel.status) {
+            case 'idle':
+            case 'busy':
+            case 'unknown':
+                return;
+            default:
+                console.debug(`Kernel: ${kernel.status} (${kernel.id})`);
+                break;
+        }
+    }
+    Private.logKernelStatus = logKernelStatus;
+    /**
+     * Send a kernel message to the kernel and resolve the reply message.
+     */
+    async function handleShellMessage(kernel, msg) {
+        const future = kernel.sendShellMessage(msg, true);
+        return future.done;
+    }
+    Private.handleShellMessage = handleShellMessage;
+    /**
+     * Try to load an object from a module or a registry.
+     *
+     * Try to load an object from a module asynchronously if a module
+     * is specified, otherwise tries to load an object from the global
+     * registry, if the global registry is provided.
+     *
+     * #### Notes
+     * Loading a module uses requirejs.
+     */
+    function loadObject(name, moduleName, registry) {
+        return new Promise((resolve, reject) => {
+            // Try loading the module using require.js
+            if (moduleName) {
+                if (typeof requirejs === 'undefined') {
+                    throw new Error('requirejs not found');
+                }
+                requirejs([moduleName], (mod) => {
+                    if (mod[name] === void 0) {
+                        const msg = `Object '${name}' not found in module '${moduleName}'`;
+                        reject(new Error(msg));
+                    }
+                    else {
+                        resolve(mod[name]);
+                    }
+                }, reject);
+            }
+            else {
+                if (registry === null || registry === void 0 ? void 0 : registry[name]) {
+                    resolve(registry[name]);
+                }
+                else {
+                    reject(new Error(`Object '${name}' not found in registry`));
+                }
+            }
+        });
+    }
+    Private.loadObject = loadObject;
+    /**
+     * Get a random integer between min and max, inclusive of both.
+     *
+     * #### Notes
+     * From
+     * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random#Getting_a_random_integer_between_two_values_inclusive
+     *
+     * From the MDN page: It might be tempting to use Math.round() to accomplish
+     * that, but doing so would cause your random numbers to follow a non-uniform
+     * distribution, which may not be acceptable for your needs.
+     */
+    function getRandomIntInclusive(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+    Private.getRandomIntInclusive = getRandomIntInclusive;
+})(Private || (Private = {}));
+//# sourceMappingURL=default.js.map
+
+/***/ }),
+
+/***/ 38707:
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.KernelShellFutureHandler = exports.KernelControlFutureHandler = exports.KernelFutureHandler = void 0;
+const coreutils_1 = __webpack_require__(95082);
+const disposable_1 = __webpack_require__(70725);
+const KernelMessage = __importStar(__webpack_require__(75253));
+/**
+ * Implementation of a kernel future.
+ *
+ * If a reply is expected, the Future is considered done when both a `reply`
+ * message and an `idle` iopub status message have been received.  Otherwise, it
+ * is considered done when the `idle` status is received.
+ *
+ */
+class KernelFutureHandler extends disposable_1.DisposableDelegate {
+    /**
+     * Construct a new KernelFutureHandler.
+     */
+    constructor(cb, msg, expectReply, disposeOnDone, kernel) {
+        super(cb);
+        this._status = 0;
+        this._stdin = Private.noOp;
+        this._iopub = Private.noOp;
+        this._reply = Private.noOp;
+        this._done = new coreutils_1.PromiseDelegate();
+        this._hooks = new Private.HookList();
+        this._disposeOnDone = true;
+        this._msg = msg;
+        if (!expectReply) {
+            this._setFlag(Private.KernelFutureFlag.GotReply);
+        }
+        this._disposeOnDone = disposeOnDone;
+        this._kernel = kernel;
+    }
+    /**
+     * Get the original outgoing message.
+     */
+    get msg() {
+        return this._msg;
+    }
+    /**
+     * A promise that resolves when the future is done.
+     */
+    get done() {
+        return this._done.promise;
+    }
+    /**
+     * Get the reply handler.
+     */
+    get onReply() {
+        return this._reply;
+    }
+    /**
+     * Set the reply handler.
+     */
+    set onReply(cb) {
+        this._reply = cb;
+    }
+    /**
+     * Get the iopub handler.
+     */
+    get onIOPub() {
+        return this._iopub;
+    }
+    /**
+     * Set the iopub handler.
+     */
+    set onIOPub(cb) {
+        this._iopub = cb;
+    }
+    /**
+     * Get the stdin handler.
+     */
+    get onStdin() {
+        return this._stdin;
+    }
+    /**
+     * Set the stdin handler.
+     */
+    set onStdin(cb) {
+        this._stdin = cb;
+    }
+    /**
+     * Register hook for IOPub messages.
+     *
+     * @param hook - The callback invoked for an IOPub message.
+     *
+     * #### Notes
+     * The IOPub hook system allows you to preempt the handlers for IOPub
+     * messages handled by the future.
+     *
+     * The most recently registered hook is run first. A hook can return a
+     * boolean or a promise to a boolean, in which case all kernel message
+     * processing pauses until the promise is fulfilled. If a hook return value
+     * resolves to false, any later hooks will not run and the function will
+     * return a promise resolving to false. If a hook throws an error, the error
+     * is logged to the console and the next hook is run. If a hook is
+     * registered during the hook processing, it will not run until the next
+     * message. If a hook is removed during the hook processing, it will be
+     * deactivated immediately.
+     */
+    registerMessageHook(hook) {
+        if (this.isDisposed) {
+            throw new Error('Kernel future is disposed');
+        }
+        this._hooks.add(hook);
+    }
+    /**
+     * Remove a hook for IOPub messages.
+     *
+     * @param hook - The hook to remove.
+     *
+     * #### Notes
+     * If a hook is removed during the hook processing, it will be deactivated immediately.
+     */
+    removeMessageHook(hook) {
+        if (this.isDisposed) {
+            return;
+        }
+        this._hooks.remove(hook);
+    }
+    /**
+     * Send an `input_reply` message.
+     */
+    sendInputReply(content, parent_header) {
+        this._kernel.sendInputReply(content, parent_header);
+    }
+    /**
+     * Dispose and unregister the future.
+     */
+    dispose() {
+        this._stdin = Private.noOp;
+        this._iopub = Private.noOp;
+        this._reply = Private.noOp;
+        this._hooks = null;
+        if (!this._testFlag(Private.KernelFutureFlag.IsDone)) {
+            // TODO: Uncomment the following logging code, and check for any tests that trigger it.
+            // let status = [];
+            // if (!this._testFlag(Private.KernelFutureFlag.GotIdle)) {
+            //   status.push('idle');
+            // }
+            // if (!this._testFlag(Private.KernelFutureFlag.GotReply)) {
+            //   status.push('reply');
+            // }
+            // console.warn(
+            //   `*************** DISPOSED BEFORE DONE: K${this._kernel.id.slice(
+            //     0,
+            //     6
+            //   )} M${this._msg.header.msg_id.slice(0, 6)} missing ${status.join(' ')}`
+            // );
+            // Reject the `done` promise, but catch its error here in case no one else
+            // is waiting for the promise to resolve. This prevents the error from
+            // being displayed in the console, but does not prevent it from being
+            // caught by a client who is waiting for it.
+            this._done.promise.catch(() => {
+                /* no-op */
+            });
+            this._done.reject(new Error(`Canceled future for ${this.msg.header.msg_type} message before replies were done`));
+        }
+        super.dispose();
+    }
+    /**
+     * Handle an incoming kernel message.
+     */
+    async handleMsg(msg) {
+        switch (msg.channel) {
+            case 'control':
+            case 'shell':
+                if (msg.channel === this.msg.channel &&
+                    msg.parent_header.msg_id === this.msg.header.msg_id) {
+                    await this._handleReply(msg);
+                }
+                break;
+            case 'stdin':
+                await this._handleStdin(msg);
+                break;
+            case 'iopub':
+                await this._handleIOPub(msg);
+                break;
+            default:
+                break;
+        }
+    }
+    async _handleReply(msg) {
+        const reply = this._reply;
+        if (reply) {
+            // tslint:disable-next-line:await-promise
+            await reply(msg);
+        }
+        this._replyMsg = msg;
+        this._setFlag(Private.KernelFutureFlag.GotReply);
+        if (this._testFlag(Private.KernelFutureFlag.GotIdle)) {
+            this._handleDone();
+        }
+    }
+    async _handleStdin(msg) {
+        this._kernel.hasPendingInput = true;
+        const stdin = this._stdin;
+        if (stdin) {
+            // tslint:disable-next-line:await-promise
+            await stdin(msg);
+        }
+    }
+    async _handleIOPub(msg) {
+        const process = await this._hooks.process(msg);
+        const iopub = this._iopub;
+        if (process && iopub) {
+            // tslint:disable-next-line:await-promise
+            await iopub(msg);
+        }
+        if (KernelMessage.isStatusMsg(msg) &&
+            msg.content.execution_state === 'idle') {
+            this._setFlag(Private.KernelFutureFlag.GotIdle);
+            if (this._testFlag(Private.KernelFutureFlag.GotReply)) {
+                this._handleDone();
+            }
+        }
+    }
+    _handleDone() {
+        if (this._testFlag(Private.KernelFutureFlag.IsDone)) {
+            return;
+        }
+        this._setFlag(Private.KernelFutureFlag.IsDone);
+        this._done.resolve(this._replyMsg);
+        if (this._disposeOnDone) {
+            this.dispose();
+        }
+    }
+    /**
+     * Test whether the given future flag is set.
+     */
+    _testFlag(flag) {
+        // tslint:disable-next-line
+        return (this._status & flag) !== 0;
+    }
+    /**
+     * Set the given future flag.
+     */
+    _setFlag(flag) {
+        // tslint:disable-next-line
+        this._status |= flag;
+    }
+}
+exports.KernelFutureHandler = KernelFutureHandler;
+class KernelControlFutureHandler extends KernelFutureHandler {
+}
+exports.KernelControlFutureHandler = KernelControlFutureHandler;
+class KernelShellFutureHandler extends KernelFutureHandler {
+}
+exports.KernelShellFutureHandler = KernelShellFutureHandler;
+var Private;
+(function (Private) {
+    /**
+     * A no-op function.
+     */
+    Private.noOp = () => {
+        /* no-op */
+    };
+    /**
+     * Defer a computation.
+     *
+     * #### NOTES
+     * We can't just use requestAnimationFrame since it is not available in node.
+     * This implementation is from Phosphor:
+     * https://github.com/phosphorjs/phosphor/blob/e88e4321289bb1198f3098e7bda40736501f2ed8/tests/test-messaging/src/index.spec.ts#L63
+     */
+    const defer = (() => {
+        const ok = typeof requestAnimationFrame === 'function';
+        return ok ? requestAnimationFrame : setImmediate;
+    })();
+    class HookList {
+        constructor() {
+            this._hooks = [];
+        }
+        /**
+         * Register a hook.
+         *
+         * @param hook - The callback to register.
+         */
+        add(hook) {
+            this.remove(hook);
+            this._hooks.push(hook);
+        }
+        /**
+         * Remove a hook, if it exists in the hook list.
+         *
+         * @param hook - The callback to remove.
+         */
+        remove(hook) {
+            const index = this._hooks.indexOf(hook);
+            if (index >= 0) {
+                this._hooks[index] = null;
+                this._scheduleCompact();
+            }
+        }
+        /**
+         * Process a message through the hooks.
+         *
+         * @returns a promise resolving to false if any hook resolved as false,
+         * otherwise true
+         *
+         * #### Notes
+         * The most recently registered hook is run first. A hook can return a
+         * boolean or a promise to a boolean, in which case processing pauses until
+         * the promise is fulfilled. If a hook return value resolves to false, any
+         * later hooks will not run and the function will return a promise resolving
+         * to false. If a hook throws an error, the error is logged to the console
+         * and the next hook is run. If a hook is registered during the hook
+         * processing, it will not run until the next message. If a hook is removed
+         * during the hook processing, it will be deactivated immediately.
+         */
+        async process(msg) {
+            // Wait until we can start a new process run.
+            await this._processing;
+            // Start the next process run.
+            const processing = new coreutils_1.PromiseDelegate();
+            this._processing = processing.promise;
+            let continueHandling;
+            // Call the end hook (most recently-added) first. Starting at the end also
+            // guarantees that hooks added during the processing will not be run in
+            // this process run.
+            for (let i = this._hooks.length - 1; i >= 0; i--) {
+                const hook = this._hooks[i];
+                // If the hook has been removed, continue to the next one.
+                if (hook === null) {
+                    continue;
+                }
+                // Execute the hook and log any errors.
+                try {
+                    // tslint:disable-next-line:await-promise
+                    continueHandling = await hook(msg);
+                }
+                catch (err) {
+                    continueHandling = true;
+                    console.error(err);
+                }
+                // If the hook resolved to false, stop processing and return.
+                if (continueHandling === false) {
+                    processing.resolve(undefined);
+                    return false;
+                }
+            }
+            // All hooks returned true (or errored out), so return true.
+            processing.resolve(undefined);
+            return true;
+        }
+        /**
+         * Schedule a cleanup of the list, removing any hooks that have been nulled out.
+         */
+        _scheduleCompact() {
+            if (!this._compactScheduled) {
+                this._compactScheduled = true;
+                // Schedule a compaction in between processing runs. We do the
+                // scheduling in an animation frame to rate-limit our compactions. If we
+                // need to compact more frequently, we can change this to directly
+                // schedule the compaction.
+                defer(() => {
+                    this._processing = this._processing.then(() => {
+                        this._compactScheduled = false;
+                        this._compact();
+                    });
+                });
+            }
+        }
+        /**
+         * Compact the list, removing any nulls.
+         */
+        _compact() {
+            let numNulls = 0;
+            for (let i = 0, len = this._hooks.length; i < len; i++) {
+                const hook = this._hooks[i];
+                if (this._hooks[i] === null) {
+                    numNulls++;
+                }
+                else {
+                    this._hooks[i - numNulls] = hook;
+                }
+            }
+            this._hooks.length -= numNulls;
+        }
+    }
+    Private.HookList = HookList;
+    /**
+     * Bit flags for the kernel future state.
+     */
+    let KernelFutureFlag;
+    (function (KernelFutureFlag) {
+        KernelFutureFlag[KernelFutureFlag["GotReply"] = 1] = "GotReply";
+        KernelFutureFlag[KernelFutureFlag["GotIdle"] = 2] = "GotIdle";
+        KernelFutureFlag[KernelFutureFlag["IsDone"] = 4] = "IsDone";
+        KernelFutureFlag[KernelFutureFlag["DisposeOnDone"] = 8] = "DisposeOnDone";
+    })(KernelFutureFlag = Private.KernelFutureFlag || (Private.KernelFutureFlag = {}));
+})(Private || (Private = {}));
+//# sourceMappingURL=future.js.map
+
+/***/ }),
+
+/***/ 62604:
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __exportStar = (this && this.__exportStar) || function(m, exports) {
+    for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.KernelConnection = exports.KernelAPI = exports.KernelMessage = exports.Kernel = void 0;
+// Namespace some of our modules for convenience and backwards compatibility.
+const Kernel = __importStar(__webpack_require__(38868));
+exports.Kernel = Kernel;
+const KernelMessage = __importStar(__webpack_require__(75253));
+exports.KernelMessage = KernelMessage;
+const KernelAPI = __importStar(__webpack_require__(2183));
+exports.KernelAPI = KernelAPI;
+const default_1 = __webpack_require__(19883);
+Object.defineProperty(exports, "KernelConnection", ({ enumerable: true, get: function () { return default_1.KernelConnection; } }));
+__exportStar(__webpack_require__(71825), exports);
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 38868:
+/***/ ((__unused_webpack_module, exports) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+//# sourceMappingURL=kernel.js.map
+
+/***/ }),
+
+/***/ 71825:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.KernelManager = void 0;
+const algorithm_1 = __webpack_require__(35259);
+const polling_1 = __webpack_require__(23114);
+const signaling_1 = __webpack_require__(4016);
+const __1 = __webpack_require__(76240);
+const basemanager_1 = __webpack_require__(50591);
+const restapi_1 = __webpack_require__(2183);
+const default_1 = __webpack_require__(19883);
+/**
+ * An implementation of a kernel manager.
+ */
+class KernelManager extends basemanager_1.BaseManager {
+    /**
+     * Construct a new kernel manager.
+     *
+     * @param options - The default options for kernel.
+     */
+    constructor(options = {}) {
+        var _a;
+        super(options);
+        this._isReady = false;
+        this._kernelConnections = new Set();
+        this._models = new Map();
+        this._runningChanged = new signaling_1.Signal(this);
+        this._connectionFailure = new signaling_1.Signal(this);
+        // Start model and specs polling with exponential backoff.
+        this._pollModels = new polling_1.Poll({
+            auto: false,
+            factory: () => this.requestRunning(),
+            frequency: {
+                interval: 10 * 1000,
+                backoff: true,
+                max: 300 * 1000
+            },
+            name: `@jupyterlab/services:KernelManager#models`,
+            standby: (_a = options.standby) !== null && _a !== void 0 ? _a : 'when-hidden'
+        });
+        // Initialize internal data.
+        this._ready = (async () => {
+            await this._pollModels.start();
+            await this._pollModels.tick;
+            this._isReady = true;
+        })();
+    }
+    /**
+     * Test whether the manager is ready.
+     */
+    get isReady() {
+        return this._isReady;
+    }
+    /**
+     * A promise that fulfills when the manager is ready.
+     */
+    get ready() {
+        return this._ready;
+    }
+    /**
+     * A signal emitted when the running kernels change.
+     */
+    get runningChanged() {
+        return this._runningChanged;
+    }
+    /**
+     * A signal emitted when there is a connection failure.
+     */
+    get connectionFailure() {
+        return this._connectionFailure;
+    }
+    /**
+     * Dispose of the resources used by the manager.
+     */
+    dispose() {
+        if (this.isDisposed) {
+            return;
+        }
+        this._models.clear();
+        this._kernelConnections.forEach(x => x.dispose());
+        this._pollModels.dispose();
+        super.dispose();
+    }
+    /**
+     * Connect to an existing kernel.
+     *
+     * @returns The new kernel connection.
+     *
+     * #### Notes
+     * This will use the manager's server settings and ignore any server
+     * settings passed in the options.
+     */
+    connectTo(options) {
+        var _a;
+        const { id } = options.model;
+        let handleComms = (_a = options.handleComms) !== null && _a !== void 0 ? _a : true;
+        // By default, handle comms only if no other kernel connection is.
+        if (options.handleComms === undefined) {
+            for (const kc of this._kernelConnections) {
+                if (kc.id === id && kc.handleComms) {
+                    handleComms = false;
+                    break;
+                }
+            }
+        }
+        const kernelConnection = new default_1.KernelConnection(Object.assign(Object.assign({ handleComms }, options), { serverSettings: this.serverSettings }));
+        this._onStarted(kernelConnection);
+        if (!this._models.has(id)) {
+            // We trust the user to connect to an existing kernel, but we verify
+            // asynchronously.
+            void this.refreshRunning().catch(() => {
+                /* no-op */
+            });
+        }
+        return kernelConnection;
+    }
+    /**
+     * Create an iterator over the most recent running kernels.
+     *
+     * @returns A new iterator over the running kernels.
+     */
+    running() {
+        return algorithm_1.iter([...this._models.values()]);
+    }
+    /**
+     * Force a refresh of the running kernels.
+     *
+     * @returns A promise that resolves when the running list has been refreshed.
+     *
+     * #### Notes
+     * This is not typically meant to be called by the user, since the
+     * manager maintains its own internal state.
+     */
+    async refreshRunning() {
+        await this._pollModels.refresh();
+        await this._pollModels.tick;
+    }
+    /**
+     * Start a new kernel.
+     *
+     * @param createOptions - The kernel creation options
+     *
+     * @param connectOptions - The kernel connection options
+     *
+     * @returns A promise that resolves with the kernel connection.
+     *
+     * #### Notes
+     * The manager `serverSettings` will be always be used.
+     */
+    async startNew(createOptions = {}, connectOptions = {}) {
+        const model = await restapi_1.startNew(createOptions, this.serverSettings);
+        return this.connectTo(Object.assign(Object.assign({}, connectOptions), { model }));
+    }
+    /**
+     * Shut down a kernel by id.
+     *
+     * @param id - The id of the target kernel.
+     *
+     * @returns A promise that resolves when the operation is complete.
+     */
+    async shutdown(id) {
+        await restapi_1.shutdownKernel(id, this.serverSettings);
+        await this.refreshRunning();
+    }
+    /**
+     * Shut down all kernels.
+     *
+     * @returns A promise that resolves when all of the kernels are shut down.
+     */
+    async shutdownAll() {
+        // Update the list of models to make sure our list is current.
+        await this.refreshRunning();
+        // Shut down all models.
+        await Promise.all([...this._models.keys()].map(id => restapi_1.shutdownKernel(id, this.serverSettings)));
+        // Update the list of models to clear out our state.
+        await this.refreshRunning();
+    }
+    /**
+     * Find a kernel by id.
+     *
+     * @param id - The id of the target kernel.
+     *
+     * @returns A promise that resolves with the kernel's model.
+     */
+    async findById(id) {
+        if (this._models.has(id)) {
+            return this._models.get(id);
+        }
+        await this.refreshRunning();
+        return this._models.get(id);
+    }
+    /**
+     * Execute a request to the server to poll running kernels and update state.
+     */
+    async requestRunning() {
+        var _a, _b;
+        let models;
+        try {
+            models = await restapi_1.listRunning(this.serverSettings);
+        }
+        catch (err) {
+            // Handle network errors, as well as cases where we are on a
+            // JupyterHub and the server is not running. JupyterHub returns a
+            // 503 (<2.0) or 424 (>2.0) in that case.
+            if (err instanceof __1.ServerConnection.NetworkError ||
+                ((_a = err.response) === null || _a === void 0 ? void 0 : _a.status) === 503 ||
+                ((_b = err.response) === null || _b === void 0 ? void 0 : _b.status) === 424) {
+                this._connectionFailure.emit(err);
+            }
+            throw err;
+        }
+        if (this.isDisposed) {
+            return;
+        }
+        if (this._models.size === models.length &&
+            algorithm_1.every(models, x => {
+                const existing = this._models.get(x.id);
+                if (!existing) {
+                    return false;
+                }
+                return existing.name === x.name;
+            })) {
+            // Identical models list (presuming models does not contain duplicate
+            // ids), so just return
+            return;
+        }
+        this._models = new Map(models.map(x => [x.id, x]));
+        // For any kernel connection to a kernel that doesn't exist, notify it of
+        // the shutdown.
+        this._kernelConnections.forEach(kc => {
+            if (!this._models.has(kc.id)) {
+                kc.handleShutdown();
+            }
+        });
+        this._runningChanged.emit(models);
+    }
+    /**
+     * Handle a kernel starting.
+     */
+    _onStarted(kernelConnection) {
+        this._kernelConnections.add(kernelConnection);
+        kernelConnection.statusChanged.connect(this._onStatusChanged, this);
+        kernelConnection.disposed.connect(this._onDisposed, this);
+    }
+    _onDisposed(kernelConnection) {
+        this._kernelConnections.delete(kernelConnection);
+        // A dispose emission could mean the server session is deleted, or that
+        // the kernel JS object is disposed and the kernel still exists on the
+        // server, so we refresh from the server to make sure we reflect the
+        // server state.
+        void this.refreshRunning().catch(() => {
+            /* no-op */
+        });
+    }
+    _onStatusChanged(kernelConnection, status) {
+        if (status === 'dead') {
+            // We asynchronously update our list of kernels, which asynchronously
+            // will dispose them. We do not want to immediately dispose them because
+            // there may be other signal handlers that want to be called.
+            void this.refreshRunning().catch(() => {
+                /* no-op */
+            });
+        }
+    }
+}
+exports.KernelManager = KernelManager;
+//# sourceMappingURL=manager.js.map
+
+/***/ }),
+
+/***/ 75253:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.isInputReplyMsg = exports.isInputRequestMsg = exports.isDebugReplyMsg = exports.isDebugRequestMsg = exports.isExecuteReplyMsg = exports.isInfoRequestMsg = exports.isCommMsgMsg = exports.isCommCloseMsg = exports.isCommOpenMsg = exports.isDebugEventMsg = exports.isClearOutputMsg = exports.isStatusMsg = exports.isErrorMsg = exports.isExecuteResultMsg = exports.isExecuteInputMsg = exports.isUpdateDisplayDataMsg = exports.isDisplayDataMsg = exports.isStreamMsg = exports.createMessage = void 0;
+const coreutils_1 = __webpack_require__(95082);
+function createMessage(options) {
+    var _a, _b, _c, _d, _e;
+    return {
+        buffers: (_a = options.buffers) !== null && _a !== void 0 ? _a : [],
+        channel: options.channel,
+        content: options.content,
+        header: {
+            date: new Date().toISOString(),
+            msg_id: (_b = options.msgId) !== null && _b !== void 0 ? _b : coreutils_1.UUID.uuid4(),
+            msg_type: options.msgType,
+            session: options.session,
+            username: (_c = options.username) !== null && _c !== void 0 ? _c : '',
+            version: '5.2'
+        },
+        metadata: (_d = options.metadata) !== null && _d !== void 0 ? _d : {},
+        parent_header: (_e = options.parentHeader) !== null && _e !== void 0 ? _e : {}
+    };
+}
+exports.createMessage = createMessage;
+/**
+ * Test whether a kernel message is a `'stream'` message.
+ */
+function isStreamMsg(msg) {
+    return msg.header.msg_type === 'stream';
+}
+exports.isStreamMsg = isStreamMsg;
+/**
+ * Test whether a kernel message is an `'display_data'` message.
+ */
+function isDisplayDataMsg(msg) {
+    return msg.header.msg_type === 'display_data';
+}
+exports.isDisplayDataMsg = isDisplayDataMsg;
+/**
+ * Test whether a kernel message is an `'update_display_data'` message.
+ */
+function isUpdateDisplayDataMsg(msg) {
+    return msg.header.msg_type === 'update_display_data';
+}
+exports.isUpdateDisplayDataMsg = isUpdateDisplayDataMsg;
+/**
+ * Test whether a kernel message is an `'execute_input'` message.
+ */
+function isExecuteInputMsg(msg) {
+    return msg.header.msg_type === 'execute_input';
+}
+exports.isExecuteInputMsg = isExecuteInputMsg;
+/**
+ * Test whether a kernel message is an `'execute_result'` message.
+ */
+function isExecuteResultMsg(msg) {
+    return msg.header.msg_type === 'execute_result';
+}
+exports.isExecuteResultMsg = isExecuteResultMsg;
+/**
+ * Test whether a kernel message is an `'error'` message.
+ */
+function isErrorMsg(msg) {
+    return msg.header.msg_type === 'error';
+}
+exports.isErrorMsg = isErrorMsg;
+/**
+ * Test whether a kernel message is a `'status'` message.
+ */
+function isStatusMsg(msg) {
+    return msg.header.msg_type === 'status';
+}
+exports.isStatusMsg = isStatusMsg;
+/**
+ * Test whether a kernel message is a `'clear_output'` message.
+ */
+function isClearOutputMsg(msg) {
+    return msg.header.msg_type === 'clear_output';
+}
+exports.isClearOutputMsg = isClearOutputMsg;
+/**
+ * Test whether a kernel message is an experimental `'debug_event'` message.
+ *
+ * @hidden
+ *
+ * #### Notes
+ * Debug messages are experimental messages that are not in the official
+ * kernel message specification. As such, this is *NOT* considered
+ * part of the public API, and may change without notice.
+ */
+function isDebugEventMsg(msg) {
+    return msg.header.msg_type === 'debug_event';
+}
+exports.isDebugEventMsg = isDebugEventMsg;
+/**
+ * Test whether a kernel message is a `'comm_open'` message.
+ */
+function isCommOpenMsg(msg) {
+    return msg.header.msg_type === 'comm_open';
+}
+exports.isCommOpenMsg = isCommOpenMsg;
+/**
+ * Test whether a kernel message is a `'comm_close'` message.
+ */
+function isCommCloseMsg(msg) {
+    return msg.header.msg_type === 'comm_close';
+}
+exports.isCommCloseMsg = isCommCloseMsg;
+/**
+ * Test whether a kernel message is a `'comm_msg'` message.
+ */
+function isCommMsgMsg(msg) {
+    return msg.header.msg_type === 'comm_msg';
+}
+exports.isCommMsgMsg = isCommMsgMsg;
+/**
+ * Test whether a kernel message is a `'kernel_info_request'` message.
+ */
+function isInfoRequestMsg(msg) {
+    return msg.header.msg_type === 'kernel_info_request';
+}
+exports.isInfoRequestMsg = isInfoRequestMsg;
+/**
+ * Test whether a kernel message is an `'execute_reply'` message.
+ */
+function isExecuteReplyMsg(msg) {
+    return msg.header.msg_type === 'execute_reply';
+}
+exports.isExecuteReplyMsg = isExecuteReplyMsg;
+/**
+ * Test whether a kernel message is an experimental `'debug_request'` message.
+ *
+ * @hidden
+ *
+ * #### Notes
+ * Debug messages are experimental messages that are not in the official
+ * kernel message specification. As such, this is *NOT* considered
+ * part of the public API, and may change without notice.
+ */
+function isDebugRequestMsg(msg) {
+    return msg.header.msg_type === 'debug_request';
+}
+exports.isDebugRequestMsg = isDebugRequestMsg;
+/**
+ * Test whether a kernel message is an experimental `'debug_reply'` message.
+ *
+ * @hidden
+ *
+ * #### Notes
+ * Debug messages are experimental messages that are not in the official
+ * kernel message specification. As such, this is *NOT* considered
+ * part of the public API, and may change without notice.
+ */
+function isDebugReplyMsg(msg) {
+    return msg.header.msg_type === 'debug_reply';
+}
+exports.isDebugReplyMsg = isDebugReplyMsg;
+/**
+ * Test whether a kernel message is an `'input_request'` message.
+ */
+function isInputRequestMsg(msg) {
+    return msg.header.msg_type === 'input_request';
+}
+exports.isInputRequestMsg = isInputRequestMsg;
+/**
+ * Test whether a kernel message is an `'input_reply'` message.
+ */
+function isInputReplyMsg(msg) {
+    return msg.header.msg_type === 'input_reply';
+}
+exports.isInputReplyMsg = isInputReplyMsg;
+//# sourceMappingURL=messages.js.map
+
+/***/ }),
+
+/***/ 2183:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.getKernelModel = exports.shutdownKernel = exports.interruptKernel = exports.restartKernel = exports.startNew = exports.listRunning = exports.KERNEL_SERVICE_URL = void 0;
+const serverconnection_1 = __webpack_require__(28477);
+const coreutils_1 = __webpack_require__(1850);
+const validate_1 = __webpack_require__(96512);
+/**
+ * The url for the kernel service.
+ */
+exports.KERNEL_SERVICE_URL = 'api/kernels';
+/**
+ * Fetch the running kernels.
+ *
+ * @param settings - The optional server settings.
+ *
+ * @returns A promise that resolves with the list of running kernels.
+ *
+ * #### Notes
+ * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/kernels) and validates the response model.
+ *
+ * The promise is fulfilled on a valid response and rejected otherwise.
+ */
+async function listRunning(settings = serverconnection_1.ServerConnection.makeSettings()) {
+    const url = coreutils_1.URLExt.join(settings.baseUrl, exports.KERNEL_SERVICE_URL);
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, {}, settings);
+    if (response.status !== 200) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+    const data = await response.json();
+    validate_1.validateModels(data);
+    return data;
+}
+exports.listRunning = listRunning;
+/**
+ * Start a new kernel.
+ *
+ * @param options - The options used to create the kernel.
+ *
+ * @returns A promise that resolves with a kernel connection object.
+ *
+ * #### Notes
+ * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/kernels) and validates the response model.
+ *
+ * The promise is fulfilled on a valid response and rejected otherwise.
+ */
+async function startNew(options = {}, settings = serverconnection_1.ServerConnection.makeSettings()) {
+    const url = coreutils_1.URLExt.join(settings.baseUrl, exports.KERNEL_SERVICE_URL);
+    const init = {
+        method: 'POST',
+        body: JSON.stringify(options)
+    };
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, init, settings);
+    if (response.status !== 201) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+    const data = await response.json();
+    validate_1.validateModel(data);
+    return data;
+}
+exports.startNew = startNew;
+/**
+ * Restart a kernel.
+ *
+ * #### Notes
+ * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/kernels) and validates the response model.
+ *
+ * The promise is fulfilled on a valid response (and thus after a restart) and rejected otherwise.
+ */
+async function restartKernel(id, settings = serverconnection_1.ServerConnection.makeSettings()) {
+    const url = coreutils_1.URLExt.join(settings.baseUrl, exports.KERNEL_SERVICE_URL, encodeURIComponent(id), 'restart');
+    const init = { method: 'POST' };
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, init, settings);
+    if (response.status !== 200) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+    const data = await response.json();
+    validate_1.validateModel(data);
+}
+exports.restartKernel = restartKernel;
+/**
+ * Interrupt a kernel.
+ *
+ * #### Notes
+ * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/kernels) and validates the response model.
+ *
+ * The promise is fulfilled on a valid response and rejected otherwise.
+ */
+async function interruptKernel(id, settings = serverconnection_1.ServerConnection.makeSettings()) {
+    const url = coreutils_1.URLExt.join(settings.baseUrl, exports.KERNEL_SERVICE_URL, encodeURIComponent(id), 'interrupt');
+    const init = { method: 'POST' };
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, init, settings);
+    if (response.status !== 204) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+}
+exports.interruptKernel = interruptKernel;
+/**
+ * Shut down a kernel.
+ *
+ * @param id - The id of the running kernel.
+ *
+ * @param settings - The server settings for the request.
+ *
+ * @returns A promise that resolves when the kernel is shut down.
+ *
+ *
+ * #### Notes
+ * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/kernels) and validates the response model.
+ *
+ * The promise is fulfilled on a valid response and rejected otherwise.
+ */
+async function shutdownKernel(id, settings = serverconnection_1.ServerConnection.makeSettings()) {
+    const url = coreutils_1.URLExt.join(settings.baseUrl, exports.KERNEL_SERVICE_URL, encodeURIComponent(id));
+    const init = { method: 'DELETE' };
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, init, settings);
+    if (response.status === 404) {
+        const msg = `The kernel "${id}" does not exist on the server`;
+        console.warn(msg);
+    }
+    else if (response.status !== 204) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+}
+exports.shutdownKernel = shutdownKernel;
+/**
+ * Get a full kernel model from the server by kernel id string.
+ *
+ * #### Notes
+ * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/kernels) and validates the response model.
+ *
+ * The promise is fulfilled on a valid response and rejected otherwise.
+ */
+async function getKernelModel(id, settings = serverconnection_1.ServerConnection.makeSettings()) {
+    const url = coreutils_1.URLExt.join(settings.baseUrl, exports.KERNEL_SERVICE_URL, encodeURIComponent(id));
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, {}, settings);
+    if (response.status === 404) {
+        return undefined;
+    }
+    else if (response.status !== 200) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+    const data = await response.json();
+    validate_1.validateModel(data);
+    return data;
+}
+exports.getKernelModel = getKernelModel;
+//# sourceMappingURL=restapi.js.map
+
+/***/ }),
+
+/***/ 86002:
+/***/ ((__unused_webpack_module, exports) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.serialize = exports.deserialize = void 0;
+/**
+ * Deserialize and return the unpacked message.
+ *
+ * #### Notes
+ * Handles JSON blob strings and binary messages.
+ */
+function deserialize(data) {
+    let value;
+    if (typeof data === 'string') {
+        value = JSON.parse(data);
+    }
+    else {
+        value = deserializeBinary(data);
+    }
+    return value;
+}
+exports.deserialize = deserialize;
+/**
+ * Serialize a kernel message for transport.
+ *
+ * #### Notes
+ * If there is binary content, an `ArrayBuffer` is returned,
+ * otherwise the message is converted to a JSON string.
+ */
+function serialize(msg) {
+    var _a;
+    let value;
+    if ((_a = msg.buffers) === null || _a === void 0 ? void 0 : _a.length) {
+        value = serializeBinary(msg);
+    }
+    else {
+        value = JSON.stringify(msg);
+    }
+    return value;
+}
+exports.serialize = serialize;
+/**
+ * Deserialize a binary message to a Kernel Message.
+ */
+function deserializeBinary(buf) {
+    const data = new DataView(buf);
+    // read the header: 1 + nbufs 32b integers
+    const nbufs = data.getUint32(0);
+    const offsets = [];
+    if (nbufs < 2) {
+        throw new Error('Invalid incoming Kernel Message');
+    }
+    for (let i = 1; i <= nbufs; i++) {
+        offsets.push(data.getUint32(i * 4));
+    }
+    const jsonBytes = new Uint8Array(buf.slice(offsets[0], offsets[1]));
+    const msg = JSON.parse(new TextDecoder('utf8').decode(jsonBytes));
+    // the remaining chunks are stored as DataViews in msg.buffers
+    msg.buffers = [];
+    for (let i = 1; i < nbufs; i++) {
+        const start = offsets[i];
+        const stop = offsets[i + 1] || buf.byteLength;
+        msg.buffers.push(new DataView(buf.slice(start, stop)));
+    }
+    return msg;
+}
+/**
+ * Implement the binary serialization protocol.
+ *
+ * Serialize Kernel message to ArrayBuffer.
+ */
+function serializeBinary(msg) {
+    const offsets = [];
+    const buffers = [];
+    const encoder = new TextEncoder();
+    let origBuffers = [];
+    if (msg.buffers !== undefined) {
+        origBuffers = msg.buffers;
+        delete msg['buffers'];
+    }
+    const jsonUtf8 = encoder.encode(JSON.stringify(msg));
+    buffers.push(jsonUtf8.buffer);
+    for (let i = 0; i < origBuffers.length; i++) {
+        // msg.buffers elements could be either views or ArrayBuffers
+        // buffers elements are ArrayBuffers
+        const b = origBuffers[i];
+        buffers.push(ArrayBuffer.isView(b) ? b.buffer : b);
+    }
+    const nbufs = buffers.length;
+    offsets.push(4 * (nbufs + 1));
+    for (let i = 0; i + 1 < buffers.length; i++) {
+        offsets.push(offsets[offsets.length - 1] + buffers[i].byteLength);
+    }
+    const msgBuf = new Uint8Array(offsets[offsets.length - 1] + buffers[buffers.length - 1].byteLength);
+    // use DataView.setUint32 for network byte-order
+    const view = new DataView(msgBuf.buffer);
+    // write nbufs to first 4 bytes
+    view.setUint32(0, nbufs);
+    // write offsets to next 4 * nbufs bytes
+    for (let i = 0; i < offsets.length; i++) {
+        view.setUint32(4 * (i + 1), offsets[i]);
+    }
+    // write all the buffers at their respective offsets
+    for (let i = 0; i < buffers.length; i++) {
+        msgBuf.set(new Uint8Array(buffers[i]), offsets[i]);
+    }
+    return msgBuf.buffer;
+}
+//# sourceMappingURL=serialize.js.map
+
+/***/ }),
+
+/***/ 96512:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.validateModels = exports.validateModel = exports.validateMessage = void 0;
+const validate_1 = __webpack_require__(46901);
+/**
+ * Required fields for `IKernelHeader`.
+ */
+const HEADER_FIELDS = ['username', 'version', 'session', 'msg_id', 'msg_type'];
+/**
+ * Required fields and types for contents of various types of `kernel.IMessage`
+ * messages on the iopub channel.
+ */
+const IOPUB_CONTENT_FIELDS = {
+    stream: { name: 'string', text: 'string' },
+    display_data: { data: 'object', metadata: 'object' },
+    execute_input: { code: 'string', execution_count: 'number' },
+    execute_result: {
+        execution_count: 'number',
+        data: 'object',
+        metadata: 'object'
+    },
+    error: { ename: 'string', evalue: 'string', traceback: 'object' },
+    status: {
+        execution_state: [
+            'string',
+            ['starting', 'idle', 'busy', 'restarting', 'dead']
+        ]
+    },
+    clear_output: { wait: 'boolean' },
+    comm_open: { comm_id: 'string', target_name: 'string', data: 'object' },
+    comm_msg: { comm_id: 'string', data: 'object' },
+    comm_close: { comm_id: 'string' },
+    shutdown_reply: { restart: 'boolean' } // Emitted by the IPython kernel.
+};
+/**
+ * Validate the header of a kernel message.
+ */
+function validateHeader(header) {
+    for (let i = 0; i < HEADER_FIELDS.length; i++) {
+        validate_1.validateProperty(header, HEADER_FIELDS[i], 'string');
+    }
+}
+/**
+ * Validate a kernel message object.
+ */
+function validateMessage(msg) {
+    validate_1.validateProperty(msg, 'metadata', 'object');
+    validate_1.validateProperty(msg, 'content', 'object');
+    validate_1.validateProperty(msg, 'channel', 'string');
+    validateHeader(msg.header);
+    if (msg.channel === 'iopub') {
+        validateIOPubContent(msg);
+    }
+}
+exports.validateMessage = validateMessage;
+/**
+ * Validate content an kernel message on the iopub channel.
+ */
+function validateIOPubContent(msg) {
+    if (msg.channel === 'iopub') {
+        const fields = IOPUB_CONTENT_FIELDS[msg.header.msg_type];
+        // Check for unknown message type.
+        if (fields === undefined) {
+            return;
+        }
+        const names = Object.keys(fields);
+        const content = msg.content;
+        for (let i = 0; i < names.length; i++) {
+            let args = fields[names[i]];
+            if (!Array.isArray(args)) {
+                args = [args];
+            }
+            validate_1.validateProperty(content, names[i], ...args);
+        }
+    }
+}
+/**
+ * Validate a `Kernel.IModel` object.
+ */
+function validateModel(model) {
+    validate_1.validateProperty(model, 'name', 'string');
+    validate_1.validateProperty(model, 'id', 'string');
+}
+exports.validateModel = validateModel;
+/**
+ * Validate an array of `IModel` objects.
+ */
+function validateModels(models) {
+    if (!Array.isArray(models)) {
+        throw new Error('Invalid kernel list');
+    }
+    models.forEach(d => validateModel(d));
+}
+exports.validateModels = validateModels;
+//# sourceMappingURL=validate.js.map
+
+/***/ }),
+
+/***/ 12902:
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __exportStar = (this && this.__exportStar) || function(m, exports) {
+    for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.KernelSpecAPI = exports.KernelSpec = void 0;
+const KernelSpec = __importStar(__webpack_require__(79453));
+exports.KernelSpec = KernelSpec;
+const KernelSpecAPI = __importStar(__webpack_require__(33415));
+exports.KernelSpecAPI = KernelSpecAPI;
+__exportStar(__webpack_require__(54936), exports);
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 79453:
+/***/ ((__unused_webpack_module, exports) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+//# sourceMappingURL=kernelspec.js.map
+
+/***/ }),
+
+/***/ 54936:
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.KernelSpecManager = void 0;
+const coreutils_1 = __webpack_require__(95082);
+const polling_1 = __webpack_require__(23114);
+const signaling_1 = __webpack_require__(4016);
+const restapi = __importStar(__webpack_require__(33415));
+const basemanager_1 = __webpack_require__(50591);
+/**
+ * An implementation of a kernel spec manager.
+ */
+class KernelSpecManager extends basemanager_1.BaseManager {
+    /**
+     * Construct a new kernel spec manager.
+     *
+     * @param options - The default options for kernel.
+     */
+    constructor(options = {}) {
+        var _a;
+        super(options);
+        this._isReady = false;
+        this._connectionFailure = new signaling_1.Signal(this);
+        this._specs = null;
+        this._specsChanged = new signaling_1.Signal(this);
+        // Initialize internal data.
+        this._ready = Promise.all([this.requestSpecs()])
+            .then(_ => undefined)
+            .catch(_ => undefined)
+            .then(() => {
+            if (this.isDisposed) {
+                return;
+            }
+            this._isReady = true;
+        });
+        this._pollSpecs = new polling_1.Poll({
+            auto: false,
+            factory: () => this.requestSpecs(),
+            frequency: {
+                interval: 61 * 1000,
+                backoff: true,
+                max: 300 * 1000
+            },
+            name: `@jupyterlab/services:KernelSpecManager#specs`,
+            standby: (_a = options.standby) !== null && _a !== void 0 ? _a : 'when-hidden'
+        });
+        void this.ready.then(() => {
+            void this._pollSpecs.start();
+        });
+    }
+    /**
+     * Test whether the manager is ready.
+     */
+    get isReady() {
+        return this._isReady;
+    }
+    /**
+     * A promise that fulfills when the manager is ready.
+     */
+    get ready() {
+        return this._ready;
+    }
+    /**
+     * Get the most recently fetched kernel specs.
+     */
+    get specs() {
+        return this._specs;
+    }
+    /**
+     * A signal emitted when the specs change.
+     */
+    get specsChanged() {
+        return this._specsChanged;
+    }
+    /**
+     * A signal emitted when there is a connection failure.
+     */
+    get connectionFailure() {
+        return this._connectionFailure;
+    }
+    /**
+     * Dispose of the resources used by the manager.
+     */
+    dispose() {
+        this._pollSpecs.dispose();
+        super.dispose();
+    }
+    /**
+     * Force a refresh of the specs from the server.
+     *
+     * @returns A promise that resolves when the specs are fetched.
+     *
+     * #### Notes
+     * This is intended to be called only in response to a user action,
+     * since the manager maintains its internal state.
+     */
+    async refreshSpecs() {
+        await this._pollSpecs.refresh();
+        await this._pollSpecs.tick;
+    }
+    /**
+     * Execute a request to the server to poll specs and update state.
+     */
+    async requestSpecs() {
+        const specs = await restapi.getSpecs(this.serverSettings);
+        if (this.isDisposed) {
+            return;
+        }
+        if (!coreutils_1.JSONExt.deepEqual(specs, this._specs)) {
+            this._specs = specs;
+            this._specsChanged.emit(specs);
+        }
+    }
+}
+exports.KernelSpecManager = KernelSpecManager;
+//# sourceMappingURL=manager.js.map
+
+/***/ }),
+
+/***/ 33415:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.getSpecs = void 0;
+const serverconnection_1 = __webpack_require__(28477);
+const validate_1 = __webpack_require__(73103);
+const coreutils_1 = __webpack_require__(1850);
+/**
+ * The url for the kernelspec service.
+ */
+const KERNELSPEC_SERVICE_URL = 'api/kernelspecs';
+/**
+ * Fetch all of the kernel specs.
+ *
+ * @param settings - The optional server settings.
+ * @param useCache - Whether to use the cache. If false, always request.
+ *
+ * @returns A promise that resolves with the kernel specs.
+ *
+ * #### Notes
+ * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/kernelspecs).
+ */
+async function getSpecs(settings = serverconnection_1.ServerConnection.makeSettings()) {
+    const url = coreutils_1.URLExt.join(settings.baseUrl, KERNELSPEC_SERVICE_URL);
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, {}, settings);
+    if (response.status !== 200) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+    const data = await response.json();
+    return validate_1.validateSpecModels(data);
+}
+exports.getSpecs = getSpecs;
+//# sourceMappingURL=restapi.js.map
+
+/***/ }),
+
+/***/ 73103:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.validateSpecModels = exports.validateSpecModel = void 0;
+const validate_1 = __webpack_require__(46901);
+/**
+ * Validate a server kernelspec model to a client side model.
+ */
+function validateSpecModel(data) {
+    const spec = data.spec;
+    if (!spec) {
+        throw new Error('Invalid kernel spec');
+    }
+    validate_1.validateProperty(data, 'name', 'string');
+    validate_1.validateProperty(data, 'resources', 'object');
+    validate_1.validateProperty(spec, 'language', 'string');
+    validate_1.validateProperty(spec, 'display_name', 'string');
+    validate_1.validateProperty(spec, 'argv', 'array');
+    let metadata = null;
+    if (spec.hasOwnProperty('metadata')) {
+        validate_1.validateProperty(spec, 'metadata', 'object');
+        metadata = spec.metadata;
+    }
+    let env = null;
+    if (spec.hasOwnProperty('env')) {
+        validate_1.validateProperty(spec, 'env', 'object');
+        env = spec.env;
+    }
+    return {
+        name: data.name,
+        resources: data.resources,
+        language: spec.language,
+        display_name: spec.display_name,
+        argv: spec.argv,
+        metadata,
+        env
+    };
+}
+exports.validateSpecModel = validateSpecModel;
+/**
+ * Validate a `Kernel.ISpecModels` object.
+ */
+function validateSpecModels(data) {
+    if (!data.hasOwnProperty('kernelspecs')) {
+        throw new Error('No kernelspecs found');
+    }
+    let keys = Object.keys(data.kernelspecs);
+    const kernelspecs = Object.create(null);
+    let defaultSpec = data.default;
+    for (let i = 0; i < keys.length; i++) {
+        const ks = data.kernelspecs[keys[i]];
+        try {
+            kernelspecs[keys[i]] = validateSpecModel(ks);
+        }
+        catch (err) {
+            // Remove the errant kernel spec.
+            console.warn(`Removing errant kernel spec: ${keys[i]}`);
+        }
+    }
+    keys = Object.keys(kernelspecs);
+    if (!keys.length) {
+        throw new Error('No valid kernelspecs found');
+    }
+    if (!defaultSpec ||
+        typeof defaultSpec !== 'string' ||
+        !(defaultSpec in kernelspecs)) {
+        defaultSpec = keys[0];
+        console.warn(`Default kernel not found, using '${keys[0]}'`);
+    }
+    return {
+        default: defaultSpec,
+        kernelspecs
+    };
+}
+exports.validateSpecModels = validateSpecModels;
+//# sourceMappingURL=validate.js.map
+
+/***/ }),
+
+/***/ 93079:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.ServiceManager = void 0;
+const signaling_1 = __webpack_require__(4016);
+const builder_1 = __webpack_require__(33227);
+const nbconvert_1 = __webpack_require__(4574);
+const contents_1 = __webpack_require__(63644);
+const event_1 = __webpack_require__(57316);
+const kernel_1 = __webpack_require__(62604);
+const kernelspec_1 = __webpack_require__(12902);
+const session_1 = __webpack_require__(41874);
+const setting_1 = __webpack_require__(92726);
+const terminal_1 = __webpack_require__(93247);
+const serverconnection_1 = __webpack_require__(28477);
+const user_1 = __webpack_require__(95598);
+const workspace_1 = __webpack_require__(45399);
+/**
+ * A Jupyter services manager.
+ */
+class ServiceManager {
+    /**
+     * Construct a new services provider.
+     */
+    constructor(options = {}) {
+        var _a, _b;
+        this._isDisposed = false;
+        this._connectionFailure = new signaling_1.Signal(this);
+        this._isReady = false;
+        const defaultDrive = options.defaultDrive;
+        const serverSettings = (_a = options.serverSettings) !== null && _a !== void 0 ? _a : serverconnection_1.ServerConnection.makeSettings();
+        const standby = (_b = options.standby) !== null && _b !== void 0 ? _b : 'when-hidden';
+        const normalized = { defaultDrive, serverSettings, standby };
+        const kernelManager = new kernel_1.KernelManager(normalized);
+        this.serverSettings = serverSettings;
+        this.contents = new contents_1.ContentsManager(normalized);
+        this.events = new event_1.EventManager(normalized);
+        this.sessions = new session_1.SessionManager(Object.assign(Object.assign({}, normalized), { kernelManager: kernelManager }));
+        this.settings = new setting_1.SettingManager(normalized);
+        this.terminals = new terminal_1.TerminalManager(normalized);
+        this.builder = new builder_1.BuildManager(normalized);
+        this.workspaces = new workspace_1.WorkspaceManager(normalized);
+        this.nbconvert = new nbconvert_1.NbConvertManager(normalized);
+        this.kernelspecs = new kernelspec_1.KernelSpecManager(normalized);
+        this.user = new user_1.UserManager(normalized);
+        // Proxy all connection failures from the individual service managers.
+        this.kernelspecs.connectionFailure.connect(this._onConnectionFailure, this);
+        this.sessions.connectionFailure.connect(this._onConnectionFailure, this);
+        this.terminals.connectionFailure.connect(this._onConnectionFailure, this);
+        // Define promises that need to be resolved before service manager is ready.
+        const readyList = [this.sessions.ready, this.kernelspecs.ready];
+        if (this.terminals.isAvailable()) {
+            readyList.push(this.terminals.ready);
+        }
+        this._readyPromise = Promise.all(readyList).then(() => {
+            this._isReady = true;
+        });
+    }
+    /**
+     * A signal emitted when there is a connection failure with the kernel.
+     */
+    get connectionFailure() {
+        return this._connectionFailure;
+    }
+    /**
+     * Test whether the service manager is disposed.
+     */
+    get isDisposed() {
+        return this._isDisposed;
+    }
+    /**
+     * Dispose of the resources used by the manager.
+     */
+    dispose() {
+        if (this.isDisposed) {
+            return;
+        }
+        this._isDisposed = true;
+        signaling_1.Signal.clearData(this);
+        this.contents.dispose();
+        this.events.dispose();
+        this.sessions.dispose();
+        this.terminals.dispose();
+    }
+    /**
+     * Test whether the manager is ready.
+     */
+    get isReady() {
+        return this._isReady;
+    }
+    /**
+     * A promise that fulfills when the manager is ready.
+     */
+    get ready() {
+        return this._readyPromise;
+    }
+    _onConnectionFailure(sender, err) {
+        this._connectionFailure.emit(err);
+    }
+}
+exports.ServiceManager = ServiceManager;
+//# sourceMappingURL=manager.js.map
+
+/***/ }),
+
+/***/ 4574:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.NbConvertManager = void 0;
+const coreutils_1 = __webpack_require__(1850);
+const serverconnection_1 = __webpack_require__(28477);
+/**
+ * The url for the lab nbconvert service.
+ */
+const NBCONVERT_SETTINGS_URL = 'api/nbconvert';
+/**
+ * The nbconvert API service manager.
+ */
+class NbConvertManager {
+    /**
+     * Create a new nbconvert manager.
+     */
+    constructor(options = {}) {
+        var _a;
+        this.serverSettings = (_a = options.serverSettings) !== null && _a !== void 0 ? _a : serverconnection_1.ServerConnection.makeSettings();
+    }
+    /**
+     * Get whether the application should be built.
+     */
+    async getExportFormats() {
+        const base = this.serverSettings.baseUrl;
+        const url = coreutils_1.URLExt.join(base, NBCONVERT_SETTINGS_URL);
+        const { serverSettings } = this;
+        const response = await serverconnection_1.ServerConnection.makeRequest(url, {}, serverSettings);
+        if (response.status !== 200) {
+            const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+            throw err;
+        }
+        const data = await response.json();
+        const exportList = {};
+        const keys = Object.keys(data);
+        keys.forEach(function (key) {
+            const mimeType = data[key].output_mimetype;
+            exportList[key] = { output_mimetype: mimeType };
+        });
+        return exportList;
+    }
+}
+exports.NbConvertManager = NbConvertManager;
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 28477:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+/* provided dependency */ var process = __webpack_require__(34155);
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+var _a, _b, _c;
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.ServerConnection = void 0;
+const coreutils_1 = __webpack_require__(1850);
+let FETCH;
+let HEADERS;
+let REQUEST;
+let WEBSOCKET;
+if (typeof window === 'undefined') {
+    // Mangle the require statements so it does not get picked up in the
+    // browser assets.
+    /* tslint:disable */
+    const fetchMod = __webpack_require__(21763);
+    FETCH = (_a = __webpack_require__.g.fetch) !== null && _a !== void 0 ? _a : fetchMod;
+    REQUEST = (_b = __webpack_require__.g.Request) !== null && _b !== void 0 ? _b : fetchMod.Request;
+    HEADERS = (_c = __webpack_require__.g.Headers) !== null && _c !== void 0 ? _c : fetchMod.Headers;
+    WEBSOCKET = __webpack_require__(12447);
+    /* tslint:enable */
+}
+else {
+    FETCH = fetch;
+    REQUEST = Request;
+    HEADERS = Headers;
+    WEBSOCKET = WebSocket;
+}
+/**
+ * The namespace for ServerConnection functions.
+ *
+ * #### Notes
+ * This is only intended to manage communication with the Jupyter server.
+ *
+ * The default values can be used in a JupyterLab or Jupyter Notebook context.
+ *
+ * We use `token` authentication if available, falling back on an XSRF
+ * cookie if one has been provided on the `document`.
+ *
+ * A content type of `'application/json'` is added when using authentication
+ * and there is no body data to allow the server to prevent malicious forms.
+ */
+var ServerConnection;
+(function (ServerConnection) {
+    /**
+     * Create a settings object given a subset of options.
+     *
+     * @param options - An optional partial set of options.
+     *
+     * @returns The full settings object.
+     */
+    function makeSettings(options) {
+        return Private.makeSettings(options);
+    }
+    ServerConnection.makeSettings = makeSettings;
+    /**
+     * Make an request to the notebook server.
+     *
+     * @param url - The url for the request.
+     *
+     * @param init - The initialization options for the request.
+     *
+     * @param settings - The server settings to apply to the request.
+     *
+     * @returns a Promise that resolves with the response.
+     *
+     * @throws If the url of the request is not a notebook server url.
+     *
+     * #### Notes
+     * The `url` must start with `settings.baseUrl`.  The `init` settings are
+     * merged with `settings.init`, with `init` taking precedence.
+     * The headers in the two objects are not merged.
+     * If there is no body data, we set the content type to `application/json`
+     * because it is required by the Notebook server.
+     */
+    function makeRequest(url, init, settings) {
+        return Private.handleRequest(url, init, settings);
+    }
+    ServerConnection.makeRequest = makeRequest;
+    /**
+     * A wrapped error for a fetch response.
+     */
+    class ResponseError extends Error {
+        /**
+         * Create a new response error.
+         */
+        constructor(response, message = ResponseError._defaultMessage(response), traceback = '') {
+            super(message);
+            this.response = response;
+            this.traceback = traceback;
+        }
+        /**
+         * Create a ResponseError from a response, handling the traceback and message
+         * as appropriate.
+         *
+         * @param response The response object.
+         *
+         * @returns A promise that resolves with a `ResponseError` object.
+         */
+        static async create(response) {
+            try {
+                const data = await response.json();
+                const { message, traceback } = data;
+                if (traceback) {
+                    console.error(traceback);
+                }
+                return new ResponseError(response, message !== null && message !== void 0 ? message : ResponseError._defaultMessage(response), traceback !== null && traceback !== void 0 ? traceback : '');
+            }
+            catch (e) {
+                console.debug(e);
+                return new ResponseError(response);
+            }
+        }
+        static _defaultMessage(response) {
+            return `Invalid response: ${response.status} ${response.statusText}`;
+        }
+    }
+    ServerConnection.ResponseError = ResponseError;
+    /**
+     * A wrapped error for a network error.
+     */
+    class NetworkError extends TypeError {
+        /**
+         * Create a new network error.
+         */
+        constructor(original) {
+            super(original.message);
+            this.stack = original.stack;
+        }
+    }
+    ServerConnection.NetworkError = NetworkError;
+})(ServerConnection = exports.ServerConnection || (exports.ServerConnection = {}));
+/**
+ * The namespace for module private data.
+ */
+var Private;
+(function (Private) {
+    /**
+     * Handle the server connection settings, returning a new value.
+     */
+    function makeSettings(options = {}) {
+        var _a;
+        const pageBaseUrl = coreutils_1.PageConfig.getBaseUrl();
+        const pageWsUrl = coreutils_1.PageConfig.getWsUrl();
+        const baseUrl = coreutils_1.URLExt.normalize(options.baseUrl) || pageBaseUrl;
+        let wsUrl = options.wsUrl;
+        // Prefer the default wsUrl if we are using the default baseUrl.
+        if (!wsUrl && baseUrl === pageBaseUrl) {
+            wsUrl = pageWsUrl;
+        }
+        // Otherwise convert the baseUrl to a wsUrl if possible.
+        if (!wsUrl && baseUrl.indexOf('http') === 0) {
+            wsUrl = 'ws' + baseUrl.slice(4);
+        }
+        // Otherwise fall back on the default wsUrl.
+        wsUrl = wsUrl !== null && wsUrl !== void 0 ? wsUrl : pageWsUrl;
+        return Object.assign(Object.assign({ init: { cache: 'no-store', credentials: 'same-origin' }, fetch: FETCH, Headers: HEADERS, Request: REQUEST, WebSocket: WEBSOCKET, token: coreutils_1.PageConfig.getToken(), appUrl: coreutils_1.PageConfig.getOption('appUrl'), appendToken: typeof window === 'undefined' ||
+                (typeof process !== 'undefined' &&
+                    ((_a = process === null || process === void 0 ? void 0 : {}) === null || _a === void 0 ? void 0 : _a.JEST_WORKER_ID) !== undefined) ||
+                coreutils_1.URLExt.getHostName(pageBaseUrl) !== coreutils_1.URLExt.getHostName(wsUrl) }, options), { baseUrl,
+            wsUrl });
+    }
+    Private.makeSettings = makeSettings;
+    /**
+     * Handle a request.
+     *
+     * @param url - The url for the request.
+     *
+     * @param init - The overrides for the request init.
+     *
+     * @param settings - The settings object for the request.
+     *
+     * #### Notes
+     * The `url` must start with `settings.baseUrl`.  The `init` settings
+     * take precedence over `settings.init`.
+     */
+    function handleRequest(url, init, settings) {
+        var _a;
+        // Handle notebook server requests.
+        if (url.indexOf(settings.baseUrl) !== 0) {
+            throw new Error('Can only be used for notebook server requests');
+        }
+        // Use explicit cache buster when `no-store` is set since
+        // not all browsers use it properly.
+        const cache = (_a = init.cache) !== null && _a !== void 0 ? _a : settings.init.cache;
+        if (cache === 'no-store') {
+            // https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest#Bypassing_the_cache
+            url += (/\?/.test(url) ? '&' : '?') + new Date().getTime();
+        }
+        const request = new settings.Request(url, Object.assign(Object.assign({}, settings.init), init));
+        // Handle authentication. Authentication can be overdetermined by
+        // settings token and XSRF token.
+        let authenticated = false;
+        if (settings.token) {
+            authenticated = true;
+            request.headers.append('Authorization', `token ${settings.token}`);
+        }
+        if (typeof document !== 'undefined' && (document === null || document === void 0 ? void 0 : document.cookie)) {
+            const xsrfToken = getCookie('_xsrf');
+            if (xsrfToken !== undefined) {
+                authenticated = true;
+                request.headers.append('X-XSRFToken', xsrfToken);
+            }
+        }
+        // Set the content type if there is no given data and we are
+        // using an authenticated connection.
+        if (!request.headers.has('Content-Type') && authenticated) {
+            request.headers.set('Content-Type', 'application/json');
+        }
+        // Use `call` to avoid a `TypeError` in the browser.
+        return settings.fetch.call(null, request).catch((e) => {
+            // Convert the TypeError into a more specific error.
+            throw new ServerConnection.NetworkError(e);
+        });
+        // TODO: *this* is probably where we need a system-wide connectionFailure
+        // signal we can hook into.
+    }
+    Private.handleRequest = handleRequest;
+    /**
+     * Get a cookie from the document.
+     */
+    function getCookie(name) {
+        // From http://www.tornadoweb.org/en/stable/guide/security.html
+        const matches = document.cookie.match('\\b' + name + '=([^;]*)\\b');
+        return matches === null || matches === void 0 ? void 0 : matches[1];
+    }
+})(Private || (Private = {}));
+//# sourceMappingURL=serverconnection.js.map
+
+/***/ }),
+
+/***/ 35410:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.SessionConnection = void 0;
+const signaling_1 = __webpack_require__(4016);
+const __1 = __webpack_require__(76240);
+const restapi_1 = __webpack_require__(56807);
+const coreutils_1 = __webpack_require__(95082);
+/**
+ * Session object for accessing the session REST api. The session
+ * should be used to start kernels and then shut them down -- for
+ * all other kernel operations, the kernel object should be used.
+ */
+class SessionConnection {
+    /**
+     * Construct a new session.
+     */
+    constructor(options) {
+        var _a, _b, _c, _d;
+        this._id = '';
+        this._path = '';
+        this._name = '';
+        this._type = '';
+        this._kernel = null;
+        this._isDisposed = false;
+        this._disposed = new signaling_1.Signal(this);
+        this._kernelChanged = new signaling_1.Signal(this);
+        this._statusChanged = new signaling_1.Signal(this);
+        this._connectionStatusChanged = new signaling_1.Signal(this);
+        this._pendingInput = new signaling_1.Signal(this);
+        this._iopubMessage = new signaling_1.Signal(this);
+        this._unhandledMessage = new signaling_1.Signal(this);
+        this._anyMessage = new signaling_1.Signal(this);
+        this._propertyChanged = new signaling_1.Signal(this);
+        this._id = options.model.id;
+        this._name = options.model.name;
+        this._path = options.model.path;
+        this._type = options.model.type;
+        this._username = (_a = options.username) !== null && _a !== void 0 ? _a : '';
+        this._clientId = (_b = options.clientId) !== null && _b !== void 0 ? _b : coreutils_1.UUID.uuid4();
+        this._connectToKernel = options.connectToKernel;
+        this._kernelConnectionOptions = (_c = options.kernelConnectionOptions) !== null && _c !== void 0 ? _c : {};
+        this.serverSettings = (_d = options.serverSettings) !== null && _d !== void 0 ? _d : __1.ServerConnection.makeSettings();
+        this.setupKernel(options.model.kernel);
+    }
+    /**
+     * A signal emitted when the session is disposed.
+     */
+    get disposed() {
+        return this._disposed;
+    }
+    /**
+     * A signal emitted when the kernel changes.
+     */
+    get kernelChanged() {
+        return this._kernelChanged;
+    }
+    /**
+     * A signal proxied from the connection about the kernel status.
+     */
+    get statusChanged() {
+        return this._statusChanged;
+    }
+    /**
+     * A signal proxied from the kernel about the connection status.
+     */
+    get connectionStatusChanged() {
+        return this._connectionStatusChanged;
+    }
+    /**
+     * A signal proxied from the kernel pending input.
+     */
+    get pendingInput() {
+        return this._pendingInput;
+    }
+    /**
+     * A signal proxied from the kernel about iopub kernel messages.
+     */
+    get iopubMessage() {
+        return this._iopubMessage;
+    }
+    /**
+     * A signal proxied from the kernel for an unhandled kernel message.
+     */
+    get unhandledMessage() {
+        return this._unhandledMessage;
+    }
+    /**
+     * A signal proxied from the kernel emitted for any kernel message.
+     *
+     * #### Notes
+     * The behavior is undefined if the message is modified during message
+     * handling. As such, it should be treated as read-only.
+     */
+    get anyMessage() {
+        return this._anyMessage;
+    }
+    /**
+     * A signal emitted when a session property changes.
+     */
+    get propertyChanged() {
+        return this._propertyChanged;
+    }
+    /**
+     * Get the session id.
+     */
+    get id() {
+        return this._id;
+    }
+    /**
+     * Get the session kernel connection object.
+     *
+     * #### Notes
+     * This is a read-only property, and can be altered by [changeKernel].
+     */
+    get kernel() {
+        return this._kernel;
+    }
+    /**
+     * Get the session path.
+     */
+    get path() {
+        return this._path;
+    }
+    /**
+     * Get the session type.
+     */
+    get type() {
+        return this._type;
+    }
+    /**
+     * Get the session name.
+     */
+    get name() {
+        return this._name;
+    }
+    /**
+     * Get the model associated with the session.
+     */
+    get model() {
+        return {
+            id: this.id,
+            kernel: this.kernel && { id: this.kernel.id, name: this.kernel.name },
+            path: this._path,
+            type: this._type,
+            name: this._name
+        };
+    }
+    /**
+     * Test whether the session has been disposed.
+     */
+    get isDisposed() {
+        return this._isDisposed;
+    }
+    /**
+     * Update the session based on a session model from the server.
+     *
+     * #### Notes
+     * This only updates this session connection instance. Use `setPath`,
+     * `setName`, `setType`, and `changeKernel` to change the session values on
+     * the server.
+     */
+    update(model) {
+        const oldModel = this.model;
+        this._path = model.path;
+        this._name = model.name;
+        this._type = model.type;
+        if ((this._kernel === null && model.kernel !== null) ||
+            (this._kernel !== null && model.kernel === null) ||
+            (this._kernel !== null &&
+                model.kernel !== null &&
+                this._kernel.id !== model.kernel.id)) {
+            if (this._kernel !== null) {
+                this._kernel.dispose();
+            }
+            const oldValue = this._kernel || null;
+            this.setupKernel(model.kernel);
+            const newValue = this._kernel || null;
+            this._kernelChanged.emit({ name: 'kernel', oldValue, newValue });
+        }
+        this._handleModelChange(oldModel);
+    }
+    /**
+     * Dispose of the resources held by the session.
+     */
+    dispose() {
+        if (this.isDisposed) {
+            return;
+        }
+        this._isDisposed = true;
+        this._disposed.emit();
+        if (this._kernel) {
+            this._kernel.dispose();
+            const oldValue = this._kernel;
+            this._kernel = null;
+            const newValue = this._kernel;
+            this._kernelChanged.emit({ name: 'kernel', oldValue, newValue });
+        }
+        signaling_1.Signal.clearData(this);
+    }
+    /**
+     * Change the session path.
+     *
+     * @param path - The new session path.
+     *
+     * @returns A promise that resolves when the session has renamed.
+     *
+     * #### Notes
+     * This uses the Jupyter REST API, and the response is validated.
+     * The promise is fulfilled on a valid response and rejected otherwise.
+     */
+    async setPath(path) {
+        if (this.isDisposed) {
+            throw new Error('Session is disposed');
+        }
+        await this._patch({ path });
+    }
+    /**
+     * Change the session name.
+     */
+    async setName(name) {
+        if (this.isDisposed) {
+            throw new Error('Session is disposed');
+        }
+        await this._patch({ name });
+    }
+    /**
+     * Change the session type.
+     */
+    async setType(type) {
+        if (this.isDisposed) {
+            throw new Error('Session is disposed');
+        }
+        await this._patch({ type });
+    }
+    /**
+     * Change the kernel.
+     *
+     * @params options - The name or id of the new kernel.
+     *
+     * #### Notes
+     * This shuts down the existing kernel and creates a new kernel,
+     * keeping the existing session ID and session path.
+     */
+    async changeKernel(options) {
+        if (this.isDisposed) {
+            throw new Error('Session is disposed');
+        }
+        await this._patch({ kernel: options });
+        return this.kernel;
+    }
+    /**
+     * Kill the kernel and shutdown the session.
+     *
+     * @returns - The promise fulfilled on a valid response from the server.
+     *
+     * #### Notes
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/sessions), and validates the response.
+     * Disposes of the session and emits a [sessionDied] signal on success.
+     */
+    async shutdown() {
+        if (this.isDisposed) {
+            throw new Error('Session is disposed');
+        }
+        await restapi_1.shutdownSession(this.id, this.serverSettings);
+        this.dispose();
+    }
+    /**
+     * Create a new kernel connection and connect to its signals.
+     *
+     * #### Notes
+     * This method is not meant to be subclassed.
+     */
+    setupKernel(model) {
+        if (model === null) {
+            this._kernel = null;
+            return;
+        }
+        const kc = this._connectToKernel(Object.assign(Object.assign({}, this._kernelConnectionOptions), { model, username: this._username, clientId: this._clientId, serverSettings: this.serverSettings }));
+        this._kernel = kc;
+        kc.statusChanged.connect(this.onKernelStatus, this);
+        kc.connectionStatusChanged.connect(this.onKernelConnectionStatus, this);
+        kc.pendingInput.connect(this.onPendingInput, this);
+        kc.unhandledMessage.connect(this.onUnhandledMessage, this);
+        kc.iopubMessage.connect(this.onIOPubMessage, this);
+        kc.anyMessage.connect(this.onAnyMessage, this);
+    }
+    /**
+     * Handle to changes in the Kernel status.
+     */
+    onKernelStatus(sender, state) {
+        this._statusChanged.emit(state);
+    }
+    /**
+     * Handle to changes in the Kernel status.
+     */
+    onKernelConnectionStatus(sender, state) {
+        this._connectionStatusChanged.emit(state);
+    }
+    /**
+     * Handle a change in the pendingInput.
+     */
+    onPendingInput(sender, state) {
+        this._pendingInput.emit(state);
+    }
+    /**
+     * Handle iopub kernel messages.
+     */
+    onIOPubMessage(sender, msg) {
+        this._iopubMessage.emit(msg);
+    }
+    /**
+     * Handle unhandled kernel messages.
+     */
+    onUnhandledMessage(sender, msg) {
+        this._unhandledMessage.emit(msg);
+    }
+    /**
+     * Handle any kernel messages.
+     */
+    onAnyMessage(sender, args) {
+        this._anyMessage.emit(args);
+    }
+    /**
+     * Send a PATCH to the server, updating the session path or the kernel.
+     */
+    async _patch(body) {
+        const model = await restapi_1.updateSession(Object.assign(Object.assign({}, body), { id: this._id }), this.serverSettings);
+        this.update(model);
+        return model;
+    }
+    /**
+     * Handle a change to the model.
+     */
+    _handleModelChange(oldModel) {
+        if (oldModel.name !== this._name) {
+            this._propertyChanged.emit('name');
+        }
+        if (oldModel.type !== this._type) {
+            this._propertyChanged.emit('type');
+        }
+        if (oldModel.path !== this._path) {
+            this._propertyChanged.emit('path');
+        }
+    }
+}
+exports.SessionConnection = SessionConnection;
+//# sourceMappingURL=default.js.map
+
+/***/ }),
+
+/***/ 41874:
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __exportStar = (this && this.__exportStar) || function(m, exports) {
+    for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.SessionAPI = exports.Session = void 0;
+const Session = __importStar(__webpack_require__(11372));
+exports.Session = Session;
+const SessionAPI = __importStar(__webpack_require__(56807));
+exports.SessionAPI = SessionAPI;
+__exportStar(__webpack_require__(57847), exports);
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 57847:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.SessionManager = void 0;
+const algorithm_1 = __webpack_require__(35259);
+const polling_1 = __webpack_require__(23114);
+const signaling_1 = __webpack_require__(4016);
+const serverconnection_1 = __webpack_require__(28477);
+const basemanager_1 = __webpack_require__(50591);
+const default_1 = __webpack_require__(35410);
+const restapi_1 = __webpack_require__(56807);
+/**
+ * An implementation of a session manager.
+ */
+class SessionManager extends basemanager_1.BaseManager {
+    /**
+     * Construct a new session manager.
+     *
+     * @param options - The default options for each session.
+     */
+    constructor(options) {
+        var _a;
+        super(options);
+        this._isReady = false;
+        this._sessionConnections = new Set();
+        this._models = new Map();
+        this._runningChanged = new signaling_1.Signal(this);
+        this._connectionFailure = new signaling_1.Signal(this);
+        // We define these here so they bind `this` correctly
+        this._connectToKernel = (options) => {
+            return this._kernelManager.connectTo(options);
+        };
+        this._kernelManager = options.kernelManager;
+        // Start model polling with exponential backoff.
+        this._pollModels = new polling_1.Poll({
+            auto: false,
+            factory: () => this.requestRunning(),
+            frequency: {
+                interval: 10 * 1000,
+                backoff: true,
+                max: 300 * 1000
+            },
+            name: `@jupyterlab/services:SessionManager#models`,
+            standby: (_a = options.standby) !== null && _a !== void 0 ? _a : 'when-hidden'
+        });
+        // Initialize internal data.
+        this._ready = (async () => {
+            await this._pollModels.start();
+            await this._pollModels.tick;
+            await this._kernelManager.ready;
+            this._isReady = true;
+        })();
+    }
+    /**
+     * Test whether the manager is ready.
+     */
+    get isReady() {
+        return this._isReady;
+    }
+    /**
+     * A promise that fulfills when the manager is ready.
+     */
+    get ready() {
+        return this._ready;
+    }
+    /**
+     * A signal emitted when the running sessions change.
+     */
+    get runningChanged() {
+        return this._runningChanged;
+    }
+    /**
+     * A signal emitted when there is a connection failure.
+     */
+    get connectionFailure() {
+        return this._connectionFailure;
+    }
+    /**
+     * Dispose of the resources used by the manager.
+     */
+    dispose() {
+        if (this.isDisposed) {
+            return;
+        }
+        this._models.clear();
+        this._sessionConnections.forEach(x => x.dispose());
+        this._pollModels.dispose();
+        super.dispose();
+    }
+    /*
+     * Connect to a running session.  See also [[connectToSession]].
+     */
+    connectTo(options) {
+        const sessionConnection = new default_1.SessionConnection(Object.assign(Object.assign({}, options), { connectToKernel: this._connectToKernel, serverSettings: this.serverSettings }));
+        this._onStarted(sessionConnection);
+        if (!this._models.has(options.model.id)) {
+            // We trust the user to connect to an existing session, but we verify
+            // asynchronously.
+            void this.refreshRunning().catch(() => {
+                /* no-op */
+            });
+        }
+        return sessionConnection;
+    }
+    /**
+     * Create an iterator over the most recent running sessions.
+     *
+     * @returns A new iterator over the running sessions.
+     */
+    running() {
+        return algorithm_1.iter([...this._models.values()]);
+    }
+    /**
+     * Force a refresh of the running sessions.
+     *
+     * @returns A promise that with the list of running sessions.
+     *
+     * #### Notes
+     * This is not typically meant to be called by the user, since the
+     * manager maintains its own internal state.
+     */
+    async refreshRunning() {
+        await this._pollModels.refresh();
+        await this._pollModels.tick;
+    }
+    /**
+     * Start a new session.  See also [[startNewSession]].
+     *
+     * @param createOptions - Options for creating the session
+     *
+     * @param connectOptions - Options for connecting to the session
+     */
+    async startNew(createOptions, connectOptions = {}) {
+        const model = await restapi_1.startSession(createOptions, this.serverSettings);
+        await this.refreshRunning();
+        return this.connectTo(Object.assign(Object.assign({}, connectOptions), { model }));
+    }
+    /**
+     * Shut down a session by id.
+     */
+    async shutdown(id) {
+        await restapi_1.shutdownSession(id, this.serverSettings);
+        await this.refreshRunning();
+    }
+    /**
+     * Shut down all sessions.
+     *
+     * @returns A promise that resolves when all of the kernels are shut down.
+     */
+    async shutdownAll() {
+        // Update the list of models to make sure our list is current.
+        await this.refreshRunning();
+        // Shut down all models.
+        await Promise.all([...this._models.keys()].map(id => restapi_1.shutdownSession(id, this.serverSettings)));
+        // Update the list of models to clear out our state.
+        await this.refreshRunning();
+    }
+    /**
+     * Find a session associated with a path and stop it if it is the only session
+     * using that kernel.
+     *
+     * @param path - The path in question.
+     *
+     * @returns A promise that resolves when the relevant sessions are stopped.
+     */
+    async stopIfNeeded(path) {
+        try {
+            const sessions = await restapi_1.listRunning(this.serverSettings);
+            const matches = sessions.filter(value => value.path === path);
+            if (matches.length === 1) {
+                const id = matches[0].id;
+                await this.shutdown(id);
+            }
+        }
+        catch (error) {
+            /* Always succeed. */
+        }
+    }
+    /**
+     * Find a session by id.
+     */
+    async findById(id) {
+        if (this._models.has(id)) {
+            return this._models.get(id);
+        }
+        await this.refreshRunning();
+        return this._models.get(id);
+    }
+    /**
+     * Find a session by path.
+     */
+    async findByPath(path) {
+        for (const m of this._models.values()) {
+            if (m.path === path) {
+                return m;
+            }
+        }
+        await this.refreshRunning();
+        for (const m of this._models.values()) {
+            if (m.path === path) {
+                return m;
+            }
+        }
+        return undefined;
+    }
+    /**
+     * Execute a request to the server to poll running kernels and update state.
+     */
+    async requestRunning() {
+        var _a, _b;
+        let models;
+        try {
+            models = await restapi_1.listRunning(this.serverSettings);
+        }
+        catch (err) {
+            // Handle network errors, as well as cases where we are on a
+            // JupyterHub and the server is not running. JupyterHub returns a
+            // 503 (<2.0) or 424 (>2.0) in that case.
+            if (err instanceof serverconnection_1.ServerConnection.NetworkError ||
+                ((_a = err.response) === null || _a === void 0 ? void 0 : _a.status) === 503 ||
+                ((_b = err.response) === null || _b === void 0 ? void 0 : _b.status) === 424) {
+                this._connectionFailure.emit(err);
+            }
+            throw err;
+        }
+        if (this.isDisposed) {
+            return;
+        }
+        if (this._models.size === models.length &&
+            algorithm_1.every(models, x => {
+                var _a, _b, _c, _d;
+                const existing = this._models.get(x.id);
+                if (!existing) {
+                    return false;
+                }
+                return (((_a = existing.kernel) === null || _a === void 0 ? void 0 : _a.id) === ((_b = x.kernel) === null || _b === void 0 ? void 0 : _b.id) &&
+                    ((_c = existing.kernel) === null || _c === void 0 ? void 0 : _c.name) === ((_d = x.kernel) === null || _d === void 0 ? void 0 : _d.name) &&
+                    existing.name === x.name &&
+                    existing.path === x.path &&
+                    existing.type === x.type);
+            })) {
+            // Identical models list (presuming models does not contain duplicate
+            // ids), so just return
+            return;
+        }
+        this._models = new Map(models.map(x => [x.id, x]));
+        this._sessionConnections.forEach(sc => {
+            if (this._models.has(sc.id)) {
+                sc.update(this._models.get(sc.id));
+            }
+            else {
+                sc.dispose();
+            }
+        });
+        this._runningChanged.emit(models);
+    }
+    /**
+     * Handle a session starting.
+     */
+    _onStarted(sessionConnection) {
+        this._sessionConnections.add(sessionConnection);
+        sessionConnection.disposed.connect(this._onDisposed, this);
+        sessionConnection.propertyChanged.connect(this._onChanged, this);
+        sessionConnection.kernelChanged.connect(this._onChanged, this);
+    }
+    _onDisposed(sessionConnection) {
+        this._sessionConnections.delete(sessionConnection);
+        // A session termination emission could mean the server session is deleted,
+        // or that the session JS object is disposed and the session still exists on
+        // the server, so we refresh from the server to make sure we reflect the
+        // server state.
+        void this.refreshRunning().catch(() => {
+            /* no-op */
+        });
+    }
+    _onChanged() {
+        void this.refreshRunning().catch(() => {
+            /* no-op */
+        });
+    }
+}
+exports.SessionManager = SessionManager;
+//# sourceMappingURL=manager.js.map
+
+/***/ }),
+
+/***/ 56807:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.updateSession = exports.startSession = exports.getSessionModel = exports.shutdownSession = exports.getSessionUrl = exports.listRunning = exports.SESSION_SERVICE_URL = void 0;
+const serverconnection_1 = __webpack_require__(28477);
+const coreutils_1 = __webpack_require__(1850);
+const validate_1 = __webpack_require__(29145);
+/**
+ * The url for the session service.
+ */
+exports.SESSION_SERVICE_URL = 'api/sessions';
+/**
+ * List the running sessions.
+ */
+async function listRunning(settings = serverconnection_1.ServerConnection.makeSettings()) {
+    const url = coreutils_1.URLExt.join(settings.baseUrl, exports.SESSION_SERVICE_URL);
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, {}, settings);
+    if (response.status !== 200) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+    const data = await response.json();
+    if (!Array.isArray(data)) {
+        throw new Error('Invalid Session list');
+    }
+    data.forEach(m => {
+        validate_1.updateLegacySessionModel(m);
+        validate_1.validateModel(m);
+    });
+    return data;
+}
+exports.listRunning = listRunning;
+/**
+ * Get a session url.
+ */
+function getSessionUrl(baseUrl, id) {
+    const servicesBase = coreutils_1.URLExt.join(baseUrl, exports.SESSION_SERVICE_URL);
+    const result = coreutils_1.URLExt.join(servicesBase, id);
+    if (!result.startsWith(servicesBase)) {
+        throw new Error('Can only be used for services requests');
+    }
+    return result;
+}
+exports.getSessionUrl = getSessionUrl;
+/**
+ * Shut down a session by id.
+ */
+async function shutdownSession(id, settings = serverconnection_1.ServerConnection.makeSettings()) {
+    var _a;
+    const url = getSessionUrl(settings.baseUrl, id);
+    const init = { method: 'DELETE' };
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, init, settings);
+    if (response.status === 404) {
+        const data = await response.json();
+        const msg = (_a = data.message) !== null && _a !== void 0 ? _a : `The session "${id}"" does not exist on the server`;
+        console.warn(msg);
+    }
+    else if (response.status === 410) {
+        throw new serverconnection_1.ServerConnection.ResponseError(response, 'The kernel was deleted but the session was not');
+    }
+    else if (response.status !== 204) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+}
+exports.shutdownSession = shutdownSession;
+/**
+ * Get a full session model from the server by session id string.
+ */
+async function getSessionModel(id, settings = serverconnection_1.ServerConnection.makeSettings()) {
+    const url = getSessionUrl(settings.baseUrl, id);
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, {}, settings);
+    if (response.status !== 200) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+    const data = await response.json();
+    validate_1.updateLegacySessionModel(data);
+    validate_1.validateModel(data);
+    return data;
+}
+exports.getSessionModel = getSessionModel;
+/**
+ * Create a new session, or return an existing session if the session path
+ * already exists.
+ */
+async function startSession(options, settings = serverconnection_1.ServerConnection.makeSettings()) {
+    const url = coreutils_1.URLExt.join(settings.baseUrl, exports.SESSION_SERVICE_URL);
+    const init = {
+        method: 'POST',
+        body: JSON.stringify(options)
+    };
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, init, settings);
+    if (response.status !== 201) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+    const data = await response.json();
+    validate_1.updateLegacySessionModel(data);
+    validate_1.validateModel(data);
+    return data;
+}
+exports.startSession = startSession;
+/**
+ * Send a PATCH to the server, updating the session path or the kernel.
+ */
+async function updateSession(model, settings = serverconnection_1.ServerConnection.makeSettings()) {
+    const url = getSessionUrl(settings.baseUrl, model.id);
+    const init = {
+        method: 'PATCH',
+        body: JSON.stringify(model)
+    };
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, init, settings);
+    if (response.status !== 200) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+    const data = await response.json();
+    validate_1.updateLegacySessionModel(data);
+    validate_1.validateModel(data);
+    return data;
+}
+exports.updateSession = updateSession;
+//# sourceMappingURL=restapi.js.map
+
+/***/ }),
+
+/***/ 11372:
+/***/ ((__unused_webpack_module, exports) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+//# sourceMappingURL=session.js.map
+
+/***/ }),
+
+/***/ 29145:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.validateModels = exports.updateLegacySessionModel = exports.validateModel = void 0;
+const validate_1 = __webpack_require__(96512);
+const validate_2 = __webpack_require__(46901);
+/**
+ * Validate an `Session.IModel` object.
+ */
+function validateModel(data) {
+    validate_2.validateProperty(data, 'id', 'string');
+    validate_2.validateProperty(data, 'type', 'string');
+    validate_2.validateProperty(data, 'name', 'string');
+    validate_2.validateProperty(data, 'path', 'string');
+    validate_2.validateProperty(data, 'kernel', 'object');
+    validate_1.validateModel(data.kernel);
+}
+exports.validateModel = validateModel;
+/**
+ * Update model from legacy session data.
+ */
+function updateLegacySessionModel(data) {
+    if (data.path === undefined && data.notebook !== undefined) {
+        data.path = data.notebook.path;
+        data.type = 'notebook';
+        data.name = '';
+    }
+}
+exports.updateLegacySessionModel = updateLegacySessionModel;
+/**
+ * Validate an array of `Session.IModel` objects.
+ */
+function validateModels(models) {
+    if (!Array.isArray(models)) {
+        throw new Error('Invalid session list');
+    }
+    models.forEach(d => validateModel(d));
+}
+exports.validateModels = validateModels;
+//# sourceMappingURL=validate.js.map
+
+/***/ }),
+
+/***/ 92726:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.SettingManager = void 0;
+const coreutils_1 = __webpack_require__(1850);
+const statedb_1 = __webpack_require__(51747);
+const serverconnection_1 = __webpack_require__(28477);
+/**
+ * The url for the lab settings service.
+ */
+const SERVICE_SETTINGS_URL = 'api/settings';
+/**
+ * The settings API service manager.
+ */
+class SettingManager extends statedb_1.DataConnector {
+    /**
+     * Create a new setting manager.
+     */
+    constructor(options = {}) {
+        var _a;
+        super();
+        this.serverSettings = (_a = options.serverSettings) !== null && _a !== void 0 ? _a : serverconnection_1.ServerConnection.makeSettings();
+    }
+    /**
+     * Fetch a plugin's settings.
+     *
+     * @param id - The plugin's ID.
+     *
+     * @returns A promise that resolves if successful.
+     */
+    async fetch(id) {
+        if (!id) {
+            throw new Error('Plugin `id` parameter is required for settings fetch.');
+        }
+        const { serverSettings } = this;
+        const { baseUrl, appUrl } = serverSettings;
+        const { makeRequest, ResponseError } = serverconnection_1.ServerConnection;
+        const base = baseUrl + appUrl;
+        const url = Private.url(base, id);
+        const response = await makeRequest(url, {}, serverSettings);
+        if (response.status !== 200) {
+            const err = await ResponseError.create(response);
+            throw err;
+        }
+        // Assert what type the server response is returning.
+        return response.json();
+    }
+    /**
+     * Fetch the list of all plugin setting bundles.
+     *
+     * @returns A promise that resolves if successful.
+     */
+    async list() {
+        var _a, _b;
+        const { serverSettings } = this;
+        const { baseUrl, appUrl } = serverSettings;
+        const { makeRequest, ResponseError } = serverconnection_1.ServerConnection;
+        const base = baseUrl + appUrl;
+        const url = Private.url(base, '');
+        const response = await makeRequest(url, {}, serverSettings);
+        if (response.status !== 200) {
+            throw new ResponseError(response);
+        }
+        const json = await response.json();
+        const values = (_b = (_a = json === null || json === void 0 ? void 0 : json['settings']) === null || _a === void 0 ? void 0 : _a.map((plugin) => {
+            plugin.data = { composite: {}, user: {} };
+            return plugin;
+        })) !== null && _b !== void 0 ? _b : [];
+        const ids = values.map(plugin => plugin.id);
+        return { ids, values };
+    }
+    /**
+     * Save a plugin's settings.
+     *
+     * @param id - The plugin's ID.
+     *
+     * @param raw - The user setting values as a raw string of JSON with comments.
+     *
+     * @returns A promise that resolves if successful.
+     */
+    async save(id, raw) {
+        const { serverSettings } = this;
+        const { baseUrl, appUrl } = serverSettings;
+        const { makeRequest, ResponseError } = serverconnection_1.ServerConnection;
+        const base = baseUrl + appUrl;
+        const url = Private.url(base, id);
+        // NOTE: 'raw' is JSON5 (not valid JSON), so we encode it as a string in a valid JSON body
+        const init = { body: JSON.stringify({ raw }), method: 'PUT' };
+        const response = await makeRequest(url, init, serverSettings);
+        if (response.status !== 204) {
+            throw new ResponseError(response);
+        }
+    }
+}
+exports.SettingManager = SettingManager;
+/**
+ * A namespace for private data.
+ */
+var Private;
+(function (Private) {
+    /**
+     * Get the url for a plugin's settings.
+     */
+    function url(base, id) {
+        const settingsBase = coreutils_1.URLExt.join(base, SERVICE_SETTINGS_URL);
+        const result = coreutils_1.URLExt.join(settingsBase, id);
+        if (!result.startsWith(settingsBase)) {
+            throw new Error('Can only be used for workspaces requests');
+        }
+        return result;
+    }
+    Private.url = url;
+})(Private || (Private = {}));
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 12447:
+/***/ ((__unused_webpack_module, exports) => {
+
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports["default"] = WebSocket;
+//# sourceMappingURL=ws.js.map
+
+/***/ }),
+
+/***/ 5982:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.TerminalConnection = void 0;
+const coreutils_1 = __webpack_require__(1850);
+const coreutils_2 = __webpack_require__(95082);
+const signaling_1 = __webpack_require__(4016);
+const __1 = __webpack_require__(76240);
+const restapi_1 = __webpack_require__(43286);
+/**
+ * An implementation of a terminal interface.
+ */
+class TerminalConnection {
+    /**
+     * Construct a new terminal session.
+     */
+    constructor(options) {
+        var _a;
+        /**
+         * Create the terminal websocket connection and add socket status handlers.
+         *
+         * #### Notes
+         * You are responsible for updating the connection status as appropriate.
+         */
+        this._createSocket = () => {
+            this._errorIfDisposed();
+            // Make sure the socket is clear
+            this._clearSocket();
+            // Update the connection status to reflect opening a new connection.
+            this._updateConnectionStatus('connecting');
+            const name = this._name;
+            const settings = this.serverSettings;
+            let url = coreutils_1.URLExt.join(settings.wsUrl, 'terminals', 'websocket', encodeURIComponent(name));
+            // If token authentication is in use.
+            const token = settings.token;
+            if (settings.appendToken && token !== '') {
+                url = url + `?token=${encodeURIComponent(token)}`;
+            }
+            this._ws = new settings.WebSocket(url);
+            this._ws.onmessage = this._onWSMessage;
+            this._ws.onclose = this._onWSClose;
+            this._ws.onerror = this._onWSClose;
+        };
+        // Websocket messages events are defined as variables to bind `this`
+        this._onWSMessage = (event) => {
+            if (this._isDisposed) {
+                return;
+            }
+            const data = JSON.parse(event.data);
+            // Handle a disconnect message.
+            if (data[0] === 'disconnect') {
+                this.dispose();
+            }
+            if (this._connectionStatus === 'connecting') {
+                // After reconnection, ignore all messages until a 'setup' message
+                // before we are truly connected. Setting the connection status to
+                // connected only then means that if we do not get a setup message
+                // before our retry timeout, we will delete the websocket and try again.
+                if (data[0] === 'setup') {
+                    this._updateConnectionStatus('connected');
+                }
+                return;
+            }
+            this._messageReceived.emit({
+                type: data[0],
+                content: data.slice(1)
+            });
+        };
+        this._onWSClose = (event) => {
+            console.warn(`Terminal websocket closed: ${event.code}`);
+            if (!this.isDisposed) {
+                this._reconnect();
+            }
+        };
+        this._connectionStatus = 'connecting';
+        this._connectionStatusChanged = new signaling_1.Signal(this);
+        this._isDisposed = false;
+        this._disposed = new signaling_1.Signal(this);
+        this._messageReceived = new signaling_1.Signal(this);
+        this._reconnectTimeout = null;
+        this._ws = null;
+        this._noOp = () => {
+            /* no-op */
+        };
+        this._reconnectLimit = 7;
+        this._reconnectAttempt = 0;
+        this._pendingMessages = [];
+        this._name = options.model.name;
+        this.serverSettings = (_a = options.serverSettings) !== null && _a !== void 0 ? _a : __1.ServerConnection.makeSettings();
+        this._createSocket();
+    }
+    /**
+     * A signal emitted when the session is disposed.
+     */
+    get disposed() {
+        return this._disposed;
+    }
+    /**
+     * A signal emitted when a message is received from the server.
+     */
+    get messageReceived() {
+        return this._messageReceived;
+    }
+    /**
+     * Get the name of the terminal session.
+     */
+    get name() {
+        return this._name;
+    }
+    /**
+     * Get the model for the terminal session.
+     */
+    get model() {
+        return { name: this._name };
+    }
+    /**
+     * Test whether the session is disposed.
+     */
+    get isDisposed() {
+        return this._isDisposed;
+    }
+    /**
+     * Dispose of the resources held by the session.
+     */
+    dispose() {
+        if (this._isDisposed) {
+            return;
+        }
+        this._isDisposed = true;
+        this._disposed.emit();
+        this._updateConnectionStatus('disconnected');
+        this._clearSocket();
+        signaling_1.Signal.clearData(this);
+    }
+    /**
+     * Send a message to the terminal session.
+     *
+     * #### Notes
+     * If the connection is down, the message will be queued for sending when
+     * the connection comes back up.
+     */
+    send(message) {
+        this._sendMessage(message);
+    }
+    /**
+     * Send a message on the websocket, or possibly queue for later sending.
+     *
+     * @param queue - whether to queue the message if it cannot be sent
+     */
+    _sendMessage(message, queue = true) {
+        if (this._isDisposed || !message.content) {
+            return;
+        }
+        if (this.connectionStatus === 'connected' && this._ws) {
+            const msg = [message.type, ...message.content];
+            this._ws.send(JSON.stringify(msg));
+        }
+        else if (queue) {
+            this._pendingMessages.push(message);
+        }
+        else {
+            throw new Error(`Could not send message: ${JSON.stringify(message)}`);
+        }
+    }
+    /**
+     * Send pending messages to the kernel.
+     */
+    _sendPending() {
+        // We check to make sure we are still connected each time. For
+        // example, if a websocket buffer overflows, it may close, so we should
+        // stop sending messages.
+        while (this.connectionStatus === 'connected' &&
+            this._pendingMessages.length > 0) {
+            this._sendMessage(this._pendingMessages[0], false);
+            // We shift the message off the queue after the message is sent so that
+            // if there is an exception, the message is still pending.
+            this._pendingMessages.shift();
+        }
+    }
+    /**
+     * Reconnect to a terminal.
+     *
+     * #### Notes
+     * This may try multiple times to reconnect to a terminal, and will sever
+     * any existing connection.
+     */
+    reconnect() {
+        this._errorIfDisposed();
+        const result = new coreutils_2.PromiseDelegate();
+        // Set up a listener for the connection status changing, which accepts or
+        // rejects after the retries are done.
+        const fulfill = (sender, status) => {
+            if (status === 'connected') {
+                result.resolve();
+                this.connectionStatusChanged.disconnect(fulfill, this);
+            }
+            else if (status === 'disconnected') {
+                result.reject(new Error('Terminal connection disconnected'));
+                this.connectionStatusChanged.disconnect(fulfill, this);
+            }
+        };
+        this.connectionStatusChanged.connect(fulfill, this);
+        // Reset the reconnect limit so we start the connection attempts fresh
+        this._reconnectAttempt = 0;
+        // Start the reconnection process, which will also clear any existing
+        // connection.
+        this._reconnect();
+        // Return the promise that should resolve on connection or reject if the
+        // retries don't work.
+        return result.promise;
+    }
+    /**
+     * Attempt a connection if we have not exhausted connection attempts.
+     */
+    _reconnect() {
+        this._errorIfDisposed();
+        // Clear any existing reconnection attempt
+        clearTimeout(this._reconnectTimeout);
+        // Update the connection status and schedule a possible reconnection.
+        if (this._reconnectAttempt < this._reconnectLimit) {
+            this._updateConnectionStatus('connecting');
+            // The first reconnect attempt should happen immediately, and subsequent
+            // attempts should pick a random number in a growing range so that we
+            // don't overload the server with synchronized reconnection attempts
+            // across multiple kernels.
+            const timeout = Private.getRandomIntInclusive(0, 1e3 * (Math.pow(2, this._reconnectAttempt) - 1));
+            console.error(`Connection lost, reconnecting in ${Math.floor(timeout / 1000)} seconds.`);
+            this._reconnectTimeout = setTimeout(this._createSocket, timeout);
+            this._reconnectAttempt += 1;
+        }
+        else {
+            this._updateConnectionStatus('disconnected');
+        }
+        // Clear the websocket event handlers and the socket itself.
+        this._clearSocket();
+    }
+    /**
+     * Forcefully clear the socket state.
+     *
+     * #### Notes
+     * This will clear all socket state without calling any handlers and will
+     * not update the connection status. If you call this method, you are
+     * responsible for updating the connection status as needed and recreating
+     * the socket if you plan to reconnect.
+     */
+    _clearSocket() {
+        if (this._ws !== null) {
+            // Clear the websocket event handlers and the socket itself.
+            this._ws.onopen = this._noOp;
+            this._ws.onclose = this._noOp;
+            this._ws.onerror = this._noOp;
+            this._ws.onmessage = this._noOp;
+            this._ws.close();
+            this._ws = null;
+        }
+    }
+    /**
+     * Shut down the terminal session.
+     */
+    async shutdown() {
+        await restapi_1.shutdownTerminal(this.name, this.serverSettings);
+        this.dispose();
+    }
+    /**
+     * Clone the current terminal connection.
+     */
+    clone() {
+        return new TerminalConnection(this);
+    }
+    /**
+     * Handle connection status changes.
+     */
+    _updateConnectionStatus(connectionStatus) {
+        if (this._connectionStatus === connectionStatus) {
+            return;
+        }
+        this._connectionStatus = connectionStatus;
+        // If we are not 'connecting', stop any reconnection attempts.
+        if (connectionStatus !== 'connecting') {
+            this._reconnectAttempt = 0;
+            clearTimeout(this._reconnectTimeout);
+        }
+        // Send the pending messages if we just connected.
+        if (connectionStatus === 'connected') {
+            this._sendPending();
+        }
+        // Notify others that the connection status changed.
+        this._connectionStatusChanged.emit(connectionStatus);
+    }
+    /**
+     * Utility function to throw an error if this instance is disposed.
+     */
+    _errorIfDisposed() {
+        if (this.isDisposed) {
+            throw new Error('Terminal connection is disposed');
+        }
+    }
+    /**
+     * A signal emitted when the terminal connection status changes.
+     */
+    get connectionStatusChanged() {
+        return this._connectionStatusChanged;
+    }
+    /**
+     * The current connection status of the terminal connection.
+     */
+    get connectionStatus() {
+        return this._connectionStatus;
+    }
+}
+exports.TerminalConnection = TerminalConnection;
+var Private;
+(function (Private) {
+    /**
+     * Get the url for a terminal.
+     */
+    function getTermUrl(baseUrl, name) {
+        return coreutils_1.URLExt.join(baseUrl, restapi_1.TERMINAL_SERVICE_URL, encodeURIComponent(name));
+    }
+    Private.getTermUrl = getTermUrl;
+    /**
+     * Get a random integer between min and max, inclusive of both.
+     *
+     * #### Notes
+     * From
+     * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random#Getting_a_random_integer_between_two_values_inclusive
+     *
+     * From the MDN page: It might be tempting to use Math.round() to accomplish
+     * that, but doing so would cause your random numbers to follow a non-uniform
+     * distribution, which may not be acceptable for your needs.
+     */
+    function getRandomIntInclusive(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+    Private.getRandomIntInclusive = getRandomIntInclusive;
+})(Private || (Private = {}));
+//# sourceMappingURL=default.js.map
+
+/***/ }),
+
+/***/ 93247:
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __exportStar = (this && this.__exportStar) || function(m, exports) {
+    for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.TerminalAPI = exports.Terminal = void 0;
+const Terminal = __importStar(__webpack_require__(58353));
+exports.Terminal = Terminal;
+const TerminalAPI = __importStar(__webpack_require__(43286));
+exports.TerminalAPI = TerminalAPI;
+__exportStar(__webpack_require__(61546), exports);
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 61546:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.TerminalManager = void 0;
+const algorithm_1 = __webpack_require__(35259);
+const polling_1 = __webpack_require__(23114);
+const signaling_1 = __webpack_require__(4016);
+const __1 = __webpack_require__(76240);
+const basemanager_1 = __webpack_require__(50591);
+const restapi_1 = __webpack_require__(43286);
 const default_1 = __webpack_require__(5982);
 /**
  * A terminal session manager.
@@ -13423,7 +20407,7 @@ exports.TerminalManager = TerminalManager;
 
 /***/ }),
 
-/***/ 3286:
+/***/ 43286:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -13431,8 +20415,8 @@ exports.TerminalManager = TerminalManager;
 // Distributed under the terms of the Modified BSD License.
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.shutdownTerminal = exports.listRunning = exports.startNew = exports.isAvailable = exports.TERMINAL_SERVICE_URL = void 0;
-const coreutils_1 = __webpack_require__(9622);
-const serverconnection_1 = __webpack_require__(8477);
+const coreutils_1 = __webpack_require__(1850);
+const serverconnection_1 = __webpack_require__(28477);
 /**
  * The url for the terminal service.
  */
@@ -13508,7 +20492,11 @@ exports.listRunning = listRunning;
 async function shutdownTerminal(name, settings = serverconnection_1.ServerConnection.makeSettings()) {
     var _a;
     Private.errorIfNotAvailable();
-    const url = coreutils_1.URLExt.join(settings.baseUrl, exports.TERMINAL_SERVICE_URL, name);
+    const workspacesBase = coreutils_1.URLExt.join(settings.baseUrl, exports.TERMINAL_SERVICE_URL);
+    const url = coreutils_1.URLExt.join(workspacesBase, name);
+    if (!url.startsWith(workspacesBase)) {
+        throw new Error('Can only be used for terminal requests');
+    }
     const init = { method: 'DELETE' };
     const response = await serverconnection_1.ServerConnection.makeRequest(url, init, settings);
     if (response.status === 404) {
@@ -13538,7 +20526,7 @@ var Private;
 
 /***/ }),
 
-/***/ 8353:
+/***/ 58353:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -13546,13 +20534,206 @@ var Private;
 // Distributed under the terms of the Modified BSD License.
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.isAvailable = void 0;
-const restapi_1 = __webpack_require__(3286);
+const restapi_1 = __webpack_require__(43286);
 Object.defineProperty(exports, "isAvailable", ({ enumerable: true, get: function () { return restapi_1.isAvailable; } }));
 //# sourceMappingURL=terminal.js.map
 
 /***/ }),
 
-/***/ 6901:
+/***/ 95598:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.UserManager = void 0;
+const coreutils_1 = __webpack_require__(1850);
+const coreutils_2 = __webpack_require__(95082);
+const polling_1 = __webpack_require__(23114);
+const signaling_1 = __webpack_require__(4016);
+const serverconnection_1 = __webpack_require__(28477);
+const basemanager_1 = __webpack_require__(50591);
+/**
+ * The url for the lab workspaces service.
+ */
+const SERVICE_USER_URL = 'api/me';
+/**
+ * The service's ID.
+ * Used to uniquely identify the poll, and
+ * the item in local storage.
+ */
+const SERVICE_ID = '@jupyterlab/services:UserManager#user';
+/**
+ * The user API service manager.
+ */
+class UserManager extends basemanager_1.BaseManager {
+    /**
+     * Create a new user manager.
+     */
+    constructor(options = {}) {
+        var _a;
+        super(options);
+        this._isReady = false;
+        this._userChanged = new signaling_1.Signal(this);
+        this._connectionFailure = new signaling_1.Signal(this);
+        // Initialize internal data.
+        this._ready = this.requestUser()
+            .then(() => {
+            if (this.isDisposed) {
+                return;
+            }
+            this._isReady = true;
+        })
+            .catch(_ => 
+        // Return a promise that will never resolve, so user service is never ready
+        new Promise(() => {
+            // no-op
+        }));
+        this._pollSpecs = new polling_1.Poll({
+            auto: false,
+            factory: () => this.requestUser(),
+            frequency: {
+                interval: 61 * 1000,
+                backoff: true,
+                max: 300 * 1000
+            },
+            name: SERVICE_ID,
+            standby: (_a = options.standby) !== null && _a !== void 0 ? _a : 'when-hidden'
+        });
+        void this.ready.then(() => {
+            void this._pollSpecs.start();
+        });
+    }
+    /**
+     * Test whether the manager is ready.
+     */
+    get isReady() {
+        return this._isReady;
+    }
+    /**
+     * A promise that fulfills when the manager is ready.
+     */
+    get ready() {
+        return this._ready;
+    }
+    /**
+     * Get the most recently fetched identity.
+     */
+    get identity() {
+        return this._identity;
+    }
+    /**
+     * Get the most recently fetched permissions.
+     */
+    get permissions() {
+        return this._permissions;
+    }
+    /**
+     * A signal emitted when the user changes.
+     */
+    get userChanged() {
+        return this._userChanged;
+    }
+    /**
+     * A signal emitted when there is a connection failure.
+     */
+    get connectionFailure() {
+        return this._connectionFailure;
+    }
+    /**
+     * Dispose of the resources used by the manager.
+     */
+    dispose() {
+        this._pollSpecs.dispose();
+        super.dispose();
+    }
+    /**
+     * Force a refresh of the specs from the server.
+     *
+     * @returns A promise that resolves when the specs are fetched.
+     *
+     * #### Notes
+     * This is intended to be called only in response to a user action,
+     * since the manager maintains its internal state.
+     */
+    async refreshUser() {
+        await this._pollSpecs.refresh();
+        await this._pollSpecs.tick;
+    }
+    /**
+     * Execute a request to the server to poll the user and update state.
+     */
+    async requestUser() {
+        if (this.isDisposed) {
+            return;
+        }
+        const { baseUrl } = this.serverSettings;
+        const { makeRequest, ResponseError } = serverconnection_1.ServerConnection;
+        const url = coreutils_1.URLExt.join(baseUrl, SERVICE_USER_URL);
+        const response = await makeRequest(url, {}, this.serverSettings);
+        if (response.status !== 200) {
+            const err = await ResponseError.create(response);
+            throw err;
+        }
+        const oldUser = {
+            identity: this._identity,
+            permissions: this._permissions
+        };
+        const newUser = await response.json();
+        const identity = newUser.identity;
+        // store the color and initials for the user
+        // this info is not provided by the server
+        const { localStorage } = window;
+        const data = localStorage.getItem(SERVICE_ID);
+        if (data && (!identity.initials || !identity.color)) {
+            const localUser = JSON.parse(data);
+            identity.initials =
+                identity.initials ||
+                    localUser.initials ||
+                    identity.name.substring(0, 1);
+            identity.color =
+                identity.color || localUser.color || Private.getRandomColor();
+        }
+        if (!coreutils_2.JSONExt.deepEqual(newUser, oldUser)) {
+            this._identity = identity;
+            this._permissions = newUser.permissions;
+            localStorage.setItem(SERVICE_ID, JSON.stringify(identity));
+            this._userChanged.emit(newUser);
+        }
+    }
+}
+exports.UserManager = UserManager;
+/**
+ * A namespace for module-private functionality.
+ *
+ * Note: We do not want to export this function
+ * to move it to css variables in the Theme.
+ */
+var Private;
+(function (Private) {
+    /**
+     * Predefined colors for users
+     */
+    const userColors = [
+        'var(--jp-collaborator-color1)',
+        'var(--jp-collaborator-color2)',
+        'var(--jp-collaborator-color3)',
+        'var(--jp-collaborator-color4)',
+        'var(--jp-collaborator-color5)',
+        'var(--jp-collaborator-color6)',
+        'var(--jp-collaborator-color7)'
+    ];
+    /**
+     * Get a random color from the list of colors.
+     */
+    Private.getRandomColor = () => userColors[Math.floor(Math.random() * userColors.length)];
+})(Private || (Private = {}));
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 46901:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -13607,7 +20788,7 @@ exports.validateProperty = validateProperty;
 
 /***/ }),
 
-/***/ 5399:
+/***/ 45399:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -13615,9 +20796,9 @@ exports.validateProperty = validateProperty;
 // Distributed under the terms of the Modified BSD License.
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.WorkspaceManager = void 0;
-const coreutils_1 = __webpack_require__(9622);
-const statedb_1 = __webpack_require__(7266);
-const serverconnection_1 = __webpack_require__(8477);
+const coreutils_1 = __webpack_require__(1850);
+const statedb_1 = __webpack_require__(51747);
+const serverconnection_1 = __webpack_require__(28477);
 /**
  * The url for the lab workspaces service.
  */
@@ -13726,7 +20907,12 @@ var Private;
      * Get the url for a workspace.
      */
     function url(base, id) {
-        return coreutils_1.URLExt.join(base, SERVICE_WORKSPACES_URL, id);
+        const workspacesBase = coreutils_1.URLExt.join(base, SERVICE_WORKSPACES_URL);
+        const result = coreutils_1.URLExt.join(workspacesBase, id);
+        if (!result.startsWith(workspacesBase)) {
+            throw new Error('Can only be used for workspaces requests');
+        }
+        return result;
     }
     Private.url = url;
 })(Private || (Private = {}));
@@ -13734,7 +20920,982 @@ var Private;
 
 /***/ }),
 
-/***/ 9525:
+/***/ 1067:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.ActivityMonitor = void 0;
+const signaling_1 = __webpack_require__(4016);
+/**
+ * A class that monitors activity on a signal.
+ */
+class ActivityMonitor {
+    /**
+     * Construct a new activity monitor.
+     */
+    constructor(options) {
+        this._timer = -1;
+        this._timeout = -1;
+        this._isDisposed = false;
+        this._activityStopped = new signaling_1.Signal(this);
+        options.signal.connect(this._onSignalFired, this);
+        this._timeout = options.timeout || 1000;
+    }
+    /**
+     * A signal emitted when activity has ceased.
+     */
+    get activityStopped() {
+        return this._activityStopped;
+    }
+    /**
+     * The timeout associated with the monitor, in milliseconds.
+     */
+    get timeout() {
+        return this._timeout;
+    }
+    set timeout(value) {
+        this._timeout = value;
+    }
+    /**
+     * Test whether the monitor has been disposed.
+     *
+     * #### Notes
+     * This is a read-only property.
+     */
+    get isDisposed() {
+        return this._isDisposed;
+    }
+    /**
+     * Dispose of the resources used by the activity monitor.
+     */
+    dispose() {
+        if (this._isDisposed) {
+            return;
+        }
+        this._isDisposed = true;
+        signaling_1.Signal.clearData(this);
+    }
+    /**
+     * A signal handler for the monitored signal.
+     */
+    _onSignalFired(sender, args) {
+        clearTimeout(this._timer);
+        this._sender = sender;
+        this._args = args;
+        this._timer = setTimeout(() => {
+            this._activityStopped.emit({
+                sender: this._sender,
+                args: this._args
+            });
+        }, this._timeout);
+    }
+}
+exports.ActivityMonitor = ActivityMonitor;
+//# sourceMappingURL=activitymonitor.js.map
+
+/***/ }),
+
+/***/ 1850:
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+/**
+ * @packageDocumentation
+ * @module coreutils
+ */
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __exportStar = (this && this.__exportStar) || function(m, exports) {
+    for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+__exportStar(__webpack_require__(1067), exports);
+__exportStar(__webpack_require__(23667), exports);
+__exportStar(__webpack_require__(98919), exports);
+__exportStar(__webpack_require__(62104), exports);
+__exportStar(__webpack_require__(9759), exports);
+__exportStar(__webpack_require__(97311), exports);
+__exportStar(__webpack_require__(4036), exports);
+__exportStar(__webpack_require__(23093), exports);
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 23667:
+/***/ ((__unused_webpack_module, exports) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+//# sourceMappingURL=interfaces.js.map
+
+/***/ }),
+
+/***/ 98919:
+/***/ ((__unused_webpack_module, exports) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.MarkdownCodeBlocks = void 0;
+/**
+ * The namespace for code block functions which help
+ * in extract code from markdown text
+ */
+var MarkdownCodeBlocks;
+(function (MarkdownCodeBlocks) {
+    MarkdownCodeBlocks.CODE_BLOCK_MARKER = '```';
+    const markdownExtensions = [
+        '.markdown',
+        '.mdown',
+        '.mkdn',
+        '.md',
+        '.mkd',
+        '.mdwn',
+        '.mdtxt',
+        '.mdtext',
+        '.text',
+        '.txt',
+        '.Rmd'
+    ];
+    class MarkdownCodeBlock {
+        constructor(startLine) {
+            this.startLine = startLine;
+            this.code = '';
+            this.endLine = -1;
+        }
+    }
+    MarkdownCodeBlocks.MarkdownCodeBlock = MarkdownCodeBlock;
+    /**
+     * Check whether the given file extension is a markdown extension
+     * @param extension - A file extension
+     *
+     * @returns true/false depending on whether this is a supported markdown extension
+     */
+    function isMarkdown(extension) {
+        return markdownExtensions.indexOf(extension) > -1;
+    }
+    MarkdownCodeBlocks.isMarkdown = isMarkdown;
+    /**
+     * Construct all code snippets from current text
+     * (this could be potentially optimized if we can cache and detect differences)
+     * @param text - A string to parse codeblocks from
+     *
+     * @returns An array of MarkdownCodeBlocks.
+     */
+    function findMarkdownCodeBlocks(text) {
+        if (!text || text === '') {
+            return [];
+        }
+        const lines = text.split('\n');
+        const codeBlocks = [];
+        let currentBlock = null;
+        for (let lineIndex = 0; lineIndex < lines.length; lineIndex++) {
+            const line = lines[lineIndex];
+            const lineContainsMarker = line.indexOf(MarkdownCodeBlocks.CODE_BLOCK_MARKER) === 0;
+            const constructingBlock = currentBlock != null;
+            // Skip this line if it is not part of any code block and doesn't contain a marker.
+            if (!lineContainsMarker && !constructingBlock) {
+                continue;
+            }
+            // Check if we are already constructing a code block.
+            if (!constructingBlock) {
+                // Start constructing a new code block.
+                currentBlock = new MarkdownCodeBlock(lineIndex);
+                // Check whether this is a single line code block of the form ```a = 10```.
+                const firstIndex = line.indexOf(MarkdownCodeBlocks.CODE_BLOCK_MARKER);
+                const lastIndex = line.lastIndexOf(MarkdownCodeBlocks.CODE_BLOCK_MARKER);
+                const isSingleLine = firstIndex !== lastIndex;
+                if (isSingleLine) {
+                    currentBlock.code = line.substring(firstIndex + MarkdownCodeBlocks.CODE_BLOCK_MARKER.length, lastIndex);
+                    currentBlock.endLine = lineIndex;
+                    codeBlocks.push(currentBlock);
+                    currentBlock = null;
+                }
+            }
+            else if (currentBlock) {
+                if (lineContainsMarker) {
+                    // End of block, finish it up.
+                    currentBlock.endLine = lineIndex - 1;
+                    codeBlocks.push(currentBlock);
+                    currentBlock = null;
+                }
+                else {
+                    // Append the current line.
+                    currentBlock.code += line + '\n';
+                }
+            }
+        }
+        return codeBlocks;
+    }
+    MarkdownCodeBlocks.findMarkdownCodeBlocks = findMarkdownCodeBlocks;
+})(MarkdownCodeBlocks = exports.MarkdownCodeBlocks || (exports.MarkdownCodeBlocks = {}));
+//# sourceMappingURL=markdowncodeblocks.js.map
+
+/***/ }),
+
+/***/ 62104:
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+/* provided dependency */ var process = __webpack_require__(34155);
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.PageConfig = void 0;
+const coreutils_1 = __webpack_require__(95082);
+const minimist_1 = __importDefault(__webpack_require__(96562));
+const url_1 = __webpack_require__(23093);
+/**
+ * The namespace for `PageConfig` functions.
+ */
+var PageConfig;
+(function (PageConfig) {
+    /**
+     * Get global configuration data for the Jupyter application.
+     *
+     * @param name - The name of the configuration option.
+     *
+     * @returns The config value or an empty string if not found.
+     *
+     * #### Notes
+     * All values are treated as strings.
+     * For browser based applications, it is assumed that the page HTML
+     * includes a script tag with the id `jupyter-config-data` containing the
+     * configuration as valid JSON.  In order to support the classic Notebook,
+     * we fall back on checking for `body` data of the given `name`.
+     *
+     * For node applications, it is assumed that the process was launched
+     * with a `--jupyter-config-data` option pointing to a JSON settings
+     * file.
+     */
+    function getOption(name) {
+        if (configData) {
+            return configData[name] || getBodyData(name);
+        }
+        configData = Object.create(null);
+        let found = false;
+        // Use script tag if available.
+        if (typeof document !== 'undefined' && document) {
+            const el = document.getElementById('jupyter-config-data');
+            if (el) {
+                configData = JSON.parse(el.textContent || '');
+                found = true;
+            }
+        }
+        // Otherwise use CLI if given.
+        if (!found && typeof process !== 'undefined' && process.argv) {
+            try {
+                const cli = minimist_1.default(process.argv.slice(2));
+                const path = __webpack_require__(26470);
+                let fullPath = '';
+                if ('jupyter-config-data' in cli) {
+                    fullPath = path.resolve(cli['jupyter-config-data']);
+                }
+                else if ('JUPYTER_CONFIG_DATA' in {}) {
+                    fullPath = path.resolve({}['JUPYTER_CONFIG_DATA']);
+                }
+                if (fullPath) {
+                    // Force Webpack to ignore this require.
+                    // eslint-disable-next-line
+                    configData = eval('require')(fullPath);
+                }
+            }
+            catch (e) {
+                console.error(e);
+            }
+        }
+        if (!coreutils_1.JSONExt.isObject(configData)) {
+            configData = Object.create(null);
+        }
+        else {
+            for (const key in configData) {
+                // PageConfig expects strings
+                if (typeof configData[key] !== 'string') {
+                    configData[key] = JSON.stringify(configData[key]);
+                }
+            }
+        }
+        return configData[name] || getBodyData(name);
+    }
+    PageConfig.getOption = getOption;
+    /**
+     * Set global configuration data for the Jupyter application.
+     *
+     * @param name - The name of the configuration option.
+     * @param value - The value to set the option to.
+     *
+     * @returns The last config value or an empty string if it doesn't exist.
+     */
+    function setOption(name, value) {
+        const last = getOption(name);
+        configData[name] = value;
+        return last;
+    }
+    PageConfig.setOption = setOption;
+    /**
+     * Get the base url for a Jupyter application, or the base url of the page.
+     */
+    function getBaseUrl() {
+        return url_1.URLExt.normalize(getOption('baseUrl') || '/');
+    }
+    PageConfig.getBaseUrl = getBaseUrl;
+    /**
+     * Get the tree url for a JupyterLab application.
+     */
+    function getTreeUrl() {
+        return url_1.URLExt.join(getBaseUrl(), getOption('treeUrl'));
+    }
+    PageConfig.getTreeUrl = getTreeUrl;
+    /**
+     * Get the base url for sharing links (usually baseUrl)
+     */
+    function getShareUrl() {
+        return url_1.URLExt.normalize(getOption('shareUrl') || getBaseUrl());
+    }
+    PageConfig.getShareUrl = getShareUrl;
+    /**
+     * Get the tree url for shareable links.
+     * Usually the same as treeUrl,
+     * but overrideable e.g. when sharing with JupyterHub.
+     */
+    function getTreeShareUrl() {
+        return url_1.URLExt.normalize(url_1.URLExt.join(getShareUrl(), getOption('treeUrl')));
+    }
+    PageConfig.getTreeShareUrl = getTreeShareUrl;
+    /**
+     * Create a new URL given an optional mode and tree path.
+     *
+     * This is used to create URLS when the mode or tree path change as the user
+     * changes mode or the current document in the main area. If fields in
+     * options are omitted, the value in PageConfig will be used.
+     *
+     * @param options - IGetUrlOptions for the new path.
+     */
+    function getUrl(options) {
+        var _a, _b, _c, _d;
+        let path = options.toShare ? getShareUrl() : getBaseUrl();
+        const mode = (_a = options.mode) !== null && _a !== void 0 ? _a : getOption('mode');
+        const workspace = (_b = options.workspace) !== null && _b !== void 0 ? _b : getOption('workspace');
+        const labOrDoc = mode === 'single-document' ? 'doc' : 'lab';
+        path = url_1.URLExt.join(path, labOrDoc);
+        if (workspace !== PageConfig.defaultWorkspace) {
+            path = url_1.URLExt.join(path, 'workspaces', encodeURIComponent((_c = getOption('workspace')) !== null && _c !== void 0 ? _c : PageConfig.defaultWorkspace));
+        }
+        const treePath = (_d = options.treePath) !== null && _d !== void 0 ? _d : getOption('treePath');
+        if (treePath) {
+            path = url_1.URLExt.join(path, 'tree', url_1.URLExt.encodeParts(treePath));
+        }
+        return path;
+    }
+    PageConfig.getUrl = getUrl;
+    PageConfig.defaultWorkspace = 'default';
+    /**
+     * Get the base websocket url for a Jupyter application, or an empty string.
+     */
+    function getWsUrl(baseUrl) {
+        let wsUrl = getOption('wsUrl');
+        if (!wsUrl) {
+            baseUrl = baseUrl ? url_1.URLExt.normalize(baseUrl) : getBaseUrl();
+            if (baseUrl.indexOf('http') !== 0) {
+                return '';
+            }
+            wsUrl = 'ws' + baseUrl.slice(4);
+        }
+        return url_1.URLExt.normalize(wsUrl);
+    }
+    PageConfig.getWsUrl = getWsUrl;
+    /**
+     * Returns the URL converting this notebook to a certain
+     * format with nbconvert.
+     */
+    function getNBConvertURL({ path, format, download }) {
+        const notebookPath = url_1.URLExt.encodeParts(path);
+        const url = url_1.URLExt.join(getBaseUrl(), 'nbconvert', format, notebookPath);
+        if (download) {
+            return url + '?download=true';
+        }
+        return url;
+    }
+    PageConfig.getNBConvertURL = getNBConvertURL;
+    /**
+     * Get the authorization token for a Jupyter application.
+     */
+    function getToken() {
+        return getOption('token') || getBodyData('jupyterApiToken');
+    }
+    PageConfig.getToken = getToken;
+    /**
+     * Get the Notebook version info [major, minor, patch].
+     */
+    function getNotebookVersion() {
+        const notebookVersion = getOption('notebookVersion');
+        if (notebookVersion === '') {
+            return [0, 0, 0];
+        }
+        return JSON.parse(notebookVersion);
+    }
+    PageConfig.getNotebookVersion = getNotebookVersion;
+    /**
+     * Private page config data for the Jupyter application.
+     */
+    let configData = null;
+    /**
+     * Get a url-encoded item from `body.data` and decode it
+     * We should never have any encoded URLs anywhere else in code
+     * until we are building an actual request.
+     */
+    function getBodyData(key) {
+        if (typeof document === 'undefined' || !document.body) {
+            return '';
+        }
+        const val = document.body.dataset[key];
+        if (typeof val === 'undefined') {
+            return '';
+        }
+        return decodeURIComponent(val);
+    }
+    /**
+     * The namespace for page config `Extension` functions.
+     */
+    let Extension;
+    (function (Extension) {
+        /**
+         * Populate an array from page config.
+         *
+         * @param key - The page config key (e.g., `deferredExtensions`).
+         *
+         * #### Notes
+         * This is intended for `deferredExtensions` and `disabledExtensions`.
+         */
+        function populate(key) {
+            try {
+                const raw = getOption(key);
+                if (raw) {
+                    return JSON.parse(raw);
+                }
+            }
+            catch (error) {
+                console.warn(`Unable to parse ${key}.`, error);
+            }
+            return [];
+        }
+        /**
+         * The collection of deferred extensions in page config.
+         */
+        Extension.deferred = populate('deferredExtensions');
+        /**
+         * The collection of disabled extensions in page config.
+         */
+        Extension.disabled = populate('disabledExtensions');
+        /**
+         * Returns whether a plugin is deferred.
+         *
+         * @param id - The plugin ID.
+         */
+        function isDeferred(id) {
+            // Check for either a full plugin id match or an extension
+            // name match.
+            const separatorIndex = id.indexOf(':');
+            let extName = '';
+            if (separatorIndex !== -1) {
+                extName = id.slice(0, separatorIndex);
+            }
+            return Extension.deferred.some(val => val === id || (extName && val === extName));
+        }
+        Extension.isDeferred = isDeferred;
+        /**
+         * Returns whether a plugin is disabled.
+         *
+         * @param id - The plugin ID.
+         */
+        function isDisabled(id) {
+            // Check for either a full plugin id match or an extension
+            // name match.
+            const separatorIndex = id.indexOf(':');
+            let extName = '';
+            if (separatorIndex !== -1) {
+                extName = id.slice(0, separatorIndex);
+            }
+            return Extension.disabled.some(val => val === id || (extName && val === extName));
+        }
+        Extension.isDisabled = isDisabled;
+    })(Extension = PageConfig.Extension || (PageConfig.Extension = {}));
+})(PageConfig = exports.PageConfig || (exports.PageConfig = {}));
+//# sourceMappingURL=pageconfig.js.map
+
+/***/ }),
+
+/***/ 9759:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.PathExt = void 0;
+const path_1 = __webpack_require__(26470);
+/**
+ * The namespace for path-related functions.
+ *
+ * Note that Jupyter server paths do not start with a leading slash.
+ */
+var PathExt;
+(function (PathExt) {
+    /**
+     * Join all arguments together and normalize the resulting path.
+     * Arguments must be strings. In v0.8, non-string arguments were silently ignored. In v0.10 and up, an exception is thrown.
+     *
+     * @param paths - The string paths to join.
+     */
+    function join(...paths) {
+        const path = path_1.posix.join(...paths);
+        return path === '.' ? '' : removeSlash(path);
+    }
+    PathExt.join = join;
+    /**
+     * Return the last portion of a path. Similar to the Unix basename command.
+     * Often used to extract the file name from a fully qualified path.
+     *
+     * @param path - The path to evaluate.
+     *
+     * @param ext - An extension to remove from the result.
+     */
+    function basename(path, ext) {
+        return path_1.posix.basename(path, ext);
+    }
+    PathExt.basename = basename;
+    /**
+     * Get the directory name of a path, similar to the Unix dirname command.
+     * When an empty path is given, returns the root path.
+     *
+     * @param path - The file path.
+     */
+    function dirname(path) {
+        const dir = removeSlash(path_1.posix.dirname(path));
+        return dir === '.' ? '' : dir;
+    }
+    PathExt.dirname = dirname;
+    /**
+     * Get the extension of the path.
+     *
+     * @param path - The file path.
+     *
+     * @returns the extension of the file.
+     *
+     * #### Notes
+     * The extension is the string from the last occurrence of the `.`
+     * character to end of string in the last portion of the path, inclusive.
+     * If there is no `.` in the last portion of the path, or if the first
+     * character of the basename of path [[basename]] is `.`, then an
+     * empty string is returned.
+     */
+    function extname(path) {
+        return path_1.posix.extname(path);
+    }
+    PathExt.extname = extname;
+    /**
+     * Normalize a string path, reducing '..' and '.' parts.
+     * When multiple slashes are found, they're replaced by a single one; when the path contains a trailing slash, it is preserved. On Windows backslashes are used.
+     * When an empty path is given, returns the root path.
+     *
+     * @param path - The string path to normalize.
+     */
+    function normalize(path) {
+        if (path === '') {
+            return '';
+        }
+        return removeSlash(path_1.posix.normalize(path));
+    }
+    PathExt.normalize = normalize;
+    /**
+     * Resolve a sequence of paths or path segments into an absolute path.
+     * The root path in the application has no leading slash, so it is removed.
+     *
+     * @param parts - The paths to join.
+     *
+     * #### Notes
+     * The right-most parameter is considered {to}.  Other parameters are considered an array of {from}.
+     *
+     * Starting from leftmost {from} parameter, resolves {to} to an absolute path.
+     *
+     * If {to} isn't already absolute, {from} arguments are prepended in right to left order, until an absolute path is found. If after using all {from} paths still no absolute path is found, the current working directory is used as well. The resulting path is normalized, and trailing slashes are removed unless the path gets resolved to the root directory.
+     */
+    function resolve(...parts) {
+        return removeSlash(path_1.posix.resolve(...parts));
+    }
+    PathExt.resolve = resolve;
+    /**
+     * Solve the relative path from {from} to {to}.
+     *
+     * @param from - The source path.
+     *
+     * @param to - The target path.
+     *
+     * #### Notes
+     * If from and to each resolve to the same path (after calling
+     * path.resolve() on each), a zero-length string is returned.
+     * If a zero-length string is passed as from or to, `/`
+     * will be used instead of the zero-length strings.
+     */
+    function relative(from, to) {
+        return removeSlash(path_1.posix.relative(from, to));
+    }
+    PathExt.relative = relative;
+    /**
+     * Normalize a file extension to be of the type `'.foo'`.
+     *
+     * @param extension - the file extension.
+     *
+     * #### Notes
+     * Adds a leading dot if not present and converts to lower case.
+     */
+    function normalizeExtension(extension) {
+        if (extension.length > 0 && extension.indexOf('.') !== 0) {
+            extension = `.${extension}`;
+        }
+        return extension;
+    }
+    PathExt.normalizeExtension = normalizeExtension;
+    /**
+     * Remove the leading slash from a path.
+     *
+     * @param path: the path from which to remove a leading slash.
+     */
+    function removeSlash(path) {
+        if (path.indexOf('/') === 0) {
+            path = path.slice(1);
+        }
+        return path;
+    }
+    PathExt.removeSlash = removeSlash;
+})(PathExt = exports.PathExt || (exports.PathExt = {}));
+//# sourceMappingURL=path.js.map
+
+/***/ }),
+
+/***/ 97311:
+/***/ ((__unused_webpack_module, exports) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.Text = void 0;
+/**
+ * The namespace for text-related functions.
+ */
+var Text;
+(function (Text) {
+    // javascript stores text as utf16 and string indices use "code units",
+    // which stores high-codepoint characters as "surrogate pairs",
+    // which occupy two indices in the javascript string.
+    // We need to translate cursor_pos in the Jupyter protocol (in characters)
+    // to js offset (with surrogate pairs taking two spots).
+    const HAS_SURROGATES = '𝐚'.length > 1;
+    /**
+     * Convert a javascript string index into a unicode character offset
+     *
+     * @param jsIdx - The javascript string index (counting surrogate pairs)
+     *
+     * @param text - The text in which the offset is calculated
+     *
+     * @returns The unicode character offset
+     */
+    function jsIndexToCharIndex(jsIdx, text) {
+        if (HAS_SURROGATES) {
+            // not using surrogates, nothing to do
+            return jsIdx;
+        }
+        let charIdx = jsIdx;
+        for (let i = 0; i + 1 < text.length && i < jsIdx; i++) {
+            const charCode = text.charCodeAt(i);
+            // check for surrogate pair
+            if (charCode >= 0xd800 && charCode <= 0xdbff) {
+                const nextCharCode = text.charCodeAt(i + 1);
+                if (nextCharCode >= 0xdc00 && nextCharCode <= 0xdfff) {
+                    charIdx--;
+                    i++;
+                }
+            }
+        }
+        return charIdx;
+    }
+    Text.jsIndexToCharIndex = jsIndexToCharIndex;
+    /**
+     * Convert a unicode character offset to a javascript string index.
+     *
+     * @param charIdx - The index in unicode characters
+     *
+     * @param text - The text in which the offset is calculated
+     *
+     * @returns The js-native index
+     */
+    function charIndexToJsIndex(charIdx, text) {
+        if (HAS_SURROGATES) {
+            // not using surrogates, nothing to do
+            return charIdx;
+        }
+        let jsIdx = charIdx;
+        for (let i = 0; i + 1 < text.length && i < jsIdx; i++) {
+            const charCode = text.charCodeAt(i);
+            // check for surrogate pair
+            if (charCode >= 0xd800 && charCode <= 0xdbff) {
+                const nextCharCode = text.charCodeAt(i + 1);
+                if (nextCharCode >= 0xdc00 && nextCharCode <= 0xdfff) {
+                    jsIdx++;
+                    i++;
+                }
+            }
+        }
+        return jsIdx;
+    }
+    Text.charIndexToJsIndex = charIndexToJsIndex;
+    /**
+     * Given a 'snake-case', 'snake_case', 'snake:case', or
+     * 'snake case' string, will return the camel case version: 'snakeCase'.
+     *
+     * @param str: the snake-case input string.
+     *
+     * @param upper: default = false. If true, the first letter of the
+     * returned string will be capitalized.
+     *
+     * @returns the camel case version of the input string.
+     */
+    function camelCase(str, upper = false) {
+        return str.replace(/^(\w)|[\s-_:]+(\w)/g, function (match, p1, p2) {
+            if (p2) {
+                return p2.toUpperCase();
+            }
+            else {
+                return upper ? p1.toUpperCase() : p1.toLowerCase();
+            }
+        });
+    }
+    Text.camelCase = camelCase;
+    /**
+     * Given a string, title case the words in the string.
+     *
+     * @param str: the string to title case.
+     *
+     * @returns the same string, but with each word capitalized.
+     */
+    function titleCase(str) {
+        return (str || '')
+            .toLowerCase()
+            .split(' ')
+            .map(word => word.charAt(0).toUpperCase() + word.slice(1))
+            .join(' ');
+    }
+    Text.titleCase = titleCase;
+})(Text = exports.Text || (exports.Text = {}));
+//# sourceMappingURL=text.js.map
+
+/***/ }),
+
+/***/ 4036:
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.Time = void 0;
+const moment_1 = __importDefault(__webpack_require__(30381));
+/**
+ * The namespace for date functions.
+ */
+var Time;
+(function (Time) {
+    /**
+     * Convert a timestring to a human readable string (e.g. 'two minutes ago').
+     *
+     * @param value - The date timestring or date object.
+     *
+     * @returns A formatted date.
+     */
+    function formatHuman(value) {
+        moment_1.default.locale(document.documentElement.lang);
+        let time = moment_1.default(value).fromNow();
+        // FIXME-TRANS: This is not localization friendly!
+        time = time === 'a few seconds ago' ? 'seconds ago' : time;
+        return time;
+    }
+    Time.formatHuman = formatHuman;
+    /**
+     * Convert a timestring to a date format.
+     *
+     * @param value - The date timestring or date object.
+     *
+     * @param format - The format string.
+     *
+     * @returns A formatted date.
+     */
+    function format(value, timeFormat = 'YYYY-MM-DD HH:mm') {
+        return moment_1.default(value).format(timeFormat);
+    }
+    Time.format = format;
+})(Time = exports.Time || (exports.Time = {}));
+//# sourceMappingURL=time.js.map
+
+/***/ }),
+
+/***/ 23093:
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.URLExt = void 0;
+const path_1 = __webpack_require__(26470);
+const url_parse_1 = __importDefault(__webpack_require__(84564));
+/**
+ * The namespace for URL-related functions.
+ */
+var URLExt;
+(function (URLExt) {
+    /**
+     * Parse a url into a URL object.
+     *
+     * @param urlString - The URL string to parse.
+     *
+     * @returns A URL object.
+     */
+    function parse(url) {
+        if (typeof document !== 'undefined' && document) {
+            const a = document.createElement('a');
+            a.href = url;
+            return a;
+        }
+        return url_parse_1.default(url);
+    }
+    URLExt.parse = parse;
+    /**
+     * Parse URL and retrieve hostname
+     *
+     * @param url - The URL string to parse
+     *
+     * @return a hostname string value
+     */
+    function getHostName(url) {
+        return url_parse_1.default(url).hostname;
+    }
+    URLExt.getHostName = getHostName;
+    function normalize(url) {
+        return url && parse(url).toString();
+    }
+    URLExt.normalize = normalize;
+    /**
+     * Join a sequence of url components and normalizes as in node `path.join`.
+     *
+     * @param parts - The url components.
+     *
+     * @returns the joined url.
+     */
+    function join(...parts) {
+        const u = url_parse_1.default(parts[0], {});
+        const prefix = `${u.protocol}${u.slashes ? '//' : ''}${u.auth}${u.auth ? '@' : ''}${u.host}`;
+        // If there was a prefix, then the first path must start at the root.
+        const path = path_1.posix.join(`${!!prefix && u.pathname[0] !== '/' ? '/' : ''}${u.pathname}`, ...parts.slice(1));
+        return `${prefix}${path === '.' ? '' : path}`;
+    }
+    URLExt.join = join;
+    /**
+     * Encode the components of a multi-segment url.
+     *
+     * @param url - The url to encode.
+     *
+     * @returns the encoded url.
+     *
+     * #### Notes
+     * Preserves the `'/'` separators.
+     * Should not include the base url, since all parts are escaped.
+     */
+    function encodeParts(url) {
+        return join(...url.split('/').map(encodeURIComponent));
+    }
+    URLExt.encodeParts = encodeParts;
+    /**
+     * Return a serialized object string suitable for a query.
+     *
+     * @param object - The source object.
+     *
+     * @returns an encoded url query.
+     *
+     * #### Notes
+     * Modified version of [stackoverflow](http://stackoverflow.com/a/30707423).
+     */
+    function objectToQueryString(value) {
+        const keys = Object.keys(value).filter(key => key.length > 0);
+        if (!keys.length) {
+            return '';
+        }
+        return ('?' +
+            keys
+                .map(key => {
+                const content = encodeURIComponent(String(value[key]));
+                return key + (content ? '=' + content : '');
+            })
+                .join('&'));
+    }
+    URLExt.objectToQueryString = objectToQueryString;
+    /**
+     * Return a parsed object that represents the values in a query string.
+     */
+    function queryStringToObject(value) {
+        return value
+            .replace(/^\?/, '')
+            .split('&')
+            .reduce((acc, val) => {
+            const [key, value] = val.split('=');
+            if (key.length > 0) {
+                acc[key] = decodeURIComponent(value || '');
+            }
+            return acc;
+        }, {});
+    }
+    URLExt.queryStringToObject = queryStringToObject;
+    /**
+     * Test whether the url is a local url.
+     *
+     * #### Notes
+     * This function returns `false` for any fully qualified url, including
+     * `data:`, `file:`, and `//` protocol URLs.
+     */
+    function isLocal(url) {
+        const { protocol } = parse(url);
+        return ((!protocol || url.toLowerCase().indexOf(protocol) !== 0) &&
+            url.indexOf('/') !== 0);
+    }
+    URLExt.isLocal = isLocal;
+})(URLExt = exports.URLExt || (exports.URLExt = {}));
+//# sourceMappingURL=url.js.map
+
+/***/ }),
+
+/***/ 73401:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -13812,7 +21973,7 @@ exports.DataConnector = DataConnector;
 
 /***/ }),
 
-/***/ 7266:
+/***/ 51747:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -13835,16 +21996,16 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
     for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-__exportStar(__webpack_require__(9525), exports);
-__exportStar(__webpack_require__(4623), exports);
-__exportStar(__webpack_require__(1156), exports);
-__exportStar(__webpack_require__(4962), exports);
-__exportStar(__webpack_require__(7263), exports);
+__exportStar(__webpack_require__(73401), exports);
+__exportStar(__webpack_require__(22477), exports);
+__exportStar(__webpack_require__(50349), exports);
+__exportStar(__webpack_require__(24199), exports);
+__exportStar(__webpack_require__(33955), exports);
 //# sourceMappingURL=index.js.map
 
 /***/ }),
 
-/***/ 4623:
+/***/ 22477:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -13855,7 +22016,7 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 
 /***/ }),
 
-/***/ 1156:
+/***/ 50349:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -13863,8 +22024,8 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 // Distributed under the terms of the Modified BSD License.
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.RestorablePool = void 0;
-const coreutils_1 = __webpack_require__(5082);
-const properties_1 = __webpack_require__(9770);
+const coreutils_1 = __webpack_require__(95082);
+const properties_1 = __webpack_require__(39770);
 const signaling_1 = __webpack_require__(4016);
 /**
  * An object pool that supports restoration.
@@ -14175,7 +22336,713 @@ var Private;
 
 /***/ }),
 
-/***/ 4962:
+/***/ 24199:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.StateDB = void 0;
+const signaling_1 = __webpack_require__(4016);
+/**
+ * The default concrete implementation of a state database.
+ */
+class StateDB {
+    /**
+     * Create a new state database.
+     *
+     * @param options - The instantiation options for a state database.
+     */
+    constructor(options = {}) {
+        this._changed = new signaling_1.Signal(this);
+        const { connector, transform } = options;
+        this._connector = connector || new StateDB.Connector();
+        if (!transform) {
+            this._ready = Promise.resolve(undefined);
+        }
+        else {
+            this._ready = transform.then(transformation => {
+                const { contents, type } = transformation;
+                switch (type) {
+                    case 'cancel':
+                        return;
+                    case 'clear':
+                        return this._clear();
+                    case 'merge':
+                        return this._merge(contents || {});
+                    case 'overwrite':
+                        return this._overwrite(contents || {});
+                    default:
+                        return;
+                }
+            });
+        }
+    }
+    /**
+     * A signal that emits the change type any time a value changes.
+     */
+    get changed() {
+        return this._changed;
+    }
+    /**
+     * Clear the entire database.
+     */
+    async clear() {
+        await this._ready;
+        await this._clear();
+    }
+    /**
+     * Retrieve a saved bundle from the database.
+     *
+     * @param id - The identifier used to retrieve a data bundle.
+     *
+     * @returns A promise that bears a data payload if available.
+     *
+     * #### Notes
+     * The `id` values of stored items in the state database are formatted:
+     * `'namespace:identifier'`, which is the same convention that command
+     * identifiers in JupyterLab use as well. While this is not a technical
+     * requirement for `fetch()`, `remove()`, and `save()`, it *is* necessary for
+     * using the `list(namespace: string)` method.
+     *
+     * The promise returned by this method may be rejected if an error occurs in
+     * retrieving the data. Non-existence of an `id` will succeed with the `value`
+     * `undefined`.
+     */
+    async fetch(id) {
+        await this._ready;
+        return this._fetch(id);
+    }
+    /**
+     * Retrieve all the saved bundles for a namespace.
+     *
+     * @param filter - The namespace prefix to retrieve.
+     *
+     * @returns A promise that bears a collection of payloads for a namespace.
+     *
+     * #### Notes
+     * Namespaces are entirely conventional entities. The `id` values of stored
+     * items in the state database are formatted: `'namespace:identifier'`, which
+     * is the same convention that command identifiers in JupyterLab use as well.
+     *
+     * If there are any errors in retrieving the data, they will be logged to the
+     * console in order to optimistically return any extant data without failing.
+     * This promise will always succeed.
+     */
+    async list(namespace) {
+        await this._ready;
+        return this._list(namespace);
+    }
+    /**
+     * Remove a value from the database.
+     *
+     * @param id - The identifier for the data being removed.
+     *
+     * @returns A promise that is rejected if remove fails and succeeds otherwise.
+     */
+    async remove(id) {
+        await this._ready;
+        await this._remove(id);
+        this._changed.emit({ id, type: 'remove' });
+    }
+    /**
+     * Save a value in the database.
+     *
+     * @param id - The identifier for the data being saved.
+     *
+     * @param value - The data being saved.
+     *
+     * @returns A promise that is rejected if saving fails and succeeds otherwise.
+     *
+     * #### Notes
+     * The `id` values of stored items in the state database are formatted:
+     * `'namespace:identifier'`, which is the same convention that command
+     * identifiers in JupyterLab use as well. While this is not a technical
+     * requirement for `fetch()`, `remove()`, and `save()`, it *is* necessary for
+     * using the `list(namespace: string)` method.
+     */
+    async save(id, value) {
+        await this._ready;
+        await this._save(id, value);
+        this._changed.emit({ id, type: 'save' });
+    }
+    /**
+     * Return a serialized copy of the state database's entire contents.
+     *
+     * @returns A promise that resolves with the database contents as JSON.
+     */
+    async toJSON() {
+        await this._ready;
+        const { ids, values } = await this._list();
+        return values.reduce((acc, val, idx) => {
+            acc[ids[idx]] = val;
+            return acc;
+        }, {});
+    }
+    /**
+     * Clear the entire database.
+     */
+    async _clear() {
+        await Promise.all((await this._list()).ids.map(id => this._remove(id)));
+    }
+    /**
+     * Fetch a value from the database.
+     */
+    async _fetch(id) {
+        const value = await this._connector.fetch(id);
+        if (value) {
+            return JSON.parse(value).v;
+        }
+    }
+    /**
+     * Fetch a list from the database.
+     */
+    async _list(namespace = '') {
+        const { ids, values } = await this._connector.list(namespace);
+        return {
+            ids,
+            values: values.map(val => JSON.parse(val).v)
+        };
+    }
+    /**
+     * Merge data into the state database.
+     */
+    async _merge(contents) {
+        await Promise.all(Object.keys(contents).map(key => contents[key] && this._save(key, contents[key])));
+    }
+    /**
+     * Overwrite the entire database with new contents.
+     */
+    async _overwrite(contents) {
+        await this._clear();
+        await this._merge(contents);
+    }
+    /**
+     * Remove a key in the database.
+     */
+    async _remove(id) {
+        return this._connector.remove(id);
+    }
+    /**
+     * Save a key and its value in the database.
+     */
+    async _save(id, value) {
+        return this._connector.save(id, JSON.stringify({ v: value }));
+    }
+}
+exports.StateDB = StateDB;
+/**
+ * A namespace for StateDB statics.
+ */
+(function (StateDB) {
+    /**
+     * An in-memory string key/value data connector.
+     */
+    class Connector {
+        constructor() {
+            this._storage = {};
+        }
+        /**
+         * Retrieve an item from the data connector.
+         */
+        async fetch(id) {
+            return this._storage[id];
+        }
+        /**
+         * Retrieve the list of items available from the data connector.
+         *
+         * @param namespace - If not empty, only keys whose first token before `:`
+         * exactly match `namespace` will be returned, e.g. `foo` in `foo:bar`.
+         */
+        async list(namespace = '') {
+            return Object.keys(this._storage).reduce((acc, val) => {
+                if (namespace === '' ? true : namespace === val.split(':')[0]) {
+                    acc.ids.push(val);
+                    acc.values.push(this._storage[val]);
+                }
+                return acc;
+            }, { ids: [], values: [] });
+        }
+        /**
+         * Remove a value using the data connector.
+         */
+        async remove(id) {
+            delete this._storage[id];
+        }
+        /**
+         * Save a value using the data connector.
+         */
+        async save(id, value) {
+            this._storage[id] = value;
+        }
+    }
+    StateDB.Connector = Connector;
+})(StateDB = exports.StateDB || (exports.StateDB = {}));
+//# sourceMappingURL=statedb.js.map
+
+/***/ }),
+
+/***/ 33955:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.IStateDB = void 0;
+const coreutils_1 = __webpack_require__(95082);
+/* tslint:disable */
+/**
+ * The default state database token.
+ */
+exports.IStateDB = new coreutils_1.Token('@jupyterlab/coreutils:IStateDB');
+//# sourceMappingURL=tokens.js.map
+
+/***/ }),
+
+/***/ 89525:
+/***/ ((__unused_webpack_module, exports) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.DataConnector = void 0;
+/**
+ * An abstract class that adheres to the data connector interface.
+ *
+ * @typeparam T - The basic entity response type a service's connector.
+ *
+ * @typeparam U - The basic entity request type, which is conventionally the
+ * same as the response type but may be different if a service's implementation
+ * requires input data to be different from output responses. Defaults to `T`.
+ *
+ * @typeparam V - The basic token applied to a request, conventionally a string
+ * ID or filter, but may be set to a different type when an implementation
+ * requires it. Defaults to `string`.
+ *
+ * @typeparam W - The type of the optional `query` parameter of the `list`
+ * method. Defaults to `string`.
+ *
+ * #### Notes
+ * The only abstract method in this class is the `fetch` method, which must be
+ * reimplemented by all subclasses. The `remove` and `save` methods have a
+ * default implementation that returns a promise that will always reject. This
+ * class is a convenience superclass for connectors that only need to `fetch`.
+ */
+class DataConnector {
+    /**
+     * Retrieve the list of items available from the data connector.
+     *
+     * @param query - The optional query filter to apply to the connector request.
+     *
+     * @returns A promise that always rejects with an error.
+     *
+     * #### Notes
+     * Subclasses should reimplement if they support a back-end that can list.
+     */
+    async list(query) {
+        throw new Error('DataConnector#list method has not been implemented.');
+    }
+    /**
+     * Remove a value using the data connector.
+     *
+     * @param id - The identifier for the data being removed.
+     *
+     * @returns A promise that always rejects with an error.
+     *
+     * #### Notes
+     * Subclasses should reimplement if they support a back-end that can remove.
+     */
+    async remove(id) {
+        throw new Error('DataConnector#remove method has not been implemented.');
+    }
+    /**
+     * Save a value using the data connector.
+     *
+     * @param id - The identifier for the data being saved.
+     *
+     * @param value - The data being saved.
+     *
+     * @returns A promise that always rejects with an error.
+     *
+     * #### Notes
+     * Subclasses should reimplement if they support a back-end that can save.
+     */
+    async save(id, value) {
+        throw new Error('DataConnector#save method has not been implemented.');
+    }
+}
+exports.DataConnector = DataConnector;
+//# sourceMappingURL=dataconnector.js.map
+
+/***/ }),
+
+/***/ 17266:
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+/* -----------------------------------------------------------------------------
+| Copyright (c) Jupyter Development Team.
+| Distributed under the terms of the Modified BSD License.
+|----------------------------------------------------------------------------*/
+/**
+ * @packageDocumentation
+ * @module statedb
+ */
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __exportStar = (this && this.__exportStar) || function(m, exports) {
+    for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+__exportStar(__webpack_require__(89525), exports);
+__exportStar(__webpack_require__(14623), exports);
+__exportStar(__webpack_require__(51156), exports);
+__exportStar(__webpack_require__(64962), exports);
+__exportStar(__webpack_require__(7263), exports);
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 14623:
+/***/ ((__unused_webpack_module, exports) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+//# sourceMappingURL=interfaces.js.map
+
+/***/ }),
+
+/***/ 51156:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.RestorablePool = void 0;
+const coreutils_1 = __webpack_require__(95082);
+const properties_1 = __webpack_require__(39770);
+const signaling_1 = __webpack_require__(4016);
+/**
+ * An object pool that supports restoration.
+ *
+ * @typeparam T - The type of object being tracked.
+ */
+class RestorablePool {
+    /**
+     * Create a new restorable pool.
+     *
+     * @param options - The instantiation options for a restorable pool.
+     */
+    constructor(options) {
+        this._added = new signaling_1.Signal(this);
+        this._current = null;
+        this._currentChanged = new signaling_1.Signal(this);
+        this._hasRestored = false;
+        this._isDisposed = false;
+        this._objects = new Set();
+        this._restore = null;
+        this._restored = new coreutils_1.PromiseDelegate();
+        this._updated = new signaling_1.Signal(this);
+        this.namespace = options.namespace;
+    }
+    /**
+     * A signal emitted when an object object is added.
+     *
+     * #### Notes
+     * This signal will only fire when an object is added to the pool.
+     * It will not fire if an object injected into the pool.
+     */
+    get added() {
+        return this._added;
+    }
+    /**
+     * The current object.
+     *
+     * #### Notes
+     * The restorable pool does not set `current`. It is intended for client use.
+     *
+     * If `current` is set to an object that does not exist in the pool, it is a
+     * no-op.
+     */
+    get current() {
+        return this._current;
+    }
+    set current(obj) {
+        if (this._current === obj) {
+            return;
+        }
+        if (obj !== null && this._objects.has(obj)) {
+            this._current = obj;
+            this._currentChanged.emit(this._current);
+        }
+    }
+    /**
+     * A signal emitted when the current widget changes.
+     */
+    get currentChanged() {
+        return this._currentChanged;
+    }
+    /**
+     * Test whether the pool is disposed.
+     */
+    get isDisposed() {
+        return this._isDisposed;
+    }
+    /**
+     * A promise resolved when the restorable pool has been restored.
+     */
+    get restored() {
+        return this._restored.promise;
+    }
+    /**
+     * The number of objects held by the pool.
+     */
+    get size() {
+        return this._objects.size;
+    }
+    /**
+     * A signal emitted when an object is updated.
+     */
+    get updated() {
+        return this._updated;
+    }
+    /**
+     * Add a new object to the pool.
+     *
+     * @param obj - The object object being added.
+     *
+     * #### Notes
+     * The object passed into the pool is added synchronously; its existence in
+     * the pool can be checked with the `has()` method. The promise this method
+     * returns resolves after the object has been added and saved to an underlying
+     * restoration connector, if one is available.
+     */
+    async add(obj) {
+        var _a, _b;
+        if (obj.isDisposed) {
+            const warning = 'A disposed object cannot be added.';
+            console.warn(warning, obj);
+            throw new Error(warning);
+        }
+        if (this._objects.has(obj)) {
+            const warning = 'This object already exists in the pool.';
+            console.warn(warning, obj);
+            throw new Error(warning);
+        }
+        this._objects.add(obj);
+        obj.disposed.connect(this._onInstanceDisposed, this);
+        if (Private.injectedProperty.get(obj)) {
+            return;
+        }
+        if (this._restore) {
+            const { connector } = this._restore;
+            const objName = this._restore.name(obj);
+            if (objName) {
+                const name = `${this.namespace}:${objName}`;
+                const data = (_b = (_a = this._restore).args) === null || _b === void 0 ? void 0 : _b.call(_a, obj);
+                Private.nameProperty.set(obj, name);
+                await connector.save(name, { data });
+            }
+        }
+        // Emit the added signal.
+        this._added.emit(obj);
+    }
+    /**
+     * Dispose of the resources held by the pool.
+     *
+     * #### Notes
+     * Disposing a pool does not affect the underlying data in the data connector,
+     * it simply disposes the client-side pool without making any connector calls.
+     */
+    dispose() {
+        if (this.isDisposed) {
+            return;
+        }
+        this._current = null;
+        this._isDisposed = true;
+        this._objects.clear();
+        signaling_1.Signal.clearData(this);
+    }
+    /**
+     * Find the first object in the pool that satisfies a filter function.
+     *
+     * @param - fn The filter function to call on each object.
+     */
+    find(fn) {
+        const values = this._objects.values();
+        for (const value of values) {
+            if (fn(value)) {
+                return value;
+            }
+        }
+        return undefined;
+    }
+    /**
+     * Iterate through each object in the pool.
+     *
+     * @param fn - The function to call on each object.
+     */
+    forEach(fn) {
+        this._objects.forEach(fn);
+    }
+    /**
+     * Filter the objects in the pool based on a predicate.
+     *
+     * @param fn - The function by which to filter.
+     */
+    filter(fn) {
+        const filtered = [];
+        this.forEach(obj => {
+            if (fn(obj)) {
+                filtered.push(obj);
+            }
+        });
+        return filtered;
+    }
+    /**
+     * Inject an object into the restorable pool without the pool handling its
+     * restoration lifecycle.
+     *
+     * @param obj - The object to inject into the pool.
+     */
+    inject(obj) {
+        Private.injectedProperty.set(obj, true);
+        return this.add(obj);
+    }
+    /**
+     * Check if this pool has the specified object.
+     *
+     * @param obj - The object whose existence is being checked.
+     */
+    has(obj) {
+        return this._objects.has(obj);
+    }
+    /**
+     * Restore the objects in this pool's namespace.
+     *
+     * @param options - The configuration options that describe restoration.
+     *
+     * @returns A promise that resolves when restoration has completed.
+     *
+     * #### Notes
+     * This function should almost never be invoked by client code. Its primary
+     * use case is to be invoked by a layout restorer plugin that handles
+     * multiple restorable pools and, when ready, asks them each to restore their
+     * respective objects.
+     */
+    async restore(options) {
+        if (this._hasRestored) {
+            throw new Error('This pool has already been restored.');
+        }
+        this._hasRestored = true;
+        const { command, connector, registry, when } = options;
+        const namespace = this.namespace;
+        const promises = when
+            ? [connector.list(namespace)].concat(when)
+            : [connector.list(namespace)];
+        this._restore = options;
+        const [saved] = await Promise.all(promises);
+        const values = await Promise.all(saved.ids.map(async (id, index) => {
+            const value = saved.values[index];
+            const args = value && value.data;
+            if (args === undefined) {
+                return connector.remove(id);
+            }
+            // Execute the command and if it fails, delete the state restore data.
+            return registry
+                .execute(command, args)
+                .catch(() => connector.remove(id));
+        }));
+        this._restored.resolve();
+        return values;
+    }
+    /**
+     * Save the restore data for a given object.
+     *
+     * @param obj - The object being saved.
+     */
+    async save(obj) {
+        var _a, _b;
+        const injected = Private.injectedProperty.get(obj);
+        if (!this._restore || !this.has(obj) || injected) {
+            return;
+        }
+        const { connector } = this._restore;
+        const objName = this._restore.name(obj);
+        const oldName = Private.nameProperty.get(obj);
+        const newName = objName ? `${this.namespace}:${objName}` : '';
+        if (oldName && oldName !== newName) {
+            await connector.remove(oldName);
+        }
+        // Set the name property irrespective of whether the new name is null.
+        Private.nameProperty.set(obj, newName);
+        if (newName) {
+            const data = (_b = (_a = this._restore).args) === null || _b === void 0 ? void 0 : _b.call(_a, obj);
+            await connector.save(newName, { data });
+        }
+        if (oldName !== newName) {
+            this._updated.emit(obj);
+        }
+    }
+    /**
+     * Clean up after disposed objects.
+     */
+    _onInstanceDisposed(obj) {
+        this._objects.delete(obj);
+        if (obj === this._current) {
+            this._current = null;
+            this._currentChanged.emit(this._current);
+        }
+        if (Private.injectedProperty.get(obj)) {
+            return;
+        }
+        if (!this._restore) {
+            return;
+        }
+        const { connector } = this._restore;
+        const name = Private.nameProperty.get(obj);
+        if (name) {
+            void connector.remove(name);
+        }
+    }
+}
+exports.RestorablePool = RestorablePool;
+/*
+ * A namespace for private data.
+ */
+var Private;
+(function (Private) {
+    /**
+     * An attached property to indicate whether an object has been injected.
+     */
+    Private.injectedProperty = new properties_1.AttachedProperty({
+        name: 'injected',
+        create: () => false
+    });
+    /**
+     * An attached property for an object's ID.
+     */
+    Private.nameProperty = new properties_1.AttachedProperty({
+        name: 'name',
+        create: () => ''
+    });
+})(Private || (Private = {}));
+//# sourceMappingURL=restorablepool.js.map
+
+/***/ }),
+
+/***/ 64962:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
@@ -14430,7 +23297,7 @@ exports.StateDB = StateDB;
 // Distributed under the terms of the Modified BSD License.
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.IStateDB = void 0;
-const coreutils_1 = __webpack_require__(5082);
+const coreutils_1 = __webpack_require__(95082);
 /* tslint:disable */
 /**
  * The default state database token.
@@ -14440,7 +23307,6789 @@ exports.IStateDB = new coreutils_1.Token('@jupyterlab/coreutils:IStateDB');
 
 /***/ }),
 
-/***/ 5259:
+/***/ 11019:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.BaseManager = void 0;
+const signaling_1 = __webpack_require__(4016);
+const serverconnection_1 = __webpack_require__(22030);
+class BaseManager {
+    constructor(options) {
+        var _a;
+        this._isDisposed = false;
+        this._disposed = new signaling_1.Signal(this);
+        this.serverSettings = (_a = options.serverSettings) !== null && _a !== void 0 ? _a : serverconnection_1.ServerConnection.makeSettings();
+    }
+    /**
+     * A signal emitted when the delegate is disposed.
+     */
+    get disposed() {
+        return this._disposed;
+    }
+    /**
+     * Test whether the delegate has been disposed.
+     */
+    get isDisposed() {
+        return this._isDisposed;
+    }
+    /**
+     * Dispose of the delegate and invoke the callback function.
+     */
+    dispose() {
+        if (this.isDisposed) {
+            return;
+        }
+        this._disposed.emit(undefined);
+        signaling_1.Signal.clearData(this);
+    }
+}
+exports.BaseManager = BaseManager;
+//# sourceMappingURL=basemanager.js.map
+
+/***/ }),
+
+/***/ 68216:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.BuildManager = void 0;
+const coreutils_1 = __webpack_require__(79622);
+const serverconnection_1 = __webpack_require__(22030);
+/**
+ * The url for the lab build service.
+ */
+const BUILD_SETTINGS_URL = 'api/build';
+/**
+ * The build API service manager.
+ */
+class BuildManager {
+    /**
+     * Create a new setting manager.
+     */
+    constructor(options = {}) {
+        var _a;
+        this._url = '';
+        this.serverSettings = (_a = options.serverSettings) !== null && _a !== void 0 ? _a : serverconnection_1.ServerConnection.makeSettings();
+        const { baseUrl, appUrl } = this.serverSettings;
+        this._url = coreutils_1.URLExt.join(baseUrl, appUrl, BUILD_SETTINGS_URL);
+    }
+    /**
+     * Test whether the build service is available.
+     */
+    get isAvailable() {
+        return coreutils_1.PageConfig.getOption('buildAvailable').toLowerCase() === 'true';
+    }
+    /**
+     * Test whether to check build status automatically.
+     */
+    get shouldCheck() {
+        return coreutils_1.PageConfig.getOption('buildCheck').toLowerCase() === 'true';
+    }
+    /**
+     * Get whether the application should be built.
+     */
+    getStatus() {
+        const { _url, serverSettings } = this;
+        const promise = serverconnection_1.ServerConnection.makeRequest(_url, {}, serverSettings);
+        return promise
+            .then(response => {
+            if (response.status !== 200) {
+                throw new serverconnection_1.ServerConnection.ResponseError(response);
+            }
+            return response.json();
+        })
+            .then(data => {
+            if (typeof data.status !== 'string') {
+                throw new Error('Invalid data');
+            }
+            if (typeof data.message !== 'string') {
+                throw new Error('Invalid data');
+            }
+            return data;
+        });
+    }
+    /**
+     * Build the application.
+     */
+    build() {
+        const { _url, serverSettings } = this;
+        const init = { method: 'POST' };
+        const promise = serverconnection_1.ServerConnection.makeRequest(_url, init, serverSettings);
+        return promise.then(response => {
+            if (response.status === 400) {
+                throw new serverconnection_1.ServerConnection.ResponseError(response, 'Build aborted');
+            }
+            if (response.status !== 200) {
+                const message = `Build failed with ${response.status}.
+
+        If you are experiencing the build failure after installing an extension (or trying to include previously installed extension after updating JupyterLab) please check the extension repository for new installation instructions as many extensions migrated to the prebuilt extensions system which no longer requires rebuilding JupyterLab (but uses a different installation procedure, typically involving a package manager such as 'pip' or 'conda').
+
+        If you specifically intended to install a source extension, please run 'jupyter lab build' on the server for full output.`;
+                throw new serverconnection_1.ServerConnection.ResponseError(response, message);
+            }
+        });
+    }
+    /**
+     * Cancel an active build.
+     */
+    cancel() {
+        const { _url, serverSettings } = this;
+        const init = { method: 'DELETE' };
+        const promise = serverconnection_1.ServerConnection.makeRequest(_url, init, serverSettings);
+        return promise.then(response => {
+            if (response.status !== 204) {
+                throw new serverconnection_1.ServerConnection.ResponseError(response);
+            }
+        });
+    }
+}
+exports.BuildManager = BuildManager;
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 27107:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.ConfigWithDefaults = exports.ConfigSection = void 0;
+const coreutils_1 = __webpack_require__(79622);
+const __1 = __webpack_require__(34669);
+/**
+ * The url for the config service.
+ */
+const SERVICE_CONFIG_URL = 'api/config';
+/**
+ * The namespace for ConfigSection statics.
+ */
+var ConfigSection;
+(function (ConfigSection) {
+    /**
+     * Create a config section.
+     *
+     * @returns A Promise that is fulfilled with the config section is loaded.
+     */
+    function create(options) {
+        const section = new DefaultConfigSection(options);
+        return section.load().then(() => {
+            return section;
+        });
+    }
+    ConfigSection.create = create;
+})(ConfigSection = exports.ConfigSection || (exports.ConfigSection = {}));
+/**
+ * Implementation of the Configurable data section.
+ */
+class DefaultConfigSection {
+    /**
+     * Construct a new config section.
+     */
+    constructor(options) {
+        var _a;
+        this._url = 'unknown';
+        const settings = (this.serverSettings = (_a = options.serverSettings) !== null && _a !== void 0 ? _a : __1.ServerConnection.makeSettings());
+        this._url = coreutils_1.URLExt.join(settings.baseUrl, SERVICE_CONFIG_URL, encodeURIComponent(options.name));
+    }
+    /**
+     * Get the data for this section.
+     */
+    get data() {
+        return this._data;
+    }
+    /**
+     * Load the initial data for this section.
+     *
+     * #### Notes
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/config).
+     *
+     * The promise is fulfilled on a valid response and rejected otherwise.
+     */
+    async load() {
+        const response = await __1.ServerConnection.makeRequest(this._url, {}, this.serverSettings);
+        if (response.status !== 200) {
+            const err = await __1.ServerConnection.ResponseError.create(response);
+            throw err;
+        }
+        this._data = await response.json();
+    }
+    /**
+     * Modify the stored config values.
+     *
+     * #### Notes
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/config).
+     *
+     * The promise is fulfilled on a valid response and rejected otherwise.
+     *
+     * Updates the local data immediately, sends the change to the server,
+     * and updates the local data with the response, and fulfils the promise
+     * with that data.
+     */
+    async update(newdata) {
+        this._data = Object.assign(Object.assign({}, this._data), newdata);
+        const init = {
+            method: 'PATCH',
+            body: JSON.stringify(newdata)
+        };
+        const response = await __1.ServerConnection.makeRequest(this._url, init, this.serverSettings);
+        if (response.status !== 200) {
+            const err = await __1.ServerConnection.ResponseError.create(response);
+            throw err;
+        }
+        this._data = await response.json();
+        return this._data;
+    }
+}
+/**
+ * Configurable object with defaults.
+ */
+class ConfigWithDefaults {
+    /**
+     * Create a new config with defaults.
+     */
+    constructor(options) {
+        var _a, _b;
+        this._className = '';
+        this._section = options.section;
+        this._defaults = (_a = options.defaults) !== null && _a !== void 0 ? _a : {};
+        this._className = (_b = options.className) !== null && _b !== void 0 ? _b : '';
+    }
+    /**
+     * Get data from the config section or fall back to defaults.
+     */
+    get(key) {
+        const data = this._classData();
+        return key in data ? data[key] : this._defaults[key];
+    }
+    /**
+     * Set a config value.
+     *
+     * #### Notes
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/config).
+     *
+     * The promise is fulfilled on a valid response and rejected otherwise.
+     *
+     * Sends the update to the server, and changes our local copy of the data
+     * immediately.
+     */
+    set(key, value) {
+        const d = {};
+        d[key] = value;
+        if (this._className) {
+            const d2 = {};
+            d2[this._className] = d;
+            return this._section.update(d2);
+        }
+        else {
+            return this._section.update(d);
+        }
+    }
+    /**
+     * Get data from the Section with our classname, if available.
+     *
+     * #### Notes
+     * If we have no classname, get all of the data in the Section
+     */
+    _classData() {
+        const data = this._section.data;
+        if (this._className && this._className in data) {
+            return data[this._className];
+        }
+        return data;
+    }
+}
+exports.ConfigWithDefaults = ConfigWithDefaults;
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 67001:
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.Drive = exports.ContentsManager = exports.Contents = void 0;
+const coreutils_1 = __webpack_require__(79622);
+const algorithm_1 = __webpack_require__(35259);
+const signaling_1 = __webpack_require__(4016);
+const __1 = __webpack_require__(34669);
+const validate = __importStar(__webpack_require__(83652));
+/**
+ * The url for the default drive service.
+ */
+const SERVICE_DRIVE_URL = 'api/contents';
+/**
+ * The url for the file access.
+ */
+const FILES_URL = 'files';
+/**
+ * A namespace for contents interfaces.
+ */
+var Contents;
+(function (Contents) {
+    /**
+     * Validates an IModel, throwing an error if it does not pass.
+     */
+    function validateContentsModel(contents) {
+        validate.validateContentsModel(contents);
+    }
+    Contents.validateContentsModel = validateContentsModel;
+    /**
+     * Validates an ICheckpointModel, throwing an error if it does not pass.
+     */
+    function validateCheckpointModel(checkpoint) {
+        validate.validateCheckpointModel(checkpoint);
+    }
+    Contents.validateCheckpointModel = validateCheckpointModel;
+})(Contents = exports.Contents || (exports.Contents = {}));
+/**
+ * A contents manager that passes file operations to the server.
+ * Multiple servers implementing the `IDrive` interface can be
+ * attached to the contents manager, so that the same session can
+ * perform file operations on multiple backends.
+ *
+ * This includes checkpointing with the normal file operations.
+ */
+class ContentsManager {
+    /**
+     * Construct a new contents manager object.
+     *
+     * @param options - The options used to initialize the object.
+     */
+    constructor(options = {}) {
+        var _a, _b;
+        this._isDisposed = false;
+        this._additionalDrives = new Map();
+        this._fileChanged = new signaling_1.Signal(this);
+        const serverSettings = (this.serverSettings = (_a = options.serverSettings) !== null && _a !== void 0 ? _a : __1.ServerConnection.makeSettings());
+        this._defaultDrive = (_b = options.defaultDrive) !== null && _b !== void 0 ? _b : new Drive({ serverSettings });
+        this._defaultDrive.fileChanged.connect(this._onFileChanged, this);
+    }
+    /**
+     * A signal emitted when a file operation takes place.
+     */
+    get fileChanged() {
+        return this._fileChanged;
+    }
+    /**
+     * Test whether the manager has been disposed.
+     */
+    get isDisposed() {
+        return this._isDisposed;
+    }
+    /**
+     * Dispose of the resources held by the manager.
+     */
+    dispose() {
+        if (this.isDisposed) {
+            return;
+        }
+        this._isDisposed = true;
+        signaling_1.Signal.clearData(this);
+    }
+    /**
+     * Add an `IDrive` to the manager.
+     */
+    addDrive(drive) {
+        this._additionalDrives.set(drive.name, drive);
+        drive.fileChanged.connect(this._onFileChanged, this);
+    }
+    /**
+     * Given a path, get a ModelDB.IFactory from the
+     * relevant backend. Returns `undefined` if the backend
+     * does not provide one.
+     */
+    getModelDBFactory(path) {
+        var _a;
+        const [drive] = this._driveForPath(path);
+        return (_a = drive === null || drive === void 0 ? void 0 : drive.modelDBFactory) !== null && _a !== void 0 ? _a : null;
+    }
+    /**
+     * Given a path of the form `drive:local/portion/of/it.txt`
+     * get the local part of it.
+     *
+     * @param path: the path.
+     *
+     * @returns The local part of the path.
+     */
+    localPath(path) {
+        const parts = path.split('/');
+        const firstParts = parts[0].split(':');
+        if (firstParts.length === 1 || !this._additionalDrives.has(firstParts[0])) {
+            return coreutils_1.PathExt.removeSlash(path);
+        }
+        return coreutils_1.PathExt.join(firstParts.slice(1).join(':'), ...parts.slice(1));
+    }
+    /**
+     * Normalize a global path. Reduces '..' and '.' parts, and removes
+     * leading slashes from the local part of the path, while retaining
+     * the drive name if it exists.
+     *
+     * @param path: the path.
+     *
+     * @returns The normalized path.
+     */
+    normalize(path) {
+        const parts = path.split(':');
+        if (parts.length === 1) {
+            return coreutils_1.PathExt.normalize(path);
+        }
+        return `${parts[0]}:${coreutils_1.PathExt.normalize(parts.slice(1).join(':'))}`;
+    }
+    /**
+     * Resolve a global path, starting from the root path. Behaves like
+     * posix-path.resolve, with 3 differences:
+     *  - will never prepend cwd
+     *  - if root has a drive name, the result is prefixed with "<drive>:"
+     *  - before adding drive name, leading slashes are removed
+     *
+     * @param path: the path.
+     *
+     * @returns The normalized path.
+     */
+    resolvePath(root, path) {
+        const driveName = this.driveName(root);
+        const localPath = this.localPath(root);
+        const resolved = coreutils_1.PathExt.resolve('/', localPath, path);
+        return driveName ? `${driveName}:${resolved}` : resolved;
+    }
+    /**
+     * Given a path of the form `drive:local/portion/of/it.txt`
+     * get the name of the drive. If the path is missing
+     * a drive portion, returns an empty string.
+     *
+     * @param path: the path.
+     *
+     * @returns The drive name for the path, or the empty string.
+     */
+    driveName(path) {
+        const parts = path.split('/');
+        const firstParts = parts[0].split(':');
+        if (firstParts.length === 1) {
+            return '';
+        }
+        if (this._additionalDrives.has(firstParts[0])) {
+            return firstParts[0];
+        }
+        return '';
+    }
+    /**
+     * Get a file or directory.
+     *
+     * @param path: The path to the file.
+     *
+     * @param options: The options used to fetch the file.
+     *
+     * @returns A promise which resolves with the file content.
+     */
+    get(path, options) {
+        const [drive, localPath] = this._driveForPath(path);
+        return drive.get(localPath, options).then(contentsModel => {
+            const listing = [];
+            if (contentsModel.type === 'directory' && contentsModel.content) {
+                algorithm_1.each(contentsModel.content, (item) => {
+                    listing.push(Object.assign(Object.assign({}, item), { path: this._toGlobalPath(drive, item.path) }));
+                });
+                return Object.assign(Object.assign({}, contentsModel), { path: this._toGlobalPath(drive, localPath), content: listing });
+            }
+            else {
+                return Object.assign(Object.assign({}, contentsModel), { path: this._toGlobalPath(drive, localPath) });
+            }
+        });
+    }
+    /**
+     * Get an encoded download url given a file path.
+     *
+     * @param path - An absolute POSIX file path on the server.
+     *
+     * #### Notes
+     * It is expected that the path contains no relative paths.
+     *
+     * The returned URL may include a query parameter.
+     */
+    getDownloadUrl(path) {
+        const [drive, localPath] = this._driveForPath(path);
+        return drive.getDownloadUrl(localPath);
+    }
+    /**
+     * Create a new untitled file or directory in the specified directory path.
+     *
+     * @param options: The options used to create the file.
+     *
+     * @returns A promise which resolves with the created file content when the
+     *    file is created.
+     */
+    newUntitled(options = {}) {
+        if (options.path) {
+            const globalPath = this.normalize(options.path);
+            const [drive, localPath] = this._driveForPath(globalPath);
+            return drive
+                .newUntitled(Object.assign(Object.assign({}, options), { path: localPath }))
+                .then(contentsModel => {
+                return Object.assign(Object.assign({}, contentsModel), { path: coreutils_1.PathExt.join(globalPath, contentsModel.name) });
+            });
+        }
+        else {
+            return this._defaultDrive.newUntitled(options);
+        }
+    }
+    /**
+     * Delete a file.
+     *
+     * @param path - The path to the file.
+     *
+     * @returns A promise which resolves when the file is deleted.
+     */
+    delete(path) {
+        const [drive, localPath] = this._driveForPath(path);
+        return drive.delete(localPath);
+    }
+    /**
+     * Rename a file or directory.
+     *
+     * @param path - The original file path.
+     *
+     * @param newPath - The new file path.
+     *
+     * @returns A promise which resolves with the new file contents model when
+     *   the file is renamed.
+     */
+    rename(path, newPath) {
+        const [drive1, path1] = this._driveForPath(path);
+        const [drive2, path2] = this._driveForPath(newPath);
+        if (drive1 !== drive2) {
+            throw Error('ContentsManager: renaming files must occur within a Drive');
+        }
+        return drive1.rename(path1, path2).then(contentsModel => {
+            return Object.assign(Object.assign({}, contentsModel), { path: this._toGlobalPath(drive1, path2) });
+        });
+    }
+    /**
+     * Save a file.
+     *
+     * @param path - The desired file path.
+     *
+     * @param options - Optional overrides to the model.
+     *
+     * @returns A promise which resolves with the file content model when the
+     *   file is saved.
+     *
+     * #### Notes
+     * Ensure that `model.content` is populated for the file.
+     */
+    save(path, options = {}) {
+        const globalPath = this.normalize(path);
+        const [drive, localPath] = this._driveForPath(path);
+        return drive
+            .save(localPath, Object.assign(Object.assign({}, options), { path: localPath }))
+            .then(contentsModel => {
+            return Object.assign(Object.assign({}, contentsModel), { path: globalPath });
+        });
+    }
+    /**
+     * Copy a file into a given directory.
+     *
+     * @param path - The original file path.
+     *
+     * @param toDir - The destination directory path.
+     *
+     * @returns A promise which resolves with the new contents model when the
+     *  file is copied.
+     *
+     * #### Notes
+     * The server will select the name of the copied file.
+     */
+    copy(fromFile, toDir) {
+        const [drive1, path1] = this._driveForPath(fromFile);
+        const [drive2, path2] = this._driveForPath(toDir);
+        if (drive1 === drive2) {
+            return drive1.copy(path1, path2).then(contentsModel => {
+                return Object.assign(Object.assign({}, contentsModel), { path: this._toGlobalPath(drive1, contentsModel.path) });
+            });
+        }
+        else {
+            throw Error('Copying files between drives is not currently implemented');
+        }
+    }
+    /**
+     * Create a checkpoint for a file.
+     *
+     * @param path - The path of the file.
+     *
+     * @returns A promise which resolves with the new checkpoint model when the
+     *   checkpoint is created.
+     */
+    createCheckpoint(path) {
+        const [drive, localPath] = this._driveForPath(path);
+        return drive.createCheckpoint(localPath);
+    }
+    /**
+     * List available checkpoints for a file.
+     *
+     * @param path - The path of the file.
+     *
+     * @returns A promise which resolves with a list of checkpoint models for
+     *    the file.
+     */
+    listCheckpoints(path) {
+        const [drive, localPath] = this._driveForPath(path);
+        return drive.listCheckpoints(localPath);
+    }
+    /**
+     * Restore a file to a known checkpoint state.
+     *
+     * @param path - The path of the file.
+     *
+     * @param checkpointID - The id of the checkpoint to restore.
+     *
+     * @returns A promise which resolves when the checkpoint is restored.
+     */
+    restoreCheckpoint(path, checkpointID) {
+        const [drive, localPath] = this._driveForPath(path);
+        return drive.restoreCheckpoint(localPath, checkpointID);
+    }
+    /**
+     * Delete a checkpoint for a file.
+     *
+     * @param path - The path of the file.
+     *
+     * @param checkpointID - The id of the checkpoint to delete.
+     *
+     * @returns A promise which resolves when the checkpoint is deleted.
+     */
+    deleteCheckpoint(path, checkpointID) {
+        const [drive, localPath] = this._driveForPath(path);
+        return drive.deleteCheckpoint(localPath, checkpointID);
+    }
+    /**
+     * Given a drive and a local path, construct a fully qualified
+     * path. The inverse of `_driveForPath`.
+     *
+     * @param drive: an `IDrive`.
+     *
+     * @param localPath: the local path on the drive.
+     *
+     * @returns the fully qualified path.
+     */
+    _toGlobalPath(drive, localPath) {
+        if (drive === this._defaultDrive) {
+            return coreutils_1.PathExt.removeSlash(localPath);
+        }
+        else {
+            return `${drive.name}:${coreutils_1.PathExt.removeSlash(localPath)}`;
+        }
+    }
+    /**
+     * Given a path, get the `IDrive to which it refers,
+     * where the path satisfies the pattern
+     * `'driveName:path/to/file'`. If there is no `driveName`
+     * prepended to the path, it returns the default drive.
+     *
+     * @param path: a path to a file.
+     *
+     * @returns A tuple containing an `IDrive` object for the path,
+     * and a local path for that drive.
+     */
+    _driveForPath(path) {
+        const driveName = this.driveName(path);
+        const localPath = this.localPath(path);
+        if (driveName) {
+            return [this._additionalDrives.get(driveName), localPath];
+        }
+        else {
+            return [this._defaultDrive, localPath];
+        }
+    }
+    /**
+     * Respond to fileChanged signals from the drives attached to
+     * the manager. This prepends the drive name to the path if necessary,
+     * and then forwards the signal.
+     */
+    _onFileChanged(sender, args) {
+        var _a, _b;
+        if (sender === this._defaultDrive) {
+            this._fileChanged.emit(args);
+        }
+        else {
+            let newValue = null;
+            let oldValue = null;
+            if ((_a = args.newValue) === null || _a === void 0 ? void 0 : _a.path) {
+                newValue = Object.assign(Object.assign({}, args.newValue), { path: this._toGlobalPath(sender, args.newValue.path) });
+            }
+            if ((_b = args.oldValue) === null || _b === void 0 ? void 0 : _b.path) {
+                oldValue = Object.assign(Object.assign({}, args.oldValue), { path: this._toGlobalPath(sender, args.oldValue.path) });
+            }
+            this._fileChanged.emit({
+                type: args.type,
+                newValue,
+                oldValue
+            });
+        }
+    }
+}
+exports.ContentsManager = ContentsManager;
+/**
+ * A default implementation for an `IDrive`, talking to the
+ * server using the Jupyter REST API.
+ */
+class Drive {
+    /**
+     * Construct a new contents manager object.
+     *
+     * @param options - The options used to initialize the object.
+     */
+    constructor(options = {}) {
+        var _a, _b, _c;
+        this._isDisposed = false;
+        this._fileChanged = new signaling_1.Signal(this);
+        this.name = (_a = options.name) !== null && _a !== void 0 ? _a : 'Default';
+        this._apiEndpoint = (_b = options.apiEndpoint) !== null && _b !== void 0 ? _b : SERVICE_DRIVE_URL;
+        this.serverSettings = (_c = options.serverSettings) !== null && _c !== void 0 ? _c : __1.ServerConnection.makeSettings();
+    }
+    /**
+     * A signal emitted when a file operation takes place.
+     */
+    get fileChanged() {
+        return this._fileChanged;
+    }
+    /**
+     * Test whether the manager has been disposed.
+     */
+    get isDisposed() {
+        return this._isDisposed;
+    }
+    /**
+     * Dispose of the resources held by the manager.
+     */
+    dispose() {
+        if (this.isDisposed) {
+            return;
+        }
+        this._isDisposed = true;
+        signaling_1.Signal.clearData(this);
+    }
+    /**
+     * Get a file or directory.
+     *
+     * @param localPath: The path to the file.
+     *
+     * @param options: The options used to fetch the file.
+     *
+     * @returns A promise which resolves with the file content.
+     *
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/contents) and validates the response model.
+     */
+    async get(localPath, options) {
+        let url = this._getUrl(localPath);
+        if (options) {
+            // The notebook type cannot take an format option.
+            if (options.type === 'notebook') {
+                delete options['format'];
+            }
+            const content = options.content ? '1' : '0';
+            const params = Object.assign(Object.assign({}, options), { content });
+            url += coreutils_1.URLExt.objectToQueryString(params);
+        }
+        const settings = this.serverSettings;
+        const response = await __1.ServerConnection.makeRequest(url, {}, settings);
+        if (response.status !== 200) {
+            const err = await __1.ServerConnection.ResponseError.create(response);
+            throw err;
+        }
+        const data = await response.json();
+        validate.validateContentsModel(data);
+        return data;
+    }
+    /**
+     * Get an encoded download url given a file path.
+     *
+     * @param localPath - An absolute POSIX file path on the server.
+     *
+     * #### Notes
+     * It is expected that the path contains no relative paths.
+     *
+     * The returned URL may include a query parameter.
+     */
+    getDownloadUrl(localPath) {
+        const baseUrl = this.serverSettings.baseUrl;
+        let url = coreutils_1.URLExt.join(baseUrl, FILES_URL, coreutils_1.URLExt.encodeParts(localPath));
+        const xsrfTokenMatch = document.cookie.match('\\b_xsrf=([^;]*)\\b');
+        if (xsrfTokenMatch) {
+            const fullUrl = new URL(url);
+            fullUrl.searchParams.append('_xsrf', xsrfTokenMatch[1]);
+            url = fullUrl.toString();
+        }
+        return Promise.resolve(url);
+    }
+    /**
+     * Create a new untitled file or directory in the specified directory path.
+     *
+     * @param options: The options used to create the file.
+     *
+     * @returns A promise which resolves with the created file content when the
+     *    file is created.
+     *
+     * #### Notes
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/contents) and validates the response model.
+     */
+    async newUntitled(options = {}) {
+        var _a;
+        let body = '{}';
+        if (options) {
+            if (options.ext) {
+                options.ext = Private.normalizeExtension(options.ext);
+            }
+            body = JSON.stringify(options);
+        }
+        const settings = this.serverSettings;
+        const url = this._getUrl((_a = options.path) !== null && _a !== void 0 ? _a : '');
+        const init = {
+            method: 'POST',
+            body
+        };
+        const response = await __1.ServerConnection.makeRequest(url, init, settings);
+        if (response.status !== 201) {
+            const err = await __1.ServerConnection.ResponseError.create(response);
+            throw err;
+        }
+        const data = await response.json();
+        validate.validateContentsModel(data);
+        this._fileChanged.emit({
+            type: 'new',
+            oldValue: null,
+            newValue: data
+        });
+        return data;
+    }
+    /**
+     * Delete a file.
+     *
+     * @param localPath - The path to the file.
+     *
+     * @returns A promise which resolves when the file is deleted.
+     *
+     * #### Notes
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/contents).
+     */
+    async delete(localPath) {
+        const url = this._getUrl(localPath);
+        const settings = this.serverSettings;
+        const init = { method: 'DELETE' };
+        const response = await __1.ServerConnection.makeRequest(url, init, settings);
+        // TODO: update IPEP27 to specify errors more precisely, so
+        // that error types can be detected here with certainty.
+        if (response.status !== 204) {
+            const err = await __1.ServerConnection.ResponseError.create(response);
+            throw err;
+        }
+        this._fileChanged.emit({
+            type: 'delete',
+            oldValue: { path: localPath },
+            newValue: null
+        });
+    }
+    /**
+     * Rename a file or directory.
+     *
+     * @param oldLocalPath - The original file path.
+     *
+     * @param newLocalPath - The new file path.
+     *
+     * @returns A promise which resolves with the new file contents model when
+     *   the file is renamed.
+     *
+     * #### Notes
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/contents) and validates the response model.
+     */
+    async rename(oldLocalPath, newLocalPath) {
+        const settings = this.serverSettings;
+        const url = this._getUrl(oldLocalPath);
+        const init = {
+            method: 'PATCH',
+            body: JSON.stringify({ path: newLocalPath })
+        };
+        const response = await __1.ServerConnection.makeRequest(url, init, settings);
+        if (response.status !== 200) {
+            const err = await __1.ServerConnection.ResponseError.create(response);
+            throw err;
+        }
+        const data = await response.json();
+        validate.validateContentsModel(data);
+        this._fileChanged.emit({
+            type: 'rename',
+            oldValue: { path: oldLocalPath },
+            newValue: data
+        });
+        return data;
+    }
+    /**
+     * Save a file.
+     *
+     * @param localPath - The desired file path.
+     *
+     * @param options - Optional overrides to the model.
+     *
+     * @returns A promise which resolves with the file content model when the
+     *   file is saved.
+     *
+     * #### Notes
+     * Ensure that `model.content` is populated for the file.
+     *
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/contents) and validates the response model.
+     */
+    async save(localPath, options = {}) {
+        const settings = this.serverSettings;
+        const url = this._getUrl(localPath);
+        const init = {
+            method: 'PUT',
+            body: JSON.stringify(options)
+        };
+        const response = await __1.ServerConnection.makeRequest(url, init, settings);
+        // will return 200 for an existing file and 201 for a new file
+        if (response.status !== 200 && response.status !== 201) {
+            const err = await __1.ServerConnection.ResponseError.create(response);
+            throw err;
+        }
+        const data = await response.json();
+        validate.validateContentsModel(data);
+        this._fileChanged.emit({
+            type: 'save',
+            oldValue: null,
+            newValue: data
+        });
+        return data;
+    }
+    /**
+     * Copy a file into a given directory.
+     *
+     * @param localPath - The original file path.
+     *
+     * @param toDir - The destination directory path.
+     *
+     * @returns A promise which resolves with the new contents model when the
+     *  file is copied.
+     *
+     * #### Notes
+     * The server will select the name of the copied file.
+     *
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/contents) and validates the response model.
+     */
+    async copy(fromFile, toDir) {
+        const settings = this.serverSettings;
+        const url = this._getUrl(toDir);
+        const init = {
+            method: 'POST',
+            body: JSON.stringify({ copy_from: fromFile })
+        };
+        const response = await __1.ServerConnection.makeRequest(url, init, settings);
+        if (response.status !== 201) {
+            const err = await __1.ServerConnection.ResponseError.create(response);
+            throw err;
+        }
+        const data = await response.json();
+        validate.validateContentsModel(data);
+        this._fileChanged.emit({
+            type: 'new',
+            oldValue: null,
+            newValue: data
+        });
+        return data;
+    }
+    /**
+     * Create a checkpoint for a file.
+     *
+     * @param localPath - The path of the file.
+     *
+     * @returns A promise which resolves with the new checkpoint model when the
+     *   checkpoint is created.
+     *
+     * #### Notes
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/contents) and validates the response model.
+     */
+    async createCheckpoint(localPath) {
+        const url = this._getUrl(localPath, 'checkpoints');
+        const init = { method: 'POST' };
+        const response = await __1.ServerConnection.makeRequest(url, init, this.serverSettings);
+        if (response.status !== 201) {
+            const err = await __1.ServerConnection.ResponseError.create(response);
+            throw err;
+        }
+        const data = await response.json();
+        validate.validateCheckpointModel(data);
+        return data;
+    }
+    /**
+     * List available checkpoints for a file.
+     *
+     * @param localPath - The path of the file.
+     *
+     * @returns A promise which resolves with a list of checkpoint models for
+     *    the file.
+     *
+     * #### Notes
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/contents) and validates the response model.
+     */
+    async listCheckpoints(localPath) {
+        const url = this._getUrl(localPath, 'checkpoints');
+        const response = await __1.ServerConnection.makeRequest(url, {}, this.serverSettings);
+        if (response.status !== 200) {
+            const err = await __1.ServerConnection.ResponseError.create(response);
+            throw err;
+        }
+        const data = await response.json();
+        if (!Array.isArray(data)) {
+            throw new Error('Invalid Checkpoint list');
+        }
+        for (let i = 0; i < data.length; i++) {
+            validate.validateCheckpointModel(data[i]);
+        }
+        return data;
+    }
+    /**
+     * Restore a file to a known checkpoint state.
+     *
+     * @param localPath - The path of the file.
+     *
+     * @param checkpointID - The id of the checkpoint to restore.
+     *
+     * @returns A promise which resolves when the checkpoint is restored.
+     *
+     * #### Notes
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/contents).
+     */
+    async restoreCheckpoint(localPath, checkpointID) {
+        const url = this._getUrl(localPath, 'checkpoints', checkpointID);
+        const init = { method: 'POST' };
+        const response = await __1.ServerConnection.makeRequest(url, init, this.serverSettings);
+        if (response.status !== 204) {
+            const err = await __1.ServerConnection.ResponseError.create(response);
+            throw err;
+        }
+    }
+    /**
+     * Delete a checkpoint for a file.
+     *
+     * @param localPath - The path of the file.
+     *
+     * @param checkpointID - The id of the checkpoint to delete.
+     *
+     * @returns A promise which resolves when the checkpoint is deleted.
+     *
+     * #### Notes
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/contents).
+     */
+    async deleteCheckpoint(localPath, checkpointID) {
+        const url = this._getUrl(localPath, 'checkpoints', checkpointID);
+        const init = { method: 'DELETE' };
+        const response = await __1.ServerConnection.makeRequest(url, init, this.serverSettings);
+        if (response.status !== 204) {
+            const err = await __1.ServerConnection.ResponseError.create(response);
+            throw err;
+        }
+    }
+    /**
+     * Get a REST url for a file given a path.
+     */
+    _getUrl(...args) {
+        const parts = args.map(path => coreutils_1.URLExt.encodeParts(path));
+        const baseUrl = this.serverSettings.baseUrl;
+        return coreutils_1.URLExt.join(baseUrl, this._apiEndpoint, ...parts);
+    }
+}
+exports.Drive = Drive;
+/**
+ * A namespace for module private data.
+ */
+var Private;
+(function (Private) {
+    /**
+     * Normalize a file extension to be of the type `'.foo'`.
+     *
+     * Adds a leading dot if not present and converts to lower case.
+     */
+    function normalizeExtension(extension) {
+        if (extension.length > 0 && extension.indexOf('.') !== 0) {
+            extension = `.${extension}`;
+        }
+        return extension;
+    }
+    Private.normalizeExtension = normalizeExtension;
+})(Private || (Private = {}));
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 83652:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.validateCheckpointModel = exports.validateContentsModel = void 0;
+const validate_1 = __webpack_require__(77928);
+/**
+ * Validate an `Contents.IModel` object.
+ */
+function validateContentsModel(model) {
+    validate_1.validateProperty(model, 'name', 'string');
+    validate_1.validateProperty(model, 'path', 'string');
+    validate_1.validateProperty(model, 'type', 'string');
+    validate_1.validateProperty(model, 'created', 'string');
+    validate_1.validateProperty(model, 'last_modified', 'string');
+    validate_1.validateProperty(model, 'mimetype', 'object');
+    validate_1.validateProperty(model, 'content', 'object');
+    validate_1.validateProperty(model, 'format', 'object');
+}
+exports.validateContentsModel = validateContentsModel;
+/**
+ * Validate an `Contents.ICheckpointModel` object.
+ */
+function validateCheckpointModel(model) {
+    validate_1.validateProperty(model, 'id', 'string');
+    validate_1.validateProperty(model, 'last_modified', 'string');
+}
+exports.validateCheckpointModel = validateCheckpointModel;
+//# sourceMappingURL=validate.js.map
+
+/***/ }),
+
+/***/ 34669:
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+/**
+ * @packageDocumentation
+ * @module services
+ */
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __exportStar = (this && this.__exportStar) || function(m, exports) {
+    for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+__exportStar(__webpack_require__(27107), exports);
+__exportStar(__webpack_require__(67001), exports);
+__exportStar(__webpack_require__(16627), exports);
+__exportStar(__webpack_require__(45266), exports);
+__exportStar(__webpack_require__(14783), exports);
+__exportStar(__webpack_require__(22030), exports);
+__exportStar(__webpack_require__(35329), exports);
+__exportStar(__webpack_require__(65678), exports);
+__exportStar(__webpack_require__(49757), exports);
+__exportStar(__webpack_require__(76638), exports);
+__exportStar(__webpack_require__(70443), exports);
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 74769:
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.CommHandler = void 0;
+const disposable_1 = __webpack_require__(70725);
+const KernelMessage = __importStar(__webpack_require__(42202));
+/**
+ * Comm channel handler.
+ */
+class CommHandler extends disposable_1.DisposableDelegate {
+    /**
+     * Construct a new comm channel.
+     */
+    constructor(target, id, kernel, disposeCb) {
+        super(disposeCb);
+        this._target = '';
+        this._id = '';
+        this._id = id;
+        this._target = target;
+        this._kernel = kernel;
+    }
+    /**
+     * The unique id for the comm channel.
+     */
+    get commId() {
+        return this._id;
+    }
+    /**
+     * The target name for the comm channel.
+     */
+    get targetName() {
+        return this._target;
+    }
+    /**
+     * Get the callback for a comm close event.
+     *
+     * #### Notes
+     * This is called when the comm is closed from either the server or client.
+     *
+     * **See also:** [[ICommClose]], [[close]]
+     */
+    get onClose() {
+        return this._onClose;
+    }
+    /**
+     * Set the callback for a comm close event.
+     *
+     * #### Notes
+     * This is called when the comm is closed from either the server or client. If
+     * the function returns a promise, and the kernel was closed from the server,
+     * kernel message processing will pause until the returned promise is
+     * fulfilled.
+     *
+     * **See also:** [[close]]
+     */
+    set onClose(cb) {
+        this._onClose = cb;
+    }
+    /**
+     * Get the callback for a comm message received event.
+     */
+    get onMsg() {
+        return this._onMsg;
+    }
+    /**
+     * Set the callback for a comm message received event.
+     *
+     * #### Notes
+     * This is called when a comm message is received. If the function returns a
+     * promise, kernel message processing will pause until it is fulfilled.
+     */
+    set onMsg(cb) {
+        this._onMsg = cb;
+    }
+    /**
+     * Open a comm with optional data and metadata.
+     *
+     * #### Notes
+     * This sends a `comm_open` message to the server.
+     *
+     * **See also:** [[ICommOpen]]
+     */
+    open(data, metadata, buffers = []) {
+        if (this.isDisposed || this._kernel.isDisposed) {
+            throw new Error('Cannot open');
+        }
+        const msg = KernelMessage.createMessage({
+            msgType: 'comm_open',
+            channel: 'shell',
+            username: this._kernel.username,
+            session: this._kernel.clientId,
+            content: {
+                comm_id: this._id,
+                target_name: this._target,
+                data: data !== null && data !== void 0 ? data : {}
+            },
+            metadata,
+            buffers
+        });
+        return this._kernel.sendShellMessage(msg, false, true);
+    }
+    /**
+     * Send a `comm_msg` message to the kernel.
+     *
+     * #### Notes
+     * This is a no-op if the comm has been closed.
+     *
+     * **See also:** [[ICommMsg]]
+     */
+    send(data, metadata, buffers = [], disposeOnDone = true) {
+        if (this.isDisposed || this._kernel.isDisposed) {
+            throw new Error('Cannot send');
+        }
+        const msg = KernelMessage.createMessage({
+            msgType: 'comm_msg',
+            channel: 'shell',
+            username: this._kernel.username,
+            session: this._kernel.clientId,
+            content: {
+                comm_id: this._id,
+                data: data
+            },
+            metadata,
+            buffers
+        });
+        return this._kernel.sendShellMessage(msg, false, disposeOnDone);
+    }
+    /**
+     * Close the comm.
+     *
+     * #### Notes
+     * This will send a `comm_close` message to the kernel, and call the
+     * `onClose` callback if set.
+     *
+     * This is a no-op if the comm is already closed.
+     *
+     * **See also:** [[ICommClose]], [[onClose]]
+     */
+    close(data, metadata, buffers = []) {
+        if (this.isDisposed || this._kernel.isDisposed) {
+            throw new Error('Cannot close');
+        }
+        const msg = KernelMessage.createMessage({
+            msgType: 'comm_close',
+            channel: 'shell',
+            username: this._kernel.username,
+            session: this._kernel.clientId,
+            content: {
+                comm_id: this._id,
+                data: data !== null && data !== void 0 ? data : {}
+            },
+            metadata,
+            buffers
+        });
+        const future = this._kernel.sendShellMessage(msg, false, true);
+        const onClose = this._onClose;
+        if (onClose) {
+            const ioMsg = KernelMessage.createMessage({
+                msgType: 'comm_close',
+                channel: 'iopub',
+                username: this._kernel.username,
+                session: this._kernel.clientId,
+                content: {
+                    comm_id: this._id,
+                    data: data !== null && data !== void 0 ? data : {}
+                },
+                metadata,
+                buffers
+            });
+            // In the future, we may want to communicate back to the user the possible
+            // promise returned from onClose.
+            void onClose(ioMsg);
+        }
+        this.dispose();
+        return future;
+    }
+}
+exports.CommHandler = CommHandler;
+//# sourceMappingURL=comm.js.map
+
+/***/ }),
+
+/***/ 85880:
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.KernelConnection = void 0;
+const coreutils_1 = __webpack_require__(79622);
+const coreutils_2 = __webpack_require__(95082);
+const signaling_1 = __webpack_require__(4016);
+const __1 = __webpack_require__(34669);
+const comm_1 = __webpack_require__(74769);
+const KernelMessage = __importStar(__webpack_require__(42202));
+const future_1 = __webpack_require__(1059);
+const serialize = __importStar(__webpack_require__(16779));
+const validate = __importStar(__webpack_require__(51816));
+const kernelspec_1 = __webpack_require__(45266);
+const restapi = __importStar(__webpack_require__(91439));
+const KERNEL_INFO_TIMEOUT = 3000;
+const RESTARTING_KERNEL_SESSION = '_RESTARTING_';
+const STARTING_KERNEL_SESSION = '';
+/**
+ * Implementation of the Kernel object.
+ *
+ * #### Notes
+ * Messages from the server are handled in the order they were received and
+ * asynchronously. Any message handler can return a promise, and message
+ * handling will pause until the promise is fulfilled.
+ */
+class KernelConnection {
+    /**
+     * Construct a kernel object.
+     */
+    constructor(options) {
+        var _a, _b, _c, _d;
+        /**
+         * Create the kernel websocket connection and add socket status handlers.
+         */
+        this._createSocket = () => {
+            this._errorIfDisposed();
+            // Make sure the socket is clear
+            this._clearSocket();
+            // Update the connection status to reflect opening a new connection.
+            this._updateConnectionStatus('connecting');
+            const settings = this.serverSettings;
+            const partialUrl = coreutils_1.URLExt.join(settings.wsUrl, restapi.KERNEL_SERVICE_URL, encodeURIComponent(this._id));
+            // Strip any authentication from the display string.
+            const display = partialUrl.replace(/^((?:\w+:)?\/\/)(?:[^@\/]+@)/, '$1');
+            console.debug(`Starting WebSocket: ${display}`);
+            let url = coreutils_1.URLExt.join(partialUrl, 'channels?session_id=' + encodeURIComponent(this._clientId));
+            // If token authentication is in use.
+            const token = settings.token;
+            if (settings.appendToken && token !== '') {
+                url = url + `&token=${encodeURIComponent(token)}`;
+            }
+            this._ws = new settings.WebSocket(url);
+            // Ensure incoming binary messages are not Blobs
+            this._ws.binaryType = 'arraybuffer';
+            let alreadyCalledOnclose = false;
+            const getKernelModel = async (evt) => {
+                var _a, _b;
+                if (this._isDisposed) {
+                    return;
+                }
+                this._reason = '';
+                this._model = undefined;
+                try {
+                    const model = await restapi.getKernelModel(this._id, settings);
+                    this._model = model;
+                    if ((model === null || model === void 0 ? void 0 : model.execution_state) === 'dead') {
+                        this._updateStatus('dead');
+                    }
+                    else {
+                        this._onWSClose(evt);
+                    }
+                }
+                catch (err) {
+                    // Try again, if there is a network failure
+                    // Handle network errors, as well as cases where we are on a
+                    // JupyterHub and the server is not running. JupyterHub returns a
+                    // 503 (<2.0) or 424 (>2.0) in that case.
+                    if (err instanceof __1.ServerConnection.NetworkError ||
+                        ((_a = err.response) === null || _a === void 0 ? void 0 : _a.status) === 503 ||
+                        ((_b = err.response) === null || _b === void 0 ? void 0 : _b.status) === 424) {
+                        const timeout = Private.getRandomIntInclusive(10, 30) * 1e3;
+                        setTimeout(getKernelModel, timeout, evt);
+                    }
+                    else {
+                        this._reason = 'Kernel died unexpectedly';
+                        this._updateStatus('dead');
+                    }
+                }
+                return;
+            };
+            const earlyClose = async (evt) => {
+                // If the websocket was closed early, that could mean
+                // that the kernel is actually dead. Try getting
+                // information about the kernel from the API call,
+                // if that fails, then assume the kernel is dead,
+                // otherwise just follow the typical websocket closed
+                // protocol.
+                if (alreadyCalledOnclose) {
+                    return;
+                }
+                alreadyCalledOnclose = true;
+                await getKernelModel(evt);
+                return;
+            };
+            this._ws.onmessage = this._onWSMessage;
+            this._ws.onopen = this._onWSOpen;
+            this._ws.onclose = earlyClose;
+            this._ws.onerror = earlyClose;
+        };
+        // Make websocket callbacks arrow functions so they bind `this`.
+        /**
+         * Handle a websocket open event.
+         */
+        this._onWSOpen = (evt) => {
+            this._ws.onclose = this._onWSClose;
+            this._ws.onerror = this._onWSClose;
+            this._updateConnectionStatus('connected');
+        };
+        /**
+         * Handle a websocket message, validating and routing appropriately.
+         */
+        this._onWSMessage = (evt) => {
+            // Notify immediately if there is an error with the message.
+            let msg;
+            try {
+                msg = serialize.deserialize(evt.data);
+                validate.validateMessage(msg);
+            }
+            catch (error) {
+                error.message = `Kernel message validation error: ${error.message}`;
+                // We throw the error so that it bubbles up to the top, and displays the right stack.
+                throw error;
+            }
+            // Update the current kernel session id
+            this._kernelSession = msg.header.session;
+            // Handle the message asynchronously, in the order received.
+            this._msgChain = this._msgChain
+                .then(() => {
+                // Return so that any promises from handling a message are fulfilled
+                // before proceeding to the next message.
+                return this._handleMessage(msg);
+            })
+                .catch(error => {
+                // Log any errors in handling the message, thus resetting the _msgChain
+                // promise so we can process more messages.
+                // Ignore the "Canceled" errors that are thrown during kernel dispose.
+                if (error.message.startsWith('Canceled future for ')) {
+                    console.error(error);
+                }
+            });
+            // Emit the message receive signal
+            this._anyMessage.emit({ msg, direction: 'recv' });
+        };
+        /**
+         * Handle a websocket close event.
+         */
+        this._onWSClose = (evt) => {
+            if (!this.isDisposed) {
+                this._reconnect();
+            }
+        };
+        this._id = '';
+        this._name = '';
+        this._status = 'unknown';
+        this._connectionStatus = 'connecting';
+        this._kernelSession = '';
+        this._isDisposed = false;
+        /**
+         * Websocket to communicate with kernel.
+         */
+        this._ws = null;
+        this._username = '';
+        this._reconnectLimit = 7;
+        this._reconnectAttempt = 0;
+        this._reconnectTimeout = null;
+        this._futures = new Map();
+        this._comms = new Map();
+        this._targetRegistry = Object.create(null);
+        this._info = new coreutils_2.PromiseDelegate();
+        this._pendingMessages = [];
+        this._statusChanged = new signaling_1.Signal(this);
+        this._connectionStatusChanged = new signaling_1.Signal(this);
+        this._disposed = new signaling_1.Signal(this);
+        this._iopubMessage = new signaling_1.Signal(this);
+        this._anyMessage = new signaling_1.Signal(this);
+        this._pendingInput = new signaling_1.Signal(this);
+        this._unhandledMessage = new signaling_1.Signal(this);
+        this._displayIdToParentIds = new Map();
+        this._msgIdToDisplayIds = new Map();
+        this._msgChain = Promise.resolve();
+        this._hasPendingInput = false;
+        this._reason = '';
+        this._noOp = () => {
+            /* no-op */
+        };
+        this._name = options.model.name;
+        this._id = options.model.id;
+        this.serverSettings = (_a = options.serverSettings) !== null && _a !== void 0 ? _a : __1.ServerConnection.makeSettings();
+        this._clientId = (_b = options.clientId) !== null && _b !== void 0 ? _b : coreutils_2.UUID.uuid4();
+        this._username = (_c = options.username) !== null && _c !== void 0 ? _c : '';
+        this.handleComms = (_d = options.handleComms) !== null && _d !== void 0 ? _d : true;
+        this._createSocket();
+    }
+    get disposed() {
+        return this._disposed;
+    }
+    /**
+     * A signal emitted when the kernel status changes.
+     */
+    get statusChanged() {
+        return this._statusChanged;
+    }
+    /**
+     * A signal emitted when the kernel status changes.
+     */
+    get connectionStatusChanged() {
+        return this._connectionStatusChanged;
+    }
+    /**
+     * A signal emitted for iopub kernel messages.
+     *
+     * #### Notes
+     * This signal is emitted after the iopub message is handled asynchronously.
+     */
+    get iopubMessage() {
+        return this._iopubMessage;
+    }
+    /**
+     * A signal emitted for unhandled kernel message.
+     *
+     * #### Notes
+     * This signal is emitted for a message that was not handled. It is emitted
+     * during the asynchronous message handling code.
+     */
+    get unhandledMessage() {
+        return this._unhandledMessage;
+    }
+    /**
+     * The kernel model
+     */
+    get model() {
+        return (this._model || {
+            id: this.id,
+            name: this.name,
+            reason: this._reason
+        });
+    }
+    /**
+     * A signal emitted for any kernel message.
+     *
+     * #### Notes
+     * This signal is emitted when a message is received, before it is handled
+     * asynchronously.
+     *
+     * This message is emitted when a message is queued for sending (either in
+     * the websocket buffer, or our own pending message buffer). The message may
+     * actually be sent across the wire at a later time.
+     *
+     * The message emitted in this signal should not be modified in any way.
+     */
+    get anyMessage() {
+        return this._anyMessage;
+    }
+    /**
+     * A signal emitted when a kernel has pending inputs from the user.
+     */
+    get pendingInput() {
+        return this._pendingInput;
+    }
+    /**
+     * The id of the server-side kernel.
+     */
+    get id() {
+        return this._id;
+    }
+    /**
+     * The name of the server-side kernel.
+     */
+    get name() {
+        return this._name;
+    }
+    /**
+     * The client username.
+     */
+    get username() {
+        return this._username;
+    }
+    /**
+     * The client unique id.
+     */
+    get clientId() {
+        return this._clientId;
+    }
+    /**
+     * The current status of the kernel.
+     */
+    get status() {
+        return this._status;
+    }
+    /**
+     * The current connection status of the kernel connection.
+     */
+    get connectionStatus() {
+        return this._connectionStatus;
+    }
+    /**
+     * Test whether the kernel has been disposed.
+     */
+    get isDisposed() {
+        return this._isDisposed;
+    }
+    /**
+     * The cached kernel info.
+     *
+     * @returns A promise that resolves to the kernel info.
+     */
+    get info() {
+        return this._info.promise;
+    }
+    /**
+     * The kernel spec.
+     *
+     * @returns A promise that resolves to the kernel spec.
+     */
+    get spec() {
+        if (this._specPromise) {
+            return this._specPromise;
+        }
+        this._specPromise = kernelspec_1.KernelSpecAPI.getSpecs(this.serverSettings).then(specs => {
+            return specs.kernelspecs[this._name];
+        });
+        return this._specPromise;
+    }
+    /**
+     * Clone the current kernel with a new clientId.
+     */
+    clone(options = {}) {
+        return new KernelConnection(Object.assign({ model: this.model, username: this.username, serverSettings: this.serverSettings, 
+            // handleComms defaults to false since that is safer
+            handleComms: false }, options));
+    }
+    /**
+     * Dispose of the resources held by the kernel.
+     */
+    dispose() {
+        if (this.isDisposed) {
+            return;
+        }
+        this._isDisposed = true;
+        this._disposed.emit();
+        this._updateConnectionStatus('disconnected');
+        this._clearKernelState();
+        this._pendingMessages = [];
+        this._clearSocket();
+        // Clear Lumino signals
+        signaling_1.Signal.clearData(this);
+    }
+    /**
+     * Send a shell message to the kernel.
+     *
+     * #### Notes
+     * Send a message to the kernel's shell channel, yielding a future object
+     * for accepting replies.
+     *
+     * If `expectReply` is given and `true`, the future is disposed when both a
+     * shell reply and an idle status message are received. If `expectReply`
+     * is not given or is `false`, the future is resolved when an idle status
+     * message is received.
+     * If `disposeOnDone` is not given or is `true`, the Future is disposed at this point.
+     * If `disposeOnDone` is given and `false`, it is up to the caller to dispose of the Future.
+     *
+     * All replies are validated as valid kernel messages.
+     *
+     * If the kernel status is `dead`, this will throw an error.
+     */
+    sendShellMessage(msg, expectReply = false, disposeOnDone = true) {
+        return this._sendKernelShellControl(future_1.KernelShellFutureHandler, msg, expectReply, disposeOnDone);
+    }
+    /**
+     * Send a control message to the kernel.
+     *
+     * #### Notes
+     * Send a message to the kernel's control channel, yielding a future object
+     * for accepting replies.
+     *
+     * If `expectReply` is given and `true`, the future is disposed when both a
+     * control reply and an idle status message are received. If `expectReply`
+     * is not given or is `false`, the future is resolved when an idle status
+     * message is received.
+     * If `disposeOnDone` is not given or is `true`, the Future is disposed at this point.
+     * If `disposeOnDone` is given and `false`, it is up to the caller to dispose of the Future.
+     *
+     * All replies are validated as valid kernel messages.
+     *
+     * If the kernel status is `dead`, this will throw an error.
+     */
+    sendControlMessage(msg, expectReply = false, disposeOnDone = true) {
+        return this._sendKernelShellControl(future_1.KernelControlFutureHandler, msg, expectReply, disposeOnDone);
+    }
+    _sendKernelShellControl(ctor, msg, expectReply = false, disposeOnDone = true) {
+        this._sendMessage(msg);
+        this._anyMessage.emit({ msg, direction: 'send' });
+        const future = new ctor(() => {
+            const msgId = msg.header.msg_id;
+            this._futures.delete(msgId);
+            // Remove stored display id information.
+            const displayIds = this._msgIdToDisplayIds.get(msgId);
+            if (!displayIds) {
+                return;
+            }
+            displayIds.forEach(displayId => {
+                const msgIds = this._displayIdToParentIds.get(displayId);
+                if (msgIds) {
+                    const idx = msgIds.indexOf(msgId);
+                    if (idx === -1) {
+                        return;
+                    }
+                    if (msgIds.length === 1) {
+                        this._displayIdToParentIds.delete(displayId);
+                    }
+                    else {
+                        msgIds.splice(idx, 1);
+                        this._displayIdToParentIds.set(displayId, msgIds);
+                    }
+                }
+            });
+            this._msgIdToDisplayIds.delete(msgId);
+        }, msg, expectReply, disposeOnDone, this);
+        this._futures.set(msg.header.msg_id, future);
+        return future;
+    }
+    /**
+     * Send a message on the websocket.
+     *
+     * If queue is true, queue the message for later sending if we cannot send
+     * now. Otherwise throw an error.
+     *
+     * #### Notes
+     * As an exception to the queueing, if we are sending a kernel_info_request
+     * message while we think the kernel is restarting, we send the message
+     * immediately without queueing. This is so that we can trigger a message
+     * back, which will then clear the kernel restarting state.
+     */
+    _sendMessage(msg, queue = true) {
+        if (this.status === 'dead') {
+            throw new Error('Kernel is dead');
+        }
+        // If we have a kernel_info_request and we are starting or restarting, send the
+        // kernel_info_request immediately if we can, and if not throw an error so
+        // we can retry later. On restarting we do this because we must get at least one message
+        // from the kernel to reset the kernel session (thus clearing the restart
+        // status sentinel).
+        if ((this._kernelSession === STARTING_KERNEL_SESSION ||
+            this._kernelSession === RESTARTING_KERNEL_SESSION) &&
+            KernelMessage.isInfoRequestMsg(msg)) {
+            if (this.connectionStatus === 'connected') {
+                this._ws.send(serialize.serialize(msg));
+                return;
+            }
+            else {
+                throw new Error('Could not send message: status is not connected');
+            }
+        }
+        // If there are pending messages, add to the queue so we keep messages in order
+        if (queue && this._pendingMessages.length > 0) {
+            this._pendingMessages.push(msg);
+            return;
+        }
+        // Send if the ws allows it, otherwise queue the message.
+        if (this.connectionStatus === 'connected' &&
+            this._kernelSession !== RESTARTING_KERNEL_SESSION) {
+            this._ws.send(serialize.serialize(msg));
+        }
+        else if (queue) {
+            this._pendingMessages.push(msg);
+        }
+        else {
+            throw new Error('Could not send message');
+        }
+    }
+    /**
+     * Interrupt a kernel.
+     *
+     * #### Notes
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/kernels).
+     *
+     * The promise is fulfilled on a valid response and rejected otherwise.
+     *
+     * It is assumed that the API call does not mutate the kernel id or name.
+     *
+     * The promise will be rejected if the kernel status is `Dead` or if the
+     * request fails or the response is invalid.
+     */
+    async interrupt() {
+        this.hasPendingInput = false;
+        if (this.status === 'dead') {
+            throw new Error('Kernel is dead');
+        }
+        return restapi.interruptKernel(this.id, this.serverSettings);
+    }
+    /**
+     * Request a kernel restart.
+     *
+     * #### Notes
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/kernels)
+     * and validates the response model.
+     *
+     * Any existing Future or Comm objects are cleared once the kernel has
+     * actually be restarted.
+     *
+     * The promise is fulfilled on a valid server response (after the kernel restarts)
+     * and rejected otherwise.
+     *
+     * It is assumed that the API call does not mutate the kernel id or name.
+     *
+     * The promise will be rejected if the request fails or the response is
+     * invalid.
+     */
+    async restart() {
+        if (this.status === 'dead') {
+            throw new Error('Kernel is dead');
+        }
+        this._updateStatus('restarting');
+        this._clearKernelState();
+        this._kernelSession = RESTARTING_KERNEL_SESSION;
+        await restapi.restartKernel(this.id, this.serverSettings);
+        // Reconnect to the kernel to address cases where kernel ports
+        // have changed during the restart.
+        await this.reconnect();
+        this.hasPendingInput = false;
+    }
+    /**
+     * Reconnect to a kernel.
+     *
+     * #### Notes
+     * This may try multiple times to reconnect to a kernel, and will sever any
+     * existing connection.
+     */
+    reconnect() {
+        this._errorIfDisposed();
+        const result = new coreutils_2.PromiseDelegate();
+        // Set up a listener for the connection status changing, which accepts or
+        // rejects after the retries are done.
+        const fulfill = (sender, status) => {
+            if (status === 'connected') {
+                result.resolve();
+                this.connectionStatusChanged.disconnect(fulfill, this);
+            }
+            else if (status === 'disconnected') {
+                result.reject(new Error('Kernel connection disconnected'));
+                this.connectionStatusChanged.disconnect(fulfill, this);
+            }
+        };
+        this.connectionStatusChanged.connect(fulfill, this);
+        // Reset the reconnect limit so we start the connection attempts fresh
+        this._reconnectAttempt = 0;
+        // Start the reconnection process, which will also clear any existing
+        // connection.
+        this._reconnect();
+        // Return the promise that should resolve on connection or reject if the
+        // retries don't work.
+        return result.promise;
+    }
+    /**
+     * Shutdown a kernel.
+     *
+     * #### Notes
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/kernels).
+     *
+     * The promise is fulfilled on a valid response and rejected otherwise.
+     *
+     * On a valid response, disposes this kernel connection.
+     *
+     * If the kernel is already `dead`, disposes this kernel connection without
+     * a server request.
+     */
+    async shutdown() {
+        if (this.status !== 'dead') {
+            await restapi.shutdownKernel(this.id, this.serverSettings);
+        }
+        this.handleShutdown();
+    }
+    /**
+     * Handles a kernel shutdown.
+     *
+     * #### Notes
+     * This method should be called if we know from outside information that a
+     * kernel is dead (for example, we cannot find the kernel model on the
+     * server).
+     */
+    handleShutdown() {
+        this._updateStatus('dead');
+        this.dispose();
+    }
+    /**
+     * Send a `kernel_info_request` message.
+     *
+     * #### Notes
+     * See [Messaging in Jupyter](https://jupyter-client.readthedocs.io/en/latest/messaging.html#kernel-info).
+     *
+     * Fulfills with the `kernel_info_response` content when the shell reply is
+     * received and validated.
+     */
+    async requestKernelInfo() {
+        const msg = KernelMessage.createMessage({
+            msgType: 'kernel_info_request',
+            channel: 'shell',
+            username: this._username,
+            session: this._clientId,
+            content: {}
+        });
+        let reply;
+        try {
+            reply = (await Private.handleShellMessage(this, msg));
+        }
+        catch (e) {
+            // If we rejected because the future was disposed, ignore and return.
+            if (this.isDisposed) {
+                return;
+            }
+            else {
+                throw e;
+            }
+        }
+        this._errorIfDisposed();
+        if (!reply) {
+            return;
+        }
+        // Kernels sometimes do not include a status field on kernel_info_reply
+        // messages, so set a default for now.
+        // See https://github.com/jupyterlab/jupyterlab/issues/6760
+        if (reply.content.status === undefined) {
+            reply.content.status = 'ok';
+        }
+        if (reply.content.status !== 'ok') {
+            this._info.reject('Kernel info reply errored');
+            return reply;
+        }
+        this._info.resolve(reply.content);
+        this._kernelSession = reply.header.session;
+        return reply;
+    }
+    /**
+     * Send a `complete_request` message.
+     *
+     * #### Notes
+     * See [Messaging in Jupyter](https://jupyter-client.readthedocs.io/en/latest/messaging.html#completion).
+     *
+     * Fulfills with the `complete_reply` content when the shell reply is
+     * received and validated.
+     */
+    requestComplete(content) {
+        const msg = KernelMessage.createMessage({
+            msgType: 'complete_request',
+            channel: 'shell',
+            username: this._username,
+            session: this._clientId,
+            content
+        });
+        return Private.handleShellMessage(this, msg);
+    }
+    /**
+     * Send an `inspect_request` message.
+     *
+     * #### Notes
+     * See [Messaging in Jupyter](https://jupyter-client.readthedocs.io/en/latest/messaging.html#introspection).
+     *
+     * Fulfills with the `inspect_reply` content when the shell reply is
+     * received and validated.
+     */
+    requestInspect(content) {
+        const msg = KernelMessage.createMessage({
+            msgType: 'inspect_request',
+            channel: 'shell',
+            username: this._username,
+            session: this._clientId,
+            content: content
+        });
+        return Private.handleShellMessage(this, msg);
+    }
+    /**
+     * Send a `history_request` message.
+     *
+     * #### Notes
+     * See [Messaging in Jupyter](https://jupyter-client.readthedocs.io/en/latest/messaging.html#history).
+     *
+     * Fulfills with the `history_reply` content when the shell reply is
+     * received and validated.
+     */
+    requestHistory(content) {
+        const msg = KernelMessage.createMessage({
+            msgType: 'history_request',
+            channel: 'shell',
+            username: this._username,
+            session: this._clientId,
+            content
+        });
+        return Private.handleShellMessage(this, msg);
+    }
+    /**
+     * Send an `execute_request` message.
+     *
+     * #### Notes
+     * See [Messaging in Jupyter](https://jupyter-client.readthedocs.io/en/latest/messaging.html#execute).
+     *
+     * Future `onReply` is called with the `execute_reply` content when the
+     * shell reply is received and validated. The future will resolve when
+     * this message is received and the `idle` iopub status is received.
+     * The future will also be disposed at this point unless `disposeOnDone`
+     * is specified and `false`, in which case it is up to the caller to dispose
+     * of the future.
+     *
+     * **See also:** [[IExecuteReply]]
+     */
+    requestExecute(content, disposeOnDone = true, metadata) {
+        const defaults = {
+            silent: false,
+            store_history: true,
+            user_expressions: {},
+            allow_stdin: true,
+            stop_on_error: false
+        };
+        const msg = KernelMessage.createMessage({
+            msgType: 'execute_request',
+            channel: 'shell',
+            username: this._username,
+            session: this._clientId,
+            content: Object.assign(Object.assign({}, defaults), content),
+            metadata
+        });
+        return this.sendShellMessage(msg, true, disposeOnDone);
+    }
+    /**
+     * Send an experimental `debug_request` message.
+     *
+     * @hidden
+     *
+     * #### Notes
+     * Debug messages are experimental messages that are not in the official
+     * kernel message specification. As such, this function is *NOT* considered
+     * part of the public API, and may change without notice.
+     */
+    requestDebug(content, disposeOnDone = true) {
+        const msg = KernelMessage.createMessage({
+            msgType: 'debug_request',
+            channel: 'control',
+            username: this._username,
+            session: this._clientId,
+            content
+        });
+        return this.sendControlMessage(msg, true, disposeOnDone);
+    }
+    /**
+     * Send an `is_complete_request` message.
+     *
+     * #### Notes
+     * See [Messaging in Jupyter](https://jupyter-client.readthedocs.io/en/latest/messaging.html#code-completeness).
+     *
+     * Fulfills with the `is_complete_response` content when the shell reply is
+     * received and validated.
+     */
+    requestIsComplete(content) {
+        const msg = KernelMessage.createMessage({
+            msgType: 'is_complete_request',
+            channel: 'shell',
+            username: this._username,
+            session: this._clientId,
+            content
+        });
+        return Private.handleShellMessage(this, msg);
+    }
+    /**
+     * Send a `comm_info_request` message.
+     *
+     * #### Notes
+     * Fulfills with the `comm_info_reply` content when the shell reply is
+     * received and validated.
+     */
+    requestCommInfo(content) {
+        const msg = KernelMessage.createMessage({
+            msgType: 'comm_info_request',
+            channel: 'shell',
+            username: this._username,
+            session: this._clientId,
+            content
+        });
+        return Private.handleShellMessage(this, msg);
+    }
+    /**
+     * Send an `input_reply` message.
+     *
+     * #### Notes
+     * See [Messaging in Jupyter](https://jupyter-client.readthedocs.io/en/latest/messaging.html#messages-on-the-stdin-router-dealer-sockets).
+     */
+    sendInputReply(content, parent_header) {
+        const msg = KernelMessage.createMessage({
+            msgType: 'input_reply',
+            channel: 'stdin',
+            username: this._username,
+            session: this._clientId,
+            content
+        });
+        if (parent_header) {
+            msg.parent_header = parent_header;
+        }
+        this._sendMessage(msg);
+        this._anyMessage.emit({ msg, direction: 'send' });
+        this.hasPendingInput = false;
+    }
+    /**
+     * Create a new comm.
+     *
+     * #### Notes
+     * If a client-side comm already exists with the given commId, an error is thrown.
+     * If the kernel does not handle comms, an error is thrown.
+     */
+    createComm(targetName, commId = coreutils_2.UUID.uuid4()) {
+        if (!this.handleComms) {
+            throw new Error('Comms are disabled on this kernel connection');
+        }
+        if (this._comms.has(commId)) {
+            throw new Error('Comm is already created');
+        }
+        const comm = new comm_1.CommHandler(targetName, commId, this, () => {
+            this._unregisterComm(commId);
+        });
+        this._comms.set(commId, comm);
+        return comm;
+    }
+    /**
+     * Check if a comm exists.
+     */
+    hasComm(commId) {
+        return this._comms.has(commId);
+    }
+    /**
+     * Register a comm target handler.
+     *
+     * @param targetName - The name of the comm target.
+     *
+     * @param callback - The callback invoked for a comm open message.
+     *
+     * @returns A disposable used to unregister the comm target.
+     *
+     * #### Notes
+     * Only one comm target can be registered to a target name at a time, an
+     * existing callback for the same target name will be overridden.  A registered
+     * comm target handler will take precedence over a comm which specifies a
+     * `target_module`.
+     *
+     * If the callback returns a promise, kernel message processing will pause
+     * until the returned promise is fulfilled.
+     */
+    registerCommTarget(targetName, callback) {
+        if (!this.handleComms) {
+            return;
+        }
+        this._targetRegistry[targetName] = callback;
+    }
+    /**
+     * Remove a comm target handler.
+     *
+     * @param targetName - The name of the comm target to remove.
+     *
+     * @param callback - The callback to remove.
+     *
+     * #### Notes
+     * The comm target is only removed if the callback argument matches.
+     */
+    removeCommTarget(targetName, callback) {
+        if (!this.handleComms) {
+            return;
+        }
+        if (!this.isDisposed && this._targetRegistry[targetName] === callback) {
+            delete this._targetRegistry[targetName];
+        }
+    }
+    /**
+     * Register an IOPub message hook.
+     *
+     * @param msg_id - The parent_header message id the hook will intercept.
+     *
+     * @param hook - The callback invoked for the message.
+     *
+     * #### Notes
+     * The IOPub hook system allows you to preempt the handlers for IOPub
+     * messages that are responses to a given message id.
+     *
+     * The most recently registered hook is run first. A hook can return a
+     * boolean or a promise to a boolean, in which case all kernel message
+     * processing pauses until the promise is fulfilled. If a hook return value
+     * resolves to false, any later hooks will not run and the function will
+     * return a promise resolving to false. If a hook throws an error, the error
+     * is logged to the console and the next hook is run. If a hook is
+     * registered during the hook processing, it will not run until the next
+     * message. If a hook is removed during the hook processing, it will be
+     * deactivated immediately.
+     *
+     * See also [[IFuture.registerMessageHook]].
+     */
+    registerMessageHook(msgId, hook) {
+        var _a;
+        const future = (_a = this._futures) === null || _a === void 0 ? void 0 : _a.get(msgId);
+        if (future) {
+            future.registerMessageHook(hook);
+        }
+    }
+    /**
+     * Remove an IOPub message hook.
+     *
+     * @param msg_id - The parent_header message id the hook intercepted.
+     *
+     * @param hook - The callback invoked for the message.
+     *
+     */
+    removeMessageHook(msgId, hook) {
+        var _a;
+        const future = (_a = this._futures) === null || _a === void 0 ? void 0 : _a.get(msgId);
+        if (future) {
+            future.removeMessageHook(hook);
+        }
+    }
+    /**
+     * Remove the input guard, if any.
+     */
+    removeInputGuard() {
+        this.hasPendingInput = false;
+    }
+    /**
+     * Handle a message with a display id.
+     *
+     * @returns Whether the message was handled.
+     */
+    async _handleDisplayId(displayId, msg) {
+        var _a, _b;
+        const msgId = msg.parent_header.msg_id;
+        let parentIds = this._displayIdToParentIds.get(displayId);
+        if (parentIds) {
+            // We've seen it before, update existing outputs with same display_id
+            // by handling display_data as update_display_data.
+            const updateMsg = {
+                header: coreutils_2.JSONExt.deepCopy(msg.header),
+                parent_header: coreutils_2.JSONExt.deepCopy(msg.parent_header),
+                metadata: coreutils_2.JSONExt.deepCopy(msg.metadata),
+                content: coreutils_2.JSONExt.deepCopy(msg.content),
+                channel: msg.channel,
+                buffers: msg.buffers ? msg.buffers.slice() : []
+            };
+            updateMsg.header.msg_type = 'update_display_data';
+            await Promise.all(parentIds.map(async (parentId) => {
+                const future = this._futures && this._futures.get(parentId);
+                if (future) {
+                    await future.handleMsg(updateMsg);
+                }
+            }));
+        }
+        // We're done here if it's update_display.
+        if (msg.header.msg_type === 'update_display_data') {
+            // It's an update, don't proceed to the normal display.
+            return true;
+        }
+        // Regular display_data with id, record it for future updating
+        // in _displayIdToParentIds for future lookup.
+        parentIds = (_a = this._displayIdToParentIds.get(displayId)) !== null && _a !== void 0 ? _a : [];
+        if (parentIds.indexOf(msgId) === -1) {
+            parentIds.push(msgId);
+        }
+        this._displayIdToParentIds.set(displayId, parentIds);
+        // Add to our map of display ids for this message.
+        const displayIds = (_b = this._msgIdToDisplayIds.get(msgId)) !== null && _b !== void 0 ? _b : [];
+        if (displayIds.indexOf(msgId) === -1) {
+            displayIds.push(msgId);
+        }
+        this._msgIdToDisplayIds.set(msgId, displayIds);
+        // Let the message propagate to the intended recipient.
+        return false;
+    }
+    /**
+     * Forcefully clear the socket state.
+     *
+     * #### Notes
+     * This will clear all socket state without calling any handlers and will
+     * not update the connection status. If you call this method, you are
+     * responsible for updating the connection status as needed and recreating
+     * the socket if you plan to reconnect.
+     */
+    _clearSocket() {
+        if (this._ws !== null) {
+            // Clear the websocket event handlers and the socket itself.
+            this._ws.onopen = this._noOp;
+            this._ws.onclose = this._noOp;
+            this._ws.onerror = this._noOp;
+            this._ws.onmessage = this._noOp;
+            this._ws.close();
+            this._ws = null;
+        }
+    }
+    /**
+     * Handle status iopub messages from the kernel.
+     */
+    _updateStatus(status) {
+        if (this._status === status || this._status === 'dead') {
+            return;
+        }
+        this._status = status;
+        Private.logKernelStatus(this);
+        this._statusChanged.emit(status);
+        if (status === 'dead') {
+            this.dispose();
+        }
+    }
+    /**
+     * Send pending messages to the kernel.
+     */
+    _sendPending() {
+        // We check to make sure we are still connected each time. For
+        // example, if a websocket buffer overflows, it may close, so we should
+        // stop sending messages.
+        while (this.connectionStatus === 'connected' &&
+            this._kernelSession !== RESTARTING_KERNEL_SESSION &&
+            this._pendingMessages.length > 0) {
+            this._sendMessage(this._pendingMessages[0], false);
+            // We shift the message off the queue after the message is sent so that
+            // if there is an exception, the message is still pending.
+            this._pendingMessages.shift();
+        }
+    }
+    /**
+     * Clear the internal state.
+     */
+    _clearKernelState() {
+        this._kernelSession = '';
+        this._pendingMessages = [];
+        this._futures.forEach(future => {
+            future.dispose();
+        });
+        this._comms.forEach(comm => {
+            comm.dispose();
+        });
+        this._msgChain = Promise.resolve();
+        this._futures = new Map();
+        this._comms = new Map();
+        this._displayIdToParentIds.clear();
+        this._msgIdToDisplayIds.clear();
+    }
+    /**
+     * Check to make sure it is okay to proceed to handle a message.
+     *
+     * #### Notes
+     * Because we handle messages asynchronously, before a message is handled the
+     * kernel might be disposed or restarted (and have a different session id).
+     * This function throws an error in each of these cases. This is meant to be
+     * called at the start of an asynchronous message handler to cancel message
+     * processing if the message no longer is valid.
+     */
+    _assertCurrentMessage(msg) {
+        this._errorIfDisposed();
+        if (msg.header.session !== this._kernelSession) {
+            throw new Error(`Canceling handling of old message: ${msg.header.msg_type}`);
+        }
+    }
+    /**
+     * Handle a `comm_open` kernel message.
+     */
+    async _handleCommOpen(msg) {
+        this._assertCurrentMessage(msg);
+        const content = msg.content;
+        const comm = new comm_1.CommHandler(content.target_name, content.comm_id, this, () => {
+            this._unregisterComm(content.comm_id);
+        });
+        this._comms.set(content.comm_id, comm);
+        try {
+            const target = await Private.loadObject(content.target_name, content.target_module, this._targetRegistry);
+            await target(comm, msg);
+        }
+        catch (e) {
+            // Close the comm asynchronously. We cannot block message processing on
+            // kernel messages to wait for another kernel message.
+            comm.close();
+            console.error('Exception opening new comm');
+            throw e;
+        }
+    }
+    /**
+     * Handle 'comm_close' kernel message.
+     */
+    async _handleCommClose(msg) {
+        this._assertCurrentMessage(msg);
+        const content = msg.content;
+        const comm = this._comms.get(content.comm_id);
+        if (!comm) {
+            console.error('Comm not found for comm id ' + content.comm_id);
+            return;
+        }
+        this._unregisterComm(comm.commId);
+        const onClose = comm.onClose;
+        if (onClose) {
+            // tslint:disable-next-line:await-promise
+            await onClose(msg);
+        }
+        comm.dispose();
+    }
+    /**
+     * Handle a 'comm_msg' kernel message.
+     */
+    async _handleCommMsg(msg) {
+        this._assertCurrentMessage(msg);
+        const content = msg.content;
+        const comm = this._comms.get(content.comm_id);
+        if (!comm) {
+            return;
+        }
+        const onMsg = comm.onMsg;
+        if (onMsg) {
+            // tslint:disable-next-line:await-promise
+            await onMsg(msg);
+        }
+    }
+    /**
+     * Unregister a comm instance.
+     */
+    _unregisterComm(commId) {
+        this._comms.delete(commId);
+    }
+    /**
+     * Handle connection status changes.
+     */
+    _updateConnectionStatus(connectionStatus) {
+        if (this._connectionStatus === connectionStatus) {
+            return;
+        }
+        this._connectionStatus = connectionStatus;
+        // If we are not 'connecting', reset any reconnection attempts.
+        if (connectionStatus !== 'connecting') {
+            this._reconnectAttempt = 0;
+            clearTimeout(this._reconnectTimeout);
+        }
+        if (this.status !== 'dead') {
+            if (connectionStatus === 'connected') {
+                let restarting = this._kernelSession === RESTARTING_KERNEL_SESSION;
+                // Send a kernel info request to make sure we send at least one
+                // message to get kernel status back. Always request kernel info
+                // first, to get kernel status back and ensure iopub is fully
+                // established. If we are restarting, this message will skip the queue
+                // and be sent immediately.
+                let p = this.requestKernelInfo();
+                // Send any pending messages after the kernelInfo resolves, or after a
+                // timeout as a failsafe.
+                let sendPendingCalled = false;
+                let sendPendingOnce = () => {
+                    if (sendPendingCalled) {
+                        return;
+                    }
+                    sendPendingCalled = true;
+                    if (restarting && this._kernelSession === RESTARTING_KERNEL_SESSION) {
+                        // We were restarting and a message didn't arrive to set the
+                        // session, but we just assume the restart succeeded and send any
+                        // pending messages.
+                        // FIXME: it would be better to retry the kernel_info_request here
+                        this._kernelSession = '';
+                    }
+                    clearTimeout(timeoutHandle);
+                    if (this._pendingMessages.length > 0) {
+                        this._sendPending();
+                    }
+                };
+                void p.then(sendPendingOnce);
+                // FIXME: if sent while zmq subscriptions are not established,
+                // kernelInfo may not resolve, so use a timeout to ensure we don't hang forever.
+                // It may be preferable to retry kernelInfo rather than give up after one timeout.
+                let timeoutHandle = setTimeout(sendPendingOnce, KERNEL_INFO_TIMEOUT);
+            }
+            else {
+                // If the connection is down, then we do not know what is happening
+                // with the kernel, so set the status to unknown.
+                this._updateStatus('unknown');
+            }
+        }
+        // Notify others that the connection status changed.
+        this._connectionStatusChanged.emit(connectionStatus);
+    }
+    async _handleMessage(msg) {
+        var _a, _b;
+        let handled = false;
+        // Check to see if we have a display_id we need to reroute.
+        if (msg.parent_header &&
+            msg.channel === 'iopub' &&
+            (KernelMessage.isDisplayDataMsg(msg) ||
+                KernelMessage.isUpdateDisplayDataMsg(msg) ||
+                KernelMessage.isExecuteResultMsg(msg))) {
+            // display_data messages may re-route based on their display_id.
+            const transient = ((_a = msg.content.transient) !== null && _a !== void 0 ? _a : {});
+            const displayId = transient['display_id'];
+            if (displayId) {
+                handled = await this._handleDisplayId(displayId, msg);
+                // The await above may make this message out of date, so check again.
+                this._assertCurrentMessage(msg);
+            }
+        }
+        if (!handled && msg.parent_header) {
+            const parentHeader = msg.parent_header;
+            const future = (_b = this._futures) === null || _b === void 0 ? void 0 : _b.get(parentHeader.msg_id);
+            if (future) {
+                await future.handleMsg(msg);
+                this._assertCurrentMessage(msg);
+            }
+            else {
+                // If the message was sent by us and was not iopub, it is orphaned.
+                const owned = parentHeader.session === this.clientId;
+                if (msg.channel !== 'iopub' && owned) {
+                    this._unhandledMessage.emit(msg);
+                }
+            }
+        }
+        if (msg.channel === 'iopub') {
+            switch (msg.header.msg_type) {
+                case 'status': {
+                    // Updating the status is synchronous, and we call no async user code
+                    const executionState = msg.content
+                        .execution_state;
+                    if (executionState === 'restarting') {
+                        // The kernel has been auto-restarted by the server. After
+                        // processing for this message is completely done, we want to
+                        // handle this restart, so we don't await, but instead schedule
+                        // the work as a microtask (i.e., in a promise resolution). We
+                        // schedule this here so that it comes before any microtasks that
+                        // might be scheduled in the status signal emission below.
+                        void Promise.resolve().then(async () => {
+                            this._updateStatus('autorestarting');
+                            this._clearKernelState();
+                            // We must reconnect since the kernel connection information may have
+                            // changed, and the server only refreshes its zmq connection when a new
+                            // websocket is opened.
+                            await this.reconnect();
+                        });
+                    }
+                    this._updateStatus(executionState);
+                    break;
+                }
+                case 'comm_open':
+                    if (this.handleComms) {
+                        await this._handleCommOpen(msg);
+                    }
+                    break;
+                case 'comm_msg':
+                    if (this.handleComms) {
+                        await this._handleCommMsg(msg);
+                    }
+                    break;
+                case 'comm_close':
+                    if (this.handleComms) {
+                        await this._handleCommClose(msg);
+                    }
+                    break;
+                default:
+                    break;
+            }
+            // If the message was a status dead message, we might have disposed ourselves.
+            if (!this.isDisposed) {
+                this._assertCurrentMessage(msg);
+                // the message wouldn't be emitted if we were disposed anyway.
+                this._iopubMessage.emit(msg);
+            }
+        }
+    }
+    /**
+     * Attempt a connection if we have not exhausted connection attempts.
+     */
+    _reconnect() {
+        this._errorIfDisposed();
+        // Clear any existing reconnection attempt
+        clearTimeout(this._reconnectTimeout);
+        // Update the connection status and schedule a possible reconnection.
+        if (this._reconnectAttempt < this._reconnectLimit) {
+            this._updateConnectionStatus('connecting');
+            // The first reconnect attempt should happen immediately, and subsequent
+            // attempts should pick a random number in a growing range so that we
+            // don't overload the server with synchronized reconnection attempts
+            // across multiple kernels.
+            const timeout = Private.getRandomIntInclusive(0, 1e3 * (Math.pow(2, this._reconnectAttempt) - 1));
+            console.warn(`Connection lost, reconnecting in ${Math.floor(timeout / 1000)} seconds.`);
+            this._reconnectTimeout = setTimeout(this._createSocket, timeout);
+            this._reconnectAttempt += 1;
+        }
+        else {
+            this._updateConnectionStatus('disconnected');
+        }
+        // Clear the websocket event handlers and the socket itself.
+        this._clearSocket();
+    }
+    /**
+     * Utility function to throw an error if this instance is disposed.
+     */
+    _errorIfDisposed() {
+        if (this.isDisposed) {
+            throw new Error('Kernel connection is disposed');
+        }
+    }
+    get hasPendingInput() {
+        return this._hasPendingInput;
+    }
+    set hasPendingInput(value) {
+        this._hasPendingInput = value;
+        this._pendingInput.emit(value);
+    }
+}
+exports.KernelConnection = KernelConnection;
+/**
+ * A private namespace for the Kernel.
+ */
+var Private;
+(function (Private) {
+    /**
+     * Log the current kernel status.
+     */
+    function logKernelStatus(kernel) {
+        switch (kernel.status) {
+            case 'idle':
+            case 'busy':
+            case 'unknown':
+                return;
+            default:
+                console.debug(`Kernel: ${kernel.status} (${kernel.id})`);
+                break;
+        }
+    }
+    Private.logKernelStatus = logKernelStatus;
+    /**
+     * Send a kernel message to the kernel and resolve the reply message.
+     */
+    async function handleShellMessage(kernel, msg) {
+        const future = kernel.sendShellMessage(msg, true);
+        return future.done;
+    }
+    Private.handleShellMessage = handleShellMessage;
+    /**
+     * Try to load an object from a module or a registry.
+     *
+     * Try to load an object from a module asynchronously if a module
+     * is specified, otherwise tries to load an object from the global
+     * registry, if the global registry is provided.
+     *
+     * #### Notes
+     * Loading a module uses requirejs.
+     */
+    function loadObject(name, moduleName, registry) {
+        return new Promise((resolve, reject) => {
+            // Try loading the module using require.js
+            if (moduleName) {
+                if (typeof requirejs === 'undefined') {
+                    throw new Error('requirejs not found');
+                }
+                requirejs([moduleName], (mod) => {
+                    if (mod[name] === void 0) {
+                        const msg = `Object '${name}' not found in module '${moduleName}'`;
+                        reject(new Error(msg));
+                    }
+                    else {
+                        resolve(mod[name]);
+                    }
+                }, reject);
+            }
+            else {
+                if (registry === null || registry === void 0 ? void 0 : registry[name]) {
+                    resolve(registry[name]);
+                }
+                else {
+                    reject(new Error(`Object '${name}' not found in registry`));
+                }
+            }
+        });
+    }
+    Private.loadObject = loadObject;
+    /**
+     * Get a random integer between min and max, inclusive of both.
+     *
+     * #### Notes
+     * From
+     * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random#Getting_a_random_integer_between_two_values_inclusive
+     *
+     * From the MDN page: It might be tempting to use Math.round() to accomplish
+     * that, but doing so would cause your random numbers to follow a non-uniform
+     * distribution, which may not be acceptable for your needs.
+     */
+    function getRandomIntInclusive(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+    Private.getRandomIntInclusive = getRandomIntInclusive;
+})(Private || (Private = {}));
+//# sourceMappingURL=default.js.map
+
+/***/ }),
+
+/***/ 1059:
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.KernelShellFutureHandler = exports.KernelControlFutureHandler = exports.KernelFutureHandler = void 0;
+const coreutils_1 = __webpack_require__(95082);
+const disposable_1 = __webpack_require__(70725);
+const KernelMessage = __importStar(__webpack_require__(42202));
+/**
+ * Implementation of a kernel future.
+ *
+ * If a reply is expected, the Future is considered done when both a `reply`
+ * message and an `idle` iopub status message have been received.  Otherwise, it
+ * is considered done when the `idle` status is received.
+ *
+ */
+class KernelFutureHandler extends disposable_1.DisposableDelegate {
+    /**
+     * Construct a new KernelFutureHandler.
+     */
+    constructor(cb, msg, expectReply, disposeOnDone, kernel) {
+        super(cb);
+        this._status = 0;
+        this._stdin = Private.noOp;
+        this._iopub = Private.noOp;
+        this._reply = Private.noOp;
+        this._done = new coreutils_1.PromiseDelegate();
+        this._hooks = new Private.HookList();
+        this._disposeOnDone = true;
+        this._msg = msg;
+        if (!expectReply) {
+            this._setFlag(Private.KernelFutureFlag.GotReply);
+        }
+        this._disposeOnDone = disposeOnDone;
+        this._kernel = kernel;
+    }
+    /**
+     * Get the original outgoing message.
+     */
+    get msg() {
+        return this._msg;
+    }
+    /**
+     * A promise that resolves when the future is done.
+     */
+    get done() {
+        return this._done.promise;
+    }
+    /**
+     * Get the reply handler.
+     */
+    get onReply() {
+        return this._reply;
+    }
+    /**
+     * Set the reply handler.
+     */
+    set onReply(cb) {
+        this._reply = cb;
+    }
+    /**
+     * Get the iopub handler.
+     */
+    get onIOPub() {
+        return this._iopub;
+    }
+    /**
+     * Set the iopub handler.
+     */
+    set onIOPub(cb) {
+        this._iopub = cb;
+    }
+    /**
+     * Get the stdin handler.
+     */
+    get onStdin() {
+        return this._stdin;
+    }
+    /**
+     * Set the stdin handler.
+     */
+    set onStdin(cb) {
+        this._stdin = cb;
+    }
+    /**
+     * Register hook for IOPub messages.
+     *
+     * @param hook - The callback invoked for an IOPub message.
+     *
+     * #### Notes
+     * The IOPub hook system allows you to preempt the handlers for IOPub
+     * messages handled by the future.
+     *
+     * The most recently registered hook is run first. A hook can return a
+     * boolean or a promise to a boolean, in which case all kernel message
+     * processing pauses until the promise is fulfilled. If a hook return value
+     * resolves to false, any later hooks will not run and the function will
+     * return a promise resolving to false. If a hook throws an error, the error
+     * is logged to the console and the next hook is run. If a hook is
+     * registered during the hook processing, it will not run until the next
+     * message. If a hook is removed during the hook processing, it will be
+     * deactivated immediately.
+     */
+    registerMessageHook(hook) {
+        if (this.isDisposed) {
+            throw new Error('Kernel future is disposed');
+        }
+        this._hooks.add(hook);
+    }
+    /**
+     * Remove a hook for IOPub messages.
+     *
+     * @param hook - The hook to remove.
+     *
+     * #### Notes
+     * If a hook is removed during the hook processing, it will be deactivated immediately.
+     */
+    removeMessageHook(hook) {
+        if (this.isDisposed) {
+            return;
+        }
+        this._hooks.remove(hook);
+    }
+    /**
+     * Send an `input_reply` message.
+     */
+    sendInputReply(content, parent_header) {
+        this._kernel.sendInputReply(content, parent_header);
+    }
+    /**
+     * Dispose and unregister the future.
+     */
+    dispose() {
+        this._stdin = Private.noOp;
+        this._iopub = Private.noOp;
+        this._reply = Private.noOp;
+        this._hooks = null;
+        if (!this._testFlag(Private.KernelFutureFlag.IsDone)) {
+            // TODO: Uncomment the following logging code, and check for any tests that trigger it.
+            // let status = [];
+            // if (!this._testFlag(Private.KernelFutureFlag.GotIdle)) {
+            //   status.push('idle');
+            // }
+            // if (!this._testFlag(Private.KernelFutureFlag.GotReply)) {
+            //   status.push('reply');
+            // }
+            // console.warn(
+            //   `*************** DISPOSED BEFORE DONE: K${this._kernel.id.slice(
+            //     0,
+            //     6
+            //   )} M${this._msg.header.msg_id.slice(0, 6)} missing ${status.join(' ')}`
+            // );
+            // Reject the `done` promise, but catch its error here in case no one else
+            // is waiting for the promise to resolve. This prevents the error from
+            // being displayed in the console, but does not prevent it from being
+            // caught by a client who is waiting for it.
+            this._done.promise.catch(() => {
+                /* no-op */
+            });
+            this._done.reject(new Error(`Canceled future for ${this.msg.header.msg_type} message before replies were done`));
+        }
+        super.dispose();
+    }
+    /**
+     * Handle an incoming kernel message.
+     */
+    async handleMsg(msg) {
+        switch (msg.channel) {
+            case 'control':
+            case 'shell':
+                if (msg.channel === this.msg.channel &&
+                    msg.parent_header.msg_id === this.msg.header.msg_id) {
+                    await this._handleReply(msg);
+                }
+                break;
+            case 'stdin':
+                await this._handleStdin(msg);
+                break;
+            case 'iopub':
+                await this._handleIOPub(msg);
+                break;
+            default:
+                break;
+        }
+    }
+    async _handleReply(msg) {
+        const reply = this._reply;
+        if (reply) {
+            // tslint:disable-next-line:await-promise
+            await reply(msg);
+        }
+        this._replyMsg = msg;
+        this._setFlag(Private.KernelFutureFlag.GotReply);
+        if (this._testFlag(Private.KernelFutureFlag.GotIdle)) {
+            this._handleDone();
+        }
+    }
+    async _handleStdin(msg) {
+        this._kernel.hasPendingInput = true;
+        const stdin = this._stdin;
+        if (stdin) {
+            // tslint:disable-next-line:await-promise
+            await stdin(msg);
+        }
+    }
+    async _handleIOPub(msg) {
+        const process = await this._hooks.process(msg);
+        const iopub = this._iopub;
+        if (process && iopub) {
+            // tslint:disable-next-line:await-promise
+            await iopub(msg);
+        }
+        if (KernelMessage.isStatusMsg(msg) &&
+            msg.content.execution_state === 'idle') {
+            this._setFlag(Private.KernelFutureFlag.GotIdle);
+            if (this._testFlag(Private.KernelFutureFlag.GotReply)) {
+                this._handleDone();
+            }
+        }
+    }
+    _handleDone() {
+        if (this._testFlag(Private.KernelFutureFlag.IsDone)) {
+            return;
+        }
+        this._setFlag(Private.KernelFutureFlag.IsDone);
+        this._done.resolve(this._replyMsg);
+        if (this._disposeOnDone) {
+            this.dispose();
+        }
+    }
+    /**
+     * Test whether the given future flag is set.
+     */
+    _testFlag(flag) {
+        // tslint:disable-next-line
+        return (this._status & flag) !== 0;
+    }
+    /**
+     * Set the given future flag.
+     */
+    _setFlag(flag) {
+        // tslint:disable-next-line
+        this._status |= flag;
+    }
+}
+exports.KernelFutureHandler = KernelFutureHandler;
+class KernelControlFutureHandler extends KernelFutureHandler {
+}
+exports.KernelControlFutureHandler = KernelControlFutureHandler;
+class KernelShellFutureHandler extends KernelFutureHandler {
+}
+exports.KernelShellFutureHandler = KernelShellFutureHandler;
+var Private;
+(function (Private) {
+    /**
+     * A no-op function.
+     */
+    Private.noOp = () => {
+        /* no-op */
+    };
+    /**
+     * Defer a computation.
+     *
+     * #### NOTES
+     * We can't just use requestAnimationFrame since it is not available in node.
+     * This implementation is from Phosphor:
+     * https://github.com/phosphorjs/phosphor/blob/e88e4321289bb1198f3098e7bda40736501f2ed8/tests/test-messaging/src/index.spec.ts#L63
+     */
+    const defer = (() => {
+        const ok = typeof requestAnimationFrame === 'function';
+        return ok ? requestAnimationFrame : setImmediate;
+    })();
+    class HookList {
+        constructor() {
+            this._hooks = [];
+        }
+        /**
+         * Register a hook.
+         *
+         * @param hook - The callback to register.
+         */
+        add(hook) {
+            this.remove(hook);
+            this._hooks.push(hook);
+        }
+        /**
+         * Remove a hook, if it exists in the hook list.
+         *
+         * @param hook - The callback to remove.
+         */
+        remove(hook) {
+            const index = this._hooks.indexOf(hook);
+            if (index >= 0) {
+                this._hooks[index] = null;
+                this._scheduleCompact();
+            }
+        }
+        /**
+         * Process a message through the hooks.
+         *
+         * @returns a promise resolving to false if any hook resolved as false,
+         * otherwise true
+         *
+         * #### Notes
+         * The most recently registered hook is run first. A hook can return a
+         * boolean or a promise to a boolean, in which case processing pauses until
+         * the promise is fulfilled. If a hook return value resolves to false, any
+         * later hooks will not run and the function will return a promise resolving
+         * to false. If a hook throws an error, the error is logged to the console
+         * and the next hook is run. If a hook is registered during the hook
+         * processing, it will not run until the next message. If a hook is removed
+         * during the hook processing, it will be deactivated immediately.
+         */
+        async process(msg) {
+            // Wait until we can start a new process run.
+            await this._processing;
+            // Start the next process run.
+            const processing = new coreutils_1.PromiseDelegate();
+            this._processing = processing.promise;
+            let continueHandling;
+            // Call the end hook (most recently-added) first. Starting at the end also
+            // guarantees that hooks added during the processing will not be run in
+            // this process run.
+            for (let i = this._hooks.length - 1; i >= 0; i--) {
+                const hook = this._hooks[i];
+                // If the hook has been removed, continue to the next one.
+                if (hook === null) {
+                    continue;
+                }
+                // Execute the hook and log any errors.
+                try {
+                    // tslint:disable-next-line:await-promise
+                    continueHandling = await hook(msg);
+                }
+                catch (err) {
+                    continueHandling = true;
+                    console.error(err);
+                }
+                // If the hook resolved to false, stop processing and return.
+                if (continueHandling === false) {
+                    processing.resolve(undefined);
+                    return false;
+                }
+            }
+            // All hooks returned true (or errored out), so return true.
+            processing.resolve(undefined);
+            return true;
+        }
+        /**
+         * Schedule a cleanup of the list, removing any hooks that have been nulled out.
+         */
+        _scheduleCompact() {
+            if (!this._compactScheduled) {
+                this._compactScheduled = true;
+                // Schedule a compaction in between processing runs. We do the
+                // scheduling in an animation frame to rate-limit our compactions. If we
+                // need to compact more frequently, we can change this to directly
+                // schedule the compaction.
+                defer(() => {
+                    this._processing = this._processing.then(() => {
+                        this._compactScheduled = false;
+                        this._compact();
+                    });
+                });
+            }
+        }
+        /**
+         * Compact the list, removing any nulls.
+         */
+        _compact() {
+            let numNulls = 0;
+            for (let i = 0, len = this._hooks.length; i < len; i++) {
+                const hook = this._hooks[i];
+                if (this._hooks[i] === null) {
+                    numNulls++;
+                }
+                else {
+                    this._hooks[i - numNulls] = hook;
+                }
+            }
+            this._hooks.length -= numNulls;
+        }
+    }
+    Private.HookList = HookList;
+    /**
+     * Bit flags for the kernel future state.
+     */
+    let KernelFutureFlag;
+    (function (KernelFutureFlag) {
+        KernelFutureFlag[KernelFutureFlag["GotReply"] = 1] = "GotReply";
+        KernelFutureFlag[KernelFutureFlag["GotIdle"] = 2] = "GotIdle";
+        KernelFutureFlag[KernelFutureFlag["IsDone"] = 4] = "IsDone";
+        KernelFutureFlag[KernelFutureFlag["DisposeOnDone"] = 8] = "DisposeOnDone";
+    })(KernelFutureFlag = Private.KernelFutureFlag || (Private.KernelFutureFlag = {}));
+})(Private || (Private = {}));
+//# sourceMappingURL=future.js.map
+
+/***/ }),
+
+/***/ 16627:
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __exportStar = (this && this.__exportStar) || function(m, exports) {
+    for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.KernelConnection = exports.KernelAPI = exports.KernelMessage = exports.Kernel = void 0;
+// Namespace some of our modules for convenience and backwards compatibility.
+const Kernel = __importStar(__webpack_require__(12130));
+exports.Kernel = Kernel;
+const KernelMessage = __importStar(__webpack_require__(42202));
+exports.KernelMessage = KernelMessage;
+const KernelAPI = __importStar(__webpack_require__(91439));
+exports.KernelAPI = KernelAPI;
+const default_1 = __webpack_require__(85880);
+Object.defineProperty(exports, "KernelConnection", ({ enumerable: true, get: function () { return default_1.KernelConnection; } }));
+__exportStar(__webpack_require__(1031), exports);
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 12130:
+/***/ ((__unused_webpack_module, exports) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+//# sourceMappingURL=kernel.js.map
+
+/***/ }),
+
+/***/ 1031:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.KernelManager = void 0;
+const algorithm_1 = __webpack_require__(35259);
+const polling_1 = __webpack_require__(23114);
+const signaling_1 = __webpack_require__(4016);
+const __1 = __webpack_require__(34669);
+const basemanager_1 = __webpack_require__(11019);
+const restapi_1 = __webpack_require__(91439);
+const default_1 = __webpack_require__(85880);
+/**
+ * An implementation of a kernel manager.
+ */
+class KernelManager extends basemanager_1.BaseManager {
+    /**
+     * Construct a new kernel manager.
+     *
+     * @param options - The default options for kernel.
+     */
+    constructor(options = {}) {
+        var _a;
+        super(options);
+        this._isReady = false;
+        this._kernelConnections = new Set();
+        this._models = new Map();
+        this._runningChanged = new signaling_1.Signal(this);
+        this._connectionFailure = new signaling_1.Signal(this);
+        // Start model and specs polling with exponential backoff.
+        this._pollModels = new polling_1.Poll({
+            auto: false,
+            factory: () => this.requestRunning(),
+            frequency: {
+                interval: 10 * 1000,
+                backoff: true,
+                max: 300 * 1000
+            },
+            name: `@jupyterlab/services:KernelManager#models`,
+            standby: (_a = options.standby) !== null && _a !== void 0 ? _a : 'when-hidden'
+        });
+        // Initialize internal data.
+        this._ready = (async () => {
+            await this._pollModels.start();
+            await this._pollModels.tick;
+            this._isReady = true;
+        })();
+    }
+    /**
+     * Test whether the manager is ready.
+     */
+    get isReady() {
+        return this._isReady;
+    }
+    /**
+     * A promise that fulfills when the manager is ready.
+     */
+    get ready() {
+        return this._ready;
+    }
+    /**
+     * A signal emitted when the running kernels change.
+     */
+    get runningChanged() {
+        return this._runningChanged;
+    }
+    /**
+     * A signal emitted when there is a connection failure.
+     */
+    get connectionFailure() {
+        return this._connectionFailure;
+    }
+    /**
+     * Dispose of the resources used by the manager.
+     */
+    dispose() {
+        if (this.isDisposed) {
+            return;
+        }
+        this._models.clear();
+        this._kernelConnections.forEach(x => x.dispose());
+        this._pollModels.dispose();
+        super.dispose();
+    }
+    /**
+     * Connect to an existing kernel.
+     *
+     * @returns The new kernel connection.
+     *
+     * #### Notes
+     * This will use the manager's server settings and ignore any server
+     * settings passed in the options.
+     */
+    connectTo(options) {
+        var _a;
+        const { id } = options.model;
+        let handleComms = (_a = options.handleComms) !== null && _a !== void 0 ? _a : true;
+        // By default, handle comms only if no other kernel connection is.
+        if (options.handleComms === undefined) {
+            for (const kc of this._kernelConnections) {
+                if (kc.id === id && kc.handleComms) {
+                    handleComms = false;
+                    break;
+                }
+            }
+        }
+        const kernelConnection = new default_1.KernelConnection(Object.assign(Object.assign({ handleComms }, options), { serverSettings: this.serverSettings }));
+        this._onStarted(kernelConnection);
+        if (!this._models.has(id)) {
+            // We trust the user to connect to an existing kernel, but we verify
+            // asynchronously.
+            void this.refreshRunning().catch(() => {
+                /* no-op */
+            });
+        }
+        return kernelConnection;
+    }
+    /**
+     * Create an iterator over the most recent running kernels.
+     *
+     * @returns A new iterator over the running kernels.
+     */
+    running() {
+        return algorithm_1.iter([...this._models.values()]);
+    }
+    /**
+     * Force a refresh of the running kernels.
+     *
+     * @returns A promise that resolves when the running list has been refreshed.
+     *
+     * #### Notes
+     * This is not typically meant to be called by the user, since the
+     * manager maintains its own internal state.
+     */
+    async refreshRunning() {
+        await this._pollModels.refresh();
+        await this._pollModels.tick;
+    }
+    /**
+     * Start a new kernel.
+     *
+     * @param createOptions - The kernel creation options
+     *
+     * @param connectOptions - The kernel connection options
+     *
+     * @returns A promise that resolves with the kernel connection.
+     *
+     * #### Notes
+     * The manager `serverSettings` will be always be used.
+     */
+    async startNew(createOptions = {}, connectOptions = {}) {
+        const model = await restapi_1.startNew(createOptions, this.serverSettings);
+        return this.connectTo(Object.assign(Object.assign({}, connectOptions), { model }));
+    }
+    /**
+     * Shut down a kernel by id.
+     *
+     * @param id - The id of the target kernel.
+     *
+     * @returns A promise that resolves when the operation is complete.
+     */
+    async shutdown(id) {
+        await restapi_1.shutdownKernel(id, this.serverSettings);
+        await this.refreshRunning();
+    }
+    /**
+     * Shut down all kernels.
+     *
+     * @returns A promise that resolves when all of the kernels are shut down.
+     */
+    async shutdownAll() {
+        // Update the list of models to make sure our list is current.
+        await this.refreshRunning();
+        // Shut down all models.
+        await Promise.all([...this._models.keys()].map(id => restapi_1.shutdownKernel(id, this.serverSettings)));
+        // Update the list of models to clear out our state.
+        await this.refreshRunning();
+    }
+    /**
+     * Find a kernel by id.
+     *
+     * @param id - The id of the target kernel.
+     *
+     * @returns A promise that resolves with the kernel's model.
+     */
+    async findById(id) {
+        if (this._models.has(id)) {
+            return this._models.get(id);
+        }
+        await this.refreshRunning();
+        return this._models.get(id);
+    }
+    /**
+     * Execute a request to the server to poll running kernels and update state.
+     */
+    async requestRunning() {
+        var _a, _b;
+        let models;
+        try {
+            models = await restapi_1.listRunning(this.serverSettings);
+        }
+        catch (err) {
+            // Handle network errors, as well as cases where we are on a
+            // JupyterHub and the server is not running. JupyterHub returns a
+            // 503 (<2.0) or 424 (>2.0) in that case.
+            if (err instanceof __1.ServerConnection.NetworkError ||
+                ((_a = err.response) === null || _a === void 0 ? void 0 : _a.status) === 503 ||
+                ((_b = err.response) === null || _b === void 0 ? void 0 : _b.status) === 424) {
+                this._connectionFailure.emit(err);
+            }
+            throw err;
+        }
+        if (this.isDisposed) {
+            return;
+        }
+        if (this._models.size === models.length &&
+            algorithm_1.every(models, x => {
+                const existing = this._models.get(x.id);
+                if (!existing) {
+                    return false;
+                }
+                return existing.name === x.name;
+            })) {
+            // Identical models list (presuming models does not contain duplicate
+            // ids), so just return
+            return;
+        }
+        this._models = new Map(models.map(x => [x.id, x]));
+        // For any kernel connection to a kernel that doesn't exist, notify it of
+        // the shutdown.
+        this._kernelConnections.forEach(kc => {
+            if (!this._models.has(kc.id)) {
+                kc.handleShutdown();
+            }
+        });
+        this._runningChanged.emit(models);
+    }
+    /**
+     * Handle a kernel starting.
+     */
+    _onStarted(kernelConnection) {
+        this._kernelConnections.add(kernelConnection);
+        kernelConnection.statusChanged.connect(this._onStatusChanged, this);
+        kernelConnection.disposed.connect(this._onDisposed, this);
+    }
+    _onDisposed(kernelConnection) {
+        this._kernelConnections.delete(kernelConnection);
+        // A dispose emission could mean the server session is deleted, or that
+        // the kernel JS object is disposed and the kernel still exists on the
+        // server, so we refresh from the server to make sure we reflect the
+        // server state.
+        void this.refreshRunning().catch(() => {
+            /* no-op */
+        });
+    }
+    _onStatusChanged(kernelConnection, status) {
+        if (status === 'dead') {
+            // We asynchronously update our list of kernels, which asynchronously
+            // will dispose them. We do not want to immediately dispose them because
+            // there may be other signal handlers that want to be called.
+            void this.refreshRunning().catch(() => {
+                /* no-op */
+            });
+        }
+    }
+}
+exports.KernelManager = KernelManager;
+//# sourceMappingURL=manager.js.map
+
+/***/ }),
+
+/***/ 42202:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.isInputReplyMsg = exports.isInputRequestMsg = exports.isDebugReplyMsg = exports.isDebugRequestMsg = exports.isExecuteReplyMsg = exports.isInfoRequestMsg = exports.isCommMsgMsg = exports.isCommCloseMsg = exports.isCommOpenMsg = exports.isDebugEventMsg = exports.isClearOutputMsg = exports.isStatusMsg = exports.isErrorMsg = exports.isExecuteResultMsg = exports.isExecuteInputMsg = exports.isUpdateDisplayDataMsg = exports.isDisplayDataMsg = exports.isStreamMsg = exports.createMessage = void 0;
+const coreutils_1 = __webpack_require__(95082);
+function createMessage(options) {
+    var _a, _b, _c, _d, _e;
+    return {
+        buffers: (_a = options.buffers) !== null && _a !== void 0 ? _a : [],
+        channel: options.channel,
+        content: options.content,
+        header: {
+            date: new Date().toISOString(),
+            msg_id: (_b = options.msgId) !== null && _b !== void 0 ? _b : coreutils_1.UUID.uuid4(),
+            msg_type: options.msgType,
+            session: options.session,
+            username: (_c = options.username) !== null && _c !== void 0 ? _c : '',
+            version: '5.2'
+        },
+        metadata: (_d = options.metadata) !== null && _d !== void 0 ? _d : {},
+        parent_header: (_e = options.parentHeader) !== null && _e !== void 0 ? _e : {}
+    };
+}
+exports.createMessage = createMessage;
+/**
+ * Test whether a kernel message is a `'stream'` message.
+ */
+function isStreamMsg(msg) {
+    return msg.header.msg_type === 'stream';
+}
+exports.isStreamMsg = isStreamMsg;
+/**
+ * Test whether a kernel message is an `'display_data'` message.
+ */
+function isDisplayDataMsg(msg) {
+    return msg.header.msg_type === 'display_data';
+}
+exports.isDisplayDataMsg = isDisplayDataMsg;
+/**
+ * Test whether a kernel message is an `'update_display_data'` message.
+ */
+function isUpdateDisplayDataMsg(msg) {
+    return msg.header.msg_type === 'update_display_data';
+}
+exports.isUpdateDisplayDataMsg = isUpdateDisplayDataMsg;
+/**
+ * Test whether a kernel message is an `'execute_input'` message.
+ */
+function isExecuteInputMsg(msg) {
+    return msg.header.msg_type === 'execute_input';
+}
+exports.isExecuteInputMsg = isExecuteInputMsg;
+/**
+ * Test whether a kernel message is an `'execute_result'` message.
+ */
+function isExecuteResultMsg(msg) {
+    return msg.header.msg_type === 'execute_result';
+}
+exports.isExecuteResultMsg = isExecuteResultMsg;
+/**
+ * Test whether a kernel message is an `'error'` message.
+ */
+function isErrorMsg(msg) {
+    return msg.header.msg_type === 'error';
+}
+exports.isErrorMsg = isErrorMsg;
+/**
+ * Test whether a kernel message is a `'status'` message.
+ */
+function isStatusMsg(msg) {
+    return msg.header.msg_type === 'status';
+}
+exports.isStatusMsg = isStatusMsg;
+/**
+ * Test whether a kernel message is a `'clear_output'` message.
+ */
+function isClearOutputMsg(msg) {
+    return msg.header.msg_type === 'clear_output';
+}
+exports.isClearOutputMsg = isClearOutputMsg;
+/**
+ * Test whether a kernel message is an experimental `'debug_event'` message.
+ *
+ * @hidden
+ *
+ * #### Notes
+ * Debug messages are experimental messages that are not in the official
+ * kernel message specification. As such, this is *NOT* considered
+ * part of the public API, and may change without notice.
+ */
+function isDebugEventMsg(msg) {
+    return msg.header.msg_type === 'debug_event';
+}
+exports.isDebugEventMsg = isDebugEventMsg;
+/**
+ * Test whether a kernel message is a `'comm_open'` message.
+ */
+function isCommOpenMsg(msg) {
+    return msg.header.msg_type === 'comm_open';
+}
+exports.isCommOpenMsg = isCommOpenMsg;
+/**
+ * Test whether a kernel message is a `'comm_close'` message.
+ */
+function isCommCloseMsg(msg) {
+    return msg.header.msg_type === 'comm_close';
+}
+exports.isCommCloseMsg = isCommCloseMsg;
+/**
+ * Test whether a kernel message is a `'comm_msg'` message.
+ */
+function isCommMsgMsg(msg) {
+    return msg.header.msg_type === 'comm_msg';
+}
+exports.isCommMsgMsg = isCommMsgMsg;
+/**
+ * Test whether a kernel message is a `'kernel_info_request'` message.
+ */
+function isInfoRequestMsg(msg) {
+    return msg.header.msg_type === 'kernel_info_request';
+}
+exports.isInfoRequestMsg = isInfoRequestMsg;
+/**
+ * Test whether a kernel message is an `'execute_reply'` message.
+ */
+function isExecuteReplyMsg(msg) {
+    return msg.header.msg_type === 'execute_reply';
+}
+exports.isExecuteReplyMsg = isExecuteReplyMsg;
+/**
+ * Test whether a kernel message is an experimental `'debug_request'` message.
+ *
+ * @hidden
+ *
+ * #### Notes
+ * Debug messages are experimental messages that are not in the official
+ * kernel message specification. As such, this is *NOT* considered
+ * part of the public API, and may change without notice.
+ */
+function isDebugRequestMsg(msg) {
+    return msg.header.msg_type === 'debug_request';
+}
+exports.isDebugRequestMsg = isDebugRequestMsg;
+/**
+ * Test whether a kernel message is an experimental `'debug_reply'` message.
+ *
+ * @hidden
+ *
+ * #### Notes
+ * Debug messages are experimental messages that are not in the official
+ * kernel message specification. As such, this is *NOT* considered
+ * part of the public API, and may change without notice.
+ */
+function isDebugReplyMsg(msg) {
+    return msg.header.msg_type === 'debug_reply';
+}
+exports.isDebugReplyMsg = isDebugReplyMsg;
+/**
+ * Test whether a kernel message is an `'input_request'` message.
+ */
+function isInputRequestMsg(msg) {
+    return msg.header.msg_type === 'input_request';
+}
+exports.isInputRequestMsg = isInputRequestMsg;
+/**
+ * Test whether a kernel message is an `'input_reply'` message.
+ */
+function isInputReplyMsg(msg) {
+    return msg.header.msg_type === 'input_reply';
+}
+exports.isInputReplyMsg = isInputReplyMsg;
+//# sourceMappingURL=messages.js.map
+
+/***/ }),
+
+/***/ 91439:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.getKernelModel = exports.shutdownKernel = exports.interruptKernel = exports.restartKernel = exports.startNew = exports.listRunning = exports.KERNEL_SERVICE_URL = void 0;
+const serverconnection_1 = __webpack_require__(22030);
+const coreutils_1 = __webpack_require__(79622);
+const validate_1 = __webpack_require__(51816);
+/**
+ * The url for the kernel service.
+ */
+exports.KERNEL_SERVICE_URL = 'api/kernels';
+/**
+ * Fetch the running kernels.
+ *
+ * @param settings - The optional server settings.
+ *
+ * @returns A promise that resolves with the list of running kernels.
+ *
+ * #### Notes
+ * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/kernels) and validates the response model.
+ *
+ * The promise is fulfilled on a valid response and rejected otherwise.
+ */
+async function listRunning(settings = serverconnection_1.ServerConnection.makeSettings()) {
+    const url = coreutils_1.URLExt.join(settings.baseUrl, exports.KERNEL_SERVICE_URL);
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, {}, settings);
+    if (response.status !== 200) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+    const data = await response.json();
+    validate_1.validateModels(data);
+    return data;
+}
+exports.listRunning = listRunning;
+/**
+ * Start a new kernel.
+ *
+ * @param options - The options used to create the kernel.
+ *
+ * @returns A promise that resolves with a kernel connection object.
+ *
+ * #### Notes
+ * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/kernels) and validates the response model.
+ *
+ * The promise is fulfilled on a valid response and rejected otherwise.
+ */
+async function startNew(options = {}, settings = serverconnection_1.ServerConnection.makeSettings()) {
+    const url = coreutils_1.URLExt.join(settings.baseUrl, exports.KERNEL_SERVICE_URL);
+    const init = {
+        method: 'POST',
+        body: JSON.stringify(options)
+    };
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, init, settings);
+    if (response.status !== 201) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+    const data = await response.json();
+    validate_1.validateModel(data);
+    return data;
+}
+exports.startNew = startNew;
+/**
+ * Restart a kernel.
+ *
+ * #### Notes
+ * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/kernels) and validates the response model.
+ *
+ * The promise is fulfilled on a valid response (and thus after a restart) and rejected otherwise.
+ */
+async function restartKernel(id, settings = serverconnection_1.ServerConnection.makeSettings()) {
+    const url = coreutils_1.URLExt.join(settings.baseUrl, exports.KERNEL_SERVICE_URL, encodeURIComponent(id), 'restart');
+    const init = { method: 'POST' };
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, init, settings);
+    if (response.status !== 200) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+    const data = await response.json();
+    validate_1.validateModel(data);
+}
+exports.restartKernel = restartKernel;
+/**
+ * Interrupt a kernel.
+ *
+ * #### Notes
+ * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/kernels) and validates the response model.
+ *
+ * The promise is fulfilled on a valid response and rejected otherwise.
+ */
+async function interruptKernel(id, settings = serverconnection_1.ServerConnection.makeSettings()) {
+    const url = coreutils_1.URLExt.join(settings.baseUrl, exports.KERNEL_SERVICE_URL, encodeURIComponent(id), 'interrupt');
+    const init = { method: 'POST' };
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, init, settings);
+    if (response.status !== 204) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+}
+exports.interruptKernel = interruptKernel;
+/**
+ * Shut down a kernel.
+ *
+ * @param id - The id of the running kernel.
+ *
+ * @param settings - The server settings for the request.
+ *
+ * @returns A promise that resolves when the kernel is shut down.
+ *
+ *
+ * #### Notes
+ * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/kernels) and validates the response model.
+ *
+ * The promise is fulfilled on a valid response and rejected otherwise.
+ */
+async function shutdownKernel(id, settings = serverconnection_1.ServerConnection.makeSettings()) {
+    const url = coreutils_1.URLExt.join(settings.baseUrl, exports.KERNEL_SERVICE_URL, encodeURIComponent(id));
+    const init = { method: 'DELETE' };
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, init, settings);
+    if (response.status === 404) {
+        const msg = `The kernel "${id}" does not exist on the server`;
+        console.warn(msg);
+    }
+    else if (response.status !== 204) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+}
+exports.shutdownKernel = shutdownKernel;
+/**
+ * Get a full kernel model from the server by kernel id string.
+ *
+ * #### Notes
+ * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/kernels) and validates the response model.
+ *
+ * The promise is fulfilled on a valid response and rejected otherwise.
+ */
+async function getKernelModel(id, settings = serverconnection_1.ServerConnection.makeSettings()) {
+    const url = coreutils_1.URLExt.join(settings.baseUrl, exports.KERNEL_SERVICE_URL, encodeURIComponent(id));
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, {}, settings);
+    if (response.status === 404) {
+        return undefined;
+    }
+    else if (response.status !== 200) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+    const data = await response.json();
+    validate_1.validateModel(data);
+    return data;
+}
+exports.getKernelModel = getKernelModel;
+//# sourceMappingURL=restapi.js.map
+
+/***/ }),
+
+/***/ 16779:
+/***/ ((__unused_webpack_module, exports) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.serialize = exports.deserialize = void 0;
+/**
+ * Deserialize and return the unpacked message.
+ *
+ * #### Notes
+ * Handles JSON blob strings and binary messages.
+ */
+function deserialize(data) {
+    let value;
+    if (typeof data === 'string') {
+        value = JSON.parse(data);
+    }
+    else {
+        value = deserializeBinary(data);
+    }
+    return value;
+}
+exports.deserialize = deserialize;
+/**
+ * Serialize a kernel message for transport.
+ *
+ * #### Notes
+ * If there is binary content, an `ArrayBuffer` is returned,
+ * otherwise the message is converted to a JSON string.
+ */
+function serialize(msg) {
+    var _a;
+    let value;
+    if ((_a = msg.buffers) === null || _a === void 0 ? void 0 : _a.length) {
+        value = serializeBinary(msg);
+    }
+    else {
+        value = JSON.stringify(msg);
+    }
+    return value;
+}
+exports.serialize = serialize;
+/**
+ * Deserialize a binary message to a Kernel Message.
+ */
+function deserializeBinary(buf) {
+    const data = new DataView(buf);
+    // read the header: 1 + nbufs 32b integers
+    const nbufs = data.getUint32(0);
+    const offsets = [];
+    if (nbufs < 2) {
+        throw new Error('Invalid incoming Kernel Message');
+    }
+    for (let i = 1; i <= nbufs; i++) {
+        offsets.push(data.getUint32(i * 4));
+    }
+    const jsonBytes = new Uint8Array(buf.slice(offsets[0], offsets[1]));
+    const msg = JSON.parse(new TextDecoder('utf8').decode(jsonBytes));
+    // the remaining chunks are stored as DataViews in msg.buffers
+    msg.buffers = [];
+    for (let i = 1; i < nbufs; i++) {
+        const start = offsets[i];
+        const stop = offsets[i + 1] || buf.byteLength;
+        msg.buffers.push(new DataView(buf.slice(start, stop)));
+    }
+    return msg;
+}
+/**
+ * Implement the binary serialization protocol.
+ *
+ * Serialize Kernel message to ArrayBuffer.
+ */
+function serializeBinary(msg) {
+    const offsets = [];
+    const buffers = [];
+    const encoder = new TextEncoder();
+    let origBuffers = [];
+    if (msg.buffers !== undefined) {
+        origBuffers = msg.buffers;
+        delete msg['buffers'];
+    }
+    const jsonUtf8 = encoder.encode(JSON.stringify(msg));
+    buffers.push(jsonUtf8.buffer);
+    for (let i = 0; i < origBuffers.length; i++) {
+        // msg.buffers elements could be either views or ArrayBuffers
+        // buffers elements are ArrayBuffers
+        const b = origBuffers[i];
+        buffers.push(ArrayBuffer.isView(b) ? b.buffer : b);
+    }
+    const nbufs = buffers.length;
+    offsets.push(4 * (nbufs + 1));
+    for (let i = 0; i + 1 < buffers.length; i++) {
+        offsets.push(offsets[offsets.length - 1] + buffers[i].byteLength);
+    }
+    const msgBuf = new Uint8Array(offsets[offsets.length - 1] + buffers[buffers.length - 1].byteLength);
+    // use DataView.setUint32 for network byte-order
+    const view = new DataView(msgBuf.buffer);
+    // write nbufs to first 4 bytes
+    view.setUint32(0, nbufs);
+    // write offsets to next 4 * nbufs bytes
+    for (let i = 0; i < offsets.length; i++) {
+        view.setUint32(4 * (i + 1), offsets[i]);
+    }
+    // write all the buffers at their respective offsets
+    for (let i = 0; i < buffers.length; i++) {
+        msgBuf.set(new Uint8Array(buffers[i]), offsets[i]);
+    }
+    return msgBuf.buffer;
+}
+//# sourceMappingURL=serialize.js.map
+
+/***/ }),
+
+/***/ 51816:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.validateModels = exports.validateModel = exports.validateMessage = void 0;
+const validate_1 = __webpack_require__(77928);
+/**
+ * Required fields for `IKernelHeader`.
+ */
+const HEADER_FIELDS = ['username', 'version', 'session', 'msg_id', 'msg_type'];
+/**
+ * Required fields and types for contents of various types of `kernel.IMessage`
+ * messages on the iopub channel.
+ */
+const IOPUB_CONTENT_FIELDS = {
+    stream: { name: 'string', text: 'string' },
+    display_data: { data: 'object', metadata: 'object' },
+    execute_input: { code: 'string', execution_count: 'number' },
+    execute_result: {
+        execution_count: 'number',
+        data: 'object',
+        metadata: 'object'
+    },
+    error: { ename: 'string', evalue: 'string', traceback: 'object' },
+    status: {
+        execution_state: [
+            'string',
+            ['starting', 'idle', 'busy', 'restarting', 'dead']
+        ]
+    },
+    clear_output: { wait: 'boolean' },
+    comm_open: { comm_id: 'string', target_name: 'string', data: 'object' },
+    comm_msg: { comm_id: 'string', data: 'object' },
+    comm_close: { comm_id: 'string' },
+    shutdown_reply: { restart: 'boolean' } // Emitted by the IPython kernel.
+};
+/**
+ * Validate the header of a kernel message.
+ */
+function validateHeader(header) {
+    for (let i = 0; i < HEADER_FIELDS.length; i++) {
+        validate_1.validateProperty(header, HEADER_FIELDS[i], 'string');
+    }
+}
+/**
+ * Validate a kernel message object.
+ */
+function validateMessage(msg) {
+    validate_1.validateProperty(msg, 'metadata', 'object');
+    validate_1.validateProperty(msg, 'content', 'object');
+    validate_1.validateProperty(msg, 'channel', 'string');
+    validateHeader(msg.header);
+    if (msg.channel === 'iopub') {
+        validateIOPubContent(msg);
+    }
+}
+exports.validateMessage = validateMessage;
+/**
+ * Validate content an kernel message on the iopub channel.
+ */
+function validateIOPubContent(msg) {
+    if (msg.channel === 'iopub') {
+        const fields = IOPUB_CONTENT_FIELDS[msg.header.msg_type];
+        // Check for unknown message type.
+        if (fields === undefined) {
+            return;
+        }
+        const names = Object.keys(fields);
+        const content = msg.content;
+        for (let i = 0; i < names.length; i++) {
+            let args = fields[names[i]];
+            if (!Array.isArray(args)) {
+                args = [args];
+            }
+            validate_1.validateProperty(content, names[i], ...args);
+        }
+    }
+}
+/**
+ * Validate a `Kernel.IModel` object.
+ */
+function validateModel(model) {
+    validate_1.validateProperty(model, 'name', 'string');
+    validate_1.validateProperty(model, 'id', 'string');
+}
+exports.validateModel = validateModel;
+/**
+ * Validate an array of `IModel` objects.
+ */
+function validateModels(models) {
+    if (!Array.isArray(models)) {
+        throw new Error('Invalid kernel list');
+    }
+    models.forEach(d => validateModel(d));
+}
+exports.validateModels = validateModels;
+//# sourceMappingURL=validate.js.map
+
+/***/ }),
+
+/***/ 45266:
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __exportStar = (this && this.__exportStar) || function(m, exports) {
+    for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.KernelSpecAPI = exports.KernelSpec = void 0;
+const KernelSpec = __importStar(__webpack_require__(79574));
+exports.KernelSpec = KernelSpec;
+const KernelSpecAPI = __importStar(__webpack_require__(71352));
+exports.KernelSpecAPI = KernelSpecAPI;
+__exportStar(__webpack_require__(17898), exports);
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 79574:
+/***/ ((__unused_webpack_module, exports) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+//# sourceMappingURL=kernelspec.js.map
+
+/***/ }),
+
+/***/ 17898:
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.KernelSpecManager = void 0;
+const coreutils_1 = __webpack_require__(95082);
+const polling_1 = __webpack_require__(23114);
+const signaling_1 = __webpack_require__(4016);
+const restapi = __importStar(__webpack_require__(71352));
+const basemanager_1 = __webpack_require__(11019);
+/**
+ * An implementation of a kernel spec manager.
+ */
+class KernelSpecManager extends basemanager_1.BaseManager {
+    /**
+     * Construct a new kernel spec manager.
+     *
+     * @param options - The default options for kernel.
+     */
+    constructor(options = {}) {
+        var _a;
+        super(options);
+        this._isReady = false;
+        this._connectionFailure = new signaling_1.Signal(this);
+        this._specs = null;
+        this._specsChanged = new signaling_1.Signal(this);
+        // Initialize internal data.
+        this._ready = Promise.all([this.requestSpecs()])
+            .then(_ => undefined)
+            .catch(_ => undefined)
+            .then(() => {
+            if (this.isDisposed) {
+                return;
+            }
+            this._isReady = true;
+        });
+        this._pollSpecs = new polling_1.Poll({
+            auto: false,
+            factory: () => this.requestSpecs(),
+            frequency: {
+                interval: 61 * 1000,
+                backoff: true,
+                max: 300 * 1000
+            },
+            name: `@jupyterlab/services:KernelSpecManager#specs`,
+            standby: (_a = options.standby) !== null && _a !== void 0 ? _a : 'when-hidden'
+        });
+        void this.ready.then(() => {
+            void this._pollSpecs.start();
+        });
+    }
+    /**
+     * Test whether the manager is ready.
+     */
+    get isReady() {
+        return this._isReady;
+    }
+    /**
+     * A promise that fulfills when the manager is ready.
+     */
+    get ready() {
+        return this._ready;
+    }
+    /**
+     * Get the most recently fetched kernel specs.
+     */
+    get specs() {
+        return this._specs;
+    }
+    /**
+     * A signal emitted when the specs change.
+     */
+    get specsChanged() {
+        return this._specsChanged;
+    }
+    /**
+     * A signal emitted when there is a connection failure.
+     */
+    get connectionFailure() {
+        return this._connectionFailure;
+    }
+    /**
+     * Dispose of the resources used by the manager.
+     */
+    dispose() {
+        this._pollSpecs.dispose();
+        super.dispose();
+    }
+    /**
+     * Force a refresh of the specs from the server.
+     *
+     * @returns A promise that resolves when the specs are fetched.
+     *
+     * #### Notes
+     * This is intended to be called only in response to a user action,
+     * since the manager maintains its internal state.
+     */
+    async refreshSpecs() {
+        await this._pollSpecs.refresh();
+        await this._pollSpecs.tick;
+    }
+    /**
+     * Execute a request to the server to poll specs and update state.
+     */
+    async requestSpecs() {
+        const specs = await restapi.getSpecs(this.serverSettings);
+        if (this.isDisposed) {
+            return;
+        }
+        if (!coreutils_1.JSONExt.deepEqual(specs, this._specs)) {
+            this._specs = specs;
+            this._specsChanged.emit(specs);
+        }
+    }
+}
+exports.KernelSpecManager = KernelSpecManager;
+//# sourceMappingURL=manager.js.map
+
+/***/ }),
+
+/***/ 71352:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.getSpecs = void 0;
+const serverconnection_1 = __webpack_require__(22030);
+const validate_1 = __webpack_require__(338);
+const coreutils_1 = __webpack_require__(79622);
+/**
+ * The url for the kernelspec service.
+ */
+const KERNELSPEC_SERVICE_URL = 'api/kernelspecs';
+/**
+ * Fetch all of the kernel specs.
+ *
+ * @param settings - The optional server settings.
+ * @param useCache - Whether to use the cache. If false, always request.
+ *
+ * @returns A promise that resolves with the kernel specs.
+ *
+ * #### Notes
+ * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/kernelspecs).
+ */
+async function getSpecs(settings = serverconnection_1.ServerConnection.makeSettings()) {
+    const url = coreutils_1.URLExt.join(settings.baseUrl, KERNELSPEC_SERVICE_URL);
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, {}, settings);
+    if (response.status !== 200) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+    const data = await response.json();
+    return validate_1.validateSpecModels(data);
+}
+exports.getSpecs = getSpecs;
+//# sourceMappingURL=restapi.js.map
+
+/***/ }),
+
+/***/ 338:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.validateSpecModels = exports.validateSpecModel = void 0;
+const validate_1 = __webpack_require__(77928);
+/**
+ * Validate a server kernelspec model to a client side model.
+ */
+function validateSpecModel(data) {
+    const spec = data.spec;
+    if (!spec) {
+        throw new Error('Invalid kernel spec');
+    }
+    validate_1.validateProperty(data, 'name', 'string');
+    validate_1.validateProperty(data, 'resources', 'object');
+    validate_1.validateProperty(spec, 'language', 'string');
+    validate_1.validateProperty(spec, 'display_name', 'string');
+    validate_1.validateProperty(spec, 'argv', 'array');
+    let metadata = null;
+    if (spec.hasOwnProperty('metadata')) {
+        validate_1.validateProperty(spec, 'metadata', 'object');
+        metadata = spec.metadata;
+    }
+    let env = null;
+    if (spec.hasOwnProperty('env')) {
+        validate_1.validateProperty(spec, 'env', 'object');
+        env = spec.env;
+    }
+    return {
+        name: data.name,
+        resources: data.resources,
+        language: spec.language,
+        display_name: spec.display_name,
+        argv: spec.argv,
+        metadata,
+        env
+    };
+}
+exports.validateSpecModel = validateSpecModel;
+/**
+ * Validate a `Kernel.ISpecModels` object.
+ */
+function validateSpecModels(data) {
+    if (!data.hasOwnProperty('kernelspecs')) {
+        throw new Error('No kernelspecs found');
+    }
+    let keys = Object.keys(data.kernelspecs);
+    const kernelspecs = Object.create(null);
+    let defaultSpec = data.default;
+    for (let i = 0; i < keys.length; i++) {
+        const ks = data.kernelspecs[keys[i]];
+        try {
+            kernelspecs[keys[i]] = validateSpecModel(ks);
+        }
+        catch (err) {
+            // Remove the errant kernel spec.
+            console.warn(`Removing errant kernel spec: ${keys[i]}`);
+        }
+    }
+    keys = Object.keys(kernelspecs);
+    if (!keys.length) {
+        throw new Error('No valid kernelspecs found');
+    }
+    if (!defaultSpec ||
+        typeof defaultSpec !== 'string' ||
+        !(defaultSpec in kernelspecs)) {
+        defaultSpec = keys[0];
+        console.warn(`Default kernel not found, using '${keys[0]}'`);
+    }
+    return {
+        default: defaultSpec,
+        kernelspecs
+    };
+}
+exports.validateSpecModels = validateSpecModels;
+//# sourceMappingURL=validate.js.map
+
+/***/ }),
+
+/***/ 14783:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.ServiceManager = void 0;
+const signaling_1 = __webpack_require__(4016);
+const builder_1 = __webpack_require__(68216);
+const nbconvert_1 = __webpack_require__(70443);
+const contents_1 = __webpack_require__(67001);
+const kernelspec_1 = __webpack_require__(45266);
+const session_1 = __webpack_require__(35329);
+const setting_1 = __webpack_require__(65678);
+const terminal_1 = __webpack_require__(49757);
+const serverconnection_1 = __webpack_require__(22030);
+const workspace_1 = __webpack_require__(76638);
+const kernel_1 = __webpack_require__(16627);
+/**
+ * A Jupyter services manager.
+ */
+class ServiceManager {
+    /**
+     * Construct a new services provider.
+     */
+    constructor(options = {}) {
+        var _a, _b;
+        this._isDisposed = false;
+        this._connectionFailure = new signaling_1.Signal(this);
+        this._isReady = false;
+        const defaultDrive = options.defaultDrive;
+        const serverSettings = (_a = options.serverSettings) !== null && _a !== void 0 ? _a : serverconnection_1.ServerConnection.makeSettings();
+        const standby = (_b = options.standby) !== null && _b !== void 0 ? _b : 'when-hidden';
+        const normalized = { defaultDrive, serverSettings, standby };
+        const kernelManager = new kernel_1.KernelManager(normalized);
+        this.serverSettings = serverSettings;
+        this.contents = new contents_1.ContentsManager(normalized);
+        this.sessions = new session_1.SessionManager(Object.assign(Object.assign({}, normalized), { kernelManager: kernelManager }));
+        this.settings = new setting_1.SettingManager(normalized);
+        this.terminals = new terminal_1.TerminalManager(normalized);
+        this.builder = new builder_1.BuildManager(normalized);
+        this.workspaces = new workspace_1.WorkspaceManager(normalized);
+        this.nbconvert = new nbconvert_1.NbConvertManager(normalized);
+        this.kernelspecs = new kernelspec_1.KernelSpecManager(normalized);
+        // Relay connection failures from the service managers that poll
+        // the server for current information.
+        this.kernelspecs.connectionFailure.connect(this._onConnectionFailure, this);
+        this.sessions.connectionFailure.connect(this._onConnectionFailure, this);
+        this.terminals.connectionFailure.connect(this._onConnectionFailure, this);
+        const readyList = [this.sessions.ready, this.kernelspecs.ready];
+        if (this.terminals.isAvailable()) {
+            readyList.push(this.terminals.ready);
+        }
+        this._readyPromise = Promise.all(readyList).then(() => {
+            this._isReady = true;
+        });
+    }
+    /**
+     * A signal emitted when there is a connection failure with the kernel.
+     */
+    get connectionFailure() {
+        return this._connectionFailure;
+    }
+    /**
+     * Test whether the service manager is disposed.
+     */
+    get isDisposed() {
+        return this._isDisposed;
+    }
+    /**
+     * Dispose of the resources used by the manager.
+     */
+    dispose() {
+        if (this.isDisposed) {
+            return;
+        }
+        this._isDisposed = true;
+        signaling_1.Signal.clearData(this);
+        this.contents.dispose();
+        this.sessions.dispose();
+        this.terminals.dispose();
+    }
+    /**
+     * Test whether the manager is ready.
+     */
+    get isReady() {
+        return this._isReady;
+    }
+    /**
+     * A promise that fulfills when the manager is ready.
+     */
+    get ready() {
+        return this._readyPromise;
+    }
+    _onConnectionFailure(sender, err) {
+        this._connectionFailure.emit(err);
+    }
+}
+exports.ServiceManager = ServiceManager;
+//# sourceMappingURL=manager.js.map
+
+/***/ }),
+
+/***/ 70443:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.NbConvertManager = void 0;
+const coreutils_1 = __webpack_require__(79622);
+const serverconnection_1 = __webpack_require__(22030);
+/**
+ * The url for the lab nbconvert service.
+ */
+const NBCONVERT_SETTINGS_URL = 'api/nbconvert';
+/**
+ * The nbconvert API service manager.
+ */
+class NbConvertManager {
+    /**
+     * Create a new nbconvert manager.
+     */
+    constructor(options = {}) {
+        var _a;
+        this.serverSettings = (_a = options.serverSettings) !== null && _a !== void 0 ? _a : serverconnection_1.ServerConnection.makeSettings();
+    }
+    /**
+     * Get whether the application should be built.
+     */
+    async getExportFormats() {
+        const base = this.serverSettings.baseUrl;
+        const url = coreutils_1.URLExt.join(base, NBCONVERT_SETTINGS_URL);
+        const { serverSettings } = this;
+        const response = await serverconnection_1.ServerConnection.makeRequest(url, {}, serverSettings);
+        if (response.status !== 200) {
+            const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+            throw err;
+        }
+        const data = await response.json();
+        const exportList = {};
+        const keys = Object.keys(data);
+        keys.forEach(function (key) {
+            const mimeType = data[key].output_mimetype;
+            exportList[key] = { output_mimetype: mimeType };
+        });
+        return exportList;
+    }
+}
+exports.NbConvertManager = NbConvertManager;
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 22030:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+/* provided dependency */ var process = __webpack_require__(34155);
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+var _a, _b, _c;
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.ServerConnection = void 0;
+const coreutils_1 = __webpack_require__(79622);
+let FETCH;
+let HEADERS;
+let REQUEST;
+let WEBSOCKET;
+if (typeof window === 'undefined') {
+    // Mangle the require statements so it does not get picked up in the
+    // browser assets.
+    /* tslint:disable */
+    const fetchMod = __webpack_require__(31543);
+    FETCH = (_a = __webpack_require__.g.fetch) !== null && _a !== void 0 ? _a : fetchMod;
+    REQUEST = (_b = __webpack_require__.g.Request) !== null && _b !== void 0 ? _b : fetchMod.Request;
+    HEADERS = (_c = __webpack_require__.g.Headers) !== null && _c !== void 0 ? _c : fetchMod.Headers;
+    WEBSOCKET = __webpack_require__(63635);
+    /* tslint:enable */
+}
+else {
+    FETCH = fetch;
+    REQUEST = Request;
+    HEADERS = Headers;
+    WEBSOCKET = WebSocket;
+}
+/**
+ * The namespace for ServerConnection functions.
+ *
+ * #### Notes
+ * This is only intended to manage communication with the Jupyter server.
+ *
+ * The default values can be used in a JupyterLab or Jupyter Notebook context.
+ *
+ * We use `token` authentication if available, falling back on an XSRF
+ * cookie if one has been provided on the `document`.
+ *
+ * A content type of `'application/json'` is added when using authentication
+ * and there is no body data to allow the server to prevent malicious forms.
+ */
+var ServerConnection;
+(function (ServerConnection) {
+    /**
+     * Create a settings object given a subset of options.
+     *
+     * @param options - An optional partial set of options.
+     *
+     * @returns The full settings object.
+     */
+    function makeSettings(options) {
+        return Private.makeSettings(options);
+    }
+    ServerConnection.makeSettings = makeSettings;
+    /**
+     * Make an request to the notebook server.
+     *
+     * @param url - The url for the request.
+     *
+     * @param init - The initialization options for the request.
+     *
+     * @param settings - The server settings to apply to the request.
+     *
+     * @returns a Promise that resolves with the response.
+     *
+     * @throws If the url of the request is not a notebook server url.
+     *
+     * #### Notes
+     * The `url` must start with `settings.baseUrl`.  The `init` settings are
+     * merged with `settings.init`, with `init` taking precedence.
+     * The headers in the two objects are not merged.
+     * If there is no body data, we set the content type to `application/json`
+     * because it is required by the Notebook server.
+     */
+    function makeRequest(url, init, settings) {
+        return Private.handleRequest(url, init, settings);
+    }
+    ServerConnection.makeRequest = makeRequest;
+    /**
+     * A wrapped error for a fetch response.
+     */
+    class ResponseError extends Error {
+        /**
+         * Create a new response error.
+         */
+        constructor(response, message = `Invalid response: ${response.status} ${response.statusText}`, traceback = '') {
+            super(message);
+            this.response = response;
+            this.traceback = traceback;
+        }
+        /**
+         * Create a ResponseError from a response, handling the traceback and message
+         * as appropriate.
+         *
+         * @param response The response object.
+         *
+         * @returns A promise that resolves with a `ResponseError` object.
+         */
+        static async create(response) {
+            try {
+                const data = await response.json();
+                if (data['traceback']) {
+                    console.error(data['traceback']);
+                }
+                if (data['message']) {
+                    return new ResponseError(response, data['message']);
+                }
+                return new ResponseError(response);
+            }
+            catch (e) {
+                console.debug(e);
+                return new ResponseError(response);
+            }
+        }
+    }
+    ServerConnection.ResponseError = ResponseError;
+    /**
+     * A wrapped error for a network error.
+     */
+    class NetworkError extends TypeError {
+        /**
+         * Create a new network error.
+         */
+        constructor(original) {
+            super(original.message);
+            this.stack = original.stack;
+        }
+    }
+    ServerConnection.NetworkError = NetworkError;
+})(ServerConnection = exports.ServerConnection || (exports.ServerConnection = {}));
+/**
+ * The namespace for module private data.
+ */
+var Private;
+(function (Private) {
+    /**
+     * Handle the server connection settings, returning a new value.
+     */
+    function makeSettings(options = {}) {
+        var _a;
+        const pageBaseUrl = coreutils_1.PageConfig.getBaseUrl();
+        const pageWsUrl = coreutils_1.PageConfig.getWsUrl();
+        const baseUrl = coreutils_1.URLExt.normalize(options.baseUrl) || pageBaseUrl;
+        let wsUrl = options.wsUrl;
+        // Prefer the default wsUrl if we are using the default baseUrl.
+        if (!wsUrl && baseUrl === pageBaseUrl) {
+            wsUrl = pageWsUrl;
+        }
+        // Otherwise convert the baseUrl to a wsUrl if possible.
+        if (!wsUrl && baseUrl.indexOf('http') === 0) {
+            wsUrl = 'ws' + baseUrl.slice(4);
+        }
+        // Otherwise fall back on the default wsUrl.
+        wsUrl = wsUrl !== null && wsUrl !== void 0 ? wsUrl : pageWsUrl;
+        return Object.assign(Object.assign({ init: { cache: 'no-store', credentials: 'same-origin' }, fetch: FETCH, Headers: HEADERS, Request: REQUEST, WebSocket: WEBSOCKET, token: coreutils_1.PageConfig.getToken(), appUrl: coreutils_1.PageConfig.getOption('appUrl'), appendToken: typeof window === 'undefined' ||
+                (typeof process !== 'undefined' &&
+                    ((_a = process === null || process === void 0 ? void 0 : {}) === null || _a === void 0 ? void 0 : _a.JEST_WORKER_ID) !== undefined) ||
+                coreutils_1.URLExt.getHostName(pageBaseUrl) !== coreutils_1.URLExt.getHostName(wsUrl) }, options), { baseUrl,
+            wsUrl });
+    }
+    Private.makeSettings = makeSettings;
+    /**
+     * Handle a request.
+     *
+     * @param url - The url for the request.
+     *
+     * @param init - The overrides for the request init.
+     *
+     * @param settings - The settings object for the request.
+     *
+     * #### Notes
+     * The `url` must start with `settings.baseUrl`.  The `init` settings
+     * take precedence over `settings.init`.
+     */
+    function handleRequest(url, init, settings) {
+        var _a;
+        // Handle notebook server requests.
+        if (url.indexOf(settings.baseUrl) !== 0) {
+            throw new Error('Can only be used for notebook server requests');
+        }
+        // Use explicit cache buster when `no-store` is set since
+        // not all browsers use it properly.
+        const cache = (_a = init.cache) !== null && _a !== void 0 ? _a : settings.init.cache;
+        if (cache === 'no-store') {
+            // https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/Using_XMLHttpRequest#Bypassing_the_cache
+            url += (/\?/.test(url) ? '&' : '?') + new Date().getTime();
+        }
+        const request = new settings.Request(url, Object.assign(Object.assign({}, settings.init), init));
+        // Handle authentication. Authentication can be overdetermined by
+        // settings token and XSRF token.
+        let authenticated = false;
+        if (settings.token) {
+            authenticated = true;
+            request.headers.append('Authorization', `token ${settings.token}`);
+        }
+        if (typeof document !== 'undefined' && (document === null || document === void 0 ? void 0 : document.cookie)) {
+            const xsrfToken = getCookie('_xsrf');
+            if (xsrfToken !== undefined) {
+                authenticated = true;
+                request.headers.append('X-XSRFToken', xsrfToken);
+            }
+        }
+        // Set the content type if there is no given data and we are
+        // using an authenticated connection.
+        if (!request.headers.has('Content-Type') && authenticated) {
+            request.headers.set('Content-Type', 'application/json');
+        }
+        // Use `call` to avoid a `TypeError` in the browser.
+        return settings.fetch.call(null, request).catch((e) => {
+            // Convert the TypeError into a more specific error.
+            throw new ServerConnection.NetworkError(e);
+        });
+        // TODO: *this* is probably where we need a system-wide connectionFailure
+        // signal we can hook into.
+    }
+    Private.handleRequest = handleRequest;
+    /**
+     * Get a cookie from the document.
+     */
+    function getCookie(name) {
+        // From http://www.tornadoweb.org/en/stable/guide/security.html
+        const matches = document.cookie.match('\\b' + name + '=([^;]*)\\b');
+        return matches === null || matches === void 0 ? void 0 : matches[1];
+    }
+})(Private || (Private = {}));
+//# sourceMappingURL=serverconnection.js.map
+
+/***/ }),
+
+/***/ 3876:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.SessionConnection = void 0;
+const signaling_1 = __webpack_require__(4016);
+const __1 = __webpack_require__(34669);
+const restapi_1 = __webpack_require__(8759);
+const coreutils_1 = __webpack_require__(95082);
+/**
+ * Session object for accessing the session REST api. The session
+ * should be used to start kernels and then shut them down -- for
+ * all other kernel operations, the kernel object should be used.
+ */
+class SessionConnection {
+    /**
+     * Construct a new session.
+     */
+    constructor(options) {
+        var _a, _b, _c, _d;
+        this._id = '';
+        this._path = '';
+        this._name = '';
+        this._type = '';
+        this._kernel = null;
+        this._isDisposed = false;
+        this._disposed = new signaling_1.Signal(this);
+        this._kernelChanged = new signaling_1.Signal(this);
+        this._statusChanged = new signaling_1.Signal(this);
+        this._connectionStatusChanged = new signaling_1.Signal(this);
+        this._pendingInput = new signaling_1.Signal(this);
+        this._iopubMessage = new signaling_1.Signal(this);
+        this._unhandledMessage = new signaling_1.Signal(this);
+        this._anyMessage = new signaling_1.Signal(this);
+        this._propertyChanged = new signaling_1.Signal(this);
+        this._id = options.model.id;
+        this._name = options.model.name;
+        this._path = options.model.path;
+        this._type = options.model.type;
+        this._username = (_a = options.username) !== null && _a !== void 0 ? _a : '';
+        this._clientId = (_b = options.clientId) !== null && _b !== void 0 ? _b : coreutils_1.UUID.uuid4();
+        this._connectToKernel = options.connectToKernel;
+        this._kernelConnectionOptions = (_c = options.kernelConnectionOptions) !== null && _c !== void 0 ? _c : {};
+        this.serverSettings = (_d = options.serverSettings) !== null && _d !== void 0 ? _d : __1.ServerConnection.makeSettings();
+        this.setupKernel(options.model.kernel);
+    }
+    /**
+     * A signal emitted when the session is disposed.
+     */
+    get disposed() {
+        return this._disposed;
+    }
+    /**
+     * A signal emitted when the kernel changes.
+     */
+    get kernelChanged() {
+        return this._kernelChanged;
+    }
+    /**
+     * A signal proxied from the connection about the kernel status.
+     */
+    get statusChanged() {
+        return this._statusChanged;
+    }
+    /**
+     * A signal proxied from the kernel about the connection status.
+     */
+    get connectionStatusChanged() {
+        return this._connectionStatusChanged;
+    }
+    /**
+     * A signal proxied from the kernel pending input.
+     */
+    get pendingInput() {
+        return this._pendingInput;
+    }
+    /**
+     * A signal proxied from the kernel about iopub kernel messages.
+     */
+    get iopubMessage() {
+        return this._iopubMessage;
+    }
+    /**
+     * A signal proxied from the kernel for an unhandled kernel message.
+     */
+    get unhandledMessage() {
+        return this._unhandledMessage;
+    }
+    /**
+     * A signal proxied from the kernel emitted for any kernel message.
+     *
+     * #### Notes
+     * The behavior is undefined if the message is modified during message
+     * handling. As such, it should be treated as read-only.
+     */
+    get anyMessage() {
+        return this._anyMessage;
+    }
+    /**
+     * A signal emitted when a session property changes.
+     */
+    get propertyChanged() {
+        return this._propertyChanged;
+    }
+    /**
+     * Get the session id.
+     */
+    get id() {
+        return this._id;
+    }
+    /**
+     * Get the session kernel connection object.
+     *
+     * #### Notes
+     * This is a read-only property, and can be altered by [changeKernel].
+     */
+    get kernel() {
+        return this._kernel;
+    }
+    /**
+     * Get the session path.
+     */
+    get path() {
+        return this._path;
+    }
+    /**
+     * Get the session type.
+     */
+    get type() {
+        return this._type;
+    }
+    /**
+     * Get the session name.
+     */
+    get name() {
+        return this._name;
+    }
+    /**
+     * Get the model associated with the session.
+     */
+    get model() {
+        return {
+            id: this.id,
+            kernel: this.kernel && { id: this.kernel.id, name: this.kernel.name },
+            path: this._path,
+            type: this._type,
+            name: this._name
+        };
+    }
+    /**
+     * Test whether the session has been disposed.
+     */
+    get isDisposed() {
+        return this._isDisposed;
+    }
+    /**
+     * Update the session based on a session model from the server.
+     *
+     * #### Notes
+     * This only updates this session connection instance. Use `setPath`,
+     * `setName`, `setType`, and `changeKernel` to change the session values on
+     * the server.
+     */
+    update(model) {
+        const oldModel = this.model;
+        this._path = model.path;
+        this._name = model.name;
+        this._type = model.type;
+        if ((this._kernel === null && model.kernel !== null) ||
+            (this._kernel !== null && model.kernel === null) ||
+            (this._kernel !== null &&
+                model.kernel !== null &&
+                this._kernel.id !== model.kernel.id)) {
+            if (this._kernel !== null) {
+                this._kernel.dispose();
+            }
+            const oldValue = this._kernel || null;
+            this.setupKernel(model.kernel);
+            const newValue = this._kernel || null;
+            this._kernelChanged.emit({ name: 'kernel', oldValue, newValue });
+        }
+        this._handleModelChange(oldModel);
+    }
+    /**
+     * Dispose of the resources held by the session.
+     */
+    dispose() {
+        if (this.isDisposed) {
+            return;
+        }
+        this._isDisposed = true;
+        this._disposed.emit();
+        if (this._kernel) {
+            this._kernel.dispose();
+            const oldValue = this._kernel;
+            this._kernel = null;
+            const newValue = this._kernel;
+            this._kernelChanged.emit({ name: 'kernel', oldValue, newValue });
+        }
+        signaling_1.Signal.clearData(this);
+    }
+    /**
+     * Change the session path.
+     *
+     * @param path - The new session path.
+     *
+     * @returns A promise that resolves when the session has renamed.
+     *
+     * #### Notes
+     * This uses the Jupyter REST API, and the response is validated.
+     * The promise is fulfilled on a valid response and rejected otherwise.
+     */
+    async setPath(path) {
+        if (this.isDisposed) {
+            throw new Error('Session is disposed');
+        }
+        await this._patch({ path });
+    }
+    /**
+     * Change the session name.
+     */
+    async setName(name) {
+        if (this.isDisposed) {
+            throw new Error('Session is disposed');
+        }
+        await this._patch({ name });
+    }
+    /**
+     * Change the session type.
+     */
+    async setType(type) {
+        if (this.isDisposed) {
+            throw new Error('Session is disposed');
+        }
+        await this._patch({ type });
+    }
+    /**
+     * Change the kernel.
+     *
+     * @params options - The name or id of the new kernel.
+     *
+     * #### Notes
+     * This shuts down the existing kernel and creates a new kernel,
+     * keeping the existing session ID and session path.
+     */
+    async changeKernel(options) {
+        if (this.isDisposed) {
+            throw new Error('Session is disposed');
+        }
+        await this._patch({ kernel: options });
+        return this.kernel;
+    }
+    /**
+     * Kill the kernel and shutdown the session.
+     *
+     * @returns - The promise fulfilled on a valid response from the server.
+     *
+     * #### Notes
+     * Uses the [Jupyter Notebook API](http://petstore.swagger.io/?url=https://raw.githubusercontent.com/jupyter/notebook/master/notebook/services/api/api.yaml#!/sessions), and validates the response.
+     * Disposes of the session and emits a [sessionDied] signal on success.
+     */
+    async shutdown() {
+        if (this.isDisposed) {
+            throw new Error('Session is disposed');
+        }
+        await restapi_1.shutdownSession(this.id, this.serverSettings);
+        this.dispose();
+    }
+    /**
+     * Create a new kernel connection and connect to its signals.
+     *
+     * #### Notes
+     * This method is not meant to be subclassed.
+     */
+    setupKernel(model) {
+        if (model === null) {
+            this._kernel = null;
+            return;
+        }
+        const kc = this._connectToKernel(Object.assign(Object.assign({}, this._kernelConnectionOptions), { model, username: this._username, clientId: this._clientId, serverSettings: this.serverSettings }));
+        this._kernel = kc;
+        kc.statusChanged.connect(this.onKernelStatus, this);
+        kc.connectionStatusChanged.connect(this.onKernelConnectionStatus, this);
+        kc.pendingInput.connect(this.onPendingInput, this);
+        kc.unhandledMessage.connect(this.onUnhandledMessage, this);
+        kc.iopubMessage.connect(this.onIOPubMessage, this);
+        kc.anyMessage.connect(this.onAnyMessage, this);
+    }
+    /**
+     * Handle to changes in the Kernel status.
+     */
+    onKernelStatus(sender, state) {
+        this._statusChanged.emit(state);
+    }
+    /**
+     * Handle to changes in the Kernel status.
+     */
+    onKernelConnectionStatus(sender, state) {
+        this._connectionStatusChanged.emit(state);
+    }
+    /**
+     * Handle a change in the pendingInput.
+     */
+    onPendingInput(sender, state) {
+        this._pendingInput.emit(state);
+    }
+    /**
+     * Handle iopub kernel messages.
+     */
+    onIOPubMessage(sender, msg) {
+        this._iopubMessage.emit(msg);
+    }
+    /**
+     * Handle unhandled kernel messages.
+     */
+    onUnhandledMessage(sender, msg) {
+        this._unhandledMessage.emit(msg);
+    }
+    /**
+     * Handle any kernel messages.
+     */
+    onAnyMessage(sender, args) {
+        this._anyMessage.emit(args);
+    }
+    /**
+     * Send a PATCH to the server, updating the session path or the kernel.
+     */
+    async _patch(body) {
+        const model = await restapi_1.updateSession(Object.assign(Object.assign({}, body), { id: this._id }), this.serverSettings);
+        this.update(model);
+        return model;
+    }
+    /**
+     * Handle a change to the model.
+     */
+    _handleModelChange(oldModel) {
+        if (oldModel.name !== this._name) {
+            this._propertyChanged.emit('name');
+        }
+        if (oldModel.type !== this._type) {
+            this._propertyChanged.emit('type');
+        }
+        if (oldModel.path !== this._path) {
+            this._propertyChanged.emit('path');
+        }
+    }
+}
+exports.SessionConnection = SessionConnection;
+//# sourceMappingURL=default.js.map
+
+/***/ }),
+
+/***/ 35329:
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __exportStar = (this && this.__exportStar) || function(m, exports) {
+    for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.SessionAPI = exports.Session = void 0;
+const Session = __importStar(__webpack_require__(54814));
+exports.Session = Session;
+const SessionAPI = __importStar(__webpack_require__(8759));
+exports.SessionAPI = SessionAPI;
+__exportStar(__webpack_require__(6344), exports);
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 6344:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.SessionManager = void 0;
+const algorithm_1 = __webpack_require__(35259);
+const polling_1 = __webpack_require__(23114);
+const signaling_1 = __webpack_require__(4016);
+const serverconnection_1 = __webpack_require__(22030);
+const basemanager_1 = __webpack_require__(11019);
+const default_1 = __webpack_require__(3876);
+const restapi_1 = __webpack_require__(8759);
+/**
+ * An implementation of a session manager.
+ */
+class SessionManager extends basemanager_1.BaseManager {
+    /**
+     * Construct a new session manager.
+     *
+     * @param options - The default options for each session.
+     */
+    constructor(options) {
+        var _a;
+        super(options);
+        this._isReady = false;
+        this._sessionConnections = new Set();
+        this._models = new Map();
+        this._runningChanged = new signaling_1.Signal(this);
+        this._connectionFailure = new signaling_1.Signal(this);
+        // We define these here so they bind `this` correctly
+        this._connectToKernel = (options) => {
+            return this._kernelManager.connectTo(options);
+        };
+        this._kernelManager = options.kernelManager;
+        // Start model polling with exponential backoff.
+        this._pollModels = new polling_1.Poll({
+            auto: false,
+            factory: () => this.requestRunning(),
+            frequency: {
+                interval: 10 * 1000,
+                backoff: true,
+                max: 300 * 1000
+            },
+            name: `@jupyterlab/services:SessionManager#models`,
+            standby: (_a = options.standby) !== null && _a !== void 0 ? _a : 'when-hidden'
+        });
+        // Initialize internal data.
+        this._ready = (async () => {
+            await this._pollModels.start();
+            await this._pollModels.tick;
+            await this._kernelManager.ready;
+            this._isReady = true;
+        })();
+    }
+    /**
+     * Test whether the manager is ready.
+     */
+    get isReady() {
+        return this._isReady;
+    }
+    /**
+     * A promise that fulfills when the manager is ready.
+     */
+    get ready() {
+        return this._ready;
+    }
+    /**
+     * A signal emitted when the running sessions change.
+     */
+    get runningChanged() {
+        return this._runningChanged;
+    }
+    /**
+     * A signal emitted when there is a connection failure.
+     */
+    get connectionFailure() {
+        return this._connectionFailure;
+    }
+    /**
+     * Dispose of the resources used by the manager.
+     */
+    dispose() {
+        if (this.isDisposed) {
+            return;
+        }
+        this._models.clear();
+        this._sessionConnections.forEach(x => x.dispose());
+        this._pollModels.dispose();
+        super.dispose();
+    }
+    /*
+     * Connect to a running session.  See also [[connectToSession]].
+     */
+    connectTo(options) {
+        const sessionConnection = new default_1.SessionConnection(Object.assign(Object.assign({}, options), { connectToKernel: this._connectToKernel, serverSettings: this.serverSettings }));
+        this._onStarted(sessionConnection);
+        if (!this._models.has(options.model.id)) {
+            // We trust the user to connect to an existing session, but we verify
+            // asynchronously.
+            void this.refreshRunning().catch(() => {
+                /* no-op */
+            });
+        }
+        return sessionConnection;
+    }
+    /**
+     * Create an iterator over the most recent running sessions.
+     *
+     * @returns A new iterator over the running sessions.
+     */
+    running() {
+        return algorithm_1.iter([...this._models.values()]);
+    }
+    /**
+     * Force a refresh of the running sessions.
+     *
+     * @returns A promise that with the list of running sessions.
+     *
+     * #### Notes
+     * This is not typically meant to be called by the user, since the
+     * manager maintains its own internal state.
+     */
+    async refreshRunning() {
+        await this._pollModels.refresh();
+        await this._pollModels.tick;
+    }
+    /**
+     * Start a new session.  See also [[startNewSession]].
+     *
+     * @param createOptions - Options for creating the session
+     *
+     * @param connectOptions - Options for connecting to the session
+     */
+    async startNew(createOptions, connectOptions = {}) {
+        const model = await restapi_1.startSession(createOptions, this.serverSettings);
+        await this.refreshRunning();
+        return this.connectTo(Object.assign(Object.assign({}, connectOptions), { model }));
+    }
+    /**
+     * Shut down a session by id.
+     */
+    async shutdown(id) {
+        await restapi_1.shutdownSession(id, this.serverSettings);
+        await this.refreshRunning();
+    }
+    /**
+     * Shut down all sessions.
+     *
+     * @returns A promise that resolves when all of the kernels are shut down.
+     */
+    async shutdownAll() {
+        // Update the list of models to make sure our list is current.
+        await this.refreshRunning();
+        // Shut down all models.
+        await Promise.all([...this._models.keys()].map(id => restapi_1.shutdownSession(id, this.serverSettings)));
+        // Update the list of models to clear out our state.
+        await this.refreshRunning();
+    }
+    /**
+     * Find a session associated with a path and stop it if it is the only session
+     * using that kernel.
+     *
+     * @param path - The path in question.
+     *
+     * @returns A promise that resolves when the relevant sessions are stopped.
+     */
+    async stopIfNeeded(path) {
+        try {
+            const sessions = await restapi_1.listRunning(this.serverSettings);
+            const matches = sessions.filter(value => value.path === path);
+            if (matches.length === 1) {
+                const id = matches[0].id;
+                await this.shutdown(id);
+            }
+        }
+        catch (error) {
+            /* Always succeed. */
+        }
+    }
+    /**
+     * Find a session by id.
+     */
+    async findById(id) {
+        if (this._models.has(id)) {
+            return this._models.get(id);
+        }
+        await this.refreshRunning();
+        return this._models.get(id);
+    }
+    /**
+     * Find a session by path.
+     */
+    async findByPath(path) {
+        for (const m of this._models.values()) {
+            if (m.path === path) {
+                return m;
+            }
+        }
+        await this.refreshRunning();
+        for (const m of this._models.values()) {
+            if (m.path === path) {
+                return m;
+            }
+        }
+        return undefined;
+    }
+    /**
+     * Execute a request to the server to poll running kernels and update state.
+     */
+    async requestRunning() {
+        var _a, _b;
+        let models;
+        try {
+            models = await restapi_1.listRunning(this.serverSettings);
+        }
+        catch (err) {
+            // Handle network errors, as well as cases where we are on a
+            // JupyterHub and the server is not running. JupyterHub returns a
+            // 503 (<2.0) or 424 (>2.0) in that case.
+            if (err instanceof serverconnection_1.ServerConnection.NetworkError ||
+                ((_a = err.response) === null || _a === void 0 ? void 0 : _a.status) === 503 ||
+                ((_b = err.response) === null || _b === void 0 ? void 0 : _b.status) === 424) {
+                this._connectionFailure.emit(err);
+            }
+            throw err;
+        }
+        if (this.isDisposed) {
+            return;
+        }
+        if (this._models.size === models.length &&
+            algorithm_1.every(models, x => {
+                var _a, _b, _c, _d;
+                const existing = this._models.get(x.id);
+                if (!existing) {
+                    return false;
+                }
+                return (((_a = existing.kernel) === null || _a === void 0 ? void 0 : _a.id) === ((_b = x.kernel) === null || _b === void 0 ? void 0 : _b.id) &&
+                    ((_c = existing.kernel) === null || _c === void 0 ? void 0 : _c.name) === ((_d = x.kernel) === null || _d === void 0 ? void 0 : _d.name) &&
+                    existing.name === x.name &&
+                    existing.path === x.path &&
+                    existing.type === x.type);
+            })) {
+            // Identical models list (presuming models does not contain duplicate
+            // ids), so just return
+            return;
+        }
+        this._models = new Map(models.map(x => [x.id, x]));
+        this._sessionConnections.forEach(sc => {
+            if (this._models.has(sc.id)) {
+                sc.update(this._models.get(sc.id));
+            }
+            else {
+                sc.dispose();
+            }
+        });
+        this._runningChanged.emit(models);
+    }
+    /**
+     * Handle a session starting.
+     */
+    _onStarted(sessionConnection) {
+        this._sessionConnections.add(sessionConnection);
+        sessionConnection.disposed.connect(this._onDisposed, this);
+        sessionConnection.propertyChanged.connect(this._onChanged, this);
+        sessionConnection.kernelChanged.connect(this._onChanged, this);
+    }
+    _onDisposed(sessionConnection) {
+        this._sessionConnections.delete(sessionConnection);
+        // A session termination emission could mean the server session is deleted,
+        // or that the session JS object is disposed and the session still exists on
+        // the server, so we refresh from the server to make sure we reflect the
+        // server state.
+        void this.refreshRunning().catch(() => {
+            /* no-op */
+        });
+    }
+    _onChanged() {
+        void this.refreshRunning().catch(() => {
+            /* no-op */
+        });
+    }
+}
+exports.SessionManager = SessionManager;
+//# sourceMappingURL=manager.js.map
+
+/***/ }),
+
+/***/ 8759:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.updateSession = exports.startSession = exports.getSessionModel = exports.shutdownSession = exports.getSessionUrl = exports.listRunning = exports.SESSION_SERVICE_URL = void 0;
+const serverconnection_1 = __webpack_require__(22030);
+const coreutils_1 = __webpack_require__(79622);
+const validate_1 = __webpack_require__(86063);
+/**
+ * The url for the session service.
+ */
+exports.SESSION_SERVICE_URL = 'api/sessions';
+/**
+ * List the running sessions.
+ */
+async function listRunning(settings = serverconnection_1.ServerConnection.makeSettings()) {
+    const url = coreutils_1.URLExt.join(settings.baseUrl, exports.SESSION_SERVICE_URL);
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, {}, settings);
+    if (response.status !== 200) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+    const data = await response.json();
+    if (!Array.isArray(data)) {
+        throw new Error('Invalid Session list');
+    }
+    data.forEach(m => {
+        validate_1.updateLegacySessionModel(m);
+        validate_1.validateModel(m);
+    });
+    return data;
+}
+exports.listRunning = listRunning;
+/**
+ * Get a session url.
+ */
+function getSessionUrl(baseUrl, id) {
+    return coreutils_1.URLExt.join(baseUrl, exports.SESSION_SERVICE_URL, id);
+}
+exports.getSessionUrl = getSessionUrl;
+/**
+ * Shut down a session by id.
+ */
+async function shutdownSession(id, settings = serverconnection_1.ServerConnection.makeSettings()) {
+    var _a;
+    const url = getSessionUrl(settings.baseUrl, id);
+    const init = { method: 'DELETE' };
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, init, settings);
+    if (response.status === 404) {
+        const data = await response.json();
+        const msg = (_a = data.message) !== null && _a !== void 0 ? _a : `The session "${id}"" does not exist on the server`;
+        console.warn(msg);
+    }
+    else if (response.status === 410) {
+        throw new serverconnection_1.ServerConnection.ResponseError(response, 'The kernel was deleted but the session was not');
+    }
+    else if (response.status !== 204) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+}
+exports.shutdownSession = shutdownSession;
+/**
+ * Get a full session model from the server by session id string.
+ */
+async function getSessionModel(id, settings = serverconnection_1.ServerConnection.makeSettings()) {
+    const url = getSessionUrl(settings.baseUrl, id);
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, {}, settings);
+    if (response.status !== 200) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+    const data = await response.json();
+    validate_1.updateLegacySessionModel(data);
+    validate_1.validateModel(data);
+    return data;
+}
+exports.getSessionModel = getSessionModel;
+/**
+ * Create a new session, or return an existing session if the session path
+ * already exists.
+ */
+async function startSession(options, settings = serverconnection_1.ServerConnection.makeSettings()) {
+    const url = coreutils_1.URLExt.join(settings.baseUrl, exports.SESSION_SERVICE_URL);
+    const init = {
+        method: 'POST',
+        body: JSON.stringify(options)
+    };
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, init, settings);
+    if (response.status !== 201) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+    const data = await response.json();
+    validate_1.updateLegacySessionModel(data);
+    validate_1.validateModel(data);
+    return data;
+}
+exports.startSession = startSession;
+/**
+ * Send a PATCH to the server, updating the session path or the kernel.
+ */
+async function updateSession(model, settings = serverconnection_1.ServerConnection.makeSettings()) {
+    const url = getSessionUrl(settings.baseUrl, model.id);
+    const init = {
+        method: 'PATCH',
+        body: JSON.stringify(model)
+    };
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, init, settings);
+    if (response.status !== 200) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+    const data = await response.json();
+    validate_1.updateLegacySessionModel(data);
+    validate_1.validateModel(data);
+    return data;
+}
+exports.updateSession = updateSession;
+//# sourceMappingURL=restapi.js.map
+
+/***/ }),
+
+/***/ 54814:
+/***/ ((__unused_webpack_module, exports) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+//# sourceMappingURL=session.js.map
+
+/***/ }),
+
+/***/ 86063:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.validateModels = exports.updateLegacySessionModel = exports.validateModel = void 0;
+const validate_1 = __webpack_require__(51816);
+const validate_2 = __webpack_require__(77928);
+/**
+ * Validate an `Session.IModel` object.
+ */
+function validateModel(data) {
+    validate_2.validateProperty(data, 'id', 'string');
+    validate_2.validateProperty(data, 'type', 'string');
+    validate_2.validateProperty(data, 'name', 'string');
+    validate_2.validateProperty(data, 'path', 'string');
+    validate_2.validateProperty(data, 'kernel', 'object');
+    validate_1.validateModel(data.kernel);
+}
+exports.validateModel = validateModel;
+/**
+ * Update model from legacy session data.
+ */
+function updateLegacySessionModel(data) {
+    if (data.path === undefined && data.notebook !== undefined) {
+        data.path = data.notebook.path;
+        data.type = 'notebook';
+        data.name = '';
+    }
+}
+exports.updateLegacySessionModel = updateLegacySessionModel;
+/**
+ * Validate an array of `Session.IModel` objects.
+ */
+function validateModels(models) {
+    if (!Array.isArray(models)) {
+        throw new Error('Invalid session list');
+    }
+    models.forEach(d => validateModel(d));
+}
+exports.validateModels = validateModels;
+//# sourceMappingURL=validate.js.map
+
+/***/ }),
+
+/***/ 65678:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.SettingManager = void 0;
+const coreutils_1 = __webpack_require__(79622);
+const statedb_1 = __webpack_require__(17266);
+const serverconnection_1 = __webpack_require__(22030);
+/**
+ * The url for the lab settings service.
+ */
+const SERVICE_SETTINGS_URL = 'api/settings';
+/**
+ * The settings API service manager.
+ */
+class SettingManager extends statedb_1.DataConnector {
+    /**
+     * Create a new setting manager.
+     */
+    constructor(options = {}) {
+        var _a;
+        super();
+        this.serverSettings = (_a = options.serverSettings) !== null && _a !== void 0 ? _a : serverconnection_1.ServerConnection.makeSettings();
+    }
+    /**
+     * Fetch a plugin's settings.
+     *
+     * @param id - The plugin's ID.
+     *
+     * @returns A promise that resolves if successful.
+     */
+    async fetch(id) {
+        if (!id) {
+            throw new Error('Plugin `id` parameter is required for settings fetch.');
+        }
+        const { serverSettings } = this;
+        const { baseUrl, appUrl } = serverSettings;
+        const { makeRequest, ResponseError } = serverconnection_1.ServerConnection;
+        const base = baseUrl + appUrl;
+        const url = Private.url(base, id);
+        const response = await makeRequest(url, {}, serverSettings);
+        if (response.status !== 200) {
+            const err = await ResponseError.create(response);
+            throw err;
+        }
+        // Assert what type the server response is returning.
+        return response.json();
+    }
+    /**
+     * Fetch the list of all plugin setting bundles.
+     *
+     * @returns A promise that resolves if successful.
+     */
+    async list() {
+        var _a, _b;
+        const { serverSettings } = this;
+        const { baseUrl, appUrl } = serverSettings;
+        const { makeRequest, ResponseError } = serverconnection_1.ServerConnection;
+        const base = baseUrl + appUrl;
+        const url = Private.url(base, '');
+        const response = await makeRequest(url, {}, serverSettings);
+        if (response.status !== 200) {
+            throw new ResponseError(response);
+        }
+        const json = await response.json();
+        const values = (_b = (_a = json === null || json === void 0 ? void 0 : json['settings']) === null || _a === void 0 ? void 0 : _a.map((plugin) => {
+            plugin.data = { composite: {}, user: {} };
+            return plugin;
+        })) !== null && _b !== void 0 ? _b : [];
+        const ids = values.map(plugin => plugin.id);
+        return { ids, values };
+    }
+    /**
+     * Save a plugin's settings.
+     *
+     * @param id - The plugin's ID.
+     *
+     * @param raw - The user setting values as a raw string of JSON with comments.
+     *
+     * @returns A promise that resolves if successful.
+     */
+    async save(id, raw) {
+        const { serverSettings } = this;
+        const { baseUrl, appUrl } = serverSettings;
+        const { makeRequest, ResponseError } = serverconnection_1.ServerConnection;
+        const base = baseUrl + appUrl;
+        const url = Private.url(base, id);
+        // NOTE: 'raw' is JSON5 (not valid JSON), so we encode it as a string in a valid JSON body
+        const init = { body: JSON.stringify({ raw }), method: 'PUT' };
+        const response = await makeRequest(url, init, serverSettings);
+        if (response.status !== 204) {
+            throw new ResponseError(response);
+        }
+    }
+}
+exports.SettingManager = SettingManager;
+/**
+ * A namespace for private data.
+ */
+var Private;
+(function (Private) {
+    /**
+     * Get the url for a plugin's settings.
+     */
+    function url(base, id) {
+        return coreutils_1.URLExt.join(base, SERVICE_SETTINGS_URL, id);
+    }
+    Private.url = url;
+})(Private || (Private = {}));
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 63635:
+/***/ ((__unused_webpack_module, exports) => {
+
+
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports["default"] = WebSocket;
+//# sourceMappingURL=ws.js.map
+
+/***/ }),
+
+/***/ 36831:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.TerminalConnection = void 0;
+const coreutils_1 = __webpack_require__(79622);
+const coreutils_2 = __webpack_require__(95082);
+const signaling_1 = __webpack_require__(4016);
+const __1 = __webpack_require__(34669);
+const restapi_1 = __webpack_require__(61749);
+/**
+ * An implementation of a terminal interface.
+ */
+class TerminalConnection {
+    /**
+     * Construct a new terminal session.
+     */
+    constructor(options) {
+        var _a;
+        /**
+         * Create the terminal websocket connection and add socket status handlers.
+         *
+         * #### Notes
+         * You are responsible for updating the connection status as appropriate.
+         */
+        this._createSocket = () => {
+            this._errorIfDisposed();
+            // Make sure the socket is clear
+            this._clearSocket();
+            // Update the connection status to reflect opening a new connection.
+            this._updateConnectionStatus('connecting');
+            const name = this._name;
+            const settings = this.serverSettings;
+            let url = coreutils_1.URLExt.join(settings.wsUrl, 'terminals', 'websocket', encodeURIComponent(name));
+            // If token authentication is in use.
+            const token = settings.token;
+            if (settings.appendToken && token !== '') {
+                url = url + `?token=${encodeURIComponent(token)}`;
+            }
+            this._ws = new settings.WebSocket(url);
+            this._ws.onmessage = this._onWSMessage;
+            this._ws.onclose = this._onWSClose;
+            this._ws.onerror = this._onWSClose;
+        };
+        // Websocket messages events are defined as variables to bind `this`
+        this._onWSMessage = (event) => {
+            if (this._isDisposed) {
+                return;
+            }
+            const data = JSON.parse(event.data);
+            // Handle a disconnect message.
+            if (data[0] === 'disconnect') {
+                this.dispose();
+            }
+            if (this._connectionStatus === 'connecting') {
+                // After reconnection, ignore all messages until a 'setup' message
+                // before we are truly connected. Setting the connection status to
+                // connected only then means that if we do not get a setup message
+                // before our retry timeout, we will delete the websocket and try again.
+                if (data[0] === 'setup') {
+                    this._updateConnectionStatus('connected');
+                }
+                return;
+            }
+            this._messageReceived.emit({
+                type: data[0],
+                content: data.slice(1)
+            });
+        };
+        this._onWSClose = (event) => {
+            console.warn(`Terminal websocket closed: ${event.code}`);
+            if (!this.isDisposed) {
+                this._reconnect();
+            }
+        };
+        this._connectionStatus = 'connecting';
+        this._connectionStatusChanged = new signaling_1.Signal(this);
+        this._isDisposed = false;
+        this._disposed = new signaling_1.Signal(this);
+        this._messageReceived = new signaling_1.Signal(this);
+        this._reconnectTimeout = null;
+        this._ws = null;
+        this._noOp = () => {
+            /* no-op */
+        };
+        this._reconnectLimit = 7;
+        this._reconnectAttempt = 0;
+        this._pendingMessages = [];
+        this._name = options.model.name;
+        this.serverSettings = (_a = options.serverSettings) !== null && _a !== void 0 ? _a : __1.ServerConnection.makeSettings();
+        this._createSocket();
+    }
+    /**
+     * A signal emitted when the session is disposed.
+     */
+    get disposed() {
+        return this._disposed;
+    }
+    /**
+     * A signal emitted when a message is received from the server.
+     */
+    get messageReceived() {
+        return this._messageReceived;
+    }
+    /**
+     * Get the name of the terminal session.
+     */
+    get name() {
+        return this._name;
+    }
+    /**
+     * Get the model for the terminal session.
+     */
+    get model() {
+        return { name: this._name };
+    }
+    /**
+     * Test whether the session is disposed.
+     */
+    get isDisposed() {
+        return this._isDisposed;
+    }
+    /**
+     * Dispose of the resources held by the session.
+     */
+    dispose() {
+        if (this._isDisposed) {
+            return;
+        }
+        this._isDisposed = true;
+        this._disposed.emit();
+        this._updateConnectionStatus('disconnected');
+        this._clearSocket();
+        signaling_1.Signal.clearData(this);
+    }
+    /**
+     * Send a message to the terminal session.
+     *
+     * #### Notes
+     * If the connection is down, the message will be queued for sending when
+     * the connection comes back up.
+     */
+    send(message) {
+        this._sendMessage(message);
+    }
+    /**
+     * Send a message on the websocket, or possibly queue for later sending.
+     *
+     * @param queue - whether to queue the message if it cannot be sent
+     */
+    _sendMessage(message, queue = true) {
+        if (this._isDisposed || !message.content) {
+            return;
+        }
+        if (this.connectionStatus === 'connected' && this._ws) {
+            const msg = [message.type, ...message.content];
+            this._ws.send(JSON.stringify(msg));
+        }
+        else if (queue) {
+            this._pendingMessages.push(message);
+        }
+        else {
+            throw new Error(`Could not send message: ${JSON.stringify(message)}`);
+        }
+    }
+    /**
+     * Send pending messages to the kernel.
+     */
+    _sendPending() {
+        // We check to make sure we are still connected each time. For
+        // example, if a websocket buffer overflows, it may close, so we should
+        // stop sending messages.
+        while (this.connectionStatus === 'connected' &&
+            this._pendingMessages.length > 0) {
+            this._sendMessage(this._pendingMessages[0], false);
+            // We shift the message off the queue after the message is sent so that
+            // if there is an exception, the message is still pending.
+            this._pendingMessages.shift();
+        }
+    }
+    /**
+     * Reconnect to a terminal.
+     *
+     * #### Notes
+     * This may try multiple times to reconnect to a terminal, and will sever
+     * any existing connection.
+     */
+    reconnect() {
+        this._errorIfDisposed();
+        const result = new coreutils_2.PromiseDelegate();
+        // Set up a listener for the connection status changing, which accepts or
+        // rejects after the retries are done.
+        const fulfill = (sender, status) => {
+            if (status === 'connected') {
+                result.resolve();
+                this.connectionStatusChanged.disconnect(fulfill, this);
+            }
+            else if (status === 'disconnected') {
+                result.reject(new Error('Terminal connection disconnected'));
+                this.connectionStatusChanged.disconnect(fulfill, this);
+            }
+        };
+        this.connectionStatusChanged.connect(fulfill, this);
+        // Reset the reconnect limit so we start the connection attempts fresh
+        this._reconnectAttempt = 0;
+        // Start the reconnection process, which will also clear any existing
+        // connection.
+        this._reconnect();
+        // Return the promise that should resolve on connection or reject if the
+        // retries don't work.
+        return result.promise;
+    }
+    /**
+     * Attempt a connection if we have not exhausted connection attempts.
+     */
+    _reconnect() {
+        this._errorIfDisposed();
+        // Clear any existing reconnection attempt
+        clearTimeout(this._reconnectTimeout);
+        // Update the connection status and schedule a possible reconnection.
+        if (this._reconnectAttempt < this._reconnectLimit) {
+            this._updateConnectionStatus('connecting');
+            // The first reconnect attempt should happen immediately, and subsequent
+            // attempts should pick a random number in a growing range so that we
+            // don't overload the server with synchronized reconnection attempts
+            // across multiple kernels.
+            const timeout = Private.getRandomIntInclusive(0, 1e3 * (Math.pow(2, this._reconnectAttempt) - 1));
+            console.error(`Connection lost, reconnecting in ${Math.floor(timeout / 1000)} seconds.`);
+            this._reconnectTimeout = setTimeout(this._createSocket, timeout);
+            this._reconnectAttempt += 1;
+        }
+        else {
+            this._updateConnectionStatus('disconnected');
+        }
+        // Clear the websocket event handlers and the socket itself.
+        this._clearSocket();
+    }
+    /**
+     * Forcefully clear the socket state.
+     *
+     * #### Notes
+     * This will clear all socket state without calling any handlers and will
+     * not update the connection status. If you call this method, you are
+     * responsible for updating the connection status as needed and recreating
+     * the socket if you plan to reconnect.
+     */
+    _clearSocket() {
+        if (this._ws !== null) {
+            // Clear the websocket event handlers and the socket itself.
+            this._ws.onopen = this._noOp;
+            this._ws.onclose = this._noOp;
+            this._ws.onerror = this._noOp;
+            this._ws.onmessage = this._noOp;
+            this._ws.close();
+            this._ws = null;
+        }
+    }
+    /**
+     * Shut down the terminal session.
+     */
+    async shutdown() {
+        await restapi_1.shutdownTerminal(this.name, this.serverSettings);
+        this.dispose();
+    }
+    /**
+     * Clone the current terminal connection.
+     */
+    clone() {
+        return new TerminalConnection(this);
+    }
+    /**
+     * Handle connection status changes.
+     */
+    _updateConnectionStatus(connectionStatus) {
+        if (this._connectionStatus === connectionStatus) {
+            return;
+        }
+        this._connectionStatus = connectionStatus;
+        // If we are not 'connecting', stop any reconnection attempts.
+        if (connectionStatus !== 'connecting') {
+            this._reconnectAttempt = 0;
+            clearTimeout(this._reconnectTimeout);
+        }
+        // Send the pending messages if we just connected.
+        if (connectionStatus === 'connected') {
+            this._sendPending();
+        }
+        // Notify others that the connection status changed.
+        this._connectionStatusChanged.emit(connectionStatus);
+    }
+    /**
+     * Utility function to throw an error if this instance is disposed.
+     */
+    _errorIfDisposed() {
+        if (this.isDisposed) {
+            throw new Error('Terminal connection is disposed');
+        }
+    }
+    /**
+     * A signal emitted when the terminal connection status changes.
+     */
+    get connectionStatusChanged() {
+        return this._connectionStatusChanged;
+    }
+    /**
+     * The current connection status of the terminal connection.
+     */
+    get connectionStatus() {
+        return this._connectionStatus;
+    }
+}
+exports.TerminalConnection = TerminalConnection;
+var Private;
+(function (Private) {
+    /**
+     * Get the url for a terminal.
+     */
+    function getTermUrl(baseUrl, name) {
+        return coreutils_1.URLExt.join(baseUrl, restapi_1.TERMINAL_SERVICE_URL, encodeURIComponent(name));
+    }
+    Private.getTermUrl = getTermUrl;
+    /**
+     * Get a random integer between min and max, inclusive of both.
+     *
+     * #### Notes
+     * From
+     * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random#Getting_a_random_integer_between_two_values_inclusive
+     *
+     * From the MDN page: It might be tempting to use Math.round() to accomplish
+     * that, but doing so would cause your random numbers to follow a non-uniform
+     * distribution, which may not be acceptable for your needs.
+     */
+    function getRandomIntInclusive(min, max) {
+        min = Math.ceil(min);
+        max = Math.floor(max);
+        return Math.floor(Math.random() * (max - min + 1)) + min;
+    }
+    Private.getRandomIntInclusive = getRandomIntInclusive;
+})(Private || (Private = {}));
+//# sourceMappingURL=default.js.map
+
+/***/ }),
+
+/***/ 49757:
+/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+var __createBinding = (this && this.__createBinding) || (Object.create ? (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    Object.defineProperty(o, k2, { enumerable: true, get: function() { return m[k]; } });
+}) : (function(o, m, k, k2) {
+    if (k2 === undefined) k2 = k;
+    o[k2] = m[k];
+}));
+var __setModuleDefault = (this && this.__setModuleDefault) || (Object.create ? (function(o, v) {
+    Object.defineProperty(o, "default", { enumerable: true, value: v });
+}) : function(o, v) {
+    o["default"] = v;
+});
+var __importStar = (this && this.__importStar) || function (mod) {
+    if (mod && mod.__esModule) return mod;
+    var result = {};
+    if (mod != null) for (var k in mod) if (k !== "default" && Object.prototype.hasOwnProperty.call(mod, k)) __createBinding(result, mod, k);
+    __setModuleDefault(result, mod);
+    return result;
+};
+var __exportStar = (this && this.__exportStar) || function(m, exports) {
+    for (var p in m) if (p !== "default" && !Object.prototype.hasOwnProperty.call(exports, p)) __createBinding(exports, m, p);
+};
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.TerminalAPI = exports.Terminal = void 0;
+const Terminal = __importStar(__webpack_require__(34608));
+exports.Terminal = Terminal;
+const TerminalAPI = __importStar(__webpack_require__(61749));
+exports.TerminalAPI = TerminalAPI;
+__exportStar(__webpack_require__(22324), exports);
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 22324:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.TerminalManager = void 0;
+const algorithm_1 = __webpack_require__(35259);
+const polling_1 = __webpack_require__(23114);
+const signaling_1 = __webpack_require__(4016);
+const __1 = __webpack_require__(34669);
+const basemanager_1 = __webpack_require__(11019);
+const restapi_1 = __webpack_require__(61749);
+const default_1 = __webpack_require__(36831);
+/**
+ * A terminal session manager.
+ */
+class TerminalManager extends basemanager_1.BaseManager {
+    /**
+     * Construct a new terminal manager.
+     */
+    constructor(options = {}) {
+        var _a;
+        super(options);
+        this._isReady = false;
+        // As an optimization, we unwrap the models to just store the names.
+        this._names = [];
+        this._terminalConnections = new Set();
+        this._runningChanged = new signaling_1.Signal(this);
+        this._connectionFailure = new signaling_1.Signal(this);
+        // Check if terminals are available
+        if (!this.isAvailable()) {
+            this._ready = Promise.reject('Terminals unavailable');
+            this._ready.catch(_ => undefined);
+            return;
+        }
+        // Start polling with exponential backoff.
+        this._pollModels = new polling_1.Poll({
+            auto: false,
+            factory: () => this.requestRunning(),
+            frequency: {
+                interval: 10 * 1000,
+                backoff: true,
+                max: 300 * 1000
+            },
+            name: `@jupyterlab/services:TerminalManager#models`,
+            standby: (_a = options.standby) !== null && _a !== void 0 ? _a : 'when-hidden'
+        });
+        // Initialize internal data.
+        this._ready = (async () => {
+            await this._pollModels.start();
+            await this._pollModels.tick;
+            this._isReady = true;
+        })();
+    }
+    /**
+     * Test whether the manager is ready.
+     */
+    get isReady() {
+        return this._isReady;
+    }
+    /**
+     * A promise that fulfills when the manager is ready.
+     */
+    get ready() {
+        return this._ready;
+    }
+    /**
+     * A signal emitted when the running terminals change.
+     */
+    get runningChanged() {
+        return this._runningChanged;
+    }
+    /**
+     * A signal emitted when there is a connection failure.
+     */
+    get connectionFailure() {
+        return this._connectionFailure;
+    }
+    /**
+     * Dispose of the resources used by the manager.
+     */
+    dispose() {
+        if (this.isDisposed) {
+            return;
+        }
+        this._names.length = 0;
+        this._terminalConnections.forEach(x => x.dispose());
+        this._pollModels.dispose();
+        super.dispose();
+    }
+    /**
+     * Whether the terminal service is available.
+     */
+    isAvailable() {
+        return restapi_1.isAvailable();
+    }
+    /*
+     * Connect to a running terminal.
+     *
+     * @param options - The options used to connect to the terminal.
+     *
+     * @returns The new terminal connection instance.
+     *
+     * #### Notes
+     * The manager `serverSettings` will be used.
+     */
+    connectTo(options) {
+        const terminalConnection = new default_1.TerminalConnection(Object.assign(Object.assign({}, options), { serverSettings: this.serverSettings }));
+        this._onStarted(terminalConnection);
+        if (!this._names.includes(options.model.name)) {
+            // We trust the user to connect to an existing session, but we verify
+            // asynchronously.
+            void this.refreshRunning().catch(() => {
+                /* no-op */
+            });
+        }
+        return terminalConnection;
+    }
+    /**
+     * Create an iterator over the most recent running terminals.
+     *
+     * @returns A new iterator over the running terminals.
+     */
+    running() {
+        return algorithm_1.iter(this._models);
+    }
+    /**
+     * Force a refresh of the running terminals.
+     *
+     * @returns A promise that with the list of running terminals.
+     *
+     * #### Notes
+     * This is intended to be called only in response to a user action,
+     * since the manager maintains its internal state.
+     */
+    async refreshRunning() {
+        await this._pollModels.refresh();
+        await this._pollModels.tick;
+    }
+    /**
+     * Create a new terminal session.
+     *
+     * @param options - The options used to create the terminal.
+     *
+     * @returns A promise that resolves with the terminal connection instance.
+     *
+     * #### Notes
+     * The manager `serverSettings` will be used unless overridden in the
+     * options.
+     */
+    async startNew(options) {
+        const model = await restapi_1.startNew(this.serverSettings, options === null || options === void 0 ? void 0 : options.name, options === null || options === void 0 ? void 0 : options.cwd);
+        await this.refreshRunning();
+        return this.connectTo({ model });
+    }
+    /**
+     * Shut down a terminal session by name.
+     */
+    async shutdown(name) {
+        await restapi_1.shutdownTerminal(name, this.serverSettings);
+        await this.refreshRunning();
+    }
+    /**
+     * Shut down all terminal sessions.
+     *
+     * @returns A promise that resolves when all of the sessions are shut down.
+     */
+    async shutdownAll() {
+        // Update the list of models to make sure our list is current.
+        await this.refreshRunning();
+        // Shut down all models.
+        await Promise.all(this._names.map(name => restapi_1.shutdownTerminal(name, this.serverSettings)));
+        // Update the list of models to clear out our state.
+        await this.refreshRunning();
+    }
+    /**
+     * Execute a request to the server to poll running terminals and update state.
+     */
+    async requestRunning() {
+        var _a, _b;
+        let models;
+        try {
+            models = await restapi_1.listRunning(this.serverSettings);
+        }
+        catch (err) {
+            // Handle network errors, as well as cases where we are on a
+            // JupyterHub and the server is not running. JupyterHub returns a
+            // 503 (<2.0) or 424 (>2.0) in that case.
+            if (err instanceof __1.ServerConnection.NetworkError ||
+                ((_a = err.response) === null || _a === void 0 ? void 0 : _a.status) === 503 ||
+                ((_b = err.response) === null || _b === void 0 ? void 0 : _b.status) === 424) {
+                this._connectionFailure.emit(err);
+            }
+            throw err;
+        }
+        if (this.isDisposed) {
+            return;
+        }
+        const names = models.map(({ name }) => name).sort();
+        if (names === this._names) {
+            // Identical models list, so just return
+            return;
+        }
+        this._names = names;
+        this._terminalConnections.forEach(tc => {
+            if (!names.includes(tc.name)) {
+                tc.dispose();
+            }
+        });
+        this._runningChanged.emit(this._models);
+    }
+    /**
+     * Handle a session starting.
+     */
+    _onStarted(terminalConnection) {
+        this._terminalConnections.add(terminalConnection);
+        terminalConnection.disposed.connect(this._onDisposed, this);
+    }
+    /**
+     * Handle a session terminating.
+     */
+    _onDisposed(terminalConnection) {
+        this._terminalConnections.delete(terminalConnection);
+        // Update the running models to make sure we reflect the server state
+        void this.refreshRunning().catch(() => {
+            /* no-op */
+        });
+    }
+    get _models() {
+        return this._names.map(name => {
+            return { name };
+        });
+    }
+}
+exports.TerminalManager = TerminalManager;
+//# sourceMappingURL=manager.js.map
+
+/***/ }),
+
+/***/ 61749:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.shutdownTerminal = exports.listRunning = exports.startNew = exports.isAvailable = exports.TERMINAL_SERVICE_URL = void 0;
+const coreutils_1 = __webpack_require__(79622);
+const serverconnection_1 = __webpack_require__(22030);
+/**
+ * The url for the terminal service.
+ */
+exports.TERMINAL_SERVICE_URL = 'api/terminals';
+/**
+ * Whether the terminal service is available.
+ */
+function isAvailable() {
+    const available = String(coreutils_1.PageConfig.getOption('terminalsAvailable'));
+    return available.toLowerCase() === 'true';
+}
+exports.isAvailable = isAvailable;
+/**
+ * Start a new terminal session.
+ *
+ * @param settings - The server settings to use.
+ *
+ * @param name - The name of the target terminal.
+ *
+ * @param cwd - The path in which the terminal will start.
+ *
+ * @returns A promise that resolves with the session model.
+ */
+async function startNew(settings = serverconnection_1.ServerConnection.makeSettings(), name, cwd) {
+    Private.errorIfNotAvailable();
+    const url = coreutils_1.URLExt.join(settings.baseUrl, exports.TERMINAL_SERVICE_URL);
+    const init = {
+        method: 'POST',
+        body: JSON.stringify({ name, cwd })
+    };
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, init, settings);
+    if (response.status !== 200) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+    const data = await response.json();
+    // TODO: Validate model
+    return data;
+}
+exports.startNew = startNew;
+/**
+ * List the running terminal sessions.
+ *
+ * @param settings - The server settings to use.
+ *
+ * @returns A promise that resolves with the list of running session models.
+ */
+async function listRunning(settings = serverconnection_1.ServerConnection.makeSettings()) {
+    Private.errorIfNotAvailable();
+    const url = coreutils_1.URLExt.join(settings.baseUrl, exports.TERMINAL_SERVICE_URL);
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, {}, settings);
+    if (response.status !== 200) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+    const data = await response.json();
+    if (!Array.isArray(data)) {
+        throw new Error('Invalid terminal list');
+    }
+    // TODO: validate each model
+    return data;
+}
+exports.listRunning = listRunning;
+/**
+ * Shut down a terminal session by name.
+ *
+ * @param name - The name of the target session.
+ *
+ * @param settings - The server settings to use.
+ *
+ * @returns A promise that resolves when the session is shut down.
+ */
+async function shutdownTerminal(name, settings = serverconnection_1.ServerConnection.makeSettings()) {
+    var _a;
+    Private.errorIfNotAvailable();
+    const url = coreutils_1.URLExt.join(settings.baseUrl, exports.TERMINAL_SERVICE_URL, name);
+    const init = { method: 'DELETE' };
+    const response = await serverconnection_1.ServerConnection.makeRequest(url, init, settings);
+    if (response.status === 404) {
+        const data = await response.json();
+        const msg = (_a = data.message) !== null && _a !== void 0 ? _a : `The terminal session "${name}"" does not exist on the server`;
+        console.warn(msg);
+    }
+    else if (response.status !== 204) {
+        const err = await serverconnection_1.ServerConnection.ResponseError.create(response);
+        throw err;
+    }
+}
+exports.shutdownTerminal = shutdownTerminal;
+var Private;
+(function (Private) {
+    /**
+     * Throw an error if terminals are not available.
+     */
+    function errorIfNotAvailable() {
+        if (!isAvailable()) {
+            throw new Error('Terminals Unavailable');
+        }
+    }
+    Private.errorIfNotAvailable = errorIfNotAvailable;
+})(Private || (Private = {}));
+//# sourceMappingURL=restapi.js.map
+
+/***/ }),
+
+/***/ 34608:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.isAvailable = void 0;
+const restapi_1 = __webpack_require__(61749);
+Object.defineProperty(exports, "isAvailable", ({ enumerable: true, get: function () { return restapi_1.isAvailable; } }));
+//# sourceMappingURL=terminal.js.map
+
+/***/ }),
+
+/***/ 77928:
+/***/ ((__unused_webpack_module, exports) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.validateProperty = void 0;
+/**
+ * Validate a property as being on an object, and optionally
+ * of a given type and among a given set of values.
+ */
+function validateProperty(object, name, typeName, values = []) {
+    if (!object.hasOwnProperty(name)) {
+        throw Error(`Missing property '${name}'`);
+    }
+    const value = object[name];
+    if (typeName !== void 0) {
+        let valid = true;
+        switch (typeName) {
+            case 'array':
+                valid = Array.isArray(value);
+                break;
+            case 'object':
+                valid = typeof value !== 'undefined';
+                break;
+            default:
+                valid = typeof value === typeName;
+        }
+        if (!valid) {
+            throw new Error(`Property '${name}' is not of type '${typeName}'`);
+        }
+        if (values.length > 0) {
+            let valid = true;
+            switch (typeName) {
+                case 'string':
+                case 'number':
+                case 'boolean':
+                    valid = values.includes(value);
+                    break;
+                default:
+                    valid = values.findIndex(v => v === value) >= 0;
+                    break;
+            }
+            if (!valid) {
+                throw new Error(`Property '${name}' is not one of the valid values ${JSON.stringify(values)}`);
+            }
+        }
+    }
+}
+exports.validateProperty = validateProperty;
+//# sourceMappingURL=validate.js.map
+
+/***/ }),
+
+/***/ 76638:
+/***/ ((__unused_webpack_module, exports, __webpack_require__) => {
+
+
+// Copyright (c) Jupyter Development Team.
+// Distributed under the terms of the Modified BSD License.
+Object.defineProperty(exports, "__esModule", ({ value: true }));
+exports.WorkspaceManager = void 0;
+const coreutils_1 = __webpack_require__(79622);
+const statedb_1 = __webpack_require__(17266);
+const serverconnection_1 = __webpack_require__(22030);
+/**
+ * The url for the lab workspaces service.
+ */
+const SERVICE_WORKSPACES_URL = 'api/workspaces';
+/**
+ * The workspaces API service manager.
+ */
+class WorkspaceManager extends statedb_1.DataConnector {
+    /**
+     * Create a new workspace manager.
+     */
+    constructor(options = {}) {
+        var _a;
+        super();
+        this.serverSettings = (_a = options.serverSettings) !== null && _a !== void 0 ? _a : serverconnection_1.ServerConnection.makeSettings();
+    }
+    /**
+     * Fetch a workspace.
+     *
+     * @param id - The workspace's ID.
+     *
+     * @returns A promise that resolves if successful.
+     */
+    async fetch(id) {
+        const { serverSettings } = this;
+        const { baseUrl, appUrl } = serverSettings;
+        const { makeRequest, ResponseError } = serverconnection_1.ServerConnection;
+        const base = baseUrl + appUrl;
+        const url = Private.url(base, id);
+        const response = await makeRequest(url, {}, serverSettings);
+        if (response.status !== 200) {
+            const err = await ResponseError.create(response);
+            throw err;
+        }
+        return response.json();
+    }
+    /**
+     * Fetch the list of workspace IDs that exist on the server.
+     *
+     * @returns A promise that resolves if successful.
+     */
+    async list() {
+        const { serverSettings } = this;
+        const { baseUrl, appUrl } = serverSettings;
+        const { makeRequest, ResponseError } = serverconnection_1.ServerConnection;
+        const base = baseUrl + appUrl;
+        const url = Private.url(base, '');
+        const response = await makeRequest(url, {}, serverSettings);
+        if (response.status !== 200) {
+            const err = await ResponseError.create(response);
+            throw err;
+        }
+        const result = await response.json();
+        return result.workspaces;
+    }
+    /**
+     * Remove a workspace from the server.
+     *
+     * @param id - The workspaces's ID.
+     *
+     * @returns A promise that resolves if successful.
+     */
+    async remove(id) {
+        const { serverSettings } = this;
+        const { baseUrl, appUrl } = serverSettings;
+        const { makeRequest, ResponseError } = serverconnection_1.ServerConnection;
+        const base = baseUrl + appUrl;
+        const url = Private.url(base, id);
+        const init = { method: 'DELETE' };
+        const response = await makeRequest(url, init, serverSettings);
+        if (response.status !== 204) {
+            const err = await ResponseError.create(response);
+            throw err;
+        }
+    }
+    /**
+     * Save a workspace.
+     *
+     * @param id - The workspace's ID.
+     *
+     * @param workspace - The workspace being saved.
+     *
+     * @returns A promise that resolves if successful.
+     */
+    async save(id, workspace) {
+        const { serverSettings } = this;
+        const { baseUrl, appUrl } = serverSettings;
+        const { makeRequest, ResponseError } = serverconnection_1.ServerConnection;
+        const base = baseUrl + appUrl;
+        const url = Private.url(base, id);
+        const init = { body: JSON.stringify(workspace), method: 'PUT' };
+        const response = await makeRequest(url, init, serverSettings);
+        if (response.status !== 204) {
+            const err = await ResponseError.create(response);
+            throw err;
+        }
+    }
+}
+exports.WorkspaceManager = WorkspaceManager;
+/**
+ * A namespace for private data.
+ */
+var Private;
+(function (Private) {
+    /**
+     * Get the url for a workspace.
+     */
+    function url(base, id) {
+        return coreutils_1.URLExt.join(base, SERVICE_WORKSPACES_URL, id);
+    }
+    Private.url = url;
+})(Private || (Private = {}));
+//# sourceMappingURL=index.js.map
+
+/***/ }),
+
+/***/ 35259:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -17795,7 +33444,7 @@ var ZipIterator = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 5082:
+/***/ 95082:
 /***/ (function(__unused_webpack_module, exports) {
 
 (function (global, factory) {
@@ -18318,7 +33967,7 @@ var ZipIterator = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 725:
+/***/ 70725:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -18328,7 +33977,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "ObservableDisposableDelegate": () => (/* binding */ ObservableDisposableDelegate),
 /* harmony export */   "ObservableDisposableSet": () => (/* binding */ ObservableDisposableSet)
 /* harmony export */ });
-/* harmony import */ var _lumino_algorithm__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5259);
+/* harmony import */ var _lumino_algorithm__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(35259);
 /* harmony import */ var _lumino_signaling__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4016);
 
 
@@ -18589,7 +34238,7 @@ var ObservableDisposableSet = /** @class */ (function (_super) {
 
 /***/ }),
 
-/***/ 3114:
+/***/ 23114:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -18599,7 +34248,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "RateLimiter": () => (/* binding */ RateLimiter),
 /* harmony export */   "Throttler": () => (/* binding */ Throttler)
 /* harmony export */ });
-/* harmony import */ var _lumino_coreutils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5082);
+/* harmony import */ var _lumino_coreutils__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(95082);
 /* harmony import */ var _lumino_coreutils__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_lumino_coreutils__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _lumino_signaling__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(4016);
 
@@ -19274,7 +34923,7 @@ var Throttler = /** @class */ (function (_super) {
 
 /***/ }),
 
-/***/ 9770:
+/***/ 39770:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -19483,7 +35132,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Signal": () => (/* binding */ Signal)
 /* harmony export */ });
-/* harmony import */ var _lumino_algorithm__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(5259);
+/* harmony import */ var _lumino_algorithm__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(35259);
 
 
 // Copyright (c) Jupyter Development Team.
@@ -20000,7 +35649,7 @@ var Private;
 
 /***/ }),
 
-/***/ 4184:
+/***/ 94184:
 /***/ ((module, exports) => {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -20064,7 +35713,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 /***/ }),
 
-/***/ 4504:
+/***/ 14504:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -20279,7 +35928,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 /***/ }),
 
-/***/ 5292:
+/***/ 55292:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -20446,7 +36095,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 /***/ }),
 
-/***/ 511:
+/***/ 80511:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -20501,7 +36150,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 /***/ }),
 
-/***/ 2801:
+/***/ 82801:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -20870,7 +36519,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 /***/ }),
 
-/***/ 8216:
+/***/ 48247:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -20901,7 +36550,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
 
 /***/ }),
 
-/***/ 5688:
+/***/ 35688:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -21076,7 +36725,7 @@ CodeMirror.registerGlobalHelper("fold", "comment", function(mode) {
 
 /***/ }),
 
-/***/ 8657:
+/***/ 88657:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -21237,7 +36886,7 @@ CodeMirror.registerGlobalHelper("fold", "comment", function(mode) {
 
 /***/ }),
 
-/***/ 9700:
+/***/ 89700:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -21245,7 +36894,7 @@ CodeMirror.registerGlobalHelper("fold", "comment", function(mode) {
 
 (function(mod) {
   if (true) // CommonJS
-    mod(__webpack_require__(4631), __webpack_require__(8657));
+    mod(__webpack_require__(4631), __webpack_require__(88657));
   else {}
 })(function(CodeMirror) {
   "use strict";
@@ -21404,7 +37053,7 @@ CodeMirror.registerGlobalHelper("fold", "comment", function(mode) {
 
 /***/ }),
 
-/***/ 6808:
+/***/ 86808:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -21456,7 +37105,7 @@ CodeMirror.registerHelper("fold", "indent", function(cm, start) {
 
 /***/ }),
 
-/***/ 2764:
+/***/ 62764:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -21697,7 +37346,7 @@ CodeMirror.registerHelper("fold", "markdown", function(cm, start) {
 
 /***/ }),
 
-/***/ 7093:
+/***/ 87093:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -21837,7 +37486,7 @@ CodeMirror.multiplexingMode = function(outer /*, others */) {
 
 /***/ }),
 
-/***/ 4146:
+/***/ 14146:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -21931,7 +37580,7 @@ CodeMirror.overlayMode = function(base, overlay, combine) {
 
 /***/ }),
 
-/***/ 790:
+/***/ 40790:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -22151,7 +37800,7 @@ CodeMirror.overlayMode = function(base, overlay, combine) {
 
 /***/ }),
 
-/***/ 7165:
+/***/ 27165:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -22231,7 +37880,7 @@ CodeMirror.runMode = function(string, modespec, callback, options) {
 
 /***/ }),
 
-/***/ 5615:
+/***/ 75615:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -22283,7 +37932,7 @@ CodeMirror.runMode = function(string, modespec, callback, options) {
 
 /***/ }),
 
-/***/ 4568:
+/***/ 14568:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -22293,7 +37942,7 @@ CodeMirror.runMode = function(string, modespec, callback, options) {
 
 (function(mod) {
   if (true) // CommonJS
-    mod(__webpack_require__(4631), __webpack_require__(5292));
+    mod(__webpack_require__(4631), __webpack_require__(55292));
   else {}
 })(function(CodeMirror) {
   "use strict";
@@ -22340,7 +37989,7 @@ CodeMirror.runMode = function(string, modespec, callback, options) {
 
 /***/ }),
 
-/***/ 1699:
+/***/ 81699:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -22356,7 +38005,7 @@ CodeMirror.runMode = function(string, modespec, callback, options) {
 
 (function(mod) {
   if (true) // CommonJS
-    mod(__webpack_require__(4631), __webpack_require__(6932), __webpack_require__(5292));
+    mod(__webpack_require__(4631), __webpack_require__(32095), __webpack_require__(55292));
   else {}
 })(function(CodeMirror) {
   "use strict";
@@ -22608,7 +38257,7 @@ CodeMirror.runMode = function(string, modespec, callback, options) {
 
 /***/ }),
 
-/***/ 6932:
+/***/ 32095:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -22908,7 +38557,7 @@ CodeMirror.runMode = function(string, modespec, callback, options) {
 
 /***/ }),
 
-/***/ 17:
+/***/ 20017:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -22984,7 +38633,7 @@ CodeMirror.runMode = function(string, modespec, callback, options) {
 
 /***/ }),
 
-/***/ 4020:
+/***/ 64020:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -23107,7 +38756,7 @@ CodeMirror.runMode = function(string, modespec, callback, options) {
 
 /***/ }),
 
-/***/ 3656:
+/***/ 13656:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -23209,7 +38858,7 @@ CodeMirror.runMode = function(string, modespec, callback, options) {
 
 /***/ }),
 
-/***/ 3986:
+/***/ 73986:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -23758,7 +39407,7 @@ CodeMirror.runMode = function(string, modespec, callback, options) {
 
 /***/ }),
 
-/***/ 3412:
+/***/ 23412:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -23769,7 +39418,7 @@ CodeMirror.runMode = function(string, modespec, callback, options) {
 
 (function(mod) {
   if (true) // CommonJS
-    mod(__webpack_require__(4631), __webpack_require__(6932), __webpack_require__(4328));
+    mod(__webpack_require__(4631), __webpack_require__(32095), __webpack_require__(4328));
   else {}
 })(function(CodeMirror) {
   "use strict";
@@ -34301,7 +49950,7 @@ CodeMirror.runMode = function(string, modespec, callback, options) {
 
 /***/ }),
 
-/***/ 9762:
+/***/ 99762:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -35240,7 +50889,7 @@ CodeMirror.defineMode("clike", function(config, parserConfig) {
 
 /***/ }),
 
-/***/ 6629:
+/***/ 36629:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -36108,7 +51757,7 @@ CodeMirror.defineMode("css", function(config, parserConfig) {
 
 /***/ }),
 
-/***/ 2425:
+/***/ 42425:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -36116,7 +51765,7 @@ CodeMirror.defineMode("css", function(config, parserConfig) {
 
 (function(mod) {
   if (true) // CommonJS
-    mod(__webpack_require__(4631), __webpack_require__(9047), __webpack_require__(4146));
+    mod(__webpack_require__(4631), __webpack_require__(49047), __webpack_require__(14146));
   else {}
 })(function(CodeMirror) {
 "use strict";
@@ -36241,7 +51890,7 @@ CodeMirror.defineMode("gfm", function(config, modeConfig) {
 
 /***/ }),
 
-/***/ 6876:
+/***/ 96876:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -37204,7 +52853,7 @@ CodeMirror.defineMIME("application/typescript", { name: "javascript", typescript
 
 /***/ }),
 
-/***/ 1548:
+/***/ 71548:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -37212,7 +52861,7 @@ CodeMirror.defineMIME("application/typescript", { name: "javascript", typescript
 
 (function(mod) {
   if (true) // CommonJS
-    mod(__webpack_require__(4631), __webpack_require__(9589), __webpack_require__(6876))
+    mod(__webpack_require__(4631), __webpack_require__(29589), __webpack_require__(96876))
   else {}
 })(function(CodeMirror) {
   "use strict"
@@ -37356,7 +53005,7 @@ CodeMirror.defineMIME("application/typescript", { name: "javascript", typescript
 
 /***/ }),
 
-/***/ 8059:
+/***/ 68059:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -37742,7 +53391,7 @@ CodeMirror.defineMIME("text/x-julia", "julia");
 
 /***/ }),
 
-/***/ 9047:
+/***/ 49047:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -37750,7 +53399,7 @@ CodeMirror.defineMIME("text/x-julia", "julia");
 
 (function(mod) {
   if (true) // CommonJS
-    mod(__webpack_require__(4631), __webpack_require__(9589), __webpack_require__(2539));
+    mod(__webpack_require__(4631), __webpack_require__(29589), __webpack_require__(52539));
   else {}
 })(function(CodeMirror) {
 "use strict";
@@ -38632,7 +54281,7 @@ CodeMirror.defineMIME("text/x-markdown", "markdown");
 
 /***/ }),
 
-/***/ 2539:
+/***/ 52539:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -39260,7 +54909,7 @@ CodeMirror.defineMIME("text/x-markdown", "markdown");
 
 /***/ }),
 
-/***/ 5420:
+/***/ 85420:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -39454,7 +55103,7 @@ CodeMirror.defineMIME("text/x-rsrc", "r");
 
 /***/ }),
 
-/***/ 1149:
+/***/ 31149:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -39626,7 +55275,7 @@ CodeMirror.defineMIME('application/x-sh', 'shell');
 
 /***/ }),
 
-/***/ 4086:
+/***/ 54086:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -40133,7 +55782,7 @@ CodeMirror.defineMode("sql", function(config, parserConfig) {
 
 /***/ }),
 
-/***/ 785:
+/***/ 80785:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -40401,7 +56050,7 @@ CodeMirror.defineMode("sql", function(config, parserConfig) {
 
 /***/ }),
 
-/***/ 9589:
+/***/ 29589:
 /***/ ((__unused_webpack_module, __unused_webpack_exports, __webpack_require__) => {
 
 // CodeMirror, copyright (c) by Marijn Haverbeke and others
@@ -40818,13 +56467,13 @@ if (!CodeMirror.mimeModes.hasOwnProperty("text/html"))
 
 /***/ }),
 
-/***/ 9205:
+/***/ 29205:
 /***/ ((module, __webpack_exports__, __webpack_require__) => {
 
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
 /* harmony export */   "Z": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
-/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(3645);
+/* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(23645);
 /* harmony import */ var _node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_css_loader_dist_runtime_api_js__WEBPACK_IMPORTED_MODULE_0__);
 // Imports
 
@@ -40837,7 +56486,7 @@ ___CSS_LOADER_EXPORT___.push([module.id, "* {\n  box-sizing: border-box;\n}\n\n:
 
 /***/ }),
 
-/***/ 3645:
+/***/ 23645:
 /***/ ((module) => {
 
 
@@ -41049,7 +56698,7 @@ module.exports = deepmerge_1;
 
 /***/ }),
 
-/***/ 7837:
+/***/ 17837:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -41159,7 +56808,7 @@ exports.attributeNames = new Map([
 
 /***/ }),
 
-/***/ 7220:
+/***/ 97220:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -41197,15 +56846,15 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 /*
  * Module dependencies
  */
-var ElementType = __importStar(__webpack_require__(9960));
-var entities_1 = __webpack_require__(5863);
+var ElementType = __importStar(__webpack_require__(99960));
+var entities_1 = __webpack_require__(45863);
 /**
  * Mixed-case SVG and MathML tags & attributes
  * recognized by the HTML parser.
  *
  * @see https://html.spec.whatwg.org/multipage/parsing.html#parsing-main-inforeign
  */
-var foreignNames_1 = __webpack_require__(7837);
+var foreignNames_1 = __webpack_require__(17837);
 var unencodedElements = new Set([
     "style",
     "script",
@@ -41377,7 +57026,7 @@ function renderComment(elem) {
 
 /***/ }),
 
-/***/ 7143:
+/***/ 23839:
 /***/ (() => {
 
 /*!
@@ -42369,7 +58018,7 @@ THE SOFTWARE.
 
 /***/ }),
 
-/***/ 9960:
+/***/ 99960:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -42431,7 +58080,7 @@ exports.Doctype = ElementType.Doctype;
 
 /***/ }),
 
-/***/ 7915:
+/***/ 47915:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -42451,9 +58100,9 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.DomHandler = void 0;
-var domelementtype_1 = __webpack_require__(9960);
-var node_1 = __webpack_require__(7790);
-__exportStar(__webpack_require__(7790), exports);
+var domelementtype_1 = __webpack_require__(99960);
+var node_1 = __webpack_require__(97790);
+__exportStar(__webpack_require__(97790), exports);
 var reWhitespace = /\s+/g;
 // Default options
 var defaultOpts = {
@@ -42614,7 +58263,7 @@ exports["default"] = DomHandler;
 
 /***/ }),
 
-/***/ 7790:
+/***/ 97790:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -42646,7 +58295,7 @@ var __assign = (this && this.__assign) || function () {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.cloneNode = exports.hasChildren = exports.isDocument = exports.isDirective = exports.isComment = exports.isText = exports.isCDATA = exports.isTag = exports.Element = exports.Document = exports.NodeWithChildren = exports.ProcessingInstruction = exports.Comment = exports.Text = exports.DataNode = exports.Node = void 0;
-var domelementtype_1 = __webpack_require__(9960);
+var domelementtype_1 = __webpack_require__(99960);
 var nodeTypes = new Map([
     [domelementtype_1.ElementType.Tag, 1],
     [domelementtype_1.ElementType.Script, 1],
@@ -43065,14 +58714,14 @@ function cloneChildren(childs) {
 
 /***/ }),
 
-/***/ 6996:
+/***/ 16996:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.getFeed = void 0;
-var stringify_1 = __webpack_require__(3346);
-var legacy_1 = __webpack_require__(3905);
+var stringify_1 = __webpack_require__(43346);
+var legacy_1 = __webpack_require__(23905);
 /**
  * Get the feed object from the root of a DOM tree.
  *
@@ -43262,13 +58911,13 @@ function isValidFeed(value) {
 
 /***/ }),
 
-/***/ 4975:
+/***/ 74975:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.uniqueSort = exports.compareDocumentPosition = exports.removeSubsets = void 0;
-var domhandler_1 = __webpack_require__(7915);
+var domhandler_1 = __webpack_require__(47915);
 /**
  * Given an array of nodes, remove any member that is contained by another.
  *
@@ -43394,7 +59043,7 @@ exports.uniqueSort = uniqueSort;
 
 /***/ }),
 
-/***/ 9432:
+/***/ 89432:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -43410,15 +59059,15 @@ var __exportStar = (this && this.__exportStar) || function(m, exports) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.hasChildren = exports.isDocument = exports.isComment = exports.isText = exports.isCDATA = exports.isTag = void 0;
-__exportStar(__webpack_require__(3346), exports);
-__exportStar(__webpack_require__(5010), exports);
-__exportStar(__webpack_require__(6765), exports);
-__exportStar(__webpack_require__(8043), exports);
-__exportStar(__webpack_require__(3905), exports);
-__exportStar(__webpack_require__(4975), exports);
-__exportStar(__webpack_require__(6996), exports);
+__exportStar(__webpack_require__(43346), exports);
+__exportStar(__webpack_require__(85010), exports);
+__exportStar(__webpack_require__(26765), exports);
+__exportStar(__webpack_require__(98043), exports);
+__exportStar(__webpack_require__(23905), exports);
+__exportStar(__webpack_require__(74975), exports);
+__exportStar(__webpack_require__(16996), exports);
 /** @deprecated Use these methods from `domhandler` directly. */
-var domhandler_1 = __webpack_require__(7915);
+var domhandler_1 = __webpack_require__(47915);
 Object.defineProperty(exports, "isTag", ({ enumerable: true, get: function () { return domhandler_1.isTag; } }));
 Object.defineProperty(exports, "isCDATA", ({ enumerable: true, get: function () { return domhandler_1.isCDATA; } }));
 Object.defineProperty(exports, "isText", ({ enumerable: true, get: function () { return domhandler_1.isText; } }));
@@ -43429,14 +59078,14 @@ Object.defineProperty(exports, "hasChildren", ({ enumerable: true, get: function
 
 /***/ }),
 
-/***/ 3905:
+/***/ 23905:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.getElementsByTagType = exports.getElementsByTagName = exports.getElementById = exports.getElements = exports.testElement = void 0;
-var domhandler_1 = __webpack_require__(7915);
-var querying_1 = __webpack_require__(8043);
+var domhandler_1 = __webpack_require__(47915);
+var querying_1 = __webpack_require__(98043);
 var Checks = {
     tag_name: function (name) {
         if (typeof name === "function") {
@@ -43560,7 +59209,7 @@ exports.getElementsByTagType = getElementsByTagType;
 
 /***/ }),
 
-/***/ 6765:
+/***/ 26765:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -43696,13 +59345,13 @@ exports.prepend = prepend;
 
 /***/ }),
 
-/***/ 8043:
+/***/ 98043:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.findAll = exports.existsOne = exports.findOne = exports.findOneChild = exports.find = exports.filter = void 0;
-var domhandler_1 = __webpack_require__(7915);
+var domhandler_1 = __webpack_require__(47915);
 /**
  * Search a node and its children for nodes passing a test function.
  *
@@ -43829,7 +59478,7 @@ exports.findAll = findAll;
 
 /***/ }),
 
-/***/ 3346:
+/***/ 43346:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -43838,9 +59487,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.innerText = exports.textContent = exports.getText = exports.getInnerHTML = exports.getOuterHTML = void 0;
-var domhandler_1 = __webpack_require__(7915);
-var dom_serializer_1 = __importDefault(__webpack_require__(7220));
-var domelementtype_1 = __webpack_require__(9960);
+var domhandler_1 = __webpack_require__(47915);
+var dom_serializer_1 = __importDefault(__webpack_require__(97220));
+var domelementtype_1 = __webpack_require__(99960);
 /**
  * @param node Node to get the outer HTML of.
  * @param options Options for serialization.
@@ -43922,13 +59571,13 @@ exports.innerText = innerText;
 
 /***/ }),
 
-/***/ 5010:
+/***/ 85010:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.prevElementSibling = exports.nextElementSibling = exports.getName = exports.hasAttrib = exports.getAttributeValue = exports.getSiblings = exports.getParent = exports.getChildren = void 0;
-var domhandler_1 = __webpack_require__(7915);
+var domhandler_1 = __webpack_require__(47915);
 var emptyArray = [];
 /**
  * Get a node's children.
@@ -44046,7 +59695,7 @@ exports.prevElementSibling = prevElementSibling;
 
 /***/ }),
 
-/***/ 4076:
+/***/ 44076:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -44055,8 +59704,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.decodeHTML = exports.decodeHTMLStrict = exports.decodeXML = void 0;
-var entities_json_1 = __importDefault(__webpack_require__(9323));
-var legacy_json_1 = __importDefault(__webpack_require__(9591));
+var entities_json_1 = __importDefault(__webpack_require__(59323));
+var legacy_json_1 = __importDefault(__webpack_require__(29591));
 var xml_json_1 = __importDefault(__webpack_require__(2586));
 var decode_codepoint_1 = __importDefault(__webpack_require__(26));
 var strictEntityRe = /&(?:[a-zA-Z0-9]+|#[xX][\da-fA-F]+|#\d+);/g;
@@ -44114,7 +59763,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-var decode_json_1 = __importDefault(__webpack_require__(3600));
+var decode_json_1 = __importDefault(__webpack_require__(33600));
 // Adapted from https://github.com/mathiasbynens/he/blob/master/src/he.js#L94-L119
 var fromCodePoint = 
 // eslint-disable-next-line @typescript-eslint/no-unnecessary-condition
@@ -44143,7 +59792,7 @@ exports["default"] = decodeCodePoint;
 
 /***/ }),
 
-/***/ 7322:
+/***/ 87322:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -44163,7 +59812,7 @@ var xmlReplacer = getInverseReplacer(inverseXML);
  * numeric hexadecimal reference (eg. `&#xfc;`) will be used.
  */
 exports.encodeXML = getASCIIEncoder(inverseXML);
-var entities_json_1 = __importDefault(__webpack_require__(9323));
+var entities_json_1 = __importDefault(__webpack_require__(59323));
 var inverseHTML = getInverseObj(entities_json_1.default);
 var htmlReplacer = getInverseReplacer(inverseHTML);
 /**
@@ -44286,14 +59935,14 @@ function getASCIIEncoder(obj) {
 
 /***/ }),
 
-/***/ 5863:
+/***/ 45863:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.decodeXMLStrict = exports.decodeHTML5Strict = exports.decodeHTML4Strict = exports.decodeHTML5 = exports.decodeHTML4 = exports.decodeHTMLStrict = exports.decodeHTML = exports.decodeXML = exports.encodeHTML5 = exports.encodeHTML4 = exports.escapeUTF8 = exports.escape = exports.encodeNonAsciiHTML = exports.encodeHTML = exports.encodeXML = exports.encode = exports.decodeStrict = exports.decode = void 0;
-var decode_1 = __webpack_require__(4076);
-var encode_1 = __webpack_require__(7322);
+var decode_1 = __webpack_require__(44076);
+var encode_1 = __webpack_require__(87322);
 /**
  * Decodes a string with entities.
  *
@@ -44327,7 +59976,7 @@ function encode(data, level) {
     return (!level || level <= 0 ? encode_1.encodeXML : encode_1.encodeHTML)(data);
 }
 exports.encode = encode;
-var encode_2 = __webpack_require__(7322);
+var encode_2 = __webpack_require__(87322);
 Object.defineProperty(exports, "encodeXML", ({ enumerable: true, get: function () { return encode_2.encodeXML; } }));
 Object.defineProperty(exports, "encodeHTML", ({ enumerable: true, get: function () { return encode_2.encodeHTML; } }));
 Object.defineProperty(exports, "encodeNonAsciiHTML", ({ enumerable: true, get: function () { return encode_2.encodeNonAsciiHTML; } }));
@@ -44336,7 +59985,7 @@ Object.defineProperty(exports, "escapeUTF8", ({ enumerable: true, get: function 
 // Legacy aliases (deprecated)
 Object.defineProperty(exports, "encodeHTML4", ({ enumerable: true, get: function () { return encode_2.encodeHTML; } }));
 Object.defineProperty(exports, "encodeHTML5", ({ enumerable: true, get: function () { return encode_2.encodeHTML; } }));
-var decode_2 = __webpack_require__(4076);
+var decode_2 = __webpack_require__(44076);
 Object.defineProperty(exports, "decodeXML", ({ enumerable: true, get: function () { return decode_2.decodeXML; } }));
 Object.defineProperty(exports, "decodeHTML", ({ enumerable: true, get: function () { return decode_2.decodeHTML; } }));
 Object.defineProperty(exports, "decodeHTMLStrict", ({ enumerable: true, get: function () { return decode_2.decodeHTMLStrict; } }));
@@ -44350,7 +59999,7 @@ Object.defineProperty(exports, "decodeXMLStrict", ({ enumerable: true, get: func
 
 /***/ }),
 
-/***/ 859:
+/***/ 10859:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -44767,7 +60416,7 @@ function create(changes) {
 
 /***/ }),
 
-/***/ 3870:
+/***/ 63870:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -44810,9 +60459,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.parseFeed = exports.FeedHandler = void 0;
-var domhandler_1 = __importDefault(__webpack_require__(7915));
-var DomUtils = __importStar(__webpack_require__(9432));
-var Parser_1 = __webpack_require__(763);
+var domhandler_1 = __importDefault(__webpack_require__(47915));
+var DomUtils = __importStar(__webpack_require__(89432));
+var Parser_1 = __webpack_require__(50763);
 var FeedItemMediaMedium;
 (function (FeedItemMediaMedium) {
     FeedItemMediaMedium[FeedItemMediaMedium["image"] = 0] = "image";
@@ -45009,7 +60658,7 @@ exports.parseFeed = parseFeed;
 
 /***/ }),
 
-/***/ 763:
+/***/ 50763:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -45018,7 +60667,7 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.Parser = void 0;
-var Tokenizer_1 = __importDefault(__webpack_require__(9889));
+var Tokenizer_1 = __importDefault(__webpack_require__(39889));
 var formTags = new Set([
     "input",
     "option",
@@ -45397,7 +61046,7 @@ exports.Parser = Parser;
 
 /***/ }),
 
-/***/ 9889:
+/***/ 39889:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -45406,8 +61055,8 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 var decode_codepoint_1 = __importDefault(__webpack_require__(26));
-var entities_json_1 = __importDefault(__webpack_require__(9323));
-var legacy_json_1 = __importDefault(__webpack_require__(9591));
+var entities_json_1 = __importDefault(__webpack_require__(59323));
+var legacy_json_1 = __importDefault(__webpack_require__(29591));
 var xml_json_1 = __importDefault(__webpack_require__(2586));
 function whitespace(c) {
     return c === " " || c === "\n" || c === "\t" || c === "\f" || c === "\r";
@@ -46313,7 +61962,7 @@ exports["default"] = Tokenizer;
 
 /***/ }),
 
-/***/ 3719:
+/***/ 23719:
 /***/ (function(__unused_webpack_module, exports, __webpack_require__) {
 
 
@@ -46344,9 +61993,9 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
 };
 Object.defineProperty(exports, "__esModule", ({ value: true }));
 exports.RssHandler = exports.DefaultHandler = exports.DomUtils = exports.ElementType = exports.Tokenizer = exports.createDomStream = exports.parseDOM = exports.parseDocument = exports.DomHandler = exports.Parser = void 0;
-var Parser_1 = __webpack_require__(763);
+var Parser_1 = __webpack_require__(50763);
 Object.defineProperty(exports, "Parser", ({ enumerable: true, get: function () { return Parser_1.Parser; } }));
-var domhandler_1 = __webpack_require__(7915);
+var domhandler_1 = __webpack_require__(47915);
 Object.defineProperty(exports, "DomHandler", ({ enumerable: true, get: function () { return domhandler_1.DomHandler; } }));
 Object.defineProperty(exports, "DefaultHandler", ({ enumerable: true, get: function () { return domhandler_1.DomHandler; } }));
 // Helper methods
@@ -46388,23 +62037,23 @@ function createDomStream(cb, options, elementCb) {
     return new Parser_1.Parser(handler, options);
 }
 exports.createDomStream = createDomStream;
-var Tokenizer_1 = __webpack_require__(9889);
+var Tokenizer_1 = __webpack_require__(39889);
 Object.defineProperty(exports, "Tokenizer", ({ enumerable: true, get: function () { return __importDefault(Tokenizer_1).default; } }));
-var ElementType = __importStar(__webpack_require__(9960));
+var ElementType = __importStar(__webpack_require__(99960));
 exports.ElementType = ElementType;
 /*
  * All of the following exports exist for backwards-compatibility.
  * They should probably be removed eventually.
  */
-__exportStar(__webpack_require__(3870), exports);
-exports.DomUtils = __importStar(__webpack_require__(9432));
-var FeedHandler_1 = __webpack_require__(3870);
+__exportStar(__webpack_require__(63870), exports);
+exports.DomUtils = __importStar(__webpack_require__(89432));
+var FeedHandler_1 = __webpack_require__(63870);
 Object.defineProperty(exports, "RssHandler", ({ enumerable: true, get: function () { return FeedHandler_1.FeedHandler; } }));
 
 
 /***/ }),
 
-/***/ 8686:
+/***/ 98686:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 /**
@@ -46625,7 +62274,7 @@ module.exports = escape;
 
 /***/ }),
 
-/***/ 6562:
+/***/ 96562:
 /***/ ((module) => {
 
 module.exports = function (args, opts) {
@@ -46881,7 +62530,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 2786:
+/***/ 42786:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -46889,7 +62538,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Werner Mollentze : https://github.com/wernerm
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -46968,7 +62617,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 4130:
+/***/ 14130:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -46980,7 +62629,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Noureddine LOUAHEDJ : https://github.com/noureddinem
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -47140,7 +62789,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 6135:
+/***/ 96135:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -47148,7 +62797,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Nusret Parlak: https://github.com/nusretparlak
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -47211,7 +62860,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 6440:
+/***/ 56440:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -47219,7 +62868,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Ali Hmer: https://github.com/kikoanis
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -47398,7 +63047,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 7702:
+/***/ 47702:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -47407,7 +63056,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Abdel Said : https://github.com/abdelsaid
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -47470,7 +63119,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 6040:
+/***/ 16040:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -47478,7 +63127,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Suhail Alkowaileet : https://github.com/xsoh
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -47591,7 +63240,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 7100:
+/***/ 37100:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -47599,7 +63248,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Nader Toukabri : https://github.com/naderio
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -47662,7 +63311,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 867:
+/***/ 30867:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -47672,7 +63321,7 @@ function isConstructorOrProto (obj, key) {
 //! author : forabi https://github.com/forabi
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -47867,7 +63516,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 1083:
+/***/ 31083:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -47875,7 +63524,7 @@ function isConstructorOrProto (obj, key) {
 //! author : topchiyev : https://github.com/topchiyev
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -47995,7 +63644,7 @@ function isConstructorOrProto (obj, key) {
 //! Author : Menelion Elensúle : https://github.com/Oire
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -48143,7 +63792,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 8338:
+/***/ 68338:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -48151,7 +63800,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Krasen Borisov : https://github.com/kraz
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -48246,7 +63895,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 7438:
+/***/ 67438:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -48254,7 +63903,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Estelle Comment : https://github.com/estellecomment
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -48313,7 +63962,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 6225:
+/***/ 76225:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -48321,7 +63970,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Asraf Hossain Patoary : https://github.com/ashwoolford
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -48466,7 +64115,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Kaushik Gandhi : https://github.com/kaushikgandhi
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -48593,7 +64242,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 1560:
+/***/ 11560:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -48601,7 +64250,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Thupten N. Chakrishar : https://github.com/vajradog
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -48741,7 +64390,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Jean-Baptiste Le Duigou : https://github.com/jbleduigou
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -48917,7 +64566,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 622:
+/***/ 80622:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -48926,7 +64575,7 @@ function isConstructorOrProto (obj, key) {
 //! based on (hr) translation by Bojan Marković
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -49091,7 +64740,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Juan G. Hurtado : https://github.com/juanghurtado
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -49207,7 +64856,7 @@ function isConstructorOrProto (obj, key) {
 //! author : petrbela : https://github.com/petrbela
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -49395,7 +65044,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 877:
+/***/ 50877:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -49403,7 +65052,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Anatoly Mironov : https://github.com/mirontoli
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -49474,7 +65123,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 7373:
+/***/ 47373:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -49483,7 +65132,7 @@ function isConstructorOrProto (obj, key) {
 //! author : https://github.com/ryangreaves
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -49588,7 +65237,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 4780:
+/***/ 24780:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -49596,7 +65245,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Ulrik Nielsen : https://github.com/mrbase
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -49657,7 +65306,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 217:
+/***/ 60217:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -49668,7 +65317,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Mikolaj Dadela : https://github.com/mik01aj
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -49752,7 +65401,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 894:
+/***/ 60894:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -49760,7 +65409,7 @@ function isConstructorOrProto (obj, key) {
 //! author : sschueller : https://github.com/sschueller
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -49844,7 +65493,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 9740:
+/***/ 59740:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -49854,7 +65503,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Mikolaj Dadela : https://github.com/mik01aj
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -49946,7 +65595,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Jawish Hameed : https://github.com/jawish
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -50044,7 +65693,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 837:
+/***/ 50837:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -50052,7 +65701,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Aggelos Karalias : https://github.com/mehiel
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -50166,7 +65815,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 8348:
+/***/ 78348:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -50174,7 +65823,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Jared Morse : https://github.com/jarcoal
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -50250,7 +65899,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 7925:
+/***/ 77925:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -50258,7 +65907,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Jonathan Abourbih : https://github.com/jonbca
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -50330,7 +65979,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 2243:
+/***/ 22243:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -50338,7 +65987,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Chris Gedrim : https://github.com/chrisgedrim
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -50414,7 +66063,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 6436:
+/***/ 46436:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -50422,7 +66071,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Chris Cartlidge : https://github.com/chriscartlidge
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -50498,7 +66147,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 7207:
+/***/ 47207:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -50506,7 +66155,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Chris Gedrim : https://github.com/chrisgedrim
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -50578,7 +66227,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 4175:
+/***/ 44175:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -50586,7 +66235,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Jatin Agrawal : https://github.com/jatinag22
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -50662,7 +66311,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 6319:
+/***/ 76319:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -50670,7 +66319,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Luke McGregor : https://github.com/lukemcgregor
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -50746,7 +66395,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 1662:
+/***/ 31662:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -50754,7 +66403,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Matthew Castrillon-Madrigal : https://github.com/techdimension
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -50830,7 +66479,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 2915:
+/***/ 92915:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -50841,7 +66490,7 @@ function isConstructorOrProto (obj, key) {
 //! comment : Vivakvo corrected the translation by colindean and miestasmia
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -50914,14 +66563,14 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 5251:
+/***/ 55251:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
 //! locale : Spanish (Dominican Republic) [es-do]
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -51038,7 +66687,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 6112:
+/***/ 96112:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -51046,7 +66695,7 @@ function isConstructorOrProto (obj, key) {
 //! author : JC Franco : https://github.com/jcfranco
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -51164,7 +66813,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 1146:
+/***/ 71146:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -51173,7 +66822,7 @@ function isConstructorOrProto (obj, key) {
 //! author : chrisrodz : https://github.com/chrisrodz
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -51290,7 +66939,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 5655:
+/***/ 55655:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -51298,7 +66947,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Julio Napurí : https://github.com/julionc
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -51425,7 +67074,7 @@ function isConstructorOrProto (obj, key) {
 //! improvements : Illimar Tambek : https://github.com/ragulka
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -51510,7 +67159,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 7763:
+/***/ 77763:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -51518,7 +67167,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Eneko Illarramendi : https://github.com/eillarra
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -51591,7 +67240,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 6959:
+/***/ 76959:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -51599,7 +67248,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Ebrahim Byagowi : https://github.com/ebraminio
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -51720,7 +67369,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 1897:
+/***/ 11897:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -51728,7 +67377,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Tarmo Aidantausta : https://github.com/bleadof
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -51860,7 +67509,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 2549:
+/***/ 42549:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -51869,7 +67518,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Matthew Co : https://github.com/matthewdeeco
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -51934,7 +67583,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 4694:
+/***/ 94694:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -51943,7 +67592,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Kristian Sakarisson : https://github.com/sakarisson
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -52007,7 +67656,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 3049:
+/***/ 63049:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -52015,7 +67664,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Jonathan Abourbih : https://github.com/jonbca
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -52093,7 +67742,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 2330:
+/***/ 52330:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -52101,7 +67750,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Gaspard Bucher : https://github.com/gaspard
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -52183,7 +67832,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 4470:
+/***/ 94470:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -52191,7 +67840,7 @@ function isConstructorOrProto (obj, key) {
 //! author : John Fischer : https://github.com/jfroffice
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -52315,7 +67964,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Robin van der Vliet : https://github.com/robin0van0der0v
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -52398,7 +68047,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 9295:
+/***/ 29295:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -52406,7 +68055,7 @@ function isConstructorOrProto (obj, key) {
 //! author : André Silva : https://github.com/askpt
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -52517,7 +68166,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Jon Ashdown : https://github.com/jonashdown
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -52620,7 +68269,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 8794:
+/***/ 38794:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -52628,7 +68277,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Juan G. Hurtado : https://github.com/juanghurtado
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -52711,7 +68360,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 7884:
+/***/ 27884:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -52719,7 +68368,7 @@ function isConstructorOrProto (obj, key) {
 //! author : The Discoverer : https://github.com/WikiDiscoverer
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -52853,7 +68502,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 3168:
+/***/ 23168:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -52861,7 +68510,7 @@ function isConstructorOrProto (obj, key) {
 //! author : The Discoverer : https://github.com/WikiDiscoverer
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -52993,7 +68642,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 5349:
+/***/ 95349:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -53001,7 +68650,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Kaushik Thanki : https://github.com/Kaushik1987
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -53131,7 +68780,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 4206:
+/***/ 24206:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -53141,7 +68790,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Tal Ater : https://github.com/TalAter
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -53241,7 +68890,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 94:
+/***/ 30094:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -53249,7 +68898,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Mayank Singhal : https://github.com/mayanksinghal
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -53425,7 +69074,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 316:
+/***/ 30316:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -53433,7 +69082,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Bojan Marković : https://github.com/bmarkovic
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -53597,7 +69246,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 2138:
+/***/ 22138:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -53606,7 +69255,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Peter Viszt  : https://github.com/passatgt
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -53731,7 +69380,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 1423:
+/***/ 11423:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -53739,7 +69388,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Armendarabyan : https://github.com/armendarabyan
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -53841,7 +69490,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 9218:
+/***/ 29218:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -53850,7 +69499,7 @@ function isConstructorOrProto (obj, key) {
 //! reference: http://id.wikisource.org/wiki/Pedoman_Umum_Ejaan_Bahasa_Indonesia_yang_Disempurnakan
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -53933,7 +69582,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 135:
+/***/ 90135:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -53941,7 +69590,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Hinrik Örn Sigurðsson : https://github.com/hinrik
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -54089,7 +69738,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 150:
+/***/ 10150:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -54097,7 +69746,7 @@ function isConstructorOrProto (obj, key) {
 //! author : xfh : https://github.com/xfh
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -54169,7 +69818,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 626:
+/***/ 90626:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -54179,7 +69828,7 @@ function isConstructorOrProto (obj, key) {
 //! author: Marco : https://github.com/Manfre98
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -54291,7 +69940,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 9183:
+/***/ 39183:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -54299,7 +69948,7 @@ function isConstructorOrProto (obj, key) {
 //! author : LI Long : https://github.com/baryon
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -54455,7 +70104,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 4286:
+/***/ 24286:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -54464,7 +70113,7 @@ function isConstructorOrProto (obj, key) {
 //! reference: http://jv.wikipedia.org/wiki/Basa_Jawa
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -54547,7 +70196,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 2105:
+/***/ 12105:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -54555,7 +70204,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Irakli Janiashvili : https://github.com/IrakliJani
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -54655,7 +70304,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 7772:
+/***/ 47772:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -54663,7 +70312,7 @@ function isConstructorOrProto (obj, key) {
 //! authors : Nurlan Rakhimzhanov : https://github.com/nurlan
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -54753,7 +70402,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 8758:
+/***/ 18758:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -54761,7 +70410,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Kruy Vanna : https://github.com/kruyvanna
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -54872,7 +70521,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 9282:
+/***/ 79282:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -54880,7 +70529,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Rajeev Naik : https://github.com/rajeevnaikte
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -55012,7 +70661,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 3730:
+/***/ 33730:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -55021,7 +70670,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Jeeeyul Lee <jeeeyul@gmail.com>
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -55111,7 +70760,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Shahram Mebashar : https://github.com/ShahramMebashar
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -55237,7 +70886,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 3291:
+/***/ 33291:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -55245,7 +70894,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Chyngyz Arystan uulu : https://github.com/chyngyz
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -55337,7 +70986,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 6841:
+/***/ 36841:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -55346,7 +70995,7 @@ function isConstructorOrProto (obj, key) {
 //! author : David Raison : https://github.com/kwisatz
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -55490,7 +71139,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 5466:
+/***/ 55466:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -55498,7 +71147,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Ryan Hart : https://github.com/ryanhart2
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -55572,7 +71221,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 7010:
+/***/ 57010:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -55580,7 +71229,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Mindaugas Mozūras : https://github.com/mmozuras
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -55713,7 +71362,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 7595:
+/***/ 37595:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -55722,7 +71371,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Jānis Elmeris : https://github.com/JanisE
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -55823,7 +71472,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 9861:
+/***/ 39861:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -55831,7 +71480,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Miodrag Nikač <miodrag@restartit.me> : https://github.com/miodragnikac
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -55956,7 +71605,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 5493:
+/***/ 35493:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -55964,7 +71613,7 @@ function isConstructorOrProto (obj, key) {
 //! author : John Corrigan <robbiecloset@gmail.com> : https://github.com/johnideal
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -56032,7 +71681,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 5966:
+/***/ 95966:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -56041,7 +71690,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Sashko Todorov : https://github.com/bkyceh
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -56134,7 +71783,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 7341:
+/***/ 87341:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -56142,7 +71791,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Floyd Pink : https://github.com/floydpink
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -56240,7 +71889,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Javkhlantugs Nyamdorj : https://github.com/javkhaanj7
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -56348,7 +71997,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 370:
+/***/ 10370:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -56357,7 +72006,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Vivek Athalye : https://github.com/vnathalye
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -56567,7 +72216,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 1237:
+/***/ 41237:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -56576,7 +72225,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Weldan Jamili : https://github.com/weldan
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -56667,7 +72316,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Weldan Jamili : https://github.com/weldan
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -56750,7 +72399,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 2126:
+/***/ 72126:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -56758,7 +72407,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Alessandro Maruccia : https://github.com/alesma
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -56822,7 +72471,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 6165:
+/***/ 56165:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -56832,7 +72481,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Tin Aung Lin : https://github.com/thanyawzinmin
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -56929,7 +72578,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 4924:
+/***/ 64924:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -56939,7 +72588,7 @@ function isConstructorOrProto (obj, key) {
 //!           Stephen Ramthun : https://github.com/stephenramthun
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -57005,7 +72654,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 6744:
+/***/ 16744:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -57013,7 +72662,7 @@ function isConstructorOrProto (obj, key) {
 //! author : suvash : https://github.com/suvash
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -57142,7 +72791,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 9814:
+/***/ 59814:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -57151,7 +72800,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Jacob Middag : https://github.com/middagj
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -57260,7 +72909,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 3901:
+/***/ 93901:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -57269,7 +72918,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Jacob Middag : https://github.com/middagj
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -57380,7 +73029,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 3877:
+/***/ 83877:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -57389,7 +73038,7 @@ function isConstructorOrProto (obj, key) {
 //!           Stephen Ramthun : https://github.com/stephenramthun
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -57455,7 +73104,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 2135:
+/***/ 92135:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -57463,7 +73112,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Quentin PAGÈS : https://github.com/Quenty31
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -57556,7 +73205,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 5858:
+/***/ 15858:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -57564,7 +73213,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Harpreet Singh : https://github.com/harpreetkhalsagtbit
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -57694,7 +73343,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 4495:
+/***/ 64495:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -57702,7 +73351,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Rafal Hirsz : https://github.com/evoL
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -57850,7 +73499,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 7971:
+/***/ 57971:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -57858,7 +73507,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Caio Ribeiro Pereira : https://github.com/caio-ribeiro-pereira
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -57924,7 +73573,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 9520:
+/***/ 89520:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -57932,7 +73581,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Jefferson : https://github.com/jalex79
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -58003,7 +73652,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 6459:
+/***/ 96459:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -58013,7 +73662,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Emanuel Cepoi : https://github.com/cepem
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -58095,7 +73744,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 1793:
+/***/ 21793:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -58105,7 +73754,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Коренберг Марк : https://github.com/socketpair
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -58324,7 +73973,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 950:
+/***/ 40950:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -58332,7 +73981,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Narain Sagar : https://github.com/narainsagar
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -58421,7 +74070,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 490:
+/***/ 10490:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -58429,7 +74078,7 @@ function isConstructorOrProto (obj, key) {
 //! authors : Bård Rolstad Henriksen : https://github.com/karamell
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -58494,7 +74143,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 124:
+/***/ 90124:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -58502,7 +74151,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Sampath Sitinamaluwa : https://github.com/sampathsris
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -58579,7 +74228,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 4249:
+/***/ 64249:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -58588,7 +74237,7 @@ function isConstructorOrProto (obj, key) {
 //! based on work of petrbela : https://github.com/petrbela
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -58740,7 +74389,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 4985:
+/***/ 14985:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -58748,7 +74397,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Robert Sedovšek : https://github.com/sedovsek
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -58927,7 +74576,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 1104:
+/***/ 51104:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -58937,7 +74586,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Oerd Cukalla : https://github.com/oerd
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -59008,7 +74657,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 9915:
+/***/ 79915:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -59017,7 +74666,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Stefan Crnjaković <stefan@hotmail.rs> : https://github.com/crnjakovic
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -59151,7 +74800,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 9131:
+/***/ 49131:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -59160,7 +74809,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Stefan Crnjaković <stefan@hotmail.rs> : https://github.com/crnjakovic
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -59296,7 +74945,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 5893:
+/***/ 85893:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -59304,7 +74953,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Nicolai Davies<mail@nicolai.io> : https://github.com/nicolaidavies
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -59396,7 +75045,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 8760:
+/***/ 98760:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -59404,7 +75053,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Jens Alm : https://github.com/ulmus
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -59480,7 +75129,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 1172:
+/***/ 91172:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -59488,7 +75137,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Fahad Kassim : https://github.com/fadsel
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -59551,7 +75200,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 7333:
+/***/ 27333:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -59559,7 +75208,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Arjunkumar Krishnamoorthy : https://github.com/tk120404
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -59698,7 +75347,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 3110:
+/***/ 23110:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -59706,7 +75355,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Krishna Chaitanya Thota : https://github.com/kcthota
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -59802,7 +75451,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 2095:
+/***/ 52095:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -59812,7 +75461,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Sonia Simoes : https://github.com/soniasimoes
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -59886,7 +75535,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 7321:
+/***/ 27321:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -59894,7 +75543,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Orif N. Jr. : https://github.com/orif-jr
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -60027,7 +75676,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Kridsada Thanabulpong : https://github.com/sirn
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -60100,7 +75749,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 9005:
+/***/ 19005:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -60108,7 +75757,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Atamyrat Abdyrahmanov : https://github.com/atamyratabdy
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -60207,7 +75856,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 5768:
+/***/ 75768:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -60215,7 +75864,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Dan Hagman : https://github.com/hagmandan
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -60280,7 +75929,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 9444:
+/***/ 89444:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -60288,7 +75937,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Dominika Kruk : https://github.com/amaranthrose
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -60420,7 +76069,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 2397:
+/***/ 72397:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -60429,7 +76078,7 @@ function isConstructorOrProto (obj, key) {
 //!           Burak Yiğit Kaya: https://github.com/BYK
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -60542,7 +76191,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 8254:
+/***/ 28254:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -60551,7 +76200,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Iustì Canun
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -60647,7 +76296,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 699:
+/***/ 30699:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -60655,7 +76304,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Abdel Said : https://github.com/abdelsaid
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -60717,7 +76366,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 1106:
+/***/ 51106:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -60725,7 +76374,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Abdel Said : https://github.com/abdelsaid
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -60795,7 +76444,7 @@ function isConstructorOrProto (obj, key) {
 //! author: boyaq : https://github.com/boyaq
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -60914,7 +76563,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 7691:
+/***/ 67691:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -60923,7 +76572,7 @@ function isConstructorOrProto (obj, key) {
 //! Author : Menelion Elensúle : https://github.com/Oire
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -61097,7 +76746,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 3795:
+/***/ 13795:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -61106,7 +76755,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Zack : https://github.com/ZackVision
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -61195,7 +76844,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 588:
+/***/ 60588:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -61203,7 +76852,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Rasulbek Mirzayev : github.com/Rasulbeeek
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -61273,7 +76922,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Sardor Muminov : https://github.com/muminoff
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -61332,7 +76981,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 5666:
+/***/ 65666:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -61341,7 +76990,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Chien Kira : https://github.com/chienkira
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -61428,7 +77077,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 4378:
+/***/ 14378:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -61436,7 +77085,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Andrew Hood : https://github.com/andrewhood125
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -61517,7 +77166,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 5805:
+/***/ 75805:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -61525,7 +77174,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Atolagbe Abisoye : https://github.com/andela-batolagbe
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -61586,7 +77235,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 3839:
+/***/ 83839:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -61596,7 +77245,7 @@ function isConstructorOrProto (obj, key) {
 //! author : uu109 : https://github.com/uu109
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -61722,7 +77371,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 5726:
+/***/ 55726:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -61733,7 +77382,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Anthony : https://github.com/anthonylau
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -61839,7 +77488,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 9807:
+/***/ 99807:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -61849,7 +77498,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Tan Yuanhong : https://github.com/le0tan
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -61955,7 +77604,7 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 4152:
+/***/ 74152:
 /***/ (function(__unused_webpack_module, __unused_webpack_exports, __webpack_require__) {
 
 //! moment.js locale configuration
@@ -61964,7 +77613,7 @@ function isConstructorOrProto (obj, key) {
 //! author : Chris Lam : https://github.com/hehachris
 
 ;(function (global, factory) {
-    true ? factory(__webpack_require__(381)) :
+    true ? factory(__webpack_require__(30381)) :
    0
 }(this, (function (moment) { 'use strict';
 
@@ -62070,280 +77719,280 @@ function isConstructorOrProto (obj, key) {
 
 /***/ }),
 
-/***/ 6700:
+/***/ 46700:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 var map = {
-	"./af": 2786,
-	"./af.js": 2786,
-	"./ar": 867,
-	"./ar-dz": 4130,
-	"./ar-dz.js": 4130,
-	"./ar-kw": 6135,
-	"./ar-kw.js": 6135,
-	"./ar-ly": 6440,
-	"./ar-ly.js": 6440,
-	"./ar-ma": 7702,
-	"./ar-ma.js": 7702,
-	"./ar-sa": 6040,
-	"./ar-sa.js": 6040,
-	"./ar-tn": 7100,
-	"./ar-tn.js": 7100,
-	"./ar.js": 867,
-	"./az": 1083,
-	"./az.js": 1083,
+	"./af": 42786,
+	"./af.js": 42786,
+	"./ar": 30867,
+	"./ar-dz": 14130,
+	"./ar-dz.js": 14130,
+	"./ar-kw": 96135,
+	"./ar-kw.js": 96135,
+	"./ar-ly": 56440,
+	"./ar-ly.js": 56440,
+	"./ar-ma": 47702,
+	"./ar-ma.js": 47702,
+	"./ar-sa": 16040,
+	"./ar-sa.js": 16040,
+	"./ar-tn": 37100,
+	"./ar-tn.js": 37100,
+	"./ar.js": 30867,
+	"./az": 31083,
+	"./az.js": 31083,
 	"./be": 9808,
 	"./be.js": 9808,
-	"./bg": 8338,
-	"./bg.js": 8338,
-	"./bm": 7438,
-	"./bm.js": 7438,
+	"./bg": 68338,
+	"./bg.js": 68338,
+	"./bm": 67438,
+	"./bm.js": 67438,
 	"./bn": 8905,
-	"./bn-bd": 6225,
-	"./bn-bd.js": 6225,
+	"./bn-bd": 76225,
+	"./bn-bd.js": 76225,
 	"./bn.js": 8905,
-	"./bo": 1560,
-	"./bo.js": 1560,
+	"./bo": 11560,
+	"./bo.js": 11560,
 	"./br": 1278,
 	"./br.js": 1278,
-	"./bs": 622,
-	"./bs.js": 622,
+	"./bs": 80622,
+	"./bs.js": 80622,
 	"./ca": 2468,
 	"./ca.js": 2468,
 	"./cs": 5822,
 	"./cs.js": 5822,
-	"./cv": 877,
-	"./cv.js": 877,
-	"./cy": 7373,
-	"./cy.js": 7373,
-	"./da": 4780,
-	"./da.js": 4780,
-	"./de": 9740,
-	"./de-at": 217,
-	"./de-at.js": 217,
-	"./de-ch": 894,
-	"./de-ch.js": 894,
-	"./de.js": 9740,
+	"./cv": 50877,
+	"./cv.js": 50877,
+	"./cy": 47373,
+	"./cy.js": 47373,
+	"./da": 24780,
+	"./da.js": 24780,
+	"./de": 59740,
+	"./de-at": 60217,
+	"./de-at.js": 60217,
+	"./de-ch": 60894,
+	"./de-ch.js": 60894,
+	"./de.js": 59740,
 	"./dv": 5300,
 	"./dv.js": 5300,
-	"./el": 837,
-	"./el.js": 837,
-	"./en-au": 8348,
-	"./en-au.js": 8348,
-	"./en-ca": 7925,
-	"./en-ca.js": 7925,
-	"./en-gb": 2243,
-	"./en-gb.js": 2243,
-	"./en-ie": 6436,
-	"./en-ie.js": 6436,
-	"./en-il": 7207,
-	"./en-il.js": 7207,
-	"./en-in": 4175,
-	"./en-in.js": 4175,
-	"./en-nz": 6319,
-	"./en-nz.js": 6319,
-	"./en-sg": 1662,
-	"./en-sg.js": 1662,
-	"./eo": 2915,
-	"./eo.js": 2915,
-	"./es": 5655,
-	"./es-do": 5251,
-	"./es-do.js": 5251,
-	"./es-mx": 6112,
-	"./es-mx.js": 6112,
-	"./es-us": 1146,
-	"./es-us.js": 1146,
-	"./es.js": 5655,
+	"./el": 50837,
+	"./el.js": 50837,
+	"./en-au": 78348,
+	"./en-au.js": 78348,
+	"./en-ca": 77925,
+	"./en-ca.js": 77925,
+	"./en-gb": 22243,
+	"./en-gb.js": 22243,
+	"./en-ie": 46436,
+	"./en-ie.js": 46436,
+	"./en-il": 47207,
+	"./en-il.js": 47207,
+	"./en-in": 44175,
+	"./en-in.js": 44175,
+	"./en-nz": 76319,
+	"./en-nz.js": 76319,
+	"./en-sg": 31662,
+	"./en-sg.js": 31662,
+	"./eo": 92915,
+	"./eo.js": 92915,
+	"./es": 55655,
+	"./es-do": 55251,
+	"./es-do.js": 55251,
+	"./es-mx": 96112,
+	"./es-mx.js": 96112,
+	"./es-us": 71146,
+	"./es-us.js": 71146,
+	"./es.js": 55655,
 	"./et": 5603,
 	"./et.js": 5603,
-	"./eu": 7763,
-	"./eu.js": 7763,
-	"./fa": 6959,
-	"./fa.js": 6959,
-	"./fi": 1897,
-	"./fi.js": 1897,
-	"./fil": 2549,
-	"./fil.js": 2549,
-	"./fo": 4694,
-	"./fo.js": 4694,
-	"./fr": 4470,
-	"./fr-ca": 3049,
-	"./fr-ca.js": 3049,
-	"./fr-ch": 2330,
-	"./fr-ch.js": 2330,
-	"./fr.js": 4470,
+	"./eu": 77763,
+	"./eu.js": 77763,
+	"./fa": 76959,
+	"./fa.js": 76959,
+	"./fi": 11897,
+	"./fi.js": 11897,
+	"./fil": 42549,
+	"./fil.js": 42549,
+	"./fo": 94694,
+	"./fo.js": 94694,
+	"./fr": 94470,
+	"./fr-ca": 63049,
+	"./fr-ca.js": 63049,
+	"./fr-ch": 52330,
+	"./fr-ch.js": 52330,
+	"./fr.js": 94470,
 	"./fy": 5044,
 	"./fy.js": 5044,
-	"./ga": 9295,
-	"./ga.js": 9295,
+	"./ga": 29295,
+	"./ga.js": 29295,
 	"./gd": 2101,
 	"./gd.js": 2101,
-	"./gl": 8794,
-	"./gl.js": 8794,
-	"./gom-deva": 7884,
-	"./gom-deva.js": 7884,
-	"./gom-latn": 3168,
-	"./gom-latn.js": 3168,
-	"./gu": 5349,
-	"./gu.js": 5349,
-	"./he": 4206,
-	"./he.js": 4206,
-	"./hi": 94,
-	"./hi.js": 94,
-	"./hr": 316,
-	"./hr.js": 316,
-	"./hu": 2138,
-	"./hu.js": 2138,
-	"./hy-am": 1423,
-	"./hy-am.js": 1423,
-	"./id": 9218,
-	"./id.js": 9218,
-	"./is": 135,
-	"./is.js": 135,
-	"./it": 626,
-	"./it-ch": 150,
-	"./it-ch.js": 150,
-	"./it.js": 626,
-	"./ja": 9183,
-	"./ja.js": 9183,
-	"./jv": 4286,
-	"./jv.js": 4286,
-	"./ka": 2105,
-	"./ka.js": 2105,
-	"./kk": 7772,
-	"./kk.js": 7772,
-	"./km": 8758,
-	"./km.js": 8758,
-	"./kn": 9282,
-	"./kn.js": 9282,
-	"./ko": 3730,
-	"./ko.js": 3730,
+	"./gl": 38794,
+	"./gl.js": 38794,
+	"./gom-deva": 27884,
+	"./gom-deva.js": 27884,
+	"./gom-latn": 23168,
+	"./gom-latn.js": 23168,
+	"./gu": 95349,
+	"./gu.js": 95349,
+	"./he": 24206,
+	"./he.js": 24206,
+	"./hi": 30094,
+	"./hi.js": 30094,
+	"./hr": 30316,
+	"./hr.js": 30316,
+	"./hu": 22138,
+	"./hu.js": 22138,
+	"./hy-am": 11423,
+	"./hy-am.js": 11423,
+	"./id": 29218,
+	"./id.js": 29218,
+	"./is": 90135,
+	"./is.js": 90135,
+	"./it": 90626,
+	"./it-ch": 10150,
+	"./it-ch.js": 10150,
+	"./it.js": 90626,
+	"./ja": 39183,
+	"./ja.js": 39183,
+	"./jv": 24286,
+	"./jv.js": 24286,
+	"./ka": 12105,
+	"./ka.js": 12105,
+	"./kk": 47772,
+	"./kk.js": 47772,
+	"./km": 18758,
+	"./km.js": 18758,
+	"./kn": 79282,
+	"./kn.js": 79282,
+	"./ko": 33730,
+	"./ko.js": 33730,
 	"./ku": 1408,
 	"./ku.js": 1408,
-	"./ky": 3291,
-	"./ky.js": 3291,
-	"./lb": 6841,
-	"./lb.js": 6841,
-	"./lo": 5466,
-	"./lo.js": 5466,
-	"./lt": 7010,
-	"./lt.js": 7010,
-	"./lv": 7595,
-	"./lv.js": 7595,
-	"./me": 9861,
-	"./me.js": 9861,
-	"./mi": 5493,
-	"./mi.js": 5493,
-	"./mk": 5966,
-	"./mk.js": 5966,
-	"./ml": 7341,
-	"./ml.js": 7341,
+	"./ky": 33291,
+	"./ky.js": 33291,
+	"./lb": 36841,
+	"./lb.js": 36841,
+	"./lo": 55466,
+	"./lo.js": 55466,
+	"./lt": 57010,
+	"./lt.js": 57010,
+	"./lv": 37595,
+	"./lv.js": 37595,
+	"./me": 39861,
+	"./me.js": 39861,
+	"./mi": 35493,
+	"./mi.js": 35493,
+	"./mk": 95966,
+	"./mk.js": 95966,
+	"./ml": 87341,
+	"./ml.js": 87341,
 	"./mn": 5115,
 	"./mn.js": 5115,
-	"./mr": 370,
-	"./mr.js": 370,
+	"./mr": 10370,
+	"./mr.js": 10370,
 	"./ms": 9847,
-	"./ms-my": 1237,
-	"./ms-my.js": 1237,
+	"./ms-my": 41237,
+	"./ms-my.js": 41237,
 	"./ms.js": 9847,
-	"./mt": 2126,
-	"./mt.js": 2126,
-	"./my": 6165,
-	"./my.js": 6165,
-	"./nb": 4924,
-	"./nb.js": 4924,
-	"./ne": 6744,
-	"./ne.js": 6744,
-	"./nl": 3901,
-	"./nl-be": 9814,
-	"./nl-be.js": 9814,
-	"./nl.js": 3901,
-	"./nn": 3877,
-	"./nn.js": 3877,
-	"./oc-lnc": 2135,
-	"./oc-lnc.js": 2135,
-	"./pa-in": 5858,
-	"./pa-in.js": 5858,
-	"./pl": 4495,
-	"./pl.js": 4495,
-	"./pt": 9520,
-	"./pt-br": 7971,
-	"./pt-br.js": 7971,
-	"./pt.js": 9520,
-	"./ro": 6459,
-	"./ro.js": 6459,
-	"./ru": 1793,
-	"./ru.js": 1793,
-	"./sd": 950,
-	"./sd.js": 950,
-	"./se": 490,
-	"./se.js": 490,
-	"./si": 124,
-	"./si.js": 124,
-	"./sk": 4249,
-	"./sk.js": 4249,
-	"./sl": 4985,
-	"./sl.js": 4985,
-	"./sq": 1104,
-	"./sq.js": 1104,
-	"./sr": 9131,
-	"./sr-cyrl": 9915,
-	"./sr-cyrl.js": 9915,
-	"./sr.js": 9131,
-	"./ss": 5893,
-	"./ss.js": 5893,
-	"./sv": 8760,
-	"./sv.js": 8760,
-	"./sw": 1172,
-	"./sw.js": 1172,
-	"./ta": 7333,
-	"./ta.js": 7333,
-	"./te": 3110,
-	"./te.js": 3110,
-	"./tet": 2095,
-	"./tet.js": 2095,
-	"./tg": 7321,
-	"./tg.js": 7321,
+	"./mt": 72126,
+	"./mt.js": 72126,
+	"./my": 56165,
+	"./my.js": 56165,
+	"./nb": 64924,
+	"./nb.js": 64924,
+	"./ne": 16744,
+	"./ne.js": 16744,
+	"./nl": 93901,
+	"./nl-be": 59814,
+	"./nl-be.js": 59814,
+	"./nl.js": 93901,
+	"./nn": 83877,
+	"./nn.js": 83877,
+	"./oc-lnc": 92135,
+	"./oc-lnc.js": 92135,
+	"./pa-in": 15858,
+	"./pa-in.js": 15858,
+	"./pl": 64495,
+	"./pl.js": 64495,
+	"./pt": 89520,
+	"./pt-br": 57971,
+	"./pt-br.js": 57971,
+	"./pt.js": 89520,
+	"./ro": 96459,
+	"./ro.js": 96459,
+	"./ru": 21793,
+	"./ru.js": 21793,
+	"./sd": 40950,
+	"./sd.js": 40950,
+	"./se": 10490,
+	"./se.js": 10490,
+	"./si": 90124,
+	"./si.js": 90124,
+	"./sk": 64249,
+	"./sk.js": 64249,
+	"./sl": 14985,
+	"./sl.js": 14985,
+	"./sq": 51104,
+	"./sq.js": 51104,
+	"./sr": 49131,
+	"./sr-cyrl": 79915,
+	"./sr-cyrl.js": 79915,
+	"./sr.js": 49131,
+	"./ss": 85893,
+	"./ss.js": 85893,
+	"./sv": 98760,
+	"./sv.js": 98760,
+	"./sw": 91172,
+	"./sw.js": 91172,
+	"./ta": 27333,
+	"./ta.js": 27333,
+	"./te": 23110,
+	"./te.js": 23110,
+	"./tet": 52095,
+	"./tet.js": 52095,
+	"./tg": 27321,
+	"./tg.js": 27321,
 	"./th": 9041,
 	"./th.js": 9041,
-	"./tk": 9005,
-	"./tk.js": 9005,
-	"./tl-ph": 5768,
-	"./tl-ph.js": 5768,
-	"./tlh": 9444,
-	"./tlh.js": 9444,
-	"./tr": 2397,
-	"./tr.js": 2397,
-	"./tzl": 8254,
-	"./tzl.js": 8254,
-	"./tzm": 1106,
-	"./tzm-latn": 699,
-	"./tzm-latn.js": 699,
-	"./tzm.js": 1106,
+	"./tk": 19005,
+	"./tk.js": 19005,
+	"./tl-ph": 75768,
+	"./tl-ph.js": 75768,
+	"./tlh": 89444,
+	"./tlh.js": 89444,
+	"./tr": 72397,
+	"./tr.js": 72397,
+	"./tzl": 28254,
+	"./tzl.js": 28254,
+	"./tzm": 51106,
+	"./tzm-latn": 30699,
+	"./tzm-latn.js": 30699,
+	"./tzm.js": 51106,
 	"./ug-cn": 9288,
 	"./ug-cn.js": 9288,
-	"./uk": 7691,
-	"./uk.js": 7691,
-	"./ur": 3795,
-	"./ur.js": 3795,
+	"./uk": 67691,
+	"./uk.js": 67691,
+	"./ur": 13795,
+	"./ur.js": 13795,
 	"./uz": 6791,
-	"./uz-latn": 588,
-	"./uz-latn.js": 588,
+	"./uz-latn": 60588,
+	"./uz-latn.js": 60588,
 	"./uz.js": 6791,
-	"./vi": 5666,
-	"./vi.js": 5666,
-	"./x-pseudo": 4378,
-	"./x-pseudo.js": 4378,
-	"./yo": 5805,
-	"./yo.js": 5805,
-	"./zh-cn": 3839,
-	"./zh-cn.js": 3839,
-	"./zh-hk": 5726,
-	"./zh-hk.js": 5726,
-	"./zh-mo": 9807,
-	"./zh-mo.js": 9807,
-	"./zh-tw": 4152,
-	"./zh-tw.js": 4152
+	"./vi": 65666,
+	"./vi.js": 65666,
+	"./x-pseudo": 14378,
+	"./x-pseudo.js": 14378,
+	"./yo": 75805,
+	"./yo.js": 75805,
+	"./zh-cn": 83839,
+	"./zh-cn.js": 83839,
+	"./zh-hk": 55726,
+	"./zh-hk.js": 55726,
+	"./zh-mo": 99807,
+	"./zh-mo.js": 99807,
+	"./zh-tw": 74152,
+	"./zh-tw.js": 74152
 };
 
 
@@ -62364,11 +78013,11 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 6700;
+webpackContext.id = 46700;
 
 /***/ }),
 
-/***/ 381:
+/***/ 30381:
 /***/ (function(module, __unused_webpack_exports, __webpack_require__) {
 
 /* module decorator */ module = __webpack_require__.nmd(module);
@@ -64472,7 +80121,7 @@ webpackContext.id = 6700;
             try {
                 oldLocale = globalLocale._abbr;
                 aliasedRequire = undefined;
-                __webpack_require__(6700)("./" + name);
+                __webpack_require__(46700)("./" + name);
                 getSetGlobalLocale(oldLocale);
             } catch (e) {
                 // mark as not found to avoid repeating expensive file require call causing high CPU
@@ -68060,7 +83709,7 @@ webpackContext.id = 6700;
 
 /***/ }),
 
-/***/ 9394:
+/***/ 27418:
 /***/ ((module) => {
 
 /*
@@ -68157,7 +83806,7 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 
 /***/ }),
 
-/***/ 9430:
+/***/ 79430:
 /***/ (function(module, exports) {
 
 var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -68489,9 +84138,10 @@ var __WEBPACK_AMD_DEFINE_FACTORY__, __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_
 
 /***/ }),
 
-/***/ 6470:
-/***/ ((module) => {
+/***/ 26470:
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
+/* provided dependency */ var process = __webpack_require__(34155);
 // 'path' module extracted from Node.js v8.11.1 (only the posix part)
 // transplited with Babel
 
@@ -69025,7 +84675,7 @@ module.exports = posix;
 
 /***/ }),
 
-/***/ 4241:
+/***/ 74241:
 /***/ ((module) => {
 
 var x=String;
@@ -69036,12 +84686,12 @@ module.exports.createColors = create;
 
 /***/ }),
 
-/***/ 1353:
+/***/ 41353:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
 
-let Container = __webpack_require__(1019)
+let Container = __webpack_require__(21019)
 
 class AtRule extends Container {
   constructor(defaults) {
@@ -69068,12 +84718,12 @@ Container.registerAtRule(AtRule)
 
 /***/ }),
 
-/***/ 9932:
+/***/ 69932:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
 
-let Node = __webpack_require__(5631)
+let Node = __webpack_require__(65631)
 
 class Comment extends Node {
   constructor(defaults) {
@@ -69088,15 +84738,15 @@ Comment.default = Comment
 
 /***/ }),
 
-/***/ 1019:
+/***/ 21019:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
 
-let { isClean, my } = __webpack_require__(5513)
-let Declaration = __webpack_require__(4258)
-let Comment = __webpack_require__(9932)
-let Node = __webpack_require__(5631)
+let { isClean, my } = __webpack_require__(65513)
+let Declaration = __webpack_require__(94258)
+let Comment = __webpack_require__(69932)
+let Node = __webpack_require__(65631)
 
 let parse, Rule, AtRule, Root
 
@@ -69534,14 +85184,14 @@ Container.rebuild = node => {
 
 /***/ }),
 
-/***/ 2671:
+/***/ 42671:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
 
-let pico = __webpack_require__(4241)
+let pico = __webpack_require__(74241)
 
-let terminalHighlight = __webpack_require__(2868)
+let terminalHighlight = __webpack_require__(22868)
 
 class CssSyntaxError extends Error {
   constructor(message, line, column, source, file, plugin) {
@@ -69641,12 +85291,12 @@ CssSyntaxError.default = CssSyntaxError
 
 /***/ }),
 
-/***/ 4258:
+/***/ 94258:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
 
-let Node = __webpack_require__(5631)
+let Node = __webpack_require__(65631)
 
 class Declaration extends Node {
   constructor(defaults) {
@@ -69672,12 +85322,12 @@ Declaration.default = Declaration
 
 /***/ }),
 
-/***/ 6461:
+/***/ 26461:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
 
-let Container = __webpack_require__(1019)
+let Container = __webpack_require__(21019)
 
 let LazyResult, Processor
 
@@ -69712,18 +85362,18 @@ Document.default = Document
 
 /***/ }),
 
-/***/ 250:
+/***/ 50250:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
 
-let Declaration = __webpack_require__(4258)
-let PreviousMap = __webpack_require__(7981)
-let Comment = __webpack_require__(9932)
-let AtRule = __webpack_require__(1353)
+let Declaration = __webpack_require__(94258)
+let PreviousMap = __webpack_require__(47981)
+let Comment = __webpack_require__(69932)
+let AtRule = __webpack_require__(41353)
 let Input = __webpack_require__(5995)
-let Root = __webpack_require__(1025)
-let Rule = __webpack_require__(1675)
+let Root = __webpack_require__(41025)
+let Rule = __webpack_require__(31675)
 
 function fromJSON(json, inputs) {
   if (Array.isArray(json)) return json.map(n => fromJSON(n))
@@ -69778,14 +85428,14 @@ fromJSON.default = fromJSON
 
 
 
-let { SourceMapConsumer, SourceMapGenerator } = __webpack_require__(209)
-let { fileURLToPath, pathToFileURL } = __webpack_require__(7414)
-let { resolve, isAbsolute } = __webpack_require__(9830)
-let { nanoid } = __webpack_require__(2961)
+let { SourceMapConsumer, SourceMapGenerator } = __webpack_require__(70209)
+let { fileURLToPath, pathToFileURL } = __webpack_require__(87414)
+let { resolve, isAbsolute } = __webpack_require__(99830)
+let { nanoid } = __webpack_require__(62961)
 
-let terminalHighlight = __webpack_require__(2868)
-let CssSyntaxError = __webpack_require__(2671)
-let PreviousMap = __webpack_require__(7981)
+let terminalHighlight = __webpack_require__(22868)
+let CssSyntaxError = __webpack_require__(42671)
+let PreviousMap = __webpack_require__(47981)
 
 let fromOffsetCache = Symbol('fromOffsetCache')
 
@@ -70028,20 +85678,20 @@ if (terminalHighlight && terminalHighlight.registerInput) {
 
 /***/ }),
 
-/***/ 1939:
+/***/ 21939:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
 
-let { isClean, my } = __webpack_require__(5513)
-let MapGenerator = __webpack_require__(8505)
-let stringify = __webpack_require__(7088)
-let Container = __webpack_require__(1019)
-let Document = __webpack_require__(6461)
-let warnOnce = __webpack_require__(2448)
-let Result = __webpack_require__(3632)
-let parse = __webpack_require__(6939)
-let Root = __webpack_require__(1025)
+let { isClean, my } = __webpack_require__(65513)
+let MapGenerator = __webpack_require__(48505)
+let stringify = __webpack_require__(67088)
+let Container = __webpack_require__(21019)
+let Document = __webpack_require__(26461)
+let warnOnce = __webpack_require__(72448)
+let Result = __webpack_require__(83632)
+let parse = __webpack_require__(66939)
+let Root = __webpack_require__(41025)
 
 const TYPE_TO_CLASS_NAME = {
   document: 'Document',
@@ -70557,7 +86207,7 @@ Document.registerLazyResult(LazyResult)
 
 /***/ }),
 
-/***/ 4715:
+/***/ 54715:
 /***/ ((module) => {
 
 
@@ -70622,14 +86272,14 @@ list.default = list
 
 /***/ }),
 
-/***/ 8505:
+/***/ 48505:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
 
-let { SourceMapConsumer, SourceMapGenerator } = __webpack_require__(209)
-let { dirname, resolve, relative, sep } = __webpack_require__(9830)
-let { pathToFileURL } = __webpack_require__(7414)
+let { SourceMapConsumer, SourceMapGenerator } = __webpack_require__(70209)
+let { dirname, resolve, relative, sep } = __webpack_require__(99830)
+let { pathToFileURL } = __webpack_require__(87414)
 
 let Input = __webpack_require__(5995)
 
@@ -70960,16 +86610,16 @@ module.exports = MapGenerator
 
 /***/ }),
 
-/***/ 7647:
+/***/ 47647:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
 
-let MapGenerator = __webpack_require__(8505)
-let stringify = __webpack_require__(7088)
-let warnOnce = __webpack_require__(2448)
-let parse = __webpack_require__(6939)
-const Result = __webpack_require__(3632)
+let MapGenerator = __webpack_require__(48505)
+let stringify = __webpack_require__(67088)
+let warnOnce = __webpack_require__(72448)
+let parse = __webpack_require__(66939)
+const Result = __webpack_require__(83632)
 
 class NoWorkResult {
   constructor(processor, css, opts) {
@@ -71094,15 +86744,15 @@ NoWorkResult.default = NoWorkResult
 
 /***/ }),
 
-/***/ 5631:
+/***/ 65631:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
 
-let { isClean, my } = __webpack_require__(5513)
-let CssSyntaxError = __webpack_require__(2671)
+let { isClean, my } = __webpack_require__(65513)
+let CssSyntaxError = __webpack_require__(42671)
 let Stringifier = __webpack_require__(1062)
-let stringify = __webpack_require__(7088)
+let stringify = __webpack_require__(67088)
 
 function cloneNode(obj, parent) {
   let cloned = new obj.constructor()
@@ -71480,13 +87130,13 @@ Node.default = Node
 
 /***/ }),
 
-/***/ 6939:
+/***/ 66939:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
 
-let Container = __webpack_require__(1019)
-let Parser = __webpack_require__(8867)
+let Container = __webpack_require__(21019)
+let Parser = __webpack_require__(68867)
 let Input = __webpack_require__(5995)
 
 function parse(css, opts) {
@@ -71510,17 +87160,17 @@ Container.registerParse(parse)
 
 /***/ }),
 
-/***/ 8867:
+/***/ 68867:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
 
-let Declaration = __webpack_require__(4258)
-let tokenizer = __webpack_require__(3852)
-let Comment = __webpack_require__(9932)
-let AtRule = __webpack_require__(1353)
-let Root = __webpack_require__(1025)
-let Rule = __webpack_require__(1675)
+let Declaration = __webpack_require__(94258)
+let tokenizer = __webpack_require__(83852)
+let Comment = __webpack_require__(69932)
+let AtRule = __webpack_require__(41353)
+let Root = __webpack_require__(41025)
+let Rule = __webpack_require__(31675)
 
 const SAFE_COMMENT_NEIGHBOR = {
   empty: true,
@@ -72120,29 +87770,29 @@ module.exports = Parser
 
 /***/ }),
 
-/***/ 20:
+/***/ 50020:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
 
-let CssSyntaxError = __webpack_require__(2671)
-let Declaration = __webpack_require__(4258)
-let LazyResult = __webpack_require__(1939)
-let Container = __webpack_require__(1019)
-let Processor = __webpack_require__(1723)
-let stringify = __webpack_require__(7088)
-let fromJSON = __webpack_require__(250)
-let Document = __webpack_require__(6461)
-let Warning = __webpack_require__(1728)
-let Comment = __webpack_require__(9932)
-let AtRule = __webpack_require__(1353)
-let Result = __webpack_require__(3632)
+let CssSyntaxError = __webpack_require__(42671)
+let Declaration = __webpack_require__(94258)
+let LazyResult = __webpack_require__(21939)
+let Container = __webpack_require__(21019)
+let Processor = __webpack_require__(71723)
+let stringify = __webpack_require__(67088)
+let fromJSON = __webpack_require__(50250)
+let Document = __webpack_require__(26461)
+let Warning = __webpack_require__(11728)
+let Comment = __webpack_require__(69932)
+let AtRule = __webpack_require__(41353)
+let Result = __webpack_require__(83632)
 let Input = __webpack_require__(5995)
-let parse = __webpack_require__(6939)
-let list = __webpack_require__(4715)
-let Rule = __webpack_require__(1675)
-let Root = __webpack_require__(1025)
-let Node = __webpack_require__(5631)
+let parse = __webpack_require__(66939)
+let list = __webpack_require__(54715)
+let Rule = __webpack_require__(31675)
+let Root = __webpack_require__(41025)
+let Node = __webpack_require__(65631)
 
 function postcss(...plugins) {
   if (plugins.length === 1 && Array.isArray(plugins[0])) {
@@ -72228,14 +87878,14 @@ postcss.default = postcss
 
 /***/ }),
 
-/***/ 7981:
+/***/ 47981:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
 
-let { SourceMapConsumer, SourceMapGenerator } = __webpack_require__(209)
-let { existsSync, readFileSync } = __webpack_require__(4777)
-let { dirname, join } = __webpack_require__(9830)
+let { SourceMapConsumer, SourceMapGenerator } = __webpack_require__(70209)
+let { existsSync, readFileSync } = __webpack_require__(14777)
+let { dirname, join } = __webpack_require__(99830)
 
 function fromBase64(str) {
   if (Buffer) {
@@ -72377,15 +88027,15 @@ PreviousMap.default = PreviousMap
 
 /***/ }),
 
-/***/ 1723:
+/***/ 71723:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
 
-let NoWorkResult = __webpack_require__(7647)
-let LazyResult = __webpack_require__(1939)
-let Document = __webpack_require__(6461)
-let Root = __webpack_require__(1025)
+let NoWorkResult = __webpack_require__(47647)
+let LazyResult = __webpack_require__(21939)
+let Document = __webpack_require__(26461)
+let Root = __webpack_require__(41025)
 
 class Processor {
   constructor(plugins = []) {
@@ -72445,12 +88095,12 @@ Document.registerProcessor(Processor)
 
 /***/ }),
 
-/***/ 3632:
+/***/ 83632:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
 
-let Warning = __webpack_require__(1728)
+let Warning = __webpack_require__(11728)
 
 class Result {
   constructor(processor, root, opts) {
@@ -72494,12 +88144,12 @@ Result.default = Result
 
 /***/ }),
 
-/***/ 1025:
+/***/ 41025:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
 
-let Container = __webpack_require__(1019)
+let Container = __webpack_require__(21019)
 
 let LazyResult, Processor
 
@@ -72562,13 +88212,13 @@ Container.registerRoot(Root)
 
 /***/ }),
 
-/***/ 1675:
+/***/ 31675:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
 
-let Container = __webpack_require__(1019)
-let list = __webpack_require__(4715)
+let Container = __webpack_require__(21019)
+let list = __webpack_require__(54715)
 
 class Rule extends Container {
   constructor(defaults) {
@@ -72956,7 +88606,7 @@ Stringifier.default = Stringifier
 
 /***/ }),
 
-/***/ 7088:
+/***/ 67088:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
@@ -72974,7 +88624,7 @@ stringify.default = stringify
 
 /***/ }),
 
-/***/ 5513:
+/***/ 65513:
 /***/ ((module) => {
 
 
@@ -72986,7 +88636,7 @@ module.exports.my = Symbol('my')
 
 /***/ }),
 
-/***/ 3852:
+/***/ 83852:
 /***/ ((module) => {
 
 
@@ -73259,7 +88909,7 @@ module.exports = function tokenizer(input, options = {}) {
 
 /***/ }),
 
-/***/ 2448:
+/***/ 72448:
 /***/ ((module) => {
 
 /* eslint-disable no-console */
@@ -73279,7 +88929,7 @@ module.exports = function warnOnce(message) {
 
 /***/ }),
 
-/***/ 1728:
+/***/ 11728:
 /***/ ((module) => {
 
 
@@ -73323,7 +88973,198 @@ Warning.default = Warning
 
 /***/ }),
 
-/***/ 7129:
+/***/ 34155:
+/***/ ((module) => {
+
+// shim for using process in browser
+var process = module.exports = {};
+
+// cached from whatever global is present so that test runners that stub it
+// don't break things.  But we need to wrap it in a try catch in case it is
+// wrapped in strict mode code which doesn't define any globals.  It's inside a
+// function because try/catches deoptimize in certain engines.
+
+var cachedSetTimeout;
+var cachedClearTimeout;
+
+function defaultSetTimout() {
+    throw new Error('setTimeout has not been defined');
+}
+function defaultClearTimeout () {
+    throw new Error('clearTimeout has not been defined');
+}
+(function () {
+    try {
+        if (typeof setTimeout === 'function') {
+            cachedSetTimeout = setTimeout;
+        } else {
+            cachedSetTimeout = defaultSetTimout;
+        }
+    } catch (e) {
+        cachedSetTimeout = defaultSetTimout;
+    }
+    try {
+        if (typeof clearTimeout === 'function') {
+            cachedClearTimeout = clearTimeout;
+        } else {
+            cachedClearTimeout = defaultClearTimeout;
+        }
+    } catch (e) {
+        cachedClearTimeout = defaultClearTimeout;
+    }
+} ())
+function runTimeout(fun) {
+    if (cachedSetTimeout === setTimeout) {
+        //normal enviroments in sane situations
+        return setTimeout(fun, 0);
+    }
+    // if setTimeout wasn't available but was latter defined
+    if ((cachedSetTimeout === defaultSetTimout || !cachedSetTimeout) && setTimeout) {
+        cachedSetTimeout = setTimeout;
+        return setTimeout(fun, 0);
+    }
+    try {
+        // when when somebody has screwed with setTimeout but no I.E. maddness
+        return cachedSetTimeout(fun, 0);
+    } catch(e){
+        try {
+            // When we are in I.E. but the script has been evaled so I.E. doesn't trust the global object when called normally
+            return cachedSetTimeout.call(null, fun, 0);
+        } catch(e){
+            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error
+            return cachedSetTimeout.call(this, fun, 0);
+        }
+    }
+
+
+}
+function runClearTimeout(marker) {
+    if (cachedClearTimeout === clearTimeout) {
+        //normal enviroments in sane situations
+        return clearTimeout(marker);
+    }
+    // if clearTimeout wasn't available but was latter defined
+    if ((cachedClearTimeout === defaultClearTimeout || !cachedClearTimeout) && clearTimeout) {
+        cachedClearTimeout = clearTimeout;
+        return clearTimeout(marker);
+    }
+    try {
+        // when when somebody has screwed with setTimeout but no I.E. maddness
+        return cachedClearTimeout(marker);
+    } catch (e){
+        try {
+            // When we are in I.E. but the script has been evaled so I.E. doesn't  trust the global object when called normally
+            return cachedClearTimeout.call(null, marker);
+        } catch (e){
+            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error.
+            // Some versions of I.E. have different rules for clearTimeout vs setTimeout
+            return cachedClearTimeout.call(this, marker);
+        }
+    }
+
+
+
+}
+var queue = [];
+var draining = false;
+var currentQueue;
+var queueIndex = -1;
+
+function cleanUpNextTick() {
+    if (!draining || !currentQueue) {
+        return;
+    }
+    draining = false;
+    if (currentQueue.length) {
+        queue = currentQueue.concat(queue);
+    } else {
+        queueIndex = -1;
+    }
+    if (queue.length) {
+        drainQueue();
+    }
+}
+
+function drainQueue() {
+    if (draining) {
+        return;
+    }
+    var timeout = runTimeout(cleanUpNextTick);
+    draining = true;
+
+    var len = queue.length;
+    while(len) {
+        currentQueue = queue;
+        queue = [];
+        while (++queueIndex < len) {
+            if (currentQueue) {
+                currentQueue[queueIndex].run();
+            }
+        }
+        queueIndex = -1;
+        len = queue.length;
+    }
+    currentQueue = null;
+    draining = false;
+    runClearTimeout(timeout);
+}
+
+process.nextTick = function (fun) {
+    var args = new Array(arguments.length - 1);
+    if (arguments.length > 1) {
+        for (var i = 1; i < arguments.length; i++) {
+            args[i - 1] = arguments[i];
+        }
+    }
+    queue.push(new Item(fun, args));
+    if (queue.length === 1 && !draining) {
+        runTimeout(drainQueue);
+    }
+};
+
+// v8 likes predictible objects
+function Item(fun, array) {
+    this.fun = fun;
+    this.array = array;
+}
+Item.prototype.run = function () {
+    this.fun.apply(null, this.array);
+};
+process.title = 'browser';
+process.browser = true;
+process.env = {};
+process.argv = [];
+process.version = ''; // empty string to avoid regexp issues
+process.versions = {};
+
+function noop() {}
+
+process.on = noop;
+process.addListener = noop;
+process.once = noop;
+process.off = noop;
+process.removeListener = noop;
+process.removeAllListeners = noop;
+process.emit = noop;
+process.prependListener = noop;
+process.prependOnceListener = noop;
+
+process.listeners = function (name) { return [] }
+
+process.binding = function (name) {
+    throw new Error('process.binding is not supported');
+};
+
+process.cwd = function () { return '/' };
+process.chdir = function (dir) {
+    throw new Error('process.chdir is not supported');
+};
+process.umask = function() { return 0; };
+
+
+/***/ }),
+
+/***/ 57129:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -73448,7 +89289,7 @@ exports.parse = querystring;
 
 /***/ }),
 
-/***/ 4448:
+/***/ 64448:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 /** @license React v17.0.2
@@ -73462,7 +89303,7 @@ exports.parse = querystring;
 /*
  Modernizr 3.0.0pre (Custom Build) | MIT
 */
-var aa=__webpack_require__(7294),m=__webpack_require__(9394),r=__webpack_require__(3840);function y(a){for(var b="https://reactjs.org/docs/error-decoder.html?invariant="+a,c=1;c<arguments.length;c++)b+="&args[]="+encodeURIComponent(arguments[c]);return"Minified React error #"+a+"; visit "+b+" for the full message or use the non-minified dev environment for full errors and additional helpful warnings."}if(!aa)throw Error(y(227));var ba=new Set,ca={};function da(a,b){ea(a,b);ea(a+"Capture",b)}
+var aa=__webpack_require__(67294),m=__webpack_require__(27418),r=__webpack_require__(63840);function y(a){for(var b="https://reactjs.org/docs/error-decoder.html?invariant="+a,c=1;c<arguments.length;c++)b+="&args[]="+encodeURIComponent(arguments[c]);return"Minified React error #"+a+"; visit "+b+" for the full message or use the non-minified dev environment for full errors and additional helpful warnings."}if(!aa)throw Error(y(227));var ba=new Set,ca={};function da(a,b){ea(a,b);ea(a+"Capture",b)}
 function ea(a,b){ca[a]=b;for(a=0;a<b.length;a++)ba.add(b[a])}
 var fa=!("undefined"===typeof window||"undefined"===typeof window.document||"undefined"===typeof window.document.createElement),ha=/^[:A-Z_a-z\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u02FF\u0370-\u037D\u037F-\u1FFF\u200C-\u200D\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF\uF900-\uFDCF\uFDF0-\uFFFD][:A-Z_a-z\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u02FF\u0370-\u037D\u037F-\u1FFF\u200C-\u200D\u2070-\u218F\u2C00-\u2FEF\u3001-\uD7FF\uF900-\uFDCF\uFDF0-\uFFFD\-.0-9\u00B7\u0300-\u036F\u203F-\u2040]*$/,ia=Object.prototype.hasOwnProperty,
 ja={},ka={};function la(a){if(ia.call(ka,a))return!0;if(ia.call(ja,a))return!1;if(ha.test(a))return ka[a]=!0;ja[a]=!0;return!1}function ma(a,b,c,d){if(null!==c&&0===c.type)return!1;switch(typeof b){case "function":case "symbol":return!0;case "boolean":if(d)return!1;if(null!==c)return!c.acceptsBooleans;a=a.toLowerCase().slice(0,5);return"data-"!==a&&"aria-"!==a;default:return!1}}
@@ -73752,7 +89593,7 @@ exports.unstable_renderSubtreeIntoContainer=function(a,b,c,d){if(!rk(c))throw Er
 
 /***/ }),
 
-/***/ 3935:
+/***/ 73935:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
@@ -73780,13 +89621,13 @@ if (true) {
   // DCE check should happen before ReactDOM bundle executes so that
   // DevTools can report bad minification during injection.
   checkDCE();
-  module.exports = __webpack_require__(4448);
+  module.exports = __webpack_require__(64448);
 } else {}
 
 
 /***/ }),
 
-/***/ 6871:
+/***/ 46871:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -73955,7 +89796,7 @@ function polyfill(Component) {
 
 /***/ }),
 
-/***/ 2408:
+/***/ 72408:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 /** @license React v17.0.2
@@ -73966,7 +89807,7 @@ function polyfill(Component) {
  * This source code is licensed under the MIT license found in the
  * LICENSE file in the root directory of this source tree.
  */
-var l=__webpack_require__(9394),n=60103,p=60106;exports.Fragment=60107;exports.StrictMode=60108;exports.Profiler=60114;var q=60109,r=60110,t=60112;exports.Suspense=60113;var u=60115,v=60116;
+var l=__webpack_require__(27418),n=60103,p=60106;exports.Fragment=60107;exports.StrictMode=60108;exports.Profiler=60114;var q=60109,r=60110,t=60112;exports.Suspense=60113;var u=60115,v=60116;
 if("function"===typeof Symbol&&Symbol.for){var w=Symbol.for;n=w("react.element");p=w("react.portal");exports.Fragment=w("react.fragment");exports.StrictMode=w("react.strict_mode");exports.Profiler=w("react.profiler");q=w("react.provider");r=w("react.context");t=w("react.forward_ref");exports.Suspense=w("react.suspense");u=w("react.memo");v=w("react.lazy")}var x="function"===typeof Symbol&&Symbol.iterator;
 function y(a){if(null===a||"object"!==typeof a)return null;a=x&&a[x]||a["@@iterator"];return"function"===typeof a?a:null}function z(a){for(var b="https://reactjs.org/docs/error-decoder.html?invariant="+a,c=1;c<arguments.length;c++)b+="&args[]="+encodeURIComponent(arguments[c]);return"Minified React error #"+a+"; visit "+b+" for the full message or use the non-minified dev environment for full errors and additional helpful warnings."}
 var A={isMounted:function(){return!1},enqueueForceUpdate:function(){},enqueueReplaceState:function(){},enqueueSetState:function(){}},B={};function C(a,b,c){this.props=a;this.context=b;this.refs=B;this.updater=c||A}C.prototype.isReactComponent={};C.prototype.setState=function(a,b){if("object"!==typeof a&&"function"!==typeof a&&null!=a)throw Error(z(85));this.updater.enqueueSetState(this,a,b,"setState")};C.prototype.forceUpdate=function(a){this.updater.enqueueForceUpdate(this,a,"forceUpdate")};
@@ -73985,19 +89826,19 @@ exports.useLayoutEffect=function(a,b){return S().useLayoutEffect(a,b)};exports.u
 
 /***/ }),
 
-/***/ 7294:
+/***/ 67294:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
 
 if (true) {
-  module.exports = __webpack_require__(2408);
+  module.exports = __webpack_require__(72408);
 } else {}
 
 
 /***/ }),
 
-/***/ 7418:
+/***/ 47418:
 /***/ ((module) => {
 
 
@@ -74042,15 +89883,15 @@ module.exports = function required(port, protocol) {
 
 /***/ }),
 
-/***/ 1036:
+/***/ 91036:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
-const htmlparser = __webpack_require__(3719);
-const escapeStringRegexp = __webpack_require__(2997);
-const { isPlainObject } = __webpack_require__(977);
+const htmlparser = __webpack_require__(23719);
+const escapeStringRegexp = __webpack_require__(22997);
+const { isPlainObject } = __webpack_require__(10977);
 const deepmerge = __webpack_require__(9996);
-const parseSrcset = __webpack_require__(9430);
-const { parse: postcssParse } = __webpack_require__(20);
+const parseSrcset = __webpack_require__(79430);
+const { parse: postcssParse } = __webpack_require__(50020);
 // Tags that can conceivably represent stand-alone media.
 const mediaTags = [
   'img', 'audio', 'video', 'picture', 'svg',
@@ -74857,7 +90698,7 @@ sanitizeHtml.simpleTransform = function(newTagName, newAttribs, merge) {
 
 /***/ }),
 
-/***/ 2997:
+/***/ 22997:
 /***/ ((module) => {
 
 
@@ -74877,7 +90718,7 @@ module.exports = string => {
 
 /***/ }),
 
-/***/ 977:
+/***/ 10977:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -74922,7 +90763,7 @@ exports.isPlainObject = isPlainObject;
 
 /***/ }),
 
-/***/ 53:
+/***/ 60053:
 /***/ ((__unused_webpack_module, exports) => {
 
 /** @license React v0.20.2
@@ -74949,19 +90790,19 @@ exports.unstable_wrapCallback=function(a){var b=P;return function(){var c=P;P=b;
 
 /***/ }),
 
-/***/ 3840:
+/***/ 63840:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
 
 if (true) {
-  module.exports = __webpack_require__(53);
+  module.exports = __webpack_require__(60053);
 } else {}
 
 
 /***/ }),
 
-/***/ 3379:
+/***/ 93379:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
@@ -75236,7 +91077,7 @@ module.exports = function (list, options) {
 
 /***/ }),
 
-/***/ 655:
+/***/ 70655:
 /***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
 
 __webpack_require__.r(__webpack_exports__);
@@ -75509,23 +91350,23 @@ function __classPrivateFieldSet(receiver, state, value, kind, f) {
 
 /***/ }),
 
-/***/ 4570:
+/***/ 44570:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 var __webpack_unused_export__;
 
 __webpack_unused_export__ = ({ value: true });
-var typestyle_1 = __webpack_require__(4717);
+var typestyle_1 = __webpack_require__(34717);
 __webpack_unused_export__ = typestyle_1.TypeStyle;
 /**
  * All the CSS types in the 'types' namespace
  */
-var types = __webpack_require__(7582);
+var types = __webpack_require__(27582);
 __webpack_unused_export__ = types;
 /**
  * Export certain utilities
  */
-var utilities_1 = __webpack_require__(4367);
+var utilities_1 = __webpack_require__(64367);
 __webpack_unused_export__ = utilities_1.extend;
 exports.Sh = utilities_1.classes;
 __webpack_unused_export__ = utilities_1.media;
@@ -75596,7 +91437,7 @@ __webpack_unused_export__ = createTypeStyle;
 
 /***/ }),
 
-/***/ 5457:
+/***/ 95457:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -75649,14 +91490,14 @@ exports.convertToKeyframes = convertToKeyframes;
 
 /***/ }),
 
-/***/ 4717:
+/***/ 34717:
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 
 Object.defineProperty(exports, "__esModule", ({ value: true }));
-var FreeStyle = __webpack_require__(859);
-var formatting_1 = __webpack_require__(5457);
-var utilities_1 = __webpack_require__(4367);
+var FreeStyle = __webpack_require__(10859);
+var formatting_1 = __webpack_require__(95457);
+var utilities_1 = __webpack_require__(64367);
 /**
  * Creates an instance of free style with our options
  */
@@ -75849,7 +91690,7 @@ exports.TypeStyle = TypeStyle;
 
 /***/ }),
 
-/***/ 4367:
+/***/ 64367:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -75965,7 +91806,7 @@ var mediaLength = function (value) {
 
 /***/ }),
 
-/***/ 7582:
+/***/ 27582:
 /***/ ((__unused_webpack_module, exports) => {
 
 
@@ -75974,13 +91815,13 @@ Object.defineProperty(exports, "__esModule", ({ value: true }));
 
 /***/ }),
 
-/***/ 4564:
+/***/ 84564:
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 
 
-var required = __webpack_require__(7418)
-  , qs = __webpack_require__(7129)
+var required = __webpack_require__(47418)
+  , qs = __webpack_require__(57129)
   , controlOrWhitespace = /^[\x00-\x20\u00a0\u1680\u2000-\u200a\u2028\u2029\u202f\u205f\u3000\ufeff]+/
   , CRHTLF = /[\n\r\t]/g
   , slashes = /^[A-Za-z][A-Za-z0-9+-.]*:\/\//
@@ -76570,49 +92411,63 @@ module.exports = Url;
 
 /***/ }),
 
-/***/ 1763:
+/***/ 39536:
 /***/ (() => {
 
 /* (ignored) */
 
 /***/ }),
 
-/***/ 2868:
+/***/ 21763:
 /***/ (() => {
 
 /* (ignored) */
 
 /***/ }),
 
-/***/ 4777:
+/***/ 31543:
 /***/ (() => {
 
 /* (ignored) */
 
 /***/ }),
 
-/***/ 9830:
+/***/ 22868:
 /***/ (() => {
 
 /* (ignored) */
 
 /***/ }),
 
-/***/ 209:
+/***/ 14777:
 /***/ (() => {
 
 /* (ignored) */
 
 /***/ }),
 
-/***/ 7414:
+/***/ 99830:
 /***/ (() => {
 
 /* (ignored) */
 
 /***/ }),
 
-/***/ 2961:
+/***/ 70209:
+/***/ (() => {
+
+/* (ignored) */
+
+/***/ }),
+
+/***/ 87414:
+/***/ (() => {
+
+/* (ignored) */
+
+/***/ }),
+
+/***/ 62961:
 /***/ ((module) => {
 
 let urlAlphabet =
@@ -76640,21 +92495,21 @@ module.exports = { nanoid, customAlphabet }
 
 /***/ }),
 
-/***/ 3600:
+/***/ 33600:
 /***/ ((module) => {
 
 module.exports = JSON.parse('{"0":65533,"128":8364,"130":8218,"131":402,"132":8222,"133":8230,"134":8224,"135":8225,"136":710,"137":8240,"138":352,"139":8249,"140":338,"142":381,"145":8216,"146":8217,"147":8220,"148":8221,"149":8226,"150":8211,"151":8212,"152":732,"153":8482,"154":353,"155":8250,"156":339,"158":382,"159":376}');
 
 /***/ }),
 
-/***/ 9323:
+/***/ 59323:
 /***/ ((module) => {
 
 module.exports = JSON.parse('{"Aacute":"Á","aacute":"á","Abreve":"Ă","abreve":"ă","ac":"∾","acd":"∿","acE":"∾̳","Acirc":"Â","acirc":"â","acute":"´","Acy":"А","acy":"а","AElig":"Æ","aelig":"æ","af":"⁡","Afr":"𝔄","afr":"𝔞","Agrave":"À","agrave":"à","alefsym":"ℵ","aleph":"ℵ","Alpha":"Α","alpha":"α","Amacr":"Ā","amacr":"ā","amalg":"⨿","amp":"&","AMP":"&","andand":"⩕","And":"⩓","and":"∧","andd":"⩜","andslope":"⩘","andv":"⩚","ang":"∠","ange":"⦤","angle":"∠","angmsdaa":"⦨","angmsdab":"⦩","angmsdac":"⦪","angmsdad":"⦫","angmsdae":"⦬","angmsdaf":"⦭","angmsdag":"⦮","angmsdah":"⦯","angmsd":"∡","angrt":"∟","angrtvb":"⊾","angrtvbd":"⦝","angsph":"∢","angst":"Å","angzarr":"⍼","Aogon":"Ą","aogon":"ą","Aopf":"𝔸","aopf":"𝕒","apacir":"⩯","ap":"≈","apE":"⩰","ape":"≊","apid":"≋","apos":"\'","ApplyFunction":"⁡","approx":"≈","approxeq":"≊","Aring":"Å","aring":"å","Ascr":"𝒜","ascr":"𝒶","Assign":"≔","ast":"*","asymp":"≈","asympeq":"≍","Atilde":"Ã","atilde":"ã","Auml":"Ä","auml":"ä","awconint":"∳","awint":"⨑","backcong":"≌","backepsilon":"϶","backprime":"‵","backsim":"∽","backsimeq":"⋍","Backslash":"∖","Barv":"⫧","barvee":"⊽","barwed":"⌅","Barwed":"⌆","barwedge":"⌅","bbrk":"⎵","bbrktbrk":"⎶","bcong":"≌","Bcy":"Б","bcy":"б","bdquo":"„","becaus":"∵","because":"∵","Because":"∵","bemptyv":"⦰","bepsi":"϶","bernou":"ℬ","Bernoullis":"ℬ","Beta":"Β","beta":"β","beth":"ℶ","between":"≬","Bfr":"𝔅","bfr":"𝔟","bigcap":"⋂","bigcirc":"◯","bigcup":"⋃","bigodot":"⨀","bigoplus":"⨁","bigotimes":"⨂","bigsqcup":"⨆","bigstar":"★","bigtriangledown":"▽","bigtriangleup":"△","biguplus":"⨄","bigvee":"⋁","bigwedge":"⋀","bkarow":"⤍","blacklozenge":"⧫","blacksquare":"▪","blacktriangle":"▴","blacktriangledown":"▾","blacktriangleleft":"◂","blacktriangleright":"▸","blank":"␣","blk12":"▒","blk14":"░","blk34":"▓","block":"█","bne":"=⃥","bnequiv":"≡⃥","bNot":"⫭","bnot":"⌐","Bopf":"𝔹","bopf":"𝕓","bot":"⊥","bottom":"⊥","bowtie":"⋈","boxbox":"⧉","boxdl":"┐","boxdL":"╕","boxDl":"╖","boxDL":"╗","boxdr":"┌","boxdR":"╒","boxDr":"╓","boxDR":"╔","boxh":"─","boxH":"═","boxhd":"┬","boxHd":"╤","boxhD":"╥","boxHD":"╦","boxhu":"┴","boxHu":"╧","boxhU":"╨","boxHU":"╩","boxminus":"⊟","boxplus":"⊞","boxtimes":"⊠","boxul":"┘","boxuL":"╛","boxUl":"╜","boxUL":"╝","boxur":"└","boxuR":"╘","boxUr":"╙","boxUR":"╚","boxv":"│","boxV":"║","boxvh":"┼","boxvH":"╪","boxVh":"╫","boxVH":"╬","boxvl":"┤","boxvL":"╡","boxVl":"╢","boxVL":"╣","boxvr":"├","boxvR":"╞","boxVr":"╟","boxVR":"╠","bprime":"‵","breve":"˘","Breve":"˘","brvbar":"¦","bscr":"𝒷","Bscr":"ℬ","bsemi":"⁏","bsim":"∽","bsime":"⋍","bsolb":"⧅","bsol":"\\\\","bsolhsub":"⟈","bull":"•","bullet":"•","bump":"≎","bumpE":"⪮","bumpe":"≏","Bumpeq":"≎","bumpeq":"≏","Cacute":"Ć","cacute":"ć","capand":"⩄","capbrcup":"⩉","capcap":"⩋","cap":"∩","Cap":"⋒","capcup":"⩇","capdot":"⩀","CapitalDifferentialD":"ⅅ","caps":"∩︀","caret":"⁁","caron":"ˇ","Cayleys":"ℭ","ccaps":"⩍","Ccaron":"Č","ccaron":"č","Ccedil":"Ç","ccedil":"ç","Ccirc":"Ĉ","ccirc":"ĉ","Cconint":"∰","ccups":"⩌","ccupssm":"⩐","Cdot":"Ċ","cdot":"ċ","cedil":"¸","Cedilla":"¸","cemptyv":"⦲","cent":"¢","centerdot":"·","CenterDot":"·","cfr":"𝔠","Cfr":"ℭ","CHcy":"Ч","chcy":"ч","check":"✓","checkmark":"✓","Chi":"Χ","chi":"χ","circ":"ˆ","circeq":"≗","circlearrowleft":"↺","circlearrowright":"↻","circledast":"⊛","circledcirc":"⊚","circleddash":"⊝","CircleDot":"⊙","circledR":"®","circledS":"Ⓢ","CircleMinus":"⊖","CirclePlus":"⊕","CircleTimes":"⊗","cir":"○","cirE":"⧃","cire":"≗","cirfnint":"⨐","cirmid":"⫯","cirscir":"⧂","ClockwiseContourIntegral":"∲","CloseCurlyDoubleQuote":"”","CloseCurlyQuote":"’","clubs":"♣","clubsuit":"♣","colon":":","Colon":"∷","Colone":"⩴","colone":"≔","coloneq":"≔","comma":",","commat":"@","comp":"∁","compfn":"∘","complement":"∁","complexes":"ℂ","cong":"≅","congdot":"⩭","Congruent":"≡","conint":"∮","Conint":"∯","ContourIntegral":"∮","copf":"𝕔","Copf":"ℂ","coprod":"∐","Coproduct":"∐","copy":"©","COPY":"©","copysr":"℗","CounterClockwiseContourIntegral":"∳","crarr":"↵","cross":"✗","Cross":"⨯","Cscr":"𝒞","cscr":"𝒸","csub":"⫏","csube":"⫑","csup":"⫐","csupe":"⫒","ctdot":"⋯","cudarrl":"⤸","cudarrr":"⤵","cuepr":"⋞","cuesc":"⋟","cularr":"↶","cularrp":"⤽","cupbrcap":"⩈","cupcap":"⩆","CupCap":"≍","cup":"∪","Cup":"⋓","cupcup":"⩊","cupdot":"⊍","cupor":"⩅","cups":"∪︀","curarr":"↷","curarrm":"⤼","curlyeqprec":"⋞","curlyeqsucc":"⋟","curlyvee":"⋎","curlywedge":"⋏","curren":"¤","curvearrowleft":"↶","curvearrowright":"↷","cuvee":"⋎","cuwed":"⋏","cwconint":"∲","cwint":"∱","cylcty":"⌭","dagger":"†","Dagger":"‡","daleth":"ℸ","darr":"↓","Darr":"↡","dArr":"⇓","dash":"‐","Dashv":"⫤","dashv":"⊣","dbkarow":"⤏","dblac":"˝","Dcaron":"Ď","dcaron":"ď","Dcy":"Д","dcy":"д","ddagger":"‡","ddarr":"⇊","DD":"ⅅ","dd":"ⅆ","DDotrahd":"⤑","ddotseq":"⩷","deg":"°","Del":"∇","Delta":"Δ","delta":"δ","demptyv":"⦱","dfisht":"⥿","Dfr":"𝔇","dfr":"𝔡","dHar":"⥥","dharl":"⇃","dharr":"⇂","DiacriticalAcute":"´","DiacriticalDot":"˙","DiacriticalDoubleAcute":"˝","DiacriticalGrave":"`","DiacriticalTilde":"˜","diam":"⋄","diamond":"⋄","Diamond":"⋄","diamondsuit":"♦","diams":"♦","die":"¨","DifferentialD":"ⅆ","digamma":"ϝ","disin":"⋲","div":"÷","divide":"÷","divideontimes":"⋇","divonx":"⋇","DJcy":"Ђ","djcy":"ђ","dlcorn":"⌞","dlcrop":"⌍","dollar":"$","Dopf":"𝔻","dopf":"𝕕","Dot":"¨","dot":"˙","DotDot":"⃜","doteq":"≐","doteqdot":"≑","DotEqual":"≐","dotminus":"∸","dotplus":"∔","dotsquare":"⊡","doublebarwedge":"⌆","DoubleContourIntegral":"∯","DoubleDot":"¨","DoubleDownArrow":"⇓","DoubleLeftArrow":"⇐","DoubleLeftRightArrow":"⇔","DoubleLeftTee":"⫤","DoubleLongLeftArrow":"⟸","DoubleLongLeftRightArrow":"⟺","DoubleLongRightArrow":"⟹","DoubleRightArrow":"⇒","DoubleRightTee":"⊨","DoubleUpArrow":"⇑","DoubleUpDownArrow":"⇕","DoubleVerticalBar":"∥","DownArrowBar":"⤓","downarrow":"↓","DownArrow":"↓","Downarrow":"⇓","DownArrowUpArrow":"⇵","DownBreve":"̑","downdownarrows":"⇊","downharpoonleft":"⇃","downharpoonright":"⇂","DownLeftRightVector":"⥐","DownLeftTeeVector":"⥞","DownLeftVectorBar":"⥖","DownLeftVector":"↽","DownRightTeeVector":"⥟","DownRightVectorBar":"⥗","DownRightVector":"⇁","DownTeeArrow":"↧","DownTee":"⊤","drbkarow":"⤐","drcorn":"⌟","drcrop":"⌌","Dscr":"𝒟","dscr":"𝒹","DScy":"Ѕ","dscy":"ѕ","dsol":"⧶","Dstrok":"Đ","dstrok":"đ","dtdot":"⋱","dtri":"▿","dtrif":"▾","duarr":"⇵","duhar":"⥯","dwangle":"⦦","DZcy":"Џ","dzcy":"џ","dzigrarr":"⟿","Eacute":"É","eacute":"é","easter":"⩮","Ecaron":"Ě","ecaron":"ě","Ecirc":"Ê","ecirc":"ê","ecir":"≖","ecolon":"≕","Ecy":"Э","ecy":"э","eDDot":"⩷","Edot":"Ė","edot":"ė","eDot":"≑","ee":"ⅇ","efDot":"≒","Efr":"𝔈","efr":"𝔢","eg":"⪚","Egrave":"È","egrave":"è","egs":"⪖","egsdot":"⪘","el":"⪙","Element":"∈","elinters":"⏧","ell":"ℓ","els":"⪕","elsdot":"⪗","Emacr":"Ē","emacr":"ē","empty":"∅","emptyset":"∅","EmptySmallSquare":"◻","emptyv":"∅","EmptyVerySmallSquare":"▫","emsp13":" ","emsp14":" ","emsp":" ","ENG":"Ŋ","eng":"ŋ","ensp":" ","Eogon":"Ę","eogon":"ę","Eopf":"𝔼","eopf":"𝕖","epar":"⋕","eparsl":"⧣","eplus":"⩱","epsi":"ε","Epsilon":"Ε","epsilon":"ε","epsiv":"ϵ","eqcirc":"≖","eqcolon":"≕","eqsim":"≂","eqslantgtr":"⪖","eqslantless":"⪕","Equal":"⩵","equals":"=","EqualTilde":"≂","equest":"≟","Equilibrium":"⇌","equiv":"≡","equivDD":"⩸","eqvparsl":"⧥","erarr":"⥱","erDot":"≓","escr":"ℯ","Escr":"ℰ","esdot":"≐","Esim":"⩳","esim":"≂","Eta":"Η","eta":"η","ETH":"Ð","eth":"ð","Euml":"Ë","euml":"ë","euro":"€","excl":"!","exist":"∃","Exists":"∃","expectation":"ℰ","exponentiale":"ⅇ","ExponentialE":"ⅇ","fallingdotseq":"≒","Fcy":"Ф","fcy":"ф","female":"♀","ffilig":"ﬃ","fflig":"ﬀ","ffllig":"ﬄ","Ffr":"𝔉","ffr":"𝔣","filig":"ﬁ","FilledSmallSquare":"◼","FilledVerySmallSquare":"▪","fjlig":"fj","flat":"♭","fllig":"ﬂ","fltns":"▱","fnof":"ƒ","Fopf":"𝔽","fopf":"𝕗","forall":"∀","ForAll":"∀","fork":"⋔","forkv":"⫙","Fouriertrf":"ℱ","fpartint":"⨍","frac12":"½","frac13":"⅓","frac14":"¼","frac15":"⅕","frac16":"⅙","frac18":"⅛","frac23":"⅔","frac25":"⅖","frac34":"¾","frac35":"⅗","frac38":"⅜","frac45":"⅘","frac56":"⅚","frac58":"⅝","frac78":"⅞","frasl":"⁄","frown":"⌢","fscr":"𝒻","Fscr":"ℱ","gacute":"ǵ","Gamma":"Γ","gamma":"γ","Gammad":"Ϝ","gammad":"ϝ","gap":"⪆","Gbreve":"Ğ","gbreve":"ğ","Gcedil":"Ģ","Gcirc":"Ĝ","gcirc":"ĝ","Gcy":"Г","gcy":"г","Gdot":"Ġ","gdot":"ġ","ge":"≥","gE":"≧","gEl":"⪌","gel":"⋛","geq":"≥","geqq":"≧","geqslant":"⩾","gescc":"⪩","ges":"⩾","gesdot":"⪀","gesdoto":"⪂","gesdotol":"⪄","gesl":"⋛︀","gesles":"⪔","Gfr":"𝔊","gfr":"𝔤","gg":"≫","Gg":"⋙","ggg":"⋙","gimel":"ℷ","GJcy":"Ѓ","gjcy":"ѓ","gla":"⪥","gl":"≷","glE":"⪒","glj":"⪤","gnap":"⪊","gnapprox":"⪊","gne":"⪈","gnE":"≩","gneq":"⪈","gneqq":"≩","gnsim":"⋧","Gopf":"𝔾","gopf":"𝕘","grave":"`","GreaterEqual":"≥","GreaterEqualLess":"⋛","GreaterFullEqual":"≧","GreaterGreater":"⪢","GreaterLess":"≷","GreaterSlantEqual":"⩾","GreaterTilde":"≳","Gscr":"𝒢","gscr":"ℊ","gsim":"≳","gsime":"⪎","gsiml":"⪐","gtcc":"⪧","gtcir":"⩺","gt":">","GT":">","Gt":"≫","gtdot":"⋗","gtlPar":"⦕","gtquest":"⩼","gtrapprox":"⪆","gtrarr":"⥸","gtrdot":"⋗","gtreqless":"⋛","gtreqqless":"⪌","gtrless":"≷","gtrsim":"≳","gvertneqq":"≩︀","gvnE":"≩︀","Hacek":"ˇ","hairsp":" ","half":"½","hamilt":"ℋ","HARDcy":"Ъ","hardcy":"ъ","harrcir":"⥈","harr":"↔","hArr":"⇔","harrw":"↭","Hat":"^","hbar":"ℏ","Hcirc":"Ĥ","hcirc":"ĥ","hearts":"♥","heartsuit":"♥","hellip":"…","hercon":"⊹","hfr":"𝔥","Hfr":"ℌ","HilbertSpace":"ℋ","hksearow":"⤥","hkswarow":"⤦","hoarr":"⇿","homtht":"∻","hookleftarrow":"↩","hookrightarrow":"↪","hopf":"𝕙","Hopf":"ℍ","horbar":"―","HorizontalLine":"─","hscr":"𝒽","Hscr":"ℋ","hslash":"ℏ","Hstrok":"Ħ","hstrok":"ħ","HumpDownHump":"≎","HumpEqual":"≏","hybull":"⁃","hyphen":"‐","Iacute":"Í","iacute":"í","ic":"⁣","Icirc":"Î","icirc":"î","Icy":"И","icy":"и","Idot":"İ","IEcy":"Е","iecy":"е","iexcl":"¡","iff":"⇔","ifr":"𝔦","Ifr":"ℑ","Igrave":"Ì","igrave":"ì","ii":"ⅈ","iiiint":"⨌","iiint":"∭","iinfin":"⧜","iiota":"℩","IJlig":"Ĳ","ijlig":"ĳ","Imacr":"Ī","imacr":"ī","image":"ℑ","ImaginaryI":"ⅈ","imagline":"ℐ","imagpart":"ℑ","imath":"ı","Im":"ℑ","imof":"⊷","imped":"Ƶ","Implies":"⇒","incare":"℅","in":"∈","infin":"∞","infintie":"⧝","inodot":"ı","intcal":"⊺","int":"∫","Int":"∬","integers":"ℤ","Integral":"∫","intercal":"⊺","Intersection":"⋂","intlarhk":"⨗","intprod":"⨼","InvisibleComma":"⁣","InvisibleTimes":"⁢","IOcy":"Ё","iocy":"ё","Iogon":"Į","iogon":"į","Iopf":"𝕀","iopf":"𝕚","Iota":"Ι","iota":"ι","iprod":"⨼","iquest":"¿","iscr":"𝒾","Iscr":"ℐ","isin":"∈","isindot":"⋵","isinE":"⋹","isins":"⋴","isinsv":"⋳","isinv":"∈","it":"⁢","Itilde":"Ĩ","itilde":"ĩ","Iukcy":"І","iukcy":"і","Iuml":"Ï","iuml":"ï","Jcirc":"Ĵ","jcirc":"ĵ","Jcy":"Й","jcy":"й","Jfr":"𝔍","jfr":"𝔧","jmath":"ȷ","Jopf":"𝕁","jopf":"𝕛","Jscr":"𝒥","jscr":"𝒿","Jsercy":"Ј","jsercy":"ј","Jukcy":"Є","jukcy":"є","Kappa":"Κ","kappa":"κ","kappav":"ϰ","Kcedil":"Ķ","kcedil":"ķ","Kcy":"К","kcy":"к","Kfr":"𝔎","kfr":"𝔨","kgreen":"ĸ","KHcy":"Х","khcy":"х","KJcy":"Ќ","kjcy":"ќ","Kopf":"𝕂","kopf":"𝕜","Kscr":"𝒦","kscr":"𝓀","lAarr":"⇚","Lacute":"Ĺ","lacute":"ĺ","laemptyv":"⦴","lagran":"ℒ","Lambda":"Λ","lambda":"λ","lang":"⟨","Lang":"⟪","langd":"⦑","langle":"⟨","lap":"⪅","Laplacetrf":"ℒ","laquo":"«","larrb":"⇤","larrbfs":"⤟","larr":"←","Larr":"↞","lArr":"⇐","larrfs":"⤝","larrhk":"↩","larrlp":"↫","larrpl":"⤹","larrsim":"⥳","larrtl":"↢","latail":"⤙","lAtail":"⤛","lat":"⪫","late":"⪭","lates":"⪭︀","lbarr":"⤌","lBarr":"⤎","lbbrk":"❲","lbrace":"{","lbrack":"[","lbrke":"⦋","lbrksld":"⦏","lbrkslu":"⦍","Lcaron":"Ľ","lcaron":"ľ","Lcedil":"Ļ","lcedil":"ļ","lceil":"⌈","lcub":"{","Lcy":"Л","lcy":"л","ldca":"⤶","ldquo":"“","ldquor":"„","ldrdhar":"⥧","ldrushar":"⥋","ldsh":"↲","le":"≤","lE":"≦","LeftAngleBracket":"⟨","LeftArrowBar":"⇤","leftarrow":"←","LeftArrow":"←","Leftarrow":"⇐","LeftArrowRightArrow":"⇆","leftarrowtail":"↢","LeftCeiling":"⌈","LeftDoubleBracket":"⟦","LeftDownTeeVector":"⥡","LeftDownVectorBar":"⥙","LeftDownVector":"⇃","LeftFloor":"⌊","leftharpoondown":"↽","leftharpoonup":"↼","leftleftarrows":"⇇","leftrightarrow":"↔","LeftRightArrow":"↔","Leftrightarrow":"⇔","leftrightarrows":"⇆","leftrightharpoons":"⇋","leftrightsquigarrow":"↭","LeftRightVector":"⥎","LeftTeeArrow":"↤","LeftTee":"⊣","LeftTeeVector":"⥚","leftthreetimes":"⋋","LeftTriangleBar":"⧏","LeftTriangle":"⊲","LeftTriangleEqual":"⊴","LeftUpDownVector":"⥑","LeftUpTeeVector":"⥠","LeftUpVectorBar":"⥘","LeftUpVector":"↿","LeftVectorBar":"⥒","LeftVector":"↼","lEg":"⪋","leg":"⋚","leq":"≤","leqq":"≦","leqslant":"⩽","lescc":"⪨","les":"⩽","lesdot":"⩿","lesdoto":"⪁","lesdotor":"⪃","lesg":"⋚︀","lesges":"⪓","lessapprox":"⪅","lessdot":"⋖","lesseqgtr":"⋚","lesseqqgtr":"⪋","LessEqualGreater":"⋚","LessFullEqual":"≦","LessGreater":"≶","lessgtr":"≶","LessLess":"⪡","lesssim":"≲","LessSlantEqual":"⩽","LessTilde":"≲","lfisht":"⥼","lfloor":"⌊","Lfr":"𝔏","lfr":"𝔩","lg":"≶","lgE":"⪑","lHar":"⥢","lhard":"↽","lharu":"↼","lharul":"⥪","lhblk":"▄","LJcy":"Љ","ljcy":"љ","llarr":"⇇","ll":"≪","Ll":"⋘","llcorner":"⌞","Lleftarrow":"⇚","llhard":"⥫","lltri":"◺","Lmidot":"Ŀ","lmidot":"ŀ","lmoustache":"⎰","lmoust":"⎰","lnap":"⪉","lnapprox":"⪉","lne":"⪇","lnE":"≨","lneq":"⪇","lneqq":"≨","lnsim":"⋦","loang":"⟬","loarr":"⇽","lobrk":"⟦","longleftarrow":"⟵","LongLeftArrow":"⟵","Longleftarrow":"⟸","longleftrightarrow":"⟷","LongLeftRightArrow":"⟷","Longleftrightarrow":"⟺","longmapsto":"⟼","longrightarrow":"⟶","LongRightArrow":"⟶","Longrightarrow":"⟹","looparrowleft":"↫","looparrowright":"↬","lopar":"⦅","Lopf":"𝕃","lopf":"𝕝","loplus":"⨭","lotimes":"⨴","lowast":"∗","lowbar":"_","LowerLeftArrow":"↙","LowerRightArrow":"↘","loz":"◊","lozenge":"◊","lozf":"⧫","lpar":"(","lparlt":"⦓","lrarr":"⇆","lrcorner":"⌟","lrhar":"⇋","lrhard":"⥭","lrm":"‎","lrtri":"⊿","lsaquo":"‹","lscr":"𝓁","Lscr":"ℒ","lsh":"↰","Lsh":"↰","lsim":"≲","lsime":"⪍","lsimg":"⪏","lsqb":"[","lsquo":"‘","lsquor":"‚","Lstrok":"Ł","lstrok":"ł","ltcc":"⪦","ltcir":"⩹","lt":"<","LT":"<","Lt":"≪","ltdot":"⋖","lthree":"⋋","ltimes":"⋉","ltlarr":"⥶","ltquest":"⩻","ltri":"◃","ltrie":"⊴","ltrif":"◂","ltrPar":"⦖","lurdshar":"⥊","luruhar":"⥦","lvertneqq":"≨︀","lvnE":"≨︀","macr":"¯","male":"♂","malt":"✠","maltese":"✠","Map":"⤅","map":"↦","mapsto":"↦","mapstodown":"↧","mapstoleft":"↤","mapstoup":"↥","marker":"▮","mcomma":"⨩","Mcy":"М","mcy":"м","mdash":"—","mDDot":"∺","measuredangle":"∡","MediumSpace":" ","Mellintrf":"ℳ","Mfr":"𝔐","mfr":"𝔪","mho":"℧","micro":"µ","midast":"*","midcir":"⫰","mid":"∣","middot":"·","minusb":"⊟","minus":"−","minusd":"∸","minusdu":"⨪","MinusPlus":"∓","mlcp":"⫛","mldr":"…","mnplus":"∓","models":"⊧","Mopf":"𝕄","mopf":"𝕞","mp":"∓","mscr":"𝓂","Mscr":"ℳ","mstpos":"∾","Mu":"Μ","mu":"μ","multimap":"⊸","mumap":"⊸","nabla":"∇","Nacute":"Ń","nacute":"ń","nang":"∠⃒","nap":"≉","napE":"⩰̸","napid":"≋̸","napos":"ŉ","napprox":"≉","natural":"♮","naturals":"ℕ","natur":"♮","nbsp":" ","nbump":"≎̸","nbumpe":"≏̸","ncap":"⩃","Ncaron":"Ň","ncaron":"ň","Ncedil":"Ņ","ncedil":"ņ","ncong":"≇","ncongdot":"⩭̸","ncup":"⩂","Ncy":"Н","ncy":"н","ndash":"–","nearhk":"⤤","nearr":"↗","neArr":"⇗","nearrow":"↗","ne":"≠","nedot":"≐̸","NegativeMediumSpace":"​","NegativeThickSpace":"​","NegativeThinSpace":"​","NegativeVeryThinSpace":"​","nequiv":"≢","nesear":"⤨","nesim":"≂̸","NestedGreaterGreater":"≫","NestedLessLess":"≪","NewLine":"\\n","nexist":"∄","nexists":"∄","Nfr":"𝔑","nfr":"𝔫","ngE":"≧̸","nge":"≱","ngeq":"≱","ngeqq":"≧̸","ngeqslant":"⩾̸","nges":"⩾̸","nGg":"⋙̸","ngsim":"≵","nGt":"≫⃒","ngt":"≯","ngtr":"≯","nGtv":"≫̸","nharr":"↮","nhArr":"⇎","nhpar":"⫲","ni":"∋","nis":"⋼","nisd":"⋺","niv":"∋","NJcy":"Њ","njcy":"њ","nlarr":"↚","nlArr":"⇍","nldr":"‥","nlE":"≦̸","nle":"≰","nleftarrow":"↚","nLeftarrow":"⇍","nleftrightarrow":"↮","nLeftrightarrow":"⇎","nleq":"≰","nleqq":"≦̸","nleqslant":"⩽̸","nles":"⩽̸","nless":"≮","nLl":"⋘̸","nlsim":"≴","nLt":"≪⃒","nlt":"≮","nltri":"⋪","nltrie":"⋬","nLtv":"≪̸","nmid":"∤","NoBreak":"⁠","NonBreakingSpace":" ","nopf":"𝕟","Nopf":"ℕ","Not":"⫬","not":"¬","NotCongruent":"≢","NotCupCap":"≭","NotDoubleVerticalBar":"∦","NotElement":"∉","NotEqual":"≠","NotEqualTilde":"≂̸","NotExists":"∄","NotGreater":"≯","NotGreaterEqual":"≱","NotGreaterFullEqual":"≧̸","NotGreaterGreater":"≫̸","NotGreaterLess":"≹","NotGreaterSlantEqual":"⩾̸","NotGreaterTilde":"≵","NotHumpDownHump":"≎̸","NotHumpEqual":"≏̸","notin":"∉","notindot":"⋵̸","notinE":"⋹̸","notinva":"∉","notinvb":"⋷","notinvc":"⋶","NotLeftTriangleBar":"⧏̸","NotLeftTriangle":"⋪","NotLeftTriangleEqual":"⋬","NotLess":"≮","NotLessEqual":"≰","NotLessGreater":"≸","NotLessLess":"≪̸","NotLessSlantEqual":"⩽̸","NotLessTilde":"≴","NotNestedGreaterGreater":"⪢̸","NotNestedLessLess":"⪡̸","notni":"∌","notniva":"∌","notnivb":"⋾","notnivc":"⋽","NotPrecedes":"⊀","NotPrecedesEqual":"⪯̸","NotPrecedesSlantEqual":"⋠","NotReverseElement":"∌","NotRightTriangleBar":"⧐̸","NotRightTriangle":"⋫","NotRightTriangleEqual":"⋭","NotSquareSubset":"⊏̸","NotSquareSubsetEqual":"⋢","NotSquareSuperset":"⊐̸","NotSquareSupersetEqual":"⋣","NotSubset":"⊂⃒","NotSubsetEqual":"⊈","NotSucceeds":"⊁","NotSucceedsEqual":"⪰̸","NotSucceedsSlantEqual":"⋡","NotSucceedsTilde":"≿̸","NotSuperset":"⊃⃒","NotSupersetEqual":"⊉","NotTilde":"≁","NotTildeEqual":"≄","NotTildeFullEqual":"≇","NotTildeTilde":"≉","NotVerticalBar":"∤","nparallel":"∦","npar":"∦","nparsl":"⫽⃥","npart":"∂̸","npolint":"⨔","npr":"⊀","nprcue":"⋠","nprec":"⊀","npreceq":"⪯̸","npre":"⪯̸","nrarrc":"⤳̸","nrarr":"↛","nrArr":"⇏","nrarrw":"↝̸","nrightarrow":"↛","nRightarrow":"⇏","nrtri":"⋫","nrtrie":"⋭","nsc":"⊁","nsccue":"⋡","nsce":"⪰̸","Nscr":"𝒩","nscr":"𝓃","nshortmid":"∤","nshortparallel":"∦","nsim":"≁","nsime":"≄","nsimeq":"≄","nsmid":"∤","nspar":"∦","nsqsube":"⋢","nsqsupe":"⋣","nsub":"⊄","nsubE":"⫅̸","nsube":"⊈","nsubset":"⊂⃒","nsubseteq":"⊈","nsubseteqq":"⫅̸","nsucc":"⊁","nsucceq":"⪰̸","nsup":"⊅","nsupE":"⫆̸","nsupe":"⊉","nsupset":"⊃⃒","nsupseteq":"⊉","nsupseteqq":"⫆̸","ntgl":"≹","Ntilde":"Ñ","ntilde":"ñ","ntlg":"≸","ntriangleleft":"⋪","ntrianglelefteq":"⋬","ntriangleright":"⋫","ntrianglerighteq":"⋭","Nu":"Ν","nu":"ν","num":"#","numero":"№","numsp":" ","nvap":"≍⃒","nvdash":"⊬","nvDash":"⊭","nVdash":"⊮","nVDash":"⊯","nvge":"≥⃒","nvgt":">⃒","nvHarr":"⤄","nvinfin":"⧞","nvlArr":"⤂","nvle":"≤⃒","nvlt":"<⃒","nvltrie":"⊴⃒","nvrArr":"⤃","nvrtrie":"⊵⃒","nvsim":"∼⃒","nwarhk":"⤣","nwarr":"↖","nwArr":"⇖","nwarrow":"↖","nwnear":"⤧","Oacute":"Ó","oacute":"ó","oast":"⊛","Ocirc":"Ô","ocirc":"ô","ocir":"⊚","Ocy":"О","ocy":"о","odash":"⊝","Odblac":"Ő","odblac":"ő","odiv":"⨸","odot":"⊙","odsold":"⦼","OElig":"Œ","oelig":"œ","ofcir":"⦿","Ofr":"𝔒","ofr":"𝔬","ogon":"˛","Ograve":"Ò","ograve":"ò","ogt":"⧁","ohbar":"⦵","ohm":"Ω","oint":"∮","olarr":"↺","olcir":"⦾","olcross":"⦻","oline":"‾","olt":"⧀","Omacr":"Ō","omacr":"ō","Omega":"Ω","omega":"ω","Omicron":"Ο","omicron":"ο","omid":"⦶","ominus":"⊖","Oopf":"𝕆","oopf":"𝕠","opar":"⦷","OpenCurlyDoubleQuote":"“","OpenCurlyQuote":"‘","operp":"⦹","oplus":"⊕","orarr":"↻","Or":"⩔","or":"∨","ord":"⩝","order":"ℴ","orderof":"ℴ","ordf":"ª","ordm":"º","origof":"⊶","oror":"⩖","orslope":"⩗","orv":"⩛","oS":"Ⓢ","Oscr":"𝒪","oscr":"ℴ","Oslash":"Ø","oslash":"ø","osol":"⊘","Otilde":"Õ","otilde":"õ","otimesas":"⨶","Otimes":"⨷","otimes":"⊗","Ouml":"Ö","ouml":"ö","ovbar":"⌽","OverBar":"‾","OverBrace":"⏞","OverBracket":"⎴","OverParenthesis":"⏜","para":"¶","parallel":"∥","par":"∥","parsim":"⫳","parsl":"⫽","part":"∂","PartialD":"∂","Pcy":"П","pcy":"п","percnt":"%","period":".","permil":"‰","perp":"⊥","pertenk":"‱","Pfr":"𝔓","pfr":"𝔭","Phi":"Φ","phi":"φ","phiv":"ϕ","phmmat":"ℳ","phone":"☎","Pi":"Π","pi":"π","pitchfork":"⋔","piv":"ϖ","planck":"ℏ","planckh":"ℎ","plankv":"ℏ","plusacir":"⨣","plusb":"⊞","pluscir":"⨢","plus":"+","plusdo":"∔","plusdu":"⨥","pluse":"⩲","PlusMinus":"±","plusmn":"±","plussim":"⨦","plustwo":"⨧","pm":"±","Poincareplane":"ℌ","pointint":"⨕","popf":"𝕡","Popf":"ℙ","pound":"£","prap":"⪷","Pr":"⪻","pr":"≺","prcue":"≼","precapprox":"⪷","prec":"≺","preccurlyeq":"≼","Precedes":"≺","PrecedesEqual":"⪯","PrecedesSlantEqual":"≼","PrecedesTilde":"≾","preceq":"⪯","precnapprox":"⪹","precneqq":"⪵","precnsim":"⋨","pre":"⪯","prE":"⪳","precsim":"≾","prime":"′","Prime":"″","primes":"ℙ","prnap":"⪹","prnE":"⪵","prnsim":"⋨","prod":"∏","Product":"∏","profalar":"⌮","profline":"⌒","profsurf":"⌓","prop":"∝","Proportional":"∝","Proportion":"∷","propto":"∝","prsim":"≾","prurel":"⊰","Pscr":"𝒫","pscr":"𝓅","Psi":"Ψ","psi":"ψ","puncsp":" ","Qfr":"𝔔","qfr":"𝔮","qint":"⨌","qopf":"𝕢","Qopf":"ℚ","qprime":"⁗","Qscr":"𝒬","qscr":"𝓆","quaternions":"ℍ","quatint":"⨖","quest":"?","questeq":"≟","quot":"\\"","QUOT":"\\"","rAarr":"⇛","race":"∽̱","Racute":"Ŕ","racute":"ŕ","radic":"√","raemptyv":"⦳","rang":"⟩","Rang":"⟫","rangd":"⦒","range":"⦥","rangle":"⟩","raquo":"»","rarrap":"⥵","rarrb":"⇥","rarrbfs":"⤠","rarrc":"⤳","rarr":"→","Rarr":"↠","rArr":"⇒","rarrfs":"⤞","rarrhk":"↪","rarrlp":"↬","rarrpl":"⥅","rarrsim":"⥴","Rarrtl":"⤖","rarrtl":"↣","rarrw":"↝","ratail":"⤚","rAtail":"⤜","ratio":"∶","rationals":"ℚ","rbarr":"⤍","rBarr":"⤏","RBarr":"⤐","rbbrk":"❳","rbrace":"}","rbrack":"]","rbrke":"⦌","rbrksld":"⦎","rbrkslu":"⦐","Rcaron":"Ř","rcaron":"ř","Rcedil":"Ŗ","rcedil":"ŗ","rceil":"⌉","rcub":"}","Rcy":"Р","rcy":"р","rdca":"⤷","rdldhar":"⥩","rdquo":"”","rdquor":"”","rdsh":"↳","real":"ℜ","realine":"ℛ","realpart":"ℜ","reals":"ℝ","Re":"ℜ","rect":"▭","reg":"®","REG":"®","ReverseElement":"∋","ReverseEquilibrium":"⇋","ReverseUpEquilibrium":"⥯","rfisht":"⥽","rfloor":"⌋","rfr":"𝔯","Rfr":"ℜ","rHar":"⥤","rhard":"⇁","rharu":"⇀","rharul":"⥬","Rho":"Ρ","rho":"ρ","rhov":"ϱ","RightAngleBracket":"⟩","RightArrowBar":"⇥","rightarrow":"→","RightArrow":"→","Rightarrow":"⇒","RightArrowLeftArrow":"⇄","rightarrowtail":"↣","RightCeiling":"⌉","RightDoubleBracket":"⟧","RightDownTeeVector":"⥝","RightDownVectorBar":"⥕","RightDownVector":"⇂","RightFloor":"⌋","rightharpoondown":"⇁","rightharpoonup":"⇀","rightleftarrows":"⇄","rightleftharpoons":"⇌","rightrightarrows":"⇉","rightsquigarrow":"↝","RightTeeArrow":"↦","RightTee":"⊢","RightTeeVector":"⥛","rightthreetimes":"⋌","RightTriangleBar":"⧐","RightTriangle":"⊳","RightTriangleEqual":"⊵","RightUpDownVector":"⥏","RightUpTeeVector":"⥜","RightUpVectorBar":"⥔","RightUpVector":"↾","RightVectorBar":"⥓","RightVector":"⇀","ring":"˚","risingdotseq":"≓","rlarr":"⇄","rlhar":"⇌","rlm":"‏","rmoustache":"⎱","rmoust":"⎱","rnmid":"⫮","roang":"⟭","roarr":"⇾","robrk":"⟧","ropar":"⦆","ropf":"𝕣","Ropf":"ℝ","roplus":"⨮","rotimes":"⨵","RoundImplies":"⥰","rpar":")","rpargt":"⦔","rppolint":"⨒","rrarr":"⇉","Rrightarrow":"⇛","rsaquo":"›","rscr":"𝓇","Rscr":"ℛ","rsh":"↱","Rsh":"↱","rsqb":"]","rsquo":"’","rsquor":"’","rthree":"⋌","rtimes":"⋊","rtri":"▹","rtrie":"⊵","rtrif":"▸","rtriltri":"⧎","RuleDelayed":"⧴","ruluhar":"⥨","rx":"℞","Sacute":"Ś","sacute":"ś","sbquo":"‚","scap":"⪸","Scaron":"Š","scaron":"š","Sc":"⪼","sc":"≻","sccue":"≽","sce":"⪰","scE":"⪴","Scedil":"Ş","scedil":"ş","Scirc":"Ŝ","scirc":"ŝ","scnap":"⪺","scnE":"⪶","scnsim":"⋩","scpolint":"⨓","scsim":"≿","Scy":"С","scy":"с","sdotb":"⊡","sdot":"⋅","sdote":"⩦","searhk":"⤥","searr":"↘","seArr":"⇘","searrow":"↘","sect":"§","semi":";","seswar":"⤩","setminus":"∖","setmn":"∖","sext":"✶","Sfr":"𝔖","sfr":"𝔰","sfrown":"⌢","sharp":"♯","SHCHcy":"Щ","shchcy":"щ","SHcy":"Ш","shcy":"ш","ShortDownArrow":"↓","ShortLeftArrow":"←","shortmid":"∣","shortparallel":"∥","ShortRightArrow":"→","ShortUpArrow":"↑","shy":"­","Sigma":"Σ","sigma":"σ","sigmaf":"ς","sigmav":"ς","sim":"∼","simdot":"⩪","sime":"≃","simeq":"≃","simg":"⪞","simgE":"⪠","siml":"⪝","simlE":"⪟","simne":"≆","simplus":"⨤","simrarr":"⥲","slarr":"←","SmallCircle":"∘","smallsetminus":"∖","smashp":"⨳","smeparsl":"⧤","smid":"∣","smile":"⌣","smt":"⪪","smte":"⪬","smtes":"⪬︀","SOFTcy":"Ь","softcy":"ь","solbar":"⌿","solb":"⧄","sol":"/","Sopf":"𝕊","sopf":"𝕤","spades":"♠","spadesuit":"♠","spar":"∥","sqcap":"⊓","sqcaps":"⊓︀","sqcup":"⊔","sqcups":"⊔︀","Sqrt":"√","sqsub":"⊏","sqsube":"⊑","sqsubset":"⊏","sqsubseteq":"⊑","sqsup":"⊐","sqsupe":"⊒","sqsupset":"⊐","sqsupseteq":"⊒","square":"□","Square":"□","SquareIntersection":"⊓","SquareSubset":"⊏","SquareSubsetEqual":"⊑","SquareSuperset":"⊐","SquareSupersetEqual":"⊒","SquareUnion":"⊔","squarf":"▪","squ":"□","squf":"▪","srarr":"→","Sscr":"𝒮","sscr":"𝓈","ssetmn":"∖","ssmile":"⌣","sstarf":"⋆","Star":"⋆","star":"☆","starf":"★","straightepsilon":"ϵ","straightphi":"ϕ","strns":"¯","sub":"⊂","Sub":"⋐","subdot":"⪽","subE":"⫅","sube":"⊆","subedot":"⫃","submult":"⫁","subnE":"⫋","subne":"⊊","subplus":"⪿","subrarr":"⥹","subset":"⊂","Subset":"⋐","subseteq":"⊆","subseteqq":"⫅","SubsetEqual":"⊆","subsetneq":"⊊","subsetneqq":"⫋","subsim":"⫇","subsub":"⫕","subsup":"⫓","succapprox":"⪸","succ":"≻","succcurlyeq":"≽","Succeeds":"≻","SucceedsEqual":"⪰","SucceedsSlantEqual":"≽","SucceedsTilde":"≿","succeq":"⪰","succnapprox":"⪺","succneqq":"⪶","succnsim":"⋩","succsim":"≿","SuchThat":"∋","sum":"∑","Sum":"∑","sung":"♪","sup1":"¹","sup2":"²","sup3":"³","sup":"⊃","Sup":"⋑","supdot":"⪾","supdsub":"⫘","supE":"⫆","supe":"⊇","supedot":"⫄","Superset":"⊃","SupersetEqual":"⊇","suphsol":"⟉","suphsub":"⫗","suplarr":"⥻","supmult":"⫂","supnE":"⫌","supne":"⊋","supplus":"⫀","supset":"⊃","Supset":"⋑","supseteq":"⊇","supseteqq":"⫆","supsetneq":"⊋","supsetneqq":"⫌","supsim":"⫈","supsub":"⫔","supsup":"⫖","swarhk":"⤦","swarr":"↙","swArr":"⇙","swarrow":"↙","swnwar":"⤪","szlig":"ß","Tab":"\\t","target":"⌖","Tau":"Τ","tau":"τ","tbrk":"⎴","Tcaron":"Ť","tcaron":"ť","Tcedil":"Ţ","tcedil":"ţ","Tcy":"Т","tcy":"т","tdot":"⃛","telrec":"⌕","Tfr":"𝔗","tfr":"𝔱","there4":"∴","therefore":"∴","Therefore":"∴","Theta":"Θ","theta":"θ","thetasym":"ϑ","thetav":"ϑ","thickapprox":"≈","thicksim":"∼","ThickSpace":"  ","ThinSpace":" ","thinsp":" ","thkap":"≈","thksim":"∼","THORN":"Þ","thorn":"þ","tilde":"˜","Tilde":"∼","TildeEqual":"≃","TildeFullEqual":"≅","TildeTilde":"≈","timesbar":"⨱","timesb":"⊠","times":"×","timesd":"⨰","tint":"∭","toea":"⤨","topbot":"⌶","topcir":"⫱","top":"⊤","Topf":"𝕋","topf":"𝕥","topfork":"⫚","tosa":"⤩","tprime":"‴","trade":"™","TRADE":"™","triangle":"▵","triangledown":"▿","triangleleft":"◃","trianglelefteq":"⊴","triangleq":"≜","triangleright":"▹","trianglerighteq":"⊵","tridot":"◬","trie":"≜","triminus":"⨺","TripleDot":"⃛","triplus":"⨹","trisb":"⧍","tritime":"⨻","trpezium":"⏢","Tscr":"𝒯","tscr":"𝓉","TScy":"Ц","tscy":"ц","TSHcy":"Ћ","tshcy":"ћ","Tstrok":"Ŧ","tstrok":"ŧ","twixt":"≬","twoheadleftarrow":"↞","twoheadrightarrow":"↠","Uacute":"Ú","uacute":"ú","uarr":"↑","Uarr":"↟","uArr":"⇑","Uarrocir":"⥉","Ubrcy":"Ў","ubrcy":"ў","Ubreve":"Ŭ","ubreve":"ŭ","Ucirc":"Û","ucirc":"û","Ucy":"У","ucy":"у","udarr":"⇅","Udblac":"Ű","udblac":"ű","udhar":"⥮","ufisht":"⥾","Ufr":"𝔘","ufr":"𝔲","Ugrave":"Ù","ugrave":"ù","uHar":"⥣","uharl":"↿","uharr":"↾","uhblk":"▀","ulcorn":"⌜","ulcorner":"⌜","ulcrop":"⌏","ultri":"◸","Umacr":"Ū","umacr":"ū","uml":"¨","UnderBar":"_","UnderBrace":"⏟","UnderBracket":"⎵","UnderParenthesis":"⏝","Union":"⋃","UnionPlus":"⊎","Uogon":"Ų","uogon":"ų","Uopf":"𝕌","uopf":"𝕦","UpArrowBar":"⤒","uparrow":"↑","UpArrow":"↑","Uparrow":"⇑","UpArrowDownArrow":"⇅","updownarrow":"↕","UpDownArrow":"↕","Updownarrow":"⇕","UpEquilibrium":"⥮","upharpoonleft":"↿","upharpoonright":"↾","uplus":"⊎","UpperLeftArrow":"↖","UpperRightArrow":"↗","upsi":"υ","Upsi":"ϒ","upsih":"ϒ","Upsilon":"Υ","upsilon":"υ","UpTeeArrow":"↥","UpTee":"⊥","upuparrows":"⇈","urcorn":"⌝","urcorner":"⌝","urcrop":"⌎","Uring":"Ů","uring":"ů","urtri":"◹","Uscr":"𝒰","uscr":"𝓊","utdot":"⋰","Utilde":"Ũ","utilde":"ũ","utri":"▵","utrif":"▴","uuarr":"⇈","Uuml":"Ü","uuml":"ü","uwangle":"⦧","vangrt":"⦜","varepsilon":"ϵ","varkappa":"ϰ","varnothing":"∅","varphi":"ϕ","varpi":"ϖ","varpropto":"∝","varr":"↕","vArr":"⇕","varrho":"ϱ","varsigma":"ς","varsubsetneq":"⊊︀","varsubsetneqq":"⫋︀","varsupsetneq":"⊋︀","varsupsetneqq":"⫌︀","vartheta":"ϑ","vartriangleleft":"⊲","vartriangleright":"⊳","vBar":"⫨","Vbar":"⫫","vBarv":"⫩","Vcy":"В","vcy":"в","vdash":"⊢","vDash":"⊨","Vdash":"⊩","VDash":"⊫","Vdashl":"⫦","veebar":"⊻","vee":"∨","Vee":"⋁","veeeq":"≚","vellip":"⋮","verbar":"|","Verbar":"‖","vert":"|","Vert":"‖","VerticalBar":"∣","VerticalLine":"|","VerticalSeparator":"❘","VerticalTilde":"≀","VeryThinSpace":" ","Vfr":"𝔙","vfr":"𝔳","vltri":"⊲","vnsub":"⊂⃒","vnsup":"⊃⃒","Vopf":"𝕍","vopf":"𝕧","vprop":"∝","vrtri":"⊳","Vscr":"𝒱","vscr":"𝓋","vsubnE":"⫋︀","vsubne":"⊊︀","vsupnE":"⫌︀","vsupne":"⊋︀","Vvdash":"⊪","vzigzag":"⦚","Wcirc":"Ŵ","wcirc":"ŵ","wedbar":"⩟","wedge":"∧","Wedge":"⋀","wedgeq":"≙","weierp":"℘","Wfr":"𝔚","wfr":"𝔴","Wopf":"𝕎","wopf":"𝕨","wp":"℘","wr":"≀","wreath":"≀","Wscr":"𝒲","wscr":"𝓌","xcap":"⋂","xcirc":"◯","xcup":"⋃","xdtri":"▽","Xfr":"𝔛","xfr":"𝔵","xharr":"⟷","xhArr":"⟺","Xi":"Ξ","xi":"ξ","xlarr":"⟵","xlArr":"⟸","xmap":"⟼","xnis":"⋻","xodot":"⨀","Xopf":"𝕏","xopf":"𝕩","xoplus":"⨁","xotime":"⨂","xrarr":"⟶","xrArr":"⟹","Xscr":"𝒳","xscr":"𝓍","xsqcup":"⨆","xuplus":"⨄","xutri":"△","xvee":"⋁","xwedge":"⋀","Yacute":"Ý","yacute":"ý","YAcy":"Я","yacy":"я","Ycirc":"Ŷ","ycirc":"ŷ","Ycy":"Ы","ycy":"ы","yen":"¥","Yfr":"𝔜","yfr":"𝔶","YIcy":"Ї","yicy":"ї","Yopf":"𝕐","yopf":"𝕪","Yscr":"𝒴","yscr":"𝓎","YUcy":"Ю","yucy":"ю","yuml":"ÿ","Yuml":"Ÿ","Zacute":"Ź","zacute":"ź","Zcaron":"Ž","zcaron":"ž","Zcy":"З","zcy":"з","Zdot":"Ż","zdot":"ż","zeetrf":"ℨ","ZeroWidthSpace":"​","Zeta":"Ζ","zeta":"ζ","zfr":"𝔷","Zfr":"ℨ","ZHcy":"Ж","zhcy":"ж","zigrarr":"⇝","zopf":"𝕫","Zopf":"ℤ","Zscr":"𝒵","zscr":"𝓏","zwj":"‍","zwnj":"‌"}');
 
 /***/ }),
 
-/***/ 9591:
+/***/ 29591:
 /***/ ((module) => {
 
 module.exports = JSON.parse('{"Aacute":"Á","aacute":"á","Acirc":"Â","acirc":"â","acute":"´","AElig":"Æ","aelig":"æ","Agrave":"À","agrave":"à","amp":"&","AMP":"&","Aring":"Å","aring":"å","Atilde":"Ã","atilde":"ã","Auml":"Ä","auml":"ä","brvbar":"¦","Ccedil":"Ç","ccedil":"ç","cedil":"¸","cent":"¢","copy":"©","COPY":"©","curren":"¤","deg":"°","divide":"÷","Eacute":"É","eacute":"é","Ecirc":"Ê","ecirc":"ê","Egrave":"È","egrave":"è","ETH":"Ð","eth":"ð","Euml":"Ë","euml":"ë","frac12":"½","frac14":"¼","frac34":"¾","gt":">","GT":">","Iacute":"Í","iacute":"í","Icirc":"Î","icirc":"î","iexcl":"¡","Igrave":"Ì","igrave":"ì","iquest":"¿","Iuml":"Ï","iuml":"ï","laquo":"«","lt":"<","LT":"<","macr":"¯","micro":"µ","middot":"·","nbsp":" ","not":"¬","Ntilde":"Ñ","ntilde":"ñ","Oacute":"Ó","oacute":"ó","Ocirc":"Ô","ocirc":"ô","Ograve":"Ò","ograve":"ò","ordf":"ª","ordm":"º","Oslash":"Ø","oslash":"ø","Otilde":"Õ","otilde":"õ","Ouml":"Ö","ouml":"ö","para":"¶","plusmn":"±","pound":"£","quot":"\\"","QUOT":"\\"","raquo":"»","reg":"®","REG":"®","sect":"§","shy":"­","sup1":"¹","sup2":"²","sup3":"³","szlig":"ß","THORN":"Þ","thorn":"þ","times":"×","Uacute":"Ú","uacute":"ú","Ucirc":"Û","ucirc":"û","Ugrave":"Ù","ugrave":"ù","uml":"¨","Uuml":"Ü","uuml":"ü","Yacute":"Ý","yacute":"ý","yen":"¥","yuml":"ÿ"}');
@@ -76949,10 +92804,10 @@ __webpack_require__.d(__webpack_exports__, {
 });
 
 // EXTERNAL MODULE: ./node_modules/style-loader/dist/runtime/injectStylesIntoStyleTag.js
-var injectStylesIntoStyleTag = __webpack_require__(3379);
+var injectStylesIntoStyleTag = __webpack_require__(93379);
 var injectStylesIntoStyleTag_default = /*#__PURE__*/__webpack_require__.n(injectStylesIntoStyleTag);
 // EXTERNAL MODULE: ./node_modules/css-loader/dist/cjs.js!./src/additionalStyles.css
-var additionalStyles = __webpack_require__(9205);
+var additionalStyles = __webpack_require__(29205);
 ;// CONCATENATED MODULE: ./src/additionalStyles.css
 
             
@@ -76976,16 +92831,16 @@ var update = injectStylesIntoStyleTag_default()(additionalStyles/* default */.Z,
 
 
 // EXTERNAL MODULE: ./node_modules/@jupyterlab/services/lib/index.js
-var lib = __webpack_require__(6240);
+var lib = __webpack_require__(76240);
 // EXTERNAL MODULE: ./node_modules/@jupyterlab/services/lib/serverconnection.js
-var serverconnection = __webpack_require__(8477);
+var serverconnection = __webpack_require__(28477);
 ;// CONCATENATED MODULE: ./node_modules/@lit/reactive-element/css-tag.js
 /**
  * @license
  * Copyright 2019 Google LLC
  * SPDX-License-Identifier: BSD-3-Clause
  */
-const css_tag_t=window,e=css_tag_t.ShadowRoot&&(void 0===css_tag_t.ShadyCSS||css_tag_t.ShadyCSS.nativeShadow)&&"adoptedStyleSheets"in Document.prototype&&"replace"in CSSStyleSheet.prototype,s=Symbol(),n=new WeakMap;class o{constructor(t,e,n){if(this._$cssResult$=!0,n!==s)throw Error("CSSResult is not constructable. Use `unsafeCSS` or `css` instead.");this.cssText=t,this.t=e}get styleSheet(){let t=this.o;const s=this.t;if(e&&void 0===t){const e=void 0!==s&&1===s.length;e&&(t=n.get(s)),void 0===t&&((this.o=t=new CSSStyleSheet).replaceSync(this.cssText),e&&n.set(s,t))}return t}toString(){return this.cssText}}const r=t=>new o("string"==typeof t?t:t+"",void 0,s),i=(t,...e)=>{const n=1===t.length?t[0]:e.reduce(((e,s,n)=>e+(t=>{if(!0===t._$cssResult$)return t.cssText;if("number"==typeof t)return t;throw Error("Value passed to 'css' function must be a 'css' function result: "+t+". Use 'unsafeCSS' to pass non-literal values, but take care to ensure page security.")})(s)+t[n+1]),t[0]);return new o(n,t,s)},S=(s,n)=>{e?s.adoptedStyleSheets=n.map((t=>t instanceof CSSStyleSheet?t:t.styleSheet)):n.forEach((e=>{const n=document.createElement("style"),o=css_tag_t.litNonce;void 0!==o&&n.setAttribute("nonce",o),n.textContent=e.cssText,s.appendChild(n)}))},c=e?t=>t:t=>t instanceof CSSStyleSheet?(t=>{let e="";for(const s of t.cssRules)e+=s.cssText;return r(e)})(t):t;
+const css_tag_t=window,css_tag_e=css_tag_t.ShadowRoot&&(void 0===css_tag_t.ShadyCSS||css_tag_t.ShadyCSS.nativeShadow)&&"adoptedStyleSheets"in Document.prototype&&"replace"in CSSStyleSheet.prototype,s=Symbol(),n=new WeakMap;class css_tag_o{constructor(t,e,n){if(this._$cssResult$=!0,n!==s)throw Error("CSSResult is not constructable. Use `unsafeCSS` or `css` instead.");this.cssText=t,this.t=e}get styleSheet(){let t=this.o;const s=this.t;if(css_tag_e&&void 0===t){const e=void 0!==s&&1===s.length;e&&(t=n.get(s)),void 0===t&&((this.o=t=new CSSStyleSheet).replaceSync(this.cssText),e&&n.set(s,t))}return t}toString(){return this.cssText}}const r=t=>new css_tag_o("string"==typeof t?t:t+"",void 0,s),i=(t,...e)=>{const n=1===t.length?t[0]:e.reduce(((e,s,n)=>e+(t=>{if(!0===t._$cssResult$)return t.cssText;if("number"==typeof t)return t;throw Error("Value passed to 'css' function must be a 'css' function result: "+t+". Use 'unsafeCSS' to pass non-literal values, but take care to ensure page security.")})(s)+t[n+1]),t[0]);return new css_tag_o(n,t,s)},S=(s,n)=>{css_tag_e?s.adoptedStyleSheets=n.map((t=>t instanceof CSSStyleSheet?t:t.styleSheet)):n.forEach((e=>{const n=document.createElement("style"),o=css_tag_t.litNonce;void 0!==o&&n.setAttribute("nonce",o),n.textContent=e.cssText,s.appendChild(n)}))},c=css_tag_e?t=>t:t=>t instanceof CSSStyleSheet?(t=>{let e="";for(const s of t.cssRules)e+=s.cssText;return r(e)})(t):t;
 //# sourceMappingURL=css-tag.js.map
 
 ;// CONCATENATED MODULE: ./node_modules/@lit/reactive-element/reactive-element.js
@@ -77019,7 +92874,45 @@ var lit_html_t;const lit_html_i=window,lit_html_s=lit_html_i.trustedTypes,lit_ht
 
 //# sourceMappingURL=index.js.map
 
+;// CONCATENATED MODULE: ./node_modules/@lit/reactive-element/decorators/property.js
+/**
+ * @license
+ * Copyright 2017 Google LLC
+ * SPDX-License-Identifier: BSD-3-Clause
+ */
+const property_i=(i,e)=>"method"===e.kind&&e.descriptor&&!("value"in e.descriptor)?{...e,finisher(n){n.createProperty(e.key,i)}}:{kind:"field",key:Symbol(),placement:"own",descriptor:{},originalKey:e.key,initializer(){"function"==typeof e.initializer&&(this[e.key]=e.initializer.call(this))},finisher(n){n.createProperty(e.key,i)}};function property_e(e){return(n,t)=>void 0!==t?((i,e,n)=>{e.constructor.createProperty(n,i)})(e,n,t):property_i(e,n)}
+//# sourceMappingURL=property.js.map
+
+;// CONCATENATED MODULE: ./node_modules/@lit/reactive-element/decorators/query-assigned-elements.js
+
+/**
+ * @license
+ * Copyright 2021 Google LLC
+ * SPDX-License-Identifier: BSD-3-Clause
+ */var query_assigned_elements_n;const query_assigned_elements_e=null!=(null===(query_assigned_elements_n=window.HTMLSlotElement)||void 0===query_assigned_elements_n?void 0:query_assigned_elements_n.prototype.assignedElements)?(o,n)=>o.assignedElements(n):(o,n)=>o.assignedNodes(n).filter((o=>o.nodeType===Node.ELEMENT_NODE));function query_assigned_elements_l(n){const{slot:l,selector:t}=null!=n?n:{};return o({descriptor:o=>({get(){var o;const r="slot"+(l?`[name=${l}]`:":not([name])"),i=null===(o=this.renderRoot)||void 0===o?void 0:o.querySelector(r),s=null!=i?query_assigned_elements_e(i,n):[];return t?s.filter((o=>o.matches(t))):s},enumerable:!0,configurable:!0})})}
+//# sourceMappingURL=query-assigned-elements.js.map
+
+;// CONCATENATED MODULE: ./node_modules/@lit/reactive-element/decorators/query-assigned-nodes.js
+
+/**
+ * @license
+ * Copyright 2017 Google LLC
+ * SPDX-License-Identifier: BSD-3-Clause
+ */function query_assigned_nodes_o(o,n,r){let l,s=o;return"object"==typeof o?(s=o.slot,l=o):l={flatten:n},r?t({slot:s,flatten:n,selector:r}):e({descriptor:e=>({get(){var e,t;const o="slot"+(s?`[name=${s}]`:":not([name])"),n=null===(e=this.renderRoot)||void 0===e?void 0:e.querySelector(o);return null!==(t=null==n?void 0:n.assignedNodes(l))&&void 0!==t?t:[]},enumerable:!0,configurable:!0})})}
+//# sourceMappingURL=query-assigned-nodes.js.map
+
+;// CONCATENATED MODULE: ./node_modules/lit/decorators.js
+
+//# sourceMappingURL=decorators.js.map
+
 ;// CONCATENATED MODULE: ./src/components/kernelManager.ts
+var __decorate = (undefined && undefined.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
 
 
 
@@ -77027,6 +92920,7 @@ class StarboardJupyterManager extends lit_element_s {
     constructor(jupyterSettings) {
         super();
         this.isReady = false;
+        this.loading = false;
         this.runningKernels = [];
         this.settings = jupyterSettings;
         this.manager = new lib.KernelManager({
@@ -77040,10 +92934,6 @@ class StarboardJupyterManager extends lit_element_s {
         }, this);
         this.manager.ready.then(async () => {
             this.isReady = true;
-            const sbCells = document.querySelectorAll("starboard-cell");
-            const jupyterEnvCell = sbCells[sbCells.length - 1];
-            await (jupyterEnvCell === null || jupyterEnvCell === void 0 ? void 0 : jupyterEnvCell.runtime.controls.runCell({ id: jupyterEnvCell.id }));
-            await (jupyterEnvCell === null || jupyterEnvCell === void 0 ? void 0 : jupyterEnvCell.runtime.controls.removeCell({ id: jupyterEnvCell.id }));
             this.performUpdate();
         }, (err) => {
             console.warn("Jupyter manager failed to ready", err);
@@ -77052,20 +92942,39 @@ class StarboardJupyterManager extends lit_element_s {
             this.performUpdate();
         });
         this.manager.runningChanged.connect((km, running) => {
-            this.runningKernels = running;
-            this.connectionError = undefined;
+            this.runningKernels = running
+                .filter((kernel) => kernel.username === this.settings.username)
+                .map((kernel) => kernel);
             this.performUpdate();
         }, this);
     }
     setupKernelConnection() {
+        if (!this.currentKernel)
+            return;
+        this.kernelInfo = {
+            id: this.currentKernel.id,
+            name: this.currentKernel.name,
+            status: this.currentKernel.status,
+            connectionStatus: this.currentKernel.connectionStatus,
+        };
+        this.updateInternalEnvs();
         this.currentKernel.statusChanged.connect((kc, status) => {
             if (status === "dead" && this.currentKernel) {
                 this.currentKernel.dispose();
                 this.currentKernel = undefined;
+                this.kernelInfo = undefined;
             }
+            else if (this.kernelInfo) {
+                this.kernelInfo.status = status;
+            }
+            this.requestUpdate("kernelInfo");
             this.performUpdate();
         });
         this.currentKernel.connectionStatusChanged.connect((kc, status) => {
+            if (this.kernelInfo) {
+                this.kernelInfo.connectionStatus = status;
+            }
+            this.requestUpdate("kernelInfo");
             this.performUpdate();
         });
         this.manager.refreshRunning().catch((e) => console.error("Failed to refresh running kernels:", e));
@@ -77074,21 +92983,31 @@ class StarboardJupyterManager extends lit_element_s {
         return this;
     }
     async startKernel(name, shutdownCurrentKernel) {
+        this.loading = true;
         if (shutdownCurrentKernel && this.currentKernel && !this.currentKernel.isDisposed) {
             console.error("Already connected to a kernel, shutting down existing kernel");
             await this.currentKernel.shutdown();
             this.currentKernel.dispose();
+            this.kernelInfo = undefined;
         }
-        this.currentKernel = await this.manager.startNew({ name: name });
+        this.currentKernel = await this.manager.startNew({
+            name: name,
+            env: {
+                KERNEL_USERNAME: this.settings.username
+            },
+        });
         this.setupKernelConnection();
+        this.loading = false;
         this.performUpdate();
     }
     async connectToKernel(id) {
         if (this.currentKernel && !this.currentKernel.isDisposed) {
             this.currentKernel.dispose();
             this.currentKernel = undefined;
+            this.kernelInfo = undefined;
         }
         this.currentKernel = this.manager.connectTo({ model: { name: "", id } });
+        console.log("Connected to kernel:", this.currentKernel.id);
         this.setupKernelConnection();
         this.performUpdate();
     }
@@ -77104,6 +93023,7 @@ class StarboardJupyterManager extends lit_element_s {
         if (this.currentKernel) {
             this.currentKernel.dispose();
             this.currentKernel = undefined;
+            this.kernelInfo = undefined;
             this.performUpdate();
         }
     }
@@ -77113,9 +93033,16 @@ class StarboardJupyterManager extends lit_element_s {
      */
     async runCode(content, output) {
         if (!this.currentKernel) {
-            await this.startKernel();
+            alert("Not connected to a kernel. Please connect to a kernel first");
         }
         output.future = this.currentKernel.requestExecute(content);
+    }
+    async updateInternalEnvs() {
+        const notebook = this.parentElement;
+        if (notebook) {
+            const code = `Sys.setenv(TREX__AUTHORIZATION_TOKEN = \"${notebook.getAttribute("token")}\")\nSys.setenv(TREX__DATASET_ID = \"${notebook.getAttribute("datasetId")}\")`;
+            this.currentKernel.requestExecute({ code: code, silent: true });
+        }
     }
     disconnectedCallback() {
         super.disconnectedCallback();
@@ -77127,13 +93054,116 @@ class StarboardJupyterManager extends lit_element_s {
         })();
     }
     render() {
-        return;
+        return y `
+      <section class="starboard-jupyter-interface py-2 px-3 my-2">
+        <details>
+          <summary class="d-flex justify-content-between flex-wrap">
+            <div class="d-flex align-items-center flex-wrap">
+              ${this.settings.headerText ? y `<h2 class="h5 mb-0 me-2">${this.settings.headerText}</h2>` : undefined}
+              ${this.connectionError
+            ? y `<div class="badge bg-danger" style="width: max-content">Connection Error</div>`
+            : this.isReady
+                ? y `<div class="badge bg-success small" style="width: max-content">✅ Connected to Jupyter</div>`
+                : y `<div class="badge bg-light text-dark" style="width: max-content">Connecting to Jupyter..</div>`}
+            </div>
+            <div>
+              ${this.kernelInfo
+            ? y ` <span
+                      class="badge ${this.kernelInfo.connectionStatus === "connected"
+                ? "bg-success"
+                : "bg-warning text-dark"}"
+                    >
+                      ${this.kernelInfo.connectionStatus}
+                    </span>
+                    <span title="Kernel Status" class="badge bg-dark"> ${this.kernelInfo.status} </span>
+                    <button
+                      @click=${() => this.interruptKernel()}
+                      title="Interrupt Kernel"
+                      class="btn btn-outline-secondary btn-sm btn-rounded py-0"
+                    >
+                      Interrupt
+                    </button>`
+            : y `<span class="badge bg-light text-dark">Not connected to a kernel</span>`}
+            </div>
+          </summary>
+          ${this.isReady
+            ? y ` ${y `<button @click=${() => this.startKernel()} ?disabled=${this.runningKernels.length >= 1} class="mt-2 btn btn-sm btn-outline-primary">
+                  ${this.loading ? "Starting Kernel..." : "Start new Kernel"}
+                </button>`}
+                <ul class="list-group m-3">
+                  ${this.runningKernels.map((v) => {
+                if (this.currentKernel && this.currentKernel.id === v.id) {
+                    return y `<li
+                        class="list-group-item bg-light text-dark list-group-item-action d-flex justify-content-between align-items-center"
+                      >
+                        <span>🔗 <b>${v.name}</b> <code>${v.id}</code></span>
+
+                        <div class="d-flex align-items-center">
+                          <button
+                            @click=${() => this.disconnectFromKernel()}
+                            class="btn btn-sm btn-outline-secondary me-2 text-dark bg-white"
+                          >
+                            Disconnect
+                          </button>
+                          <!-- <button @click=${() => this.shutdownKernel(v.id)} class="btn btn-sm btn-outline-secondary me-2 text-dark">Shut Down</button> -->
+                          <span
+                            title="Last Activity: ${v.last_activity}"
+                            class="badge bg-primary rounded-pill"
+                          >
+                            ${this.currentKernel.status}
+                          </span>
+                        </div>
+                      </li>`;
+                }
+                else {
+                    return y `<div class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                            <span><b>${v.name}</b> <code>${v.id}</code></span>
+                        <div class="d-flex align-items-center">
+                            <button @click=${() => this.connectToKernel(v.id)} class="btn btn-sm btn-outline-primary me-2">Connect</button>  
+                            <button @click=${() => this.shutdownKernel(v.id)} class="btn btn-sm btn-outline-primary me-2">Shut Down</button>
+                            <span title="Last Activity: ${v.last_activity}" class="badge bg-primary rounded-pill">
+                                ${v.execution_state}
+                            </span>
+                        </div>
+                    </div>
+                </div>`;
+                }
+            })}
+                </ul>`
+            : undefined}
+          ${this.connectionError
+            ? y ` <div class="alert alert-danger mt-2">
+                <b>Connection Error</b>
+                <p>${this.connectionError}</p>
+                <br />
+                <p class="small">Check the Network tab in your browser's developer console for more details.</p>
+              </div>`
+            : undefined}
+        </details>
+      </section>
+    `;
     }
 }
-customElements.get("starboard-jupyter-manager") || customElements.define("starboard-jupyter-manager", StarboardJupyterManager);
+__decorate([
+    property_e({ type: Boolean })
+], StarboardJupyterManager.prototype, "isReady", void 0);
+__decorate([
+    property_e({ type: Boolean })
+], StarboardJupyterManager.prototype, "loading", void 0);
+__decorate([
+    property_e()
+], StarboardJupyterManager.prototype, "runningKernels", void 0);
+__decorate([
+    property_e({ type: Object })
+], StarboardJupyterManager.prototype, "kernelInfo", void 0);
+__decorate([
+    property_e({ type: Boolean })
+], StarboardJupyterManager.prototype, "connectionError", void 0);
+customElements.get("starboard-jupyter-manager") ||
+    customElements.define("starboard-jupyter-manager", StarboardJupyterManager);
 
 // EXTERNAL MODULE: ./node_modules/@lumino/coreutils/dist/index.js
-var dist = __webpack_require__(5082);
+var dist = __webpack_require__(95082);
 ;// CONCATENATED MODULE: ./node_modules/@jupyterlab/nbformat/lib/index.js
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
@@ -77244,7 +93274,7 @@ function isError(output) {
 }
 //# sourceMappingURL=index.js.map
 // EXTERNAL MODULE: ./node_modules/@lumino/algorithm/dist/index.es6.js
-var index_es6 = __webpack_require__(5259);
+var index_es6 = __webpack_require__(35259);
 // EXTERNAL MODULE: ./node_modules/@lumino/signaling/dist/index.es6.js
 var dist_index_es6 = __webpack_require__(4016);
 ;// CONCATENATED MODULE: ./node_modules/@jupyterlab/observables/lib/observablelist.js
@@ -81029,7 +97059,7 @@ var model_Private;
 })(model_Private || (model_Private = {}));
 //# sourceMappingURL=model.js.map
 // EXTERNAL MODULE: ./node_modules/@jupyterlab/statedb/lib/index.js
-var statedb_lib = __webpack_require__(7266);
+var statedb_lib = __webpack_require__(17266);
 ;// CONCATENATED MODULE: ./node_modules/@lumino/domutils/dist/index.es6.js
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
@@ -81481,9 +97511,9 @@ var dist_index_es6_Private;
 //# sourceMappingURL=index.es6.js.map
 
 // EXTERNAL MODULE: ./node_modules/@lumino/properties/dist/index.es6.js
-var properties_dist_index_es6 = __webpack_require__(9770);
+var properties_dist_index_es6 = __webpack_require__(39770);
 // EXTERNAL MODULE: ./node_modules/@lumino/disposable/dist/index.es6.js
-var disposable_dist_index_es6 = __webpack_require__(725);
+var disposable_dist_index_es6 = __webpack_require__(70725);
 ;// CONCATENATED MODULE: ./node_modules/@lumino/dragdrop/dist/index.es6.js
 
 
@@ -100798,6 +116828,8 @@ class WidgetTracker {
     }
 }
 //# sourceMappingURL=widgettracker.js.map
+// EXTERNAL MODULE: ./node_modules/@jupyterlab/outputarea/node_modules/@jupyterlab/services/lib/index.js
+var services_lib = __webpack_require__(49623);
 ;// CONCATENATED MODULE: ./node_modules/resize-observer-polyfill/dist/ResizeObserver.es.js
 /**
  * A collection of shims that provide minimal functionality of the ES6 collections.
@@ -101929,7 +117961,7 @@ class OutputArea extends index_es6_Widget {
         value.onReply = this._onExecuteReply;
         // Handle stdin.
         value.onStdin = msg => {
-            if (lib.KernelMessage.isInputRequestMsg(msg)) {
+            if (services_lib.KernelMessage.isInputRequestMsg(msg)) {
                 this.onInputRequest(msg, value);
             }
         };
@@ -102618,7 +118650,7 @@ var widget_Private;
 })(widget_Private || (widget_Private = {}));
 //# sourceMappingURL=widget.js.map
 // EXTERNAL MODULE: ./node_modules/sanitize-html/index.js
-var sanitize_html = __webpack_require__(1036);
+var sanitize_html = __webpack_require__(91036);
 var sanitize_html_default = /*#__PURE__*/__webpack_require__.n(sanitize_html);
 ;// CONCATENATED MODULE: ./node_modules/@jupyterlab/apputils/lib/sanitizer.js
 // Copyright (c) Jupyter Development Team.
@@ -103551,7 +119583,7 @@ class Sanitizer {
 const defaultSanitizer = new Sanitizer();
 //# sourceMappingURL=sanitizer.js.map
 // EXTERNAL MODULE: ./node_modules/@jupyterlab/coreutils/lib/index.js
-var coreutils_lib = __webpack_require__(9622);
+var coreutils_lib = __webpack_require__(79622);
 ;// CONCATENATED MODULE: ./node_modules/@jupyterlab/translation/lib/utils.js
 /**
  * Normalize domain
@@ -104065,6 +120097,8 @@ class NullLanguageBundle {
  */
 const nullTranslator = new NullTranslator(new NullLanguageBundle());
 //# sourceMappingURL=base.js.map
+// EXTERNAL MODULE: ./node_modules/@jupyterlab/translation/node_modules/@jupyterlab/services/lib/index.js
+var _jupyterlab_services_lib = __webpack_require__(34669);
 ;// CONCATENATED MODULE: ./node_modules/@jupyterlab/translation/lib/server.js
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
@@ -104601,9 +120635,9 @@ var registry_Private;
 })(registry_Private || (registry_Private = {}));
 //# sourceMappingURL=registry.js.map
 // EXTERNAL MODULE: ./node_modules/@blueprintjs/core/lib/cjs/components/button/buttons.js
-var buttons = __webpack_require__(6753);
+var buttons = __webpack_require__(16753);
 // EXTERNAL MODULE: ./node_modules/react/index.js
-var react = __webpack_require__(7294);
+var react = __webpack_require__(67294);
 ;// CONCATENATED MODULE: ./node_modules/@jupyterlab/ui-components/lib/utils.js
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
@@ -104693,7 +120727,7 @@ const Select = (props) => (React.createElement(BPSelect, Object.assign({}, props
 const Checkbox = (props) => (React.createElement(BPCheckbox, Object.assign({}, props, { className: classes(props.className, 'jp-Checkbox') })));
 //# sourceMappingURL=blueprint.js.map
 // EXTERNAL MODULE: ./node_modules/react-dom/index.js
-var react_dom = __webpack_require__(3935);
+var react_dom = __webpack_require__(73935);
 ;// CONCATENATED MODULE: ./node_modules/@jupyterlab/ui-components/style/debug/bad.svg
 /* harmony default export */ const bad = ("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgdmlld0JveD0iMCAwIDI0IDI0Ij4KICAgIDxwYXRoCiAgICAgICAgY2xhc3M9ImpwLWljb24wIgogICAgICAgIGZpbGw9IiMwMDAiCiAgICAgICAgZD0iTTI0IDIwLjE4OGwtOC4zMTUtOC4yMDkgOC4yLTguMjgyLTMuNjk3LTMuNjk3LTguMjEyIDguMzE4LTguMzEtOC4yMDMtMy42NjYgMy42NjYgOC4zMjEgOC4yNC04LjIwNiA4LjMxMyAzLjY2NiAzLjY2NiA4LjIzNy04LjMxOCA4LjI4NSA4LjIwM3oiCiAgICAvPgo8L3N2Zz4K");
 ;// CONCATENATED MODULE: ./node_modules/@jupyterlab/ui-components/style/debug/blank.svg
@@ -104701,7 +120735,7 @@ var react_dom = __webpack_require__(3935);
 ;// CONCATENATED MODULE: ./node_modules/@jupyterlab/ui-components/style/icons/toolbar/refresh.svg
 /* harmony default export */ const refresh = ("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgdmlld0JveD0iMCAwIDE4IDE4Ij4KICAgIDxnIGNsYXNzPSJqcC1pY29uMyIgZmlsbD0iIzYxNjE2MSI+CiAgICAgICAgPHBhdGggZD0iTTkgMTMuNWMtMi40OSAwLTQuNS0yLjAxLTQuNS00LjVTNi41MSA0LjUgOSA0LjVjMS4yNCAwIDIuMzYuNTIgMy4xNyAxLjMzTDEwIDhoNVYzbC0xLjc2IDEuNzZDMTIuMTUgMy42OCAxMC42NiAzIDkgMyA1LjY5IDMgMy4wMSA1LjY5IDMuMDEgOVM1LjY5IDE1IDkgMTVjMi45NyAwIDUuNDMtMi4xNiA1LjktNWgtMS41MmMtLjQ2IDItMi4yNCAzLjUtNC4zOCAzLjV6Ii8+CiAgICA8L2c+Cjwvc3ZnPgo=");
 // EXTERNAL MODULE: ./node_modules/typestyle/lib/index.js
-var typestyle_lib = __webpack_require__(4570);
+var typestyle_lib = __webpack_require__(44570);
 ;// CONCATENATED MODULE: ./node_modules/@jupyterlab/ui-components/lib/style/icon.js
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
@@ -108911,6 +124945,7 @@ const varStorage = _localStorage
 const onChange = eventHandler => usePolyfill || addEventListener('storage', /** @type {any} */ (eventHandler))
 
 ;// CONCATENATED MODULE: ./node_modules/lib0/environment.js
+/* provided dependency */ var process = __webpack_require__(34155);
 /**
  * Isomorphic module to work access the environment (query params, env variables).
  *
@@ -122049,54 +138084,54 @@ var CodeEditor;
 })(CodeEditor || (CodeEditor = {}));
 //# sourceMappingURL=editor.js.map
 // EXTERNAL MODULE: ./node_modules/@lumino/polling/dist/index.es6.js
-var polling_dist_index_es6 = __webpack_require__(3114);
+var polling_dist_index_es6 = __webpack_require__(23114);
 // EXTERNAL MODULE: ./node_modules/codemirror/lib/codemirror.js
 var codemirror = __webpack_require__(4631);
 var codemirror_default = /*#__PURE__*/__webpack_require__.n(codemirror);
 // EXTERNAL MODULE: ./node_modules/codemirror/addon/comment/comment.js
-var comment = __webpack_require__(4504);
+var comment = __webpack_require__(14504);
 // EXTERNAL MODULE: ./node_modules/codemirror/addon/display/rulers.js
-var rulers = __webpack_require__(511);
+var rulers = __webpack_require__(80511);
 // EXTERNAL MODULE: ./node_modules/codemirror/addon/edit/closebrackets.js
-var closebrackets = __webpack_require__(2801);
+var closebrackets = __webpack_require__(82801);
 // EXTERNAL MODULE: ./node_modules/codemirror/addon/edit/matchbrackets.js
 var matchbrackets = __webpack_require__(4328);
 // EXTERNAL MODULE: ./node_modules/codemirror/addon/fold/brace-fold.js
-var brace_fold = __webpack_require__(5688);
+var brace_fold = __webpack_require__(35688);
 // EXTERNAL MODULE: ./node_modules/codemirror/addon/fold/comment-fold.js
 var comment_fold = __webpack_require__(9898);
 // EXTERNAL MODULE: ./node_modules/codemirror/addon/fold/foldcode.js
-var foldcode = __webpack_require__(8657);
+var foldcode = __webpack_require__(88657);
 // EXTERNAL MODULE: ./node_modules/codemirror/addon/fold/foldgutter.js
-var foldgutter = __webpack_require__(9700);
+var foldgutter = __webpack_require__(89700);
 // EXTERNAL MODULE: ./node_modules/codemirror/addon/fold/indent-fold.js
-var indent_fold = __webpack_require__(6808);
+var indent_fold = __webpack_require__(86808);
 // EXTERNAL MODULE: ./node_modules/codemirror/addon/fold/markdown-fold.js
-var markdown_fold = __webpack_require__(2764);
+var markdown_fold = __webpack_require__(62764);
 // EXTERNAL MODULE: ./node_modules/codemirror/addon/fold/xml-fold.js
 var xml_fold = __webpack_require__(4786);
 // EXTERNAL MODULE: ./node_modules/codemirror/addon/mode/simple.js
-var simple = __webpack_require__(790);
+var simple = __webpack_require__(40790);
 // EXTERNAL MODULE: ./node_modules/codemirror/addon/scroll/scrollpastend.js
-var scrollpastend = __webpack_require__(5615);
+var scrollpastend = __webpack_require__(75615);
 // EXTERNAL MODULE: ./node_modules/codemirror/addon/search/jump-to-line.js
-var jump_to_line = __webpack_require__(4568);
+var jump_to_line = __webpack_require__(14568);
 // EXTERNAL MODULE: ./node_modules/codemirror/addon/search/search.js
-var search_search = __webpack_require__(1699);
+var search_search = __webpack_require__(81699);
 // EXTERNAL MODULE: ./node_modules/codemirror/addon/search/searchcursor.js
-var searchcursor = __webpack_require__(6932);
+var searchcursor = __webpack_require__(32095);
 // EXTERNAL MODULE: ./node_modules/codemirror/addon/selection/active-line.js
-var active_line = __webpack_require__(17);
+var active_line = __webpack_require__(20017);
 // EXTERNAL MODULE: ./node_modules/codemirror/addon/selection/mark-selection.js
-var mark_selection = __webpack_require__(4020);
+var mark_selection = __webpack_require__(64020);
 // EXTERNAL MODULE: ./node_modules/codemirror/addon/selection/selection-pointer.js
-var selection_pointer = __webpack_require__(3656);
+var selection_pointer = __webpack_require__(13656);
 // EXTERNAL MODULE: ./node_modules/codemirror/addon/edit/trailingspace.js
-var trailingspace = __webpack_require__(8216);
+var trailingspace = __webpack_require__(48247);
 // EXTERNAL MODULE: ./node_modules/codemirror/keymap/emacs.js
-var emacs = __webpack_require__(3986);
+var emacs = __webpack_require__(73986);
 // EXTERNAL MODULE: ./node_modules/codemirror/keymap/sublime.js
-var sublime = __webpack_require__(3412);
+var sublime = __webpack_require__(23412);
 ;// CONCATENATED MODULE: ./node_modules/lib0/mutex.js
 /**
  * Mutual exclude for JavaScript.
@@ -122817,27 +138852,27 @@ var IEditorMimeTypeService;
 })(IEditorMimeTypeService || (IEditorMimeTypeService = {}));
 //# sourceMappingURL=mimetype.js.map
 // EXTERNAL MODULE: ./node_modules/codemirror/addon/runmode/runmode.js
-var runmode = __webpack_require__(7165);
+var runmode = __webpack_require__(27165);
 // EXTERNAL MODULE: ./node_modules/codemirror/mode/clike/clike.js
-var clike = __webpack_require__(9762);
+var clike = __webpack_require__(99762);
 // EXTERNAL MODULE: ./node_modules/codemirror/mode/css/css.js
-var css = __webpack_require__(6629);
+var css = __webpack_require__(36629);
 // EXTERNAL MODULE: ./node_modules/codemirror/mode/javascript/javascript.js
-var javascript = __webpack_require__(6876);
+var javascript = __webpack_require__(96876);
 // EXTERNAL MODULE: ./node_modules/codemirror/mode/jsx/jsx.js
-var jsx = __webpack_require__(1548);
+var jsx = __webpack_require__(71548);
 // EXTERNAL MODULE: ./node_modules/codemirror/mode/julia/julia.js
-var julia_julia = __webpack_require__(8059);
+var julia_julia = __webpack_require__(68059);
 // EXTERNAL MODULE: ./node_modules/codemirror/mode/markdown/markdown.js
-var markdown_markdown = __webpack_require__(9047);
+var markdown_markdown = __webpack_require__(49047);
 // EXTERNAL MODULE: ./node_modules/codemirror/mode/meta.js
-var meta = __webpack_require__(2539);
+var meta = __webpack_require__(52539);
 // EXTERNAL MODULE: ./node_modules/codemirror/mode/r/r.js
-var r_r = __webpack_require__(5420);
+var r_r = __webpack_require__(85420);
 // EXTERNAL MODULE: ./node_modules/codemirror/mode/shell/shell.js
-var shell = __webpack_require__(1149);
+var shell = __webpack_require__(31149);
 // EXTERNAL MODULE: ./node_modules/codemirror/mode/sql/sql.js
-var sql = __webpack_require__(4086);
+var sql = __webpack_require__(54086);
 // EXTERNAL MODULE: ./node_modules/codemirror/mode/python/python.js
 var python_python = __webpack_require__(5321);
 ;// CONCATENATED MODULE: ./node_modules/@jupyterlab/codemirror/lib/codemirror-ipython.js
@@ -122872,11 +138907,11 @@ codemirror_default().modeInfo.push({
 });
 //# sourceMappingURL=codemirror-ipython.js.map
 // EXTERNAL MODULE: ./node_modules/codemirror/addon/mode/multiplex.js
-var multiplex = __webpack_require__(7093);
+var multiplex = __webpack_require__(87093);
 // EXTERNAL MODULE: ./node_modules/codemirror/mode/gfm/gfm.js
-var gfm = __webpack_require__(2425);
+var gfm = __webpack_require__(42425);
 // EXTERNAL MODULE: ./node_modules/codemirror/mode/stex/stex.js
-var stex = __webpack_require__(785);
+var stex = __webpack_require__(80785);
 ;// CONCATENATED MODULE: ./node_modules/@jupyterlab/codemirror/lib/codemirror-ipythongfm.js
 // Copyright (c) Jupyter Development Team.
 // Distributed under the terms of the Modified BSD License.
@@ -123003,7 +139038,7 @@ var Mode;
                     // An arrow function below seems to miscompile in our current webpack to
                     // invalid js.
                     Promise.all(/* AMD require */[__webpack_require__.e(64), __webpack_require__.e(87)]).then(function() { var __WEBPACK_AMD_REQUIRE_ARRAY__ = [
-                        __webpack_require__(3087)(`./${spec.mode}/${spec.mode}.js`)
+                        __webpack_require__(83087)(`./${spec.mode}/${spec.mode}.js`)
                     ]; (function () {
                         resolve(true);
                     }).apply(null, __WEBPACK_AMD_REQUIRE_ARRAY__);})['catch'](__webpack_require__.oe);
@@ -125834,7 +141869,7 @@ export function getEditorServices(translator: ITranslator): IEditorServices {
  */
 //# sourceMappingURL=index.js.map
 // EXTERNAL MODULE: ./node_modules/lodash.escape/index.js
-var lodash_escape = __webpack_require__(8686);
+var lodash_escape = __webpack_require__(98686);
 var lodash_escape_default = /*#__PURE__*/__webpack_require__.n(lodash_escape);
 ;// CONCATENATED MODULE: ./node_modules/marked/lib/marked.esm.js
 /**
