@@ -8,8 +8,10 @@ import { NotebookMessage, NotebookMessageContentData } from ".";
 export interface NotebookInitPayload {
   content: NotebookMessageContentData;
   baseUrl?: string;
-  suggestionUrl?: string;
-  bearerToken?: string;
+  serverUrl?: string;
+  token?: string;
+  userId?: string; 
+  datasetId?: string;
 }
 
 export interface NotebookSetMetadataPayload {

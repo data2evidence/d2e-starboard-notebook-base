@@ -14,7 +14,7 @@ import { setPluginOpts, StarboardPythonPluginOpts, updatePluginOptions } from ".
 
 export { getPyodideLoadingStatus, setupPythonSupport, loadPyodide, setGlobalPythonOutputElement };
 export { runStarboardPython } from "./run.js";
-export { runSuggestionAI} from "./run-suggestion-ai.js"
+export { runSuggestionAI } from "./run-suggestion-ai.js"
 
 export function registerPython(runtime: Runtime) {
   setupPythonSupport();
@@ -81,8 +81,8 @@ export function registerPython(runtime: Runtime) {
         ];
       }
 
-      const { suggestionUrl, bearerToken} = this.getProperties()
-      if (suggestionUrl && bearerToken) {
+      const { serverUrl, token, datasetId } = this.getProperties()
+      if (serverUrl && token && datasetId) {
         buttons = [suggestButton, ...buttons]
       }
       
@@ -93,10 +93,11 @@ export function registerPython(runtime: Runtime) {
       // Get suggestion API URL & bearer token
       const notebookElList = document.getElementsByTagName("starboard-notebook")
       const notebookEl = notebookElList[0]
-      const suggestionUrl = notebookEl.getAttribute("suggestionUrl")
-      const bearerToken = notebookEl.getAttribute("bearerToken")
+      const serverUrl = notebookEl.getAttribute("serverUrl")
+      const token = notebookEl.getAttribute("token")
+      const datasetId = notebookEl.getAttribute("datasetId")
 
-      return { suggestionUrl, bearerToken}
+      return { serverUrl, token, datasetId }
     }
 
     attach(params: CellHandlerAttachParameters): void {
@@ -118,9 +119,9 @@ export function registerPython(runtime: Runtime) {
         this.isCurrentlyRunningSuggestion = true
         lit.render(this.getControls(), this.elements.topControlsElement);
 
-        const { suggestionUrl, bearerToken} = this.getProperties()
+        const { serverUrl, token, datasetId } = this.getProperties()
 
-        const val = await runSuggestionAI(this.runtime, codeToRun, this.elements.bottomElement, this.elements.bottomControlsElement, this.editor, suggestionUrl, bearerToken);
+        const val = await runSuggestionAI(this.runtime, codeToRun, this.elements.bottomElement, this.elements.bottomControlsElement, this.editor, serverUrl, token, datasetId);
 
         this.isCurrentlyRunningSuggestion = false
         lit.render(this.getControls(), this.elements.topControlsElement);

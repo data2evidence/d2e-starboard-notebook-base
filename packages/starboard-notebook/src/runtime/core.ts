@@ -112,36 +112,33 @@ export function setupCommunicationWithParentFrame(runtime: Runtime) {
             await pyqeInitCell?.runtime.controls.removeCell({ id: pyqeInitCell.id });
 
             const notebookEl = document.querySelector("starboard-notebook")
+
             if (notebookEl) {
-              const suggestionUrl = msg.payload.suggestionUrl || ""
-              const bearerToken = msg.payload.bearerToken || ""
-
-              notebookEl.setAttribute("suggestionUrl", suggestionUrl)
-              notebookEl.setAttribute("bearerToken", bearerToken)
-
               const serverUrl = msg.payload.serverUrl || ""
               const token = msg.payload.token || ""
               const userId = msg.payload.userId || ""
               const datasetId = msg.payload.datasetId || ""
-              
-              if (userId && datasetId) {
-                const options = {
-                  serverSettings: {
-                    baseUrl: `${serverUrl}jupyter`,
-                    token: token,
-                    appendToken: true,
-                    init: {
-                      headers: {
-                        datasetId: datasetId,
-                      }
-                    }
-                  },
-                  username: userId,
+
+              notebookEl.setAttribute("serverUrl", serverUrl)
+              notebookEl.setAttribute("token", token)
+              notebookEl.setAttribute("datasetId", datasetId)
+
+              const options = {
+                serverSettings: {
+                  baseUrl: `${serverUrl}jupyter`,
                   token: token,
-                  datasetId: datasetId
-                }
-                await runtime.controls.registerPlugin(jupyterPlugin as typeof StarboardJupyterPlugin, options)
+                  appendToken: true,
+                  init: {
+                    headers: {
+                      datasetId: datasetId,
+                    }
+                  }
+                },
+                username: userId,
+                token: token,
+                datasetId: datasetId
               }
+              await runtime.controls.registerPlugin(jupyterPlugin as typeof StarboardJupyterPlugin, options)
             }
 
             contentHasBeenSetFromParentIframe = true;

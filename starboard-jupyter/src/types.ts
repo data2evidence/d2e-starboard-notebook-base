@@ -7,6 +7,9 @@ export interface JupyterPluginSettings {
   mount?: HTMLElement;
   /** Hides the <Starboard Jupyter Plugin> header of the widget */
   headerText: string;
+  username?: string;
+  token?: string;
+  datasetId?: string;
 }
 
 export interface RuntimeConfig {
