@@ -23,6 +23,9 @@ export class StarboardJupyterManager extends LitElement {
   @property({ type: Boolean })
   private isReady = false;
 
+  @property({ type: Boolean })
+  private loading = false;
+
   @property()
   private runningKernels: IKernelModel[] = [];
 
@@ -85,7 +88,7 @@ export class StarboardJupyterManager extends LitElement {
     };
 
     this.updateInternalEnvs()
-    
+
     this.currentKernel.statusChanged.connect((kc, status) => {
       if (status === "dead" && this.currentKernel) {
         this.currentKernel.dispose();
@@ -114,6 +117,7 @@ export class StarboardJupyterManager extends LitElement {
   }
 
   async startKernel(name?: string, shutdownCurrentKernel?: boolean) {
+    this.loading = true
     if (shutdownCurrentKernel && this.currentKernel && !this.currentKernel.isDisposed) {
       console.error("Already connected to a kernel, shutting down existing kernel");
       await this.currentKernel.shutdown();
@@ -130,6 +134,7 @@ export class StarboardJupyterManager extends LitElement {
       } as IKernelStartOptions
     );
     this.setupKernelConnection();
+    this.loading = false
     this.performUpdate();
   }
 
@@ -231,8 +236,8 @@ export class StarboardJupyterManager extends LitElement {
             </div>
           </summary>
           ${this.isReady
-            ? html` ${html`<button @click=${() => this.startKernel()} class="mt-2 btn btn-sm btn-outline-primary">
-                  Start new Kernel
+            ? html` ${html`<button @click=${() => this.startKernel()} ?disabled=${this.runningKernels.length >= 1} class="mt-2 btn btn-sm btn-outline-primary">
+                  ${this.loading ? "Starting Kernel..." : "Start new Kernel"}
                 </button>`}
                 <ul class="list-group m-3">
                   ${this.runningKernels.map((v) => {
