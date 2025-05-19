@@ -30,10 +30,13 @@ export class StarboardNotebookElement extends LitElement {
   private runtime!: Runtime;
 
   @property({ type: String })
-  private suggestionUrl = "";
+  private serverUrl = "";
 
   @property({ type: String })
-  private bearerToken = "";
+  private token = "";
+
+  @property({ type: String })
+  private datasetId = "";
 
   @property({ type: Object })
   public config?: RuntimeConfig;
