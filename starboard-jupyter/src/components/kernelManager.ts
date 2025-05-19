@@ -76,6 +76,7 @@ export class StarboardJupyterManager extends LitElement {
 
   private setupKernelConnection() {
     if (!this.currentKernel) return;
+
     this.kernelInfo = {
       id: this.currentKernel.id,
       name: this.currentKernel.name,
@@ -83,6 +84,8 @@ export class StarboardJupyterManager extends LitElement {
       connectionStatus: this.currentKernel.connectionStatus,
     };
 
+    this.updateInternalEnvs()
+    
     this.currentKernel.statusChanged.connect((kc, status) => {
       if (status === "dead" && this.currentKernel) {
         this.currentKernel.dispose();
@@ -122,9 +125,7 @@ export class StarboardJupyterManager extends LitElement {
       {
         name: name,
         env: {
-          KERNEL_USERNAME: this.settings.username,
-          TREX__AUTHORIZATION_TOKEN: this.settings.token,
-          TREX__DATASET_ID: this.settings.datasetId,
+          KERNEL_USERNAME: this.settings.username
         },
       } as IKernelStartOptions
     );
@@ -174,6 +175,15 @@ export class StarboardJupyterManager extends LitElement {
     }
 
     output.future = this.currentKernel!.requestExecute(content);
+  }
+
+  async updateInternalEnvs() {
+    const notebook = this.parentElement
+  
+    if (notebook) {
+      const code = `Sys.setenv(TREX__AUTHORIZATION_TOKEN = \"${notebook.getAttribute("token")}\")\nSys.setenv(TREX__DATASET_ID = \"${notebook.getAttribute("datasetId")}\")`
+      this.currentKernel!.requestExecute({code: code, silent: true })
+    }
   }
 
   disconnectedCallback() {
