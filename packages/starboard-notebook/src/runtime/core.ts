@@ -92,7 +92,7 @@ export function setupCommunicationWithParentFrame(runtime: Runtime) {
     setTimeout(() => askForContent(), 60);
   };
   askForContent();
-
+  let init = false
   window.addEventListener(
     "message",
     async (event) => {
@@ -100,6 +100,10 @@ export function setupCommunicationWithParentFrame(runtime: Runtime) {
         const msg = event.data as InboundNotebookMessage;
         switch (msg.type) {
           case "NOTEBOOK_SET_INIT_DATA": {
+
+            if (init) return;
+            init = true
+
             if (contentHasBeenSetFromParentIframe) return; // be idempotent
             runtime.content = textToNotebookContent(msg.payload.content);
             await nb.performUpdate();
