@@ -5,9 +5,10 @@
 import { textToNotebookContent } from "../content/parsing";
 import { CellPropertyDefinition, CellTypeDefinition, RegistryEvent, Runtime } from "../types";
 import type { plugin as StarboardPythonPlugin } from "starboard-python";
-
+import type { plugin as StarboardJupyterPlugin } from "starboard-jupyter";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 import { plugin as pythonPlugin } from "starboard-python";
+import { plugin as jupyterPlugin } from "starboard-jupyter"
 import { InboundNotebookMessage } from "../types/messages";
 import { notebookContentToText } from "../content/serialization";
 import { isSharedArrayBufferAndAtomicsReady } from "../components/helpers/crossOriginIsolated";
@@ -106,23 +107,38 @@ export function setupCommunicationWithParentFrame(runtime: Runtime) {
 
             // Finding the Starboard Cells
             const sbCells = document.querySelectorAll("starboard-cell");
-            const pyqeInitCell = sbCells[sbCells.length - 3] as unknown as CellElement;
-            const jupyterInitCell = sbCells[sbCells.length - 2] as unknown as CellElement;
-
-            // Run and remove cells
+            const pyqeInitCell = sbCells[sbCells.length - 1] as unknown as CellElement;
             await pyqeInitCell?.runtime.controls.runCell({ id: pyqeInitCell.id, type: "install" });
-            await jupyterInitCell?.runtime.controls.runCell({ id: jupyterInitCell.id });
             await pyqeInitCell?.runtime.controls.removeCell({ id: pyqeInitCell.id });
-            await jupyterInitCell?.runtime.controls.removeCell({ id: jupyterInitCell.id });
-            await nb.performUpdate();
 
             const notebookEl = document.querySelector("starboard-notebook")
-            if (notebookEl) {
-              const suggestionUrl = msg.payload.suggestionUrl || ""
-              const bearerToken = msg.payload.bearerToken || ""
 
-              notebookEl.setAttribute("suggestionUrl", suggestionUrl)
-              notebookEl.setAttribute("bearerToken", bearerToken)
+            if (notebookEl) {
+              const serverUrl = msg.payload.serverUrl || ""
+              const token = msg.payload.token || ""
+              const userId = msg.payload.userId || ""
+              const datasetId = msg.payload.datasetId || ""
+
+              notebookEl.setAttribute("serverUrl", serverUrl)
+              notebookEl.setAttribute("token", token)
+              notebookEl.setAttribute("datasetId", datasetId)
+
+              const options = {
+                serverSettings: {
+                  baseUrl: `${serverUrl}jupyter`,
+                  token: token,
+                  appendToken: true,
+                  init: {
+                    headers: {
+                      datasetId: datasetId,
+                    }
+                  }
+                },
+                username: userId,
+                token: token,
+                datasetId: datasetId
+              }
+              await runtime.controls.registerPlugin(jupyterPlugin as typeof StarboardJupyterPlugin, options)
             }
 
             contentHasBeenSetFromParentIframe = true;

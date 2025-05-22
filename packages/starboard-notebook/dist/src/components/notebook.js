@@ -24,8 +24,9 @@ import { initPythonExecutionMode } from "../runtime/core";
 let StarboardNotebookElement = class StarboardNotebookElement extends LitElement {
     constructor() {
         super(...arguments);
-        this.suggestionUrl = "";
-        this.bearerToken = "";
+        this.serverUrl = "";
+        this.token = "";
+        this.datasetId = "";
         this.initialRunStarted = false;
     }
     createRenderRoot() {
@@ -138,6 +139,18 @@ let StarboardNotebookElement = class StarboardNotebookElement extends LitElement
     }
     render() {
         return html `
+      <div class="line-grid">
+        <div class="button-block-content">
+          <button
+          @click="${() => this.runtime.controls.runAllCells({})}"
+          class="cell-controls-button-block"
+          title="Rull All Cells"
+          style="line-height:2;"
+          >
+            Run all Cells <span class="bi bi-play-circle"></span>
+          </button> 
+        </div>
+      </div>
       <main class="cells-container"></main>
       <div class="line-grid">
         <div class="button-block-content">
@@ -212,10 +225,13 @@ let StarboardNotebookElement = class StarboardNotebookElement extends LitElement
 };
 __decorate([
     property({ type: String })
-], StarboardNotebookElement.prototype, "suggestionUrl", void 0);
+], StarboardNotebookElement.prototype, "serverUrl", void 0);
 __decorate([
     property({ type: String })
-], StarboardNotebookElement.prototype, "bearerToken", void 0);
+], StarboardNotebookElement.prototype, "token", void 0);
+__decorate([
+    property({ type: String })
+], StarboardNotebookElement.prototype, "datasetId", void 0);
 __decorate([
     property({ type: Object })
 ], StarboardNotebookElement.prototype, "config", void 0);

@@ -8,8 +8,9 @@ declare global {
 }
 export declare class StarboardNotebookElement extends LitElement {
     private runtime;
-    private suggestionUrl;
-    private bearerToken;
+    private serverUrl;
+    private token;
+    private datasetId;
     config?: RuntimeConfig;
     private cellsParentElement;
     private sourceModalElement;

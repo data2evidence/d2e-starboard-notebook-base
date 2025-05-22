@@ -4,6 +4,7 @@
 import { textToNotebookContent } from "../content/parsing";
 // eslint-disable-next-line @typescript-eslint/ban-ts-comment
 import { plugin as pythonPlugin } from "starboard-python";
+import { plugin as jupyterPlugin } from "starboard-jupyter";
 import { notebookContentToText } from "../content/serialization";
 import { isSharedArrayBufferAndAtomicsReady } from "../components/helpers/crossOriginIsolated";
 export function initPythonExecutionMode(runtime) {
@@ -89,20 +90,34 @@ export function setupCommunicationWithParentFrame(runtime) {
                     await nb.notebookInitialize();
                     // Finding the Starboard Cells
                     const sbCells = document.querySelectorAll("starboard-cell");
-                    const pyqeInitCell = sbCells[sbCells.length - 3];
-                    const jupyterInitCell = sbCells[sbCells.length - 2];
-                    // Run and remove cells
+                    const pyqeInitCell = sbCells[sbCells.length - 1];
                     await (pyqeInitCell === null || pyqeInitCell === void 0 ? void 0 : pyqeInitCell.runtime.controls.runCell({ id: pyqeInitCell.id, type: "install" }));
-                    await (jupyterInitCell === null || jupyterInitCell === void 0 ? void 0 : jupyterInitCell.runtime.controls.runCell({ id: jupyterInitCell.id }));
                     await (pyqeInitCell === null || pyqeInitCell === void 0 ? void 0 : pyqeInitCell.runtime.controls.removeCell({ id: pyqeInitCell.id }));
-                    await (jupyterInitCell === null || jupyterInitCell === void 0 ? void 0 : jupyterInitCell.runtime.controls.removeCell({ id: jupyterInitCell.id }));
-                    await nb.performUpdate();
                     const notebookEl = document.querySelector("starboard-notebook");
                     if (notebookEl) {
-                        const suggestionUrl = msg.payload.suggestionUrl || "";
-                        const bearerToken = msg.payload.bearerToken || "";
-                        notebookEl.setAttribute("suggestionUrl", suggestionUrl);
-                        notebookEl.setAttribute("bearerToken", bearerToken);
+                        const serverUrl = msg.payload.serverUrl || "";
+                        const token = msg.payload.token || "";
+                        const userId = msg.payload.userId || "";
+                        const datasetId = msg.payload.datasetId || "";
+                        notebookEl.setAttribute("serverUrl", serverUrl);
+                        notebookEl.setAttribute("token", token);
+                        notebookEl.setAttribute("datasetId", datasetId);
+                        const options = {
+                            serverSettings: {
+                                baseUrl: `${serverUrl}jupyter`,
+                                token: token,
+                                appendToken: true,
+                                init: {
+                                    headers: {
+                                        datasetId: datasetId,
+                                    }
+                                }
+                            },
+                            username: userId,
+                            token: token,
+                            datasetId: datasetId
+                        };
+                        await runtime.controls.registerPlugin(jupyterPlugin, options);
                     }
                     contentHasBeenSetFromParentIframe = true;
                     nb.initialRunStarted = false;

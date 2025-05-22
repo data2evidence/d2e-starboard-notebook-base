@@ -6,9 +6,11 @@ export declare class StarboardJupyterManager extends LitElement {
     private settings;
     private manager;
     private isReady;
+    private loading;
     private runningKernels;
-    private currentKernel?;
+    private kernelInfo?;
     private connectionError;
+    private currentKernel?;
     constructor(jupyterSettings: JupyterPluginSettings);
     private setupKernelConnection;
     createRenderRoot(): this;
@@ -22,6 +24,7 @@ export declare class StarboardJupyterManager extends LitElement {
      * There are more parameters which you probably won't need.
      */
     runCode(content: KernelMessage.IExecuteRequestMsg["content"], output: OutputArea): Promise<void>;
+    updateInternalEnvs(): Promise<void>;
     disconnectedCallback(): void;
-    render(): void;
+    render(): import("lit-html").TemplateResult<1>;
 }

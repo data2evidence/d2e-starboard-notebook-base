@@ -73,6 +73,9 @@ export default {
       'process.env': '{}',
     //   // Needed for various packages using cwd(), like the path polyfill
     //   // process: { cwd: () => '/' }
-    })
+    }),
+    new webpack.ProvidePlugin({
+      process: 'process/browser.js',
+  }),
   ],
 };

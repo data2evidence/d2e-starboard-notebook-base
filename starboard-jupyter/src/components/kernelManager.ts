@@ -5,18 +5,42 @@ import * as P from "@jupyterlab/services/lib/serverconnection";
 import { IKernelConnection } from "@jupyterlab/services/lib/kernel/kernel";
 import { OutputArea } from "@jupyterlab/outputarea";
 import { html, LitElement } from "lit";
+import { property } from "lit/decorators.js";
 
+interface IKernelStartOptions {
+  name: string;
+  env?: Record<string, string>;
+}
 
+interface IKernelModel extends Kernel.IModel {
+  username: string;
+}
 
 export class StarboardJupyterManager extends LitElement {
   private settings: JupyterPluginSettings;
   private manager: KernelManager;
 
+  @property({ type: Boolean })
   private isReady = false;
-  private runningKernels: Kernel.IModel[] = [];
+
+  @property({ type: Boolean })
+  private loading = false;
+
+  @property()
+  private runningKernels: IKernelModel[] = [];
+
+  @property({ type: Object })
+  private kernelInfo?: {
+    id: string;
+    name: string;
+    status: string;
+    connectionStatus: string;
+  };
+
+  @property({ type: Boolean })
+  private connectionError: Error | undefined;
 
   private currentKernel?: IKernelConnection;
-  private connectionError: Error | undefined;
 
   constructor(jupyterSettings: JupyterPluginSettings) {
     super();
@@ -35,10 +59,6 @@ export class StarboardJupyterManager extends LitElement {
     this.manager.ready.then(
       async () => {
         this.isReady = true;
-        const sbCells = document.querySelectorAll("starboard-cell")
-        const jupyterEnvCell = sbCells[sbCells.length - 1] as any
-        await jupyterEnvCell?.runtime.controls.runCell({ id: jupyterEnvCell.id });
-        await jupyterEnvCell?.runtime.controls.removeCell({ id: jupyterEnvCell.id });
         this.performUpdate();
       },
       (err) => {
@@ -50,23 +70,45 @@ export class StarboardJupyterManager extends LitElement {
     );
 
     this.manager.runningChanged.connect((km, running) => {
-      this.runningKernels = running;
-      this.connectionError = undefined;
+      this.runningKernels = running
+        .filter((kernel) => (kernel as unknown as IKernelModel).username === this.settings.username)
+        .map((kernel) => kernel as unknown as IKernelModel);
       this.performUpdate();
     }, this);
   }
 
   private setupKernelConnection() {
-    this.currentKernel!.statusChanged.connect((kc, status) => {
+    if (!this.currentKernel) return;
+
+    this.kernelInfo = {
+      id: this.currentKernel.id,
+      name: this.currentKernel.name,
+      status: this.currentKernel.status,
+      connectionStatus: this.currentKernel.connectionStatus,
+    };
+
+    this.updateInternalEnvs()
+
+    this.currentKernel.statusChanged.connect((kc, status) => {
       if (status === "dead" && this.currentKernel) {
         this.currentKernel.dispose();
         this.currentKernel = undefined;
+        this.kernelInfo = undefined;
+      } else if (this.kernelInfo) {
+        this.kernelInfo.status = status;
       }
+      this.requestUpdate("kernelInfo");
       this.performUpdate();
     });
-    this.currentKernel!.connectionStatusChanged.connect((kc, status) => {
+
+    this.currentKernel.connectionStatusChanged.connect((kc, status) => {
+      if (this.kernelInfo) {
+        this.kernelInfo.connectionStatus = status;
+      }
+      this.requestUpdate("kernelInfo");
       this.performUpdate();
     });
+
     this.manager.refreshRunning().catch((e) => console.error("Failed to refresh running kernels:", e));
   }
 
@@ -75,13 +117,24 @@ export class StarboardJupyterManager extends LitElement {
   }
 
   async startKernel(name?: string, shutdownCurrentKernel?: boolean) {
+    this.loading = true
     if (shutdownCurrentKernel && this.currentKernel && !this.currentKernel.isDisposed) {
       console.error("Already connected to a kernel, shutting down existing kernel");
       await this.currentKernel.shutdown();
       this.currentKernel.dispose();
+      this.kernelInfo = undefined;
     }
-    this.currentKernel = await this.manager.startNew({ name: name });
+
+    this.currentKernel = await this.manager.startNew(
+      {
+        name: name,
+        env: {
+          KERNEL_USERNAME: this.settings.username
+        },
+      } as IKernelStartOptions
+    );
     this.setupKernelConnection();
+    this.loading = false
     this.performUpdate();
   }
 
@@ -89,9 +142,11 @@ export class StarboardJupyterManager extends LitElement {
     if (this.currentKernel && !this.currentKernel.isDisposed) {
       this.currentKernel.dispose();
       this.currentKernel = undefined;
+      this.kernelInfo = undefined;
     }
 
     this.currentKernel = this.manager.connectTo({ model: { name: "", id } });
+    console.log("Connected to kernel:", this.currentKernel.id);
     this.setupKernelConnection();
     this.performUpdate();
   }
@@ -110,6 +165,7 @@ export class StarboardJupyterManager extends LitElement {
     if (this.currentKernel) {
       this.currentKernel.dispose();
       this.currentKernel = undefined;
+      this.kernelInfo = undefined;
       this.performUpdate();
     }
   }
@@ -120,10 +176,19 @@ export class StarboardJupyterManager extends LitElement {
    */
   async runCode(content: KernelMessage.IExecuteRequestMsg["content"], output: OutputArea) {
     if (!this.currentKernel) {
-      await this.startKernel();
+      alert("Not connected to a kernel. Please connect to a kernel first")
     }
 
     output.future = this.currentKernel!.requestExecute(content);
+  }
+
+  async updateInternalEnvs() {
+    const notebook = this.parentElement
+  
+    if (notebook) {
+      const code = `Sys.setenv(TREX__AUTHORIZATION_TOKEN = \"${notebook.getAttribute("token")}\")\nSys.setenv(TREX__DATASET_ID = \"${notebook.getAttribute("datasetId")}\")`
+      this.currentKernel!.requestExecute({code: code, silent: true })
+    }
   }
 
   disconnectedCallback() {
@@ -138,9 +203,101 @@ export class StarboardJupyterManager extends LitElement {
   }
 
   render() {
-    return
-  }
-  
-}
-customElements.get("starboard-jupyter-manager") || customElements.define("starboard-jupyter-manager", StarboardJupyterManager)
+    return html`
+      <section class="starboard-jupyter-interface py-2 px-3 my-2">
+        <details>
+          <summary class="d-flex justify-content-between flex-wrap">
+            <div class="d-flex align-items-center flex-wrap">
+              ${this.settings.headerText ? html`<h2 class="h5 mb-0 me-2">${this.settings.headerText}</h2>` : undefined}
+              ${this.connectionError
+                ? html`<div class="badge bg-danger" style="width: max-content">Connection Error</div>`
+                : this.isReady
+                ? html`<div class="badge bg-success small" style="width: max-content">✅ Connected to Jupyter</div>`
+                : html`<div class="badge bg-light text-dark" style="width: max-content">Connecting to Jupyter..</div>`}
+            </div>
+            <div>
+              ${this.kernelInfo
+                ? html` <span
+                      class="badge ${this.kernelInfo.connectionStatus === "connected"
+                        ? "bg-success"
+                        : "bg-warning text-dark"}"
+                    >
+                      ${this.kernelInfo.connectionStatus}
+                    </span>
+                    <span title="Kernel Status" class="badge bg-dark"> ${this.kernelInfo.status} </span>
+                    <button
+                      @click=${() => this.interruptKernel()}
+                      title="Interrupt Kernel"
+                      class="btn btn-outline-secondary btn-sm btn-rounded py-0"
+                    >
+                      Interrupt
+                    </button>`
+                : html`<span class="badge bg-light text-dark">Not connected to a kernel</span>`}
+            </div>
+          </summary>
+          ${this.isReady
+            ? html` ${html`<button @click=${() => this.startKernel()} ?disabled=${this.runningKernels.length >= 1} class="mt-2 btn btn-sm btn-outline-primary">
+                  ${this.loading ? "Starting Kernel..." : "Start new Kernel"}
+                </button>`}
+                <ul class="list-group m-3">
+                  ${this.runningKernels.map((v) => {
+                    if (this.currentKernel && this.currentKernel.id === v.id) {
+                      return html`<li
+                        class="list-group-item bg-light text-dark list-group-item-action d-flex justify-content-between align-items-center"
+                      >
+                        <span>🔗 <b>${v.name}</b> <code>${v.id}</code></span>
 
+                        <div class="d-flex align-items-center">
+                          <button
+                            @click=${() => this.disconnectFromKernel()}
+                            class="btn btn-sm btn-outline-secondary me-2 text-dark bg-white"
+                          >
+                            Disconnect
+                          </button>
+                          <!-- <button @click=${() =>
+                            this.shutdownKernel(
+                              v.id
+                            )} class="btn btn-sm btn-outline-secondary me-2 text-dark">Shut Down</button> -->
+                          <span
+                            title="Last Activity: ${(v as any).last_activity}"
+                            class="badge bg-primary rounded-pill"
+                          >
+                            ${this.currentKernel.status}
+                          </span>
+                        </div>
+                      </li>`;
+                    } else {
+                      return html`<div class="list-group-item list-group-item-action d-flex justify-content-between align-items-center">
+                                            <span><b>${v.name}</b> <code>${v.id}</code></span>
+                        <div class="d-flex align-items-center">
+                            <button @click=${() =>
+                              this.connectToKernel(v.id)} class="btn btn-sm btn-outline-primary me-2">Connect</button>  
+                            <button @click=${() =>
+                              this.shutdownKernel(v.id)} class="btn btn-sm btn-outline-primary me-2">Shut Down</button>
+                            <span title="Last Activity: ${
+                              (v as any).last_activity
+                            }" class="badge bg-primary rounded-pill">
+                                ${(v as any).execution_state}
+                            </span>
+                        </div>
+                    </div>
+                </div>`;
+                    }
+                  })}
+                </ul>`
+            : undefined}
+          ${this.connectionError
+            ? html` <div class="alert alert-danger mt-2">
+                <b>Connection Error</b>
+                <p>${this.connectionError}</p>
+                <br />
+                <p class="small">Check the Network tab in your browser's developer console for more details.</p>
+              </div>`
+            : undefined}
+        </details>
+      </section>
+    `;
+  }
+}
+customElements.get("starboard-jupyter-manager") ||
+  customElements.define("starboard-jupyter-manager", StarboardJupyterManager);

@@ -8,8 +8,9 @@ export async function runSuggestionAI(
   renderOutputIntoElement: HTMLElement,
   renderControlsIntoEmelent: HTMLElement,
   editor: any,
-  suggestionUrl: string | null,
-  bearerToken: string | null
+  serverUrl: string | null,
+  token: string | null,
+  datasetId: string | null,
 ): Promise<any> {
   const done = flatPromise();
 
@@ -26,13 +27,18 @@ export async function runSuggestionAI(
   if (!codeToRun) {
     return alert("No code given.")
   }
-  if (!bearerToken) {
-    return alert("No bearer token!")
+  if (!token) {
+    return alert("No token!")
   }
-  if (!suggestionUrl) {
+  if (!serverUrl) {
     return alert("No suggestion URL!");
   }
+  if (!datasetId) {
+    return alert("No datasetId!");
+  }
 
+  const suggestionUrl =  `${serverUrl}code-suggestion?datasetId=${datasetId}`
+  
   // console controls
     const acceptButton: ControlButton = {
         icon: "bi bi-check-circle",
@@ -60,7 +66,7 @@ export async function runSuggestionAI(
   try {
     const options = {
       headers: {
-        Authorization: bearerToken,
+        Authorization: `Bearer ${token}`,
       },
     };
     const result = await axios.post(suggestionUrl, { code: codeToRun }, options);
