@@ -6,7 +6,6 @@ import { textToNotebookContent } from "../content/parsing";
 import { CellPropertyDefinition, CellTypeDefinition, RegistryEvent, Runtime } from "../types";
 import type { plugin as StarboardPythonPlugin } from "starboard-python";
 import type { plugin as StarboardJupyterPlugin } from "starboard-jupyter";
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 import { plugin as pythonPlugin } from "starboard-python";
 import { plugin as jupyterPlugin } from "starboard-jupyter"
 import { InboundNotebookMessage } from "../types/messages";
