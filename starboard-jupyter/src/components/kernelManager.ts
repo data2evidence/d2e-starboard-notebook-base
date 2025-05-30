@@ -24,7 +24,10 @@ export class StarboardJupyterManager extends LitElement {
   private isReady = false;
 
   @property({ type: Boolean })
-  private loading = false;
+  private isStarting = false;
+
+  @property({ type: Array<string> })
+  private isShuttingDown: string[] = [];
 
   @property()
   private runningKernels: IKernelModel[] = [];
@@ -87,7 +90,7 @@ export class StarboardJupyterManager extends LitElement {
       connectionStatus: this.currentKernel.connectionStatus,
     };
 
-    this.updateInternalEnvs()
+    this.updateInternalEnvs();
 
     this.currentKernel.statusChanged.connect((kc, status) => {
       if (status === "dead" && this.currentKernel) {
@@ -117,7 +120,7 @@ export class StarboardJupyterManager extends LitElement {
   }
 
   async startKernel(name?: string, shutdownCurrentKernel?: boolean) {
-    this.loading = true
+    this.isStarting = true;
     if (shutdownCurrentKernel && this.currentKernel && !this.currentKernel.isDisposed) {
       console.error("Already connected to a kernel, shutting down existing kernel");
       await this.currentKernel.shutdown();
@@ -125,16 +128,14 @@ export class StarboardJupyterManager extends LitElement {
       this.kernelInfo = undefined;
     }
 
-    this.currentKernel = await this.manager.startNew(
-      {
-        name: name,
-        env: {
-          KERNEL_USERNAME: this.settings.username
-        },
-      } as IKernelStartOptions
-    );
+    this.currentKernel = await this.manager.startNew({
+      name: name,
+      env: {
+        KERNEL_USERNAME: this.settings.username,
+      },
+    } as IKernelStartOptions);
     this.setupKernelConnection();
-    this.loading = false
+    this.isStarting = false;
     this.performUpdate();
   }
 
@@ -152,7 +153,9 @@ export class StarboardJupyterManager extends LitElement {
   }
 
   async shutdownKernel(id: string) {
-    this.manager.shutdown(id);
+    this.isShuttingDown = [...this.isShuttingDown, id];
+    await this.manager.shutdown(id);
+    this.isShuttingDown = this.isShuttingDown.filter((kernelId) => kernelId !== id);
   }
 
   async interruptKernel() {
@@ -176,18 +179,20 @@ export class StarboardJupyterManager extends LitElement {
    */
   async runCode(content: KernelMessage.IExecuteRequestMsg["content"], output: OutputArea) {
     if (!this.currentKernel) {
-      alert("Not connected to a kernel. Please connect to a kernel first")
+      alert("Not connected to a kernel. Please connect to a kernel first");
     }
 
     output.future = this.currentKernel!.requestExecute(content);
   }
 
   async updateInternalEnvs() {
-    const notebook = this.parentElement
-  
+    const notebook = this.parentElement;
+
     if (notebook) {
-      const code = `Sys.setenv(TREX__AUTHORIZATION_TOKEN = \"${notebook.getAttribute("token")}\")\nSys.setenv(TREX__DATASET_ID = \"${notebook.getAttribute("datasetId")}\")`
-      this.currentKernel!.requestExecute({code: code, silent: true })
+      const code = `Sys.setenv(TREX__AUTHORIZATION_TOKEN = \"${notebook.getAttribute(
+        "token"
+      )}\")\nSys.setenv(TREX__DATASET_ID = \"${notebook.getAttribute("datasetId")}\")`;
+      this.currentKernel!.requestExecute({ code: code, silent: true });
     }
   }
 
@@ -236,8 +241,12 @@ export class StarboardJupyterManager extends LitElement {
             </div>
           </div>
           ${this.isReady
-            ? html` ${html`<button @click=${() => this.startKernel()} ?disabled=${this.runningKernels.length >= 1} class="mt-2 btn btn-sm btn-outline-primary">
-                  ${this.loading ? "Starting Kernel..." : "Start new Kernel"}
+            ? html` ${html`<button
+                  @click=${() => this.startKernel()}
+                  ?disabled=${this.runningKernels.length >= 1}
+                  class="mt-2 btn btn-sm btn-outline-primary"
+                >
+                  ${this.isStarting ? "Starting Kernel..." : "Start new Kernel"}
                 </button>`}
                 <ul class="list-group m-3">
                   ${this.runningKernels.map((v) => {
@@ -254,10 +263,6 @@ export class StarboardJupyterManager extends LitElement {
                           >
                             Disconnect
                           </button>
-                          <!-- <button @click=${() =>
-                            this.shutdownKernel(
-                              v.id
-                            )} class="btn btn-sm btn-outline-secondary me-2 text-dark">Shut Down</button> -->
                           <span
                             title="Last Activity: ${(v as any).last_activity}"
                             class="badge bg-primary rounded-pill"
@@ -272,8 +277,11 @@ export class StarboardJupyterManager extends LitElement {
                         <div class="d-flex align-items-center">
                             <button @click=${() =>
                               this.connectToKernel(v.id)} class="btn btn-sm btn-outline-primary me-2">Connect</button>  
-                            <button @click=${() =>
-                              this.shutdownKernel(v.id)} class="btn btn-sm btn-outline-primary me-2">Shut Down</button>
+                            <button @click=${() => this.shutdownKernel(v.id)} 
+                              ?disabled=${this.isShuttingDown.includes(v.id)}
+                              class="btn btn-sm btn-outline-primary me-2">${
+                                this.isShuttingDown.includes(v.id) ? "Shutting Down..." : "Shut Down"
+                              }</button>
                             <span title="Last Activity: ${
                               (v as any).last_activity
                             }" class="badge bg-primary rounded-pill">
