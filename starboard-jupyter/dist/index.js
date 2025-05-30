@@ -93059,7 +93059,6 @@ class StarboardJupyterManager extends lit_element_s {
     render() {
         return y `
       <section class="starboard-jupyter-interface py-2 px-3 my-2">
-        <div>
           <div class="d-flex justify-content-between flex-wrap">
             <div class="d-flex align-items-center flex-wrap">
               ${this.settings.headerText ? y `<h2 class="h5 mb-0 me-2">${this.settings.headerText}</h2>` : undefined}
@@ -93147,7 +93146,6 @@ class StarboardJupyterManager extends lit_element_s {
                 <p class="small">Check the Network tab in your browser's developer console for more details.</p>
               </div>`
             : undefined}
-        </div>
       </section>
     `;
     }
