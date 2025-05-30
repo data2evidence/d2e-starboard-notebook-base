@@ -205,8 +205,8 @@ export class StarboardJupyterManager extends LitElement {
   render() {
     return html`
       <section class="starboard-jupyter-interface py-2 px-3 my-2">
-        <details>
-          <summary class="d-flex justify-content-between flex-wrap">
+        <div>
+          <div class="d-flex justify-content-between flex-wrap">
             <div class="d-flex align-items-center flex-wrap">
               ${this.settings.headerText ? html`<h2 class="h5 mb-0 me-2">${this.settings.headerText}</h2>` : undefined}
               ${this.connectionError
@@ -234,7 +234,7 @@ export class StarboardJupyterManager extends LitElement {
                     </button>`
                 : html`<span class="badge bg-light text-dark">Not connected to a kernel</span>`}
             </div>
-          </summary>
+          </div>
           ${this.isReady
             ? html` ${html`<button @click=${() => this.startKernel()} ?disabled=${this.runningKernels.length >= 1} class="mt-2 btn btn-sm btn-outline-primary">
                   ${this.loading ? "Starting Kernel..." : "Start new Kernel"}
@@ -294,7 +294,7 @@ export class StarboardJupyterManager extends LitElement {
                 <p class="small">Check the Network tab in your browser's developer console for more details.</p>
               </div>`
             : undefined}
-        </details>
+        </div>
       </section>
     `;
   }
