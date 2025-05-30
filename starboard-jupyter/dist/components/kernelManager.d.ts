@@ -6,7 +6,8 @@ export declare class StarboardJupyterManager extends LitElement {
     private settings;
     private manager;
     private isReady;
-    private loading;
+    private isStarting;
+    private isShuttingDown;
     private runningKernels;
     private kernelInfo?;
     private connectionError;
