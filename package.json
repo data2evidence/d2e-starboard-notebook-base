@@ -1,19 +1,16 @@
 {
-  "name": "@alp-os/alp-starboard-notebook-base",
+  "name": "@alp-os/d2e-starboard-notebook-base",
   "version": "1.0.0",
   "license": "MPL-2.0",
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "build": "yarn; yarn bootstrap; lerna run build --sort",
     "lerna": "lerna",
-    "zip": "git archive -o packages/starboard-notebook/dist/alp-starboard-notebook-base.zip HEAD"
+    "zip": "git archive -o packages/starboard-notebook/dist/d2e-starboard-notebook-base.zip HEAD"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/alp-os/alp-starboard-notebook-base.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@alp-os"
+    "url": "https://github.com/data2evidence/d2e-starboard-notebook-base"
   },
   "devDependencies": {
     "lerna": "^4.0.0"

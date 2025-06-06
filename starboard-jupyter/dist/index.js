@@ -92920,7 +92920,8 @@ class StarboardJupyterManager extends lit_element_s {
     constructor(jupyterSettings) {
         super();
         this.isReady = false;
-        this.loading = false;
+        this.isStarting = false;
+        this.isShuttingDown = [];
         this.runningKernels = [];
         this.settings = jupyterSettings;
         this.manager = new lib.KernelManager({
@@ -92983,7 +92984,7 @@ class StarboardJupyterManager extends lit_element_s {
         return this;
     }
     async startKernel(name, shutdownCurrentKernel) {
-        this.loading = true;
+        this.isStarting = true;
         if (shutdownCurrentKernel && this.currentKernel && !this.currentKernel.isDisposed) {
             console.error("Already connected to a kernel, shutting down existing kernel");
             await this.currentKernel.shutdown();
@@ -92993,11 +92994,11 @@ class StarboardJupyterManager extends lit_element_s {
         this.currentKernel = await this.manager.startNew({
             name: name,
             env: {
-                KERNEL_USERNAME: this.settings.username
+                KERNEL_USERNAME: this.settings.username,
             },
         });
         this.setupKernelConnection();
-        this.loading = false;
+        this.isStarting = false;
         this.performUpdate();
     }
     async connectToKernel(id) {
@@ -93012,7 +93013,9 @@ class StarboardJupyterManager extends lit_element_s {
         this.performUpdate();
     }
     async shutdownKernel(id) {
-        this.manager.shutdown(id);
+        this.isShuttingDown = [...this.isShuttingDown, id];
+        await this.manager.shutdown(id);
+        this.isShuttingDown = this.isShuttingDown.filter((kernelId) => kernelId !== id);
     }
     async interruptKernel() {
         if (this.currentKernel) {
@@ -93056,8 +93059,7 @@ class StarboardJupyterManager extends lit_element_s {
     render() {
         return y `
       <section class="starboard-jupyter-interface py-2 px-3 my-2">
-        <details>
-          <summary class="d-flex justify-content-between flex-wrap">
+          <div class="d-flex justify-content-between flex-wrap">
             <div class="d-flex align-items-center flex-wrap">
               ${this.settings.headerText ? y `<h2 class="h5 mb-0 me-2">${this.settings.headerText}</h2>` : undefined}
               ${this.connectionError
@@ -93085,10 +93087,14 @@ class StarboardJupyterManager extends lit_element_s {
                     </button>`
             : y `<span class="badge bg-light text-dark">Not connected to a kernel</span>`}
             </div>
-          </summary>
+          </div>
           ${this.isReady
-            ? y ` ${y `<button @click=${() => this.startKernel()} ?disabled=${this.runningKernels.length >= 1} class="mt-2 btn btn-sm btn-outline-primary">
-                  ${this.loading ? "Starting Kernel..." : "Start new Kernel"}
+            ? y ` ${y `<button
+                  @click=${() => this.startKernel()}
+                  ?disabled=${this.runningKernels.length >= 1}
+                  class="mt-2 btn btn-sm btn-outline-primary"
+                >
+                  ${this.isStarting ? "Starting Kernel..." : "Start new Kernel"}
                 </button>`}
                 <ul class="list-group m-3">
                   ${this.runningKernels.map((v) => {
@@ -93105,7 +93111,6 @@ class StarboardJupyterManager extends lit_element_s {
                           >
                             Disconnect
                           </button>
-                          <!-- <button @click=${() => this.shutdownKernel(v.id)} class="btn btn-sm btn-outline-secondary me-2 text-dark">Shut Down</button> -->
                           <span
                             title="Last Activity: ${v.last_activity}"
                             class="badge bg-primary rounded-pill"
@@ -93120,7 +93125,9 @@ class StarboardJupyterManager extends lit_element_s {
                                             <span><b>${v.name}</b> <code>${v.id}</code></span>
                         <div class="d-flex align-items-center">
                             <button @click=${() => this.connectToKernel(v.id)} class="btn btn-sm btn-outline-primary me-2">Connect</button>  
-                            <button @click=${() => this.shutdownKernel(v.id)} class="btn btn-sm btn-outline-primary me-2">Shut Down</button>
+                            <button @click=${() => this.shutdownKernel(v.id)} 
+                              ?disabled=${this.isShuttingDown.includes(v.id)}
+                              class="btn btn-sm btn-outline-primary me-2">${this.isShuttingDown.includes(v.id) ? "Shutting Down..." : "Shut Down"}</button>
                             <span title="Last Activity: ${v.last_activity}" class="badge bg-primary rounded-pill">
                                 ${v.execution_state}
                             </span>
@@ -93139,7 +93146,6 @@ class StarboardJupyterManager extends lit_element_s {
                 <p class="small">Check the Network tab in your browser's developer console for more details.</p>
               </div>`
             : undefined}
-        </details>
       </section>
     `;
     }
@@ -93149,7 +93155,10 @@ __decorate([
 ], StarboardJupyterManager.prototype, "isReady", void 0);
 __decorate([
     property_e({ type: Boolean })
-], StarboardJupyterManager.prototype, "loading", void 0);
+], StarboardJupyterManager.prototype, "isStarting", void 0);
+__decorate([
+    property_e({ type: (Array) })
+], StarboardJupyterManager.prototype, "isShuttingDown", void 0);
 __decorate([
     property_e()
 ], StarboardJupyterManager.prototype, "runningKernels", void 0);

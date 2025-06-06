@@ -2,7 +2,6 @@
  * License, v. 2.0. If a copy of the MPL was not distributed with this
  * file, You can obtain one at https://mozilla.org/MPL/2.0/. */
 import { textToNotebookContent } from "../content/parsing";
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 import { plugin as pythonPlugin } from "starboard-python";
 import { plugin as jupyterPlugin } from "starboard-jupyter";
 import { notebookContentToText } from "../content/serialization";
