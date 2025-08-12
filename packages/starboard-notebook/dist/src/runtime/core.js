@@ -91,11 +91,6 @@ export function setupCommunicationWithParentFrame(runtime) {
                     runtime.content = textToNotebookContent(msg.payload.content);
                     await nb.performUpdate();
                     await nb.notebookInitialize();
-                    // Finding the Starboard Cells
-                    const sbCells = document.querySelectorAll("starboard-cell");
-                    const pyqeInitCell = sbCells[sbCells.length - 1];
-                    await (pyqeInitCell === null || pyqeInitCell === void 0 ? void 0 : pyqeInitCell.runtime.controls.runCell({ id: pyqeInitCell.id, type: "install" }));
-                    await (pyqeInitCell === null || pyqeInitCell === void 0 ? void 0 : pyqeInitCell.runtime.controls.removeCell({ id: pyqeInitCell.id }));
                     const notebookEl = document.querySelector("starboard-notebook");
                     if (notebookEl) {
                         const serverUrl = msg.payload.serverUrl || "";
