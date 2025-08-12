@@ -17,7 +17,7 @@ const isPyProxy = function (jsobj: any) {
 export async function runStarboardPython(
   runtime: Runtime,
   codeToRun: string,
-  renderOutputIntoElement: HTMLElement
+  renderOutputIntoElement: HTMLElement | null = null,
 ): Promise<any> {
   setupPythonSupport();
   const pyoPromise = loadPyodide(runtime);
@@ -36,9 +36,11 @@ export async function runStarboardPython(
   const lit = runtime.exports.libraries.lit;
   const html = lit.html;
 
-  lit.render(html`${outputElement}${htmlOutput}`, renderOutputIntoElement);
-  setGlobalPythonHtmlOutputElement(htmlOutput);
-
+  if (renderOutputIntoElement) {
+     lit.render(html`${outputElement}${htmlOutput}`, renderOutputIntoElement);
+      setGlobalPythonHtmlOutputElement(htmlOutput);
+  }
+ 
   (globalThis as any).pyodide = await pyoPromise;
 
   let val = undefined;
