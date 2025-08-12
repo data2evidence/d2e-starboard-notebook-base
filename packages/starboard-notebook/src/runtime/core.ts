@@ -11,7 +11,6 @@ import { plugin as jupyterPlugin } from "starboard-jupyter"
 import { InboundNotebookMessage } from "../types/messages";
 import { notebookContentToText } from "../content/serialization";
 import { isSharedArrayBufferAndAtomicsReady } from "../components/helpers/crossOriginIsolated";
-import { CellElement } from "src/components/cell";
 
 export function initPythonExecutionMode(runtime: Runtime) {
   let executionMode = runtime.content.metadata.starboard?.python?.execution_mode || "pyodide_main_thread";
@@ -107,12 +106,6 @@ export function setupCommunicationWithParentFrame(runtime: Runtime) {
             runtime.content = textToNotebookContent(msg.payload.content);
             await nb.performUpdate();
             await nb.notebookInitialize();
-
-            // Finding the Starboard Cells
-            const sbCells = document.querySelectorAll("starboard-cell");
-            const pyqeInitCell = sbCells[sbCells.length - 1] as unknown as CellElement;
-            await pyqeInitCell?.runtime.controls.runCell({ id: pyqeInitCell.id, type: "install" });
-            await pyqeInitCell?.runtime.controls.removeCell({ id: pyqeInitCell.id });
 
             const notebookEl = document.querySelector("starboard-notebook")
 
