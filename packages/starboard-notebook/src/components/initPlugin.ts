@@ -43,6 +43,7 @@ export const initPlugin = async (runtime: Runtime, serverUrl: string, token: str
         } else {
             console.warn("Starboard Python plugin is not registered, skipping PYQE setup.");
         }
+    return;
     } catch (error) {
         console.error("Error initializing Starboard Notebook plugin:", error);
     }
