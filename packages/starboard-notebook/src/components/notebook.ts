@@ -18,7 +18,7 @@ import { renderIcon } from "./helpers/icon";
 import { downloadAsHtml } from "../content/export";
 import { arrayMoveElement } from "./helpers/array";
 import { initPythonExecutionMode } from "../runtime/core";
-
+import { initPlugin } from "./initPlugin";
 declare global {
   interface Window {
     starboardEditUrl?: string;
@@ -105,6 +105,7 @@ export class StarboardNotebookElement extends LitElement {
       await this.loadPlugins();
       this.initialRunStarted = true;
       this.runtime.controls.runAllCells({ onlyRunOnLoad: true, isInitialRun: true });
+      await initPlugin(this.runtime, this.serverUrl, this.token);
     }
   }
 
