@@ -23,6 +23,9 @@ const baseConfig = {
             react: path.resolve("./node_modules/preact/compat"),
             "react-dom": path.resolve("./node_modules/preact/compat"),
             "markdown-it": path.resolve(path.join(__dirname, "node_modules/markdown-it")),
+            "prosemirror-model": path.resolve(
+                path.join(__dirname, "../starboard-rich-editor/node_modules/prosemirror-model")
+            ),
             "prosemirror-view": path.resolve(
                 path.join(__dirname, "../starboard-rich-editor/node_modules/rich-markdown-editor/node_modules/prosemirror-view")
             ),
